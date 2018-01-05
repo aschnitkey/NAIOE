@@ -1,0 +1,141 @@
+- var titleContent = "NAI Ohio Equities | Andy Dutcher, VP Office Brokerage"
+- var metaContent = "Andy Dutcher is VP of Office Brokerage at NAI Ohio Equities where he represents office clients throughout Columbus and the central Ohio region."
+include ../../extends/website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Andy Dutcher", "VP, Office Brokerage Group", "614-629-5266", "614-425-2959", "adutcher", "aroundcbus", "instagram", "https://www.linkedin.com/in/andy-dutcher-84865a14", "adutcher", "http://www.officebrokeragegroup.com")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jwilliams.html")
+							strong Jenna Williams
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jwilliams@ohioequities.com") jwilliams@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5227
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Andy joined NAI Ohio Equities in 2008. He specializes in the downtown and suburban office markets where he has successfully represented numerous tenants and landlords. With a strong background in market conditions, site selection and deal negotiations he works closely with his clients to formulate a real estate strategy that meets their goals.
+									br
+									br
+									a(href="http://www.officebrokeragegroup.com", target="_blank") Click here to view Office Brokerage Group website
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p After working on Capitol Hill in Washington D.C. for two years after college, I found myself wanting to make a career change. One of my best friends suggested I should consider commercial real estate so in 2007 I got licensed and then the big recession hit. Although times were tough, it created a solid foundation for how I run my real estate practice and treat my clients with honesty, integrity and respect.
+								h5 Where do you like to vacation?
+								p Marco Island, FL and any of the Great Lakes regions. I prefer laid back and relaxing destinations where I can unplug and spend quality time with the family.
+								h5 What is your favorite hidden gem in Columbus?
+								p Hellas Carryout in Shawnee Hills has been one of my favorite places to eat since I was in elementary school. They have the best omelettes and gyros in town.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "adutcher@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/covermymeds.png", alt="CoverMyMeds Logo")
+									li: img.img-responsive(src="../img/logos/cameronmitchellrestaurants.png", alt="Cameron Mitchell Restaurants logo")
+									li: img.img-responsive(src="../img/logos/furniturebank.png", alt="Furniture Bank logo")
+									li: img.img-responsive(src="../img/logos/healthcarerealtytrust.png", alt="Healthcare Realty Trust logo")
+									li: img.img-responsive(src="../img/logos/arthurgoldman.png", alt="Arthur Goldner & Associates logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/pnc.html") PNC Plaza | Office Leasing
+									li: a(href="../results/furniture.html") Furniture Bank | Tenant Representation
+								h4 Transactions
+								ul#transactions-list
+									li Cameron Mitchell Restaurants | 16,846 SF | The Buggyworks (Lease)
+									li Furniture Bank of Central Ohio | 50,000 SF | 2165 Morse Road (Lease)
+									li Parkstone Capital | 142,246 SF | 400 E. Campus View Blvd (Sale)
+									li Parkstone Capital | 133,053 SF | 274 E. First Ave (Sale)
+									li CoverMyMeds | 15,768 SF | Metropolitan Plaza Cleveland (Lease)
+									li Fresenius | 9,683 SF | 85 McNaughten Road (Lease)
+									li Brennan Manna Diamond | 8,087 SF | 250 Civic Center Drive (Lease)
+									li CoverMyMeds | 64,059 SF | Two Miranova Place  (Lease)
+									li Ohio Health | 36,297 SF | PNC Plaza (Lease)
+									li Central Ohio Neurological Surgeons | 39,101 SF | 955 Eastwind Drive (Sale)
+									li One Kreate | 22,891 SF | 2148-2152 City Gate Drive (Lease)
+									li Norman Jones Enlow | 9,989 SF | 226 N. Fifth Street (Lease)
+									li Wilks Broadcasting | 10,650 SF | 2400 Corporate Exchange (Lease)
+									li Regus | 14,820 SF | PNC Plaza (Lease)
+									li Busch Portfolio | 113,605 SF (Sale)
+									br
+									p
+										a(href="transactions/adutcher.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/pmerkle/2017-10-18b.pdf", target="_blank") Iconic Caterina building in German Village sold (October 18, 2017)
+									li: a(href="news/pmerkle/2017-10-18a.pdf", target="_blank") Former Caterina building in German Village is sold (October 18, 2017)
+									li: a(href="news/mgregory/2017-08-11.pdf", target="_blank") From renting to owning: Toy Barn commits to Dublin (August 11, 2017)
+									li: a(href="news/mgregory/2017-07-24.pdf", target="_blank") Exclusive: Apartment developer moving HQ and 90 jobs to New Albany (July 24, 2017)
+									li: a(href="news/mgregory/2017-07-11.pdf", target="_blank") Dublin's Bridge Park lands national sorority as latest office tenant (July 11, 2017)
+									li: a(href="https://www.bizjournals.com/columbus/subscriber-only/2017/06/16/office-leases.html", target="_blank") Largest Central Ohio Office Leases (June 17, 2017)
+									li: a(href="news/mgregory/2017-05-26.pdf", target="_blank") People to Know: Andy Dutcher (May 26, 2017)
+									li: a(href="https://www.bizjournals.com/columbus/news/2017/05/24/columbus-real-estate-pros-share-what-s-the-hottest.html", target="_blank") Columbus real estate pros share: What’s the hottest market people might not have heard about? (May 24, 2017)
+									li: a(href="http://costarpowerbrokers.com/power-broker-award-winners/?search_year=2016&search_market=Columbus,%20OH", target="_blank") CoStar Power Broker Award Winners (March 16, 2017)
+									li: a(href="news/mgregory/2017-01-17.pdf", target="_blank") Former BMW dealership site in Dublin for sale in developing district (January 17, 2017)
+									li: a(href="news/mgregory/2016-08-20.pdf", target="_blank") Northwoods II office building changes ownership; NAI Ohio Equities retains leasing (August 20, 2016)
+									li: a(href="http://www.bizjournals.com/columbus/news/2016/07/22/top-of-the-list-biggest-office-leases-of-2015.html?ana=fbk", target="_blank") Top of the List: Biggest Office Leases of 2015 (July 22, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_162f67b3a8814daeb561ccb083aaae05.pdf", target="_blank") Furniture Bank Bed Race Raises $14,000+! (July 18, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_dfd676d3835642b7944d3df938b6a34a.pdf", target="_blank") Cameron Mitchell moving corporate HQ to the Arena District (May 2, 2016)
+									li: a(href="http://www.costar.com/News/Article/Office-Lease-Up-Jan-18-Chemonics-BerkleyNet-Take-Down-Big-Leases-in-Northern-Virginia/178960", target="_blank") CoverMyMeds Leases 15,000 SF in Highland Hills (January 18, 2016)
+				.broker-bio-right
+					h4 Education
+					p BA, Political Science
+						br
+						| Ohio University
+					h4 Membership
+					p Columbus Board of Realtors
+						br
+						| National Association of Realtors
+					h4 Community Involvement
+					p Pelotonia
+						br
+						| Head Coach of Classics Eagles travel soccer team
+					h4 Honors and Awards
+					p NAI Ohio Equities Top Producer (2013-present)
+						br
+						| CoStar Power Broker (2015)
+						br
+						| Columbus Realtors Largest Office Sale (2015)
+					h4 Transaction Volume
+					p 450+ Transactions
+						br
+						| 3,500,000 SF
+						br
+						| $225,000,000
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

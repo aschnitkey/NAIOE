@@ -1,0 +1,64 @@
+- var titleContent = "NAI Ohio Equities | Bruce Yuhas"
+- var metaContent = "Bruce Yuhas is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Bruce Yuhas", "Senior Property Manager", "614-629-5247", "byuhas", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/bruce-yuhas-77243226/", "byuhas", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office Properties
+						br
+						| Medical Office Properties
+						br
+						| Retail Properties
+						br
+						| Industrial Properties
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Bruce has been in property management and real estate sales for over thirty years. He currently manages a portfolio of class A office, medical office, retail and industrial properties. His responsibilities include budgeting, coordination of construction and maintenance projects, directing day to day operations and client-tenant relations.
+								hr
+								h5 What is your favorite neighborhood/area of Columbus?
+								p Where I live...downtown. It has been great fun watching downtown’s comeback. There seems to always be a new restaurant opening or new activity to enjoy.
+								h5 What is a favorite pastime that you enjoy?
+								p Reading and remodeling our loft apartment.
+								h5 Who are your favorite sports teams?
+								p Cleveland Indians
+								h5 What is your favorite hidden gem in Columbus?
+								p Basi Italia Restaurant
+				.broker-bio-right
+					h4 Education
+					p BS, Psychology
+						br
+						| Denison University, 1978
+					h4 Industry Awards & Recognition
+					p Certified Property Manager
+						br
+						| High-Rise Safety Certified
+					h4 Membership
+					p Institute of Real Estate Management
+						br
+						| National Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+					h4 Top Clients
+					p The Daimler Group
+						br
+						| Emerson Liebert
+						br
+						| Educational Services of Central Ohio
+						br
+						| Lifeline Ohio
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

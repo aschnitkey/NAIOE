@@ -1,0 +1,58 @@
+-var titleContent = "NAI Ohio Equities | Alvis House Case Study"
+-var metaContent = "Case Study for the NAI Ohio Equities tenant representation deal for Alvis House."
+-var fileNameCSS = "alvis"
+include ../../mixins/results-css.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/results-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			#alvis-header
+				.alvis-header-text
+					h1 Tenant Rep Project
+					h6 Alvis House
+				img.img-responsive(src="../img/logos/alvis.png", alt="Alvis Logo")
+			.container-fluid
+				.row
+					.col-sm-3.alvis-text-left
+						h3 Case Study
+						h4 Alvis House - Columbus, Ohio
+						p: a(href="download/alvis.pdf", target="_blank") Download Case Study
+					.col-sm-9
+						p NAI Ohio Equities is one of Central Ohio’s largest, long-standing commercial real estate companies. The firm has been serving the Columbus real estate market since 1971. We strive to provide the highest quality real estate services by adding value to our clients' assets and real estate needs through expert analysis, specific market knowledge, and personalized service. We pride ourselves on our communication and accountability.
+						p NAI Ohio Equities is the Central Ohio affiliate of NAI Global, the single largest, most powerful global network of owner-operated commercial real estate brokerage firms. NAI Global member firms span worldwide, with 375 offices and more than 6,700 local market experts on the ground. Supported by the central resources of the NAI Global organization, member firms deliver market-leading services locally and combine their in-market strengths to form a powerful bond of insights and execution for clients with multi-market challenges in the U.S. and/or globally.
+				.row
+					.col-sm-12
+						dl.dl-horizontal
+							dt Project
+							dd Alvis House was looking for a larger complex to house their corporate headquarters and combine multiple offices under one roof. The building needed to be close to public transportation, close to its other locations in Franklin County, and have enough parking for employees and visitors.
+							dt Approach
+							dd Peter and Matt identified a vacant property that was formerly used as a headquarters and met all of the requirements. After multiple site tours and three months of negotiating, Alvis House went into contract on what they believed would become their future home.
+							dd After completing months of due diligence, Alvis House was unable to obtain a variance to accommodate its parking needs. Exhausting every measure, Alvis House decided to redirect its efforts to a new location.
+							dd Within a week, Peter and Matt were able to uncover another property located in Columbus that matched the Alvis House's needs. The building, located at 2100 Stella Court, was set to go to auction. After successfully convincing the seller to delay the auction and consider the offer from Alvis House, the building was put into contract.
+							dt Results
+							dd After all the twists and turns, the 51,089 SF three-story building gave Alvis House plenty of room to house all of their various departments and programs under one roof, as well as giving them an oversized parking lot. The final location ended up being more preferred and a better value.
+				.row.alvis-team-photos
+					p Team Members
+					hr
+					ul
+						li
+							img.img-responsive(src="../img/brokers/pmerkle-portrait.jpg", alt="Peter Merkle")
+							p Peter Merkle
+							p: em Sales and Leasing Agent
+						li
+							img.img-responsive(src="../img/brokers/mgregory-portrait.jpg", alt="Matt Greogry")
+							p Matt Gregory
+							p: em Senior VP, Office Brokerage
+				.row.alvis-testimonials
+					p "We have grown significantly in the past few years and had to lease space at three separate locations in order to accomodate the needs of the agency. I was delighted with the personal commitment made by both Peter and Matt to find us a property that met all of Alvis House's needs. The time and effort they have put forth has been invaluable."
+					p.results_byline
+						span(style="color: #E9B741; font-size: 0.75em") Denise M. Robinson, President and CEO | Alvis House
+						img.img-responsive(src="../img/logos/alvis.png", alt="Alvis House logo")
+				.row.alvis-testimonials_return
+					a(href="../results.html") << View All Case Studies and Testimonials
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

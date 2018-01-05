@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Osowski;Matthew
+FN:Matthew Osowski
+ORG:NAI Ohio Equities
+TEL;WORK;VOICE:(614) 629-5229
+TEL;CELL;VOICE:(614) 397-4877
+TEL;WORK;FAX:(614) 224-5436
+ADR;WORK;ENCODING=QUOTED-PRINTABLE:;;605 S. Front Street=0D=0ASuite 200;Columbus;OH;43215;United States of Amer=
+ica
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:605 S. Front Street=0D=0ASuite 200=0D=0AColumbus, OH 43215=0D=0AUnited State=
+s of America
+URL;WORK:http://www.ohioequities.com/brokers/mosowski.htm
+EMAIL;PREF;INTERNET:mosowski@ohioequities.com
+REV:20101112T150525Z
+END:VCARD

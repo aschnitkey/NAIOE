@@ -1,0 +1,38 @@
+- var titleContent = "NAI Ohio Equities - Lima Medical Office Buildings Available"
+- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed several medical office buildings for lease in Lima, Ohio."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Lima, Ohio
+				br
+				| Medical Office Buildings For Lease
+			.selector-body-lima
+				ul.office-agents
+					a(href="https://buildout.com/website/Lima-MOB1", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/1492561/full.jpg?1501085470", alt="MOB 1")
+							p MOB 1<br>830 W High St<br>244 SF - 3,118 SF Suites
+					a(href="https://buildout.com/website/Lima-MOB2", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/1492627/full.jpg?1501086565", alt="MOB 2")
+							p MOB 2<br>830 W High St<br>Two Suites Available
+					a(href="https://buildout.com/website/Lima-MOB4", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/1492640/full.jpg?1501087073", alt="MOB 4")
+							p MOB 4<br>750 W High St<br>603 SF - 13,184 SF Suites
+					a(href="https://buildout.com/website/market-lease", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/1492681/full.jpg?1501088020", alt="Market Street")
+							p Market Street Health Care<br>825 W Market St<br>789 SF - 7,513 SF Suites
+					a(href="https://buildout.com/website/71town", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/1514379/full.jpg?1502205405", alt="71 Town Square", style="height: 131.25px; width: 175px;")
+							p Town Square<br>71 Town Square<br>233 SF - 7,929 SF
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

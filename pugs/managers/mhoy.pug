@@ -1,0 +1,54 @@
+- var titleContent = "NAI Ohio Equities | Melissa Hoy"
+- var metaContent = "Melissa Hoy is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Melissa Hoy, CMCA, AMS, PMS", "Senior Property Manager", "614-228-6250", "mhoy", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/melissa-hoy-83581a28/", "mhoy", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Membership
+					p Community Association Institute (CAI)
+						br
+						| Columbus REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Melissa is currently the on-site property manager of a multi-family facility with 98 homes in the bustling Arena District in Columbus. She is responsible for the on-site management of the facility, budgeting, day-to-day operations and general oversight of the facility. In addition, Melissa manages a 35-unit condominium building in Grandview Yard. Melissa joined NAI Ohio Equities with a background in multi-family rentals where she worked for a large Columbus based developer.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p My family grew up in Bexley and we made it our permanent home soon after graduating from college. Our family owns a local business with a long-standing, 105-year history in Columbus.
+								h5 What is your favorite neighborhood of Columbus?
+								p Bexley is my favorite neighborhood. It is a quaint inner-ring suburb with a wonderful sense of community and still within close proximity to many of Columbus’ attraction and venues.
+								h5 Who are your favorite sports teams?
+								p My family and I are avid sports fans. With season tickets to Ohio State football, the Columbus Crew and the Columbus Blue Jackets, there aren’t many weekends we are not our supporting our local sports teams.
+				.broker-bio-right
+					h4 Education
+					p Bachelor of Business Administration in Marketing with a concentration in Real Estate
+						br
+						| University of Cincinnati, 2004
+					h4 Membership &amp; Certification
+					p Association Management Specialist (AMS)
+						br
+						| High-Rise Safety Certification
+						br
+						| Notary Public, State of Ohio
+						br
+						| Ohio Real Estate License
+						br
+						| Certified Manager of Community Associations through the National Board of Certification of Community Association Managers (CMCA)
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

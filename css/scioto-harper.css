@@ -1,0 +1,210 @@
+/***********************************************************
+	Global Declarations
+***********************************************************/
+
+/* font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Domine', serif; */
+
+
+
+
+
+/***********************************************************
+	PAGE: scioto-harper.html
+***********************************************************/
+
+#scioto-harper-header {
+	background: url('../results/img/scioto-harper.jpg') no-repeat 0 65%;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.scioto-harper-header-text {
+	background-color: rgba(208,221,232,.8);
+	position: absolute;
+	width: 100%;
+	padding: 15px;
+	bottom: 0;
+}
+
+.scioto-harper-header-text h1, h6 {
+	text-shadow: 0 2px 2px rgba(0,0,0,.9);
+	position: relative;
+	left: 50px;
+	max-width: 65%;
+}
+
+.scioto-harper-header-text h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+.scioto-harper-header-text h6 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.scioto-harper-text-left h2, 
+.scioto-harper-text-left h3, 
+.scioto-harper-text-left h4, 
+.scioto-harper-text-left h5, 
+.scioto-harper-text-left h6 {
+	margin: 0;
+	padding: 0;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+.scioto-harper-team-photos {
+	margin-bottom: 30px;
+}
+
+.scioto-harper-team-photos>p {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 5px 0 0 10%;
+}
+
+.scioto-harper-team-photos hr {
+	margin-top: 0;
+	width: 80%;
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+
+.scioto-harper-team-photos ul {
+	list-style-type: none;
+	max-width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.scioto-harper-team-photos li {
+	max-width: 25%;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	background-color: rgba(208,221,232,.2);
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.scioto-harper-team-photos li img {
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.scioto-harper-team-photos li p {
+	margin: 0 0 -5px 0;
+	padding: 0;
+}
+
+.scioto-harper-testimonials {
+	margin-bottom: 85px;
+}
+
+.scioto-harper-testimonials>p {
+	max-width: 80%;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.scioto-harper-testimonials img {
+	max-width: 30%;
+	display: block;
+	margin: 25px auto;
+}
+
+.scioto-harper-testimonials_return {
+	text-align: right;
+	margin: 5px 35px 15px 0;
+}
+
+/*******************************************************
+	Media Queries
+*******************************************************/
+
+@media (max-width: 870px) {
+	.scioto-harper-header-text h1 {
+		font-size: 2em;
+	}
+
+	.scioto-harper-header-text h6 {
+		font-size: 1.5em;
+	}
+
+	#scioto-harper-header img {
+		max-height: 70px;
+	}
+
+	.scioto-harper-text-left h3 {
+		font-size: 1.5em;
+	}
+
+	.scioto-harper-text-left h4 {
+		font-size: 1.1em;
+	}
+
+	p,
+	dd,
+	dt {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 650px) {
+	.scioto-harper-team-photos li p {
+		font-size: .8em;
+	}
+}
+
+@media (max-width: 580px) {
+	.scioto-harper-team-photos li p {
+		font-size: .7em;
+	}
+
+	.scioto-harper-testimonials p {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.scioto-harper-header-text h1 {
+		font-size: 1.5em;
+	}
+
+	.scioto-harper-header-text h6 {
+		font-size: 1.1em;
+	}
+
+	.scioto-harper-header-text h1,
+	.scioto-harper-header-text h6 {
+		left: 0px;
+	}
+
+	#scioto-harper-header img {
+		max-height: 50px;
+	}
+
+	.scioto-harper-team-photos li p {
+		font-size: .7em;
+	}
+
+	.scioto-harper-testimonials p {
+		font-size: 1em;
+	}
+
+	.scioto-harper-team-photos li {
+		max-width: 30%;
+	}
+}

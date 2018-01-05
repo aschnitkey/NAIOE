@@ -1,0 +1,85 @@
+- var titleContent = "NAI Ohio Equities | Conor David"
+- var metaContent = "Conor David is a commercial real estate agent with NAI Ohio Equities where he represents both buyers and sellers in all fields of the industry."
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Conor David", "Commercial Real Estate Agent", "614-629-5298", "248-535-5773", "cdavid", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/conor-david-92293a4b/", "cdavid", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Commercial Real Estate
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/klaney.html")
+							strong Kaydee Laney
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:klaney@ohioequities.com") klaney@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Testimonials
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Conor David is originally from Bloomfield Hills, Michigan and moved to Columbus when he was recruited to play lacrosse for The Ohio State University. He currently resides in the Short North area of Columbus with his wife. Conor represents buyers and sellers, as well as landlords and tenants in all fields of real estate. He has extensive experience in client relations and networking from his experience working in media for five years.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p A few reasons: I have always had an interest in real estate and when I made the decision to pursue real estate full-time I wanted to focus on Commercial because of my recent experience selling media. I really enjoy working with business owners and coming up with creative solutions to help them overcome obstacles.
+								h5 Why did you decide to make Columbus your home?
+								p I moved to Columbus from Michigan to attend Ohio State. After spending four great years at Ohio State University and meeting my wife, it was an easy choice to call Columbus home. Living in the Short North is very vibrant and exciting with no shortage of things to do.
+								h5 Where do you like to vacation?
+								p Hilton Head Island- I enjoy the beach, the ocean, and great golf courses.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "cdavid@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								h4 Testimonials
+								h5.testimonial-bio-company Cooper Crossing Townhomes LLC
+								p.testimonial-bio-quote "Conor David, my agent, was fantastic. He went out of his way to ensure that my property closed within my required time frame."
+								p.testimonial-bio-source Matt Uher, Managing Member
+				.broker-bio-right
+					h4 Education
+					p BA, History
+						br
+						| The Ohio State University, 2011
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+						br
+						| Varsity O
+						br
+						| Buckeye Club
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

@@ -1,0 +1,79 @@
+- var titleContent = "NAI Ohio Equities | Marketing and Technology"
+- var metaContant = "NAI Ohio Equities has an entire in-house team dedicated to providing support, marketing, and technology solutions for our agents."
+
+doctype html
+html(lang="en")
+	include ../includes/head.pug
+	body
+		include ../includes/nav.pug
+		.navspacer
+		.page-wrap
+			.brokers-container
+				.panel-group#accordion(role="tablist", aria-multiselectable="true")
+					.panel.panel-default
+						.panel-heading#headingOne(role="tab")
+							h4.panel-title
+								|
+								|
+								a(role="button", data-toggle="collapse", data-parent="#accordion", href="#collapseOne", aria-expanded="true", aria-controls="collapseOne") NAI Ohio Equities Marketing and Technology Team
+						#collapseOne.panel-collapse.collapse.in(role="tabpanel", aria-labelledby="headingOne")
+							.panel-body
+								ul.office-agents
+									a(href="marketing/akarnes.html")
+										li
+											img(src="img/support/akarnes-portrait.jpg", alt="Amy Karnes")
+											p Amy Karnes
+												br
+												| Marketing Director
+												br
+												| 614-629-5239 office
+									a(href="marketing/aschnitkey.html")
+										li
+											img(src="img/support/aschnitkey-portrait.jpg", alt="Andrew Schnitkey")
+											p Andrew Schnitkey
+												br
+												| Interactive Marketing Designer
+												br
+												| 614-629-5281 office
+									a(href="marketing/dblake.html")
+										li
+											img(src="img/support/dblake-portrait.jpg", alt="Daron Blake")
+											p Daron Blake
+												br
+												| Network Administrator
+												br
+												| 614-629-5268 office
+									a(href="marketing/rfallert.html")
+										li
+											img(src="img/support/rfallert-portrait.jpg", alt="Ruth Fallert")
+											p Ruth Fallert
+												br
+												| Administrative Assistant
+												br
+												| 614-629-5294 office
+									a(href="marketing/klaney.html")
+										li
+											img(src="img/support/klaney-portrait.jpg", alt="Kaydee Laney")
+											p Kaydee Laney
+												br
+												| Marketing Assistant
+												br
+												| 614-629-5226 office
+									a(href="marketing/jshipley.html")
+										li
+											img(src="img/support/jshipley-portrait.jpg", alt="Jackie Shipley")
+											p Jackie Shipley
+												br
+												| Administrative Assistant
+												br
+												| 614-629-5219 office
+									a(href="marketing/jwilliams.html")
+										li
+											img(src="img/support/jwilliams-portrait.jpg", alt="Jenna Williams")
+											p Jenna Williams
+												br
+												| Marketing Assistant
+												br
+												| 614-629-5227 office
+	include ../includes/footer.pug
+	include ../includes/scripts.pug

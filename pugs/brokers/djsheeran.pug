@@ -1,0 +1,103 @@
+- var titleContent = "NAI Ohio Equities | Dan Sheeran, Jr"
+- var metaContent = "Dan Sheeran Jr is an industrial specialist at NAI Ohio Equities where he represents industrial clients throughout Columbus and the central Ohio region."
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Dan Sheeran, Jr.", "Industrial Specialist", "614-629-5228", "513-310-5497", "djsheeran", "IWI_Columbus", "instagram", "https://www.linkedin.com/in/dan-sheeran-jr-19042b139/", "djsheeran", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial
+						br
+						| Light Manufacturing
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jshipley.html")
+							strong Jackie Shipley
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jshipley@ohioequities.com") jshipley@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Dan Sheeran, Jr. comes to NAI Ohio Equities after 30 years in the Insurance Business with Motorists Insurance Group. During his time at Motorists, he served as District Sales Manager in southwestern Ohio, handling commercial insurance sales serving small to medium sized clients. He will bring his experience with price negotiations and suburb client relationships with him to the commercial real estate business.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p It was always a dream to combine my thirty years of experience in commercial insurance with commercial real estate. Both fields utilize the same buyers and many of the same service needs. I was lucky enough to be able to join my dad, Dan Sheeran Sr. here at Ohio Equities to start a second career.
+								h5 Why did you decide to make Columbus your home?
+								p I was born here and always considered Columbus home. Having not lived here since 1987, I will be looking for the right part of town for me later this year to call home.
+								h5 Where do you like to vacation?
+								p My son Matthew and I have been lucky enough to take many cruises since he was 10. Ski trips to the east coast are also a favorite. Matthew and I joined my parents on cruises to Alaska and Bermuda as well as trips to The Masters and The Sugar Bowl.
+								h5 What is your favorite hidden gem in Columbus?
+								p Rubinos Pizza in Bexley, hands down. (now it’s not so hidden though)
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "djsheeran@ohioequities.com"
+									});
+							.tab-panel#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/djsheeran/2017-12-07.pdf", target="_blank") Need more leg room on that next family vacation? New rental business might have an answer (December 7, 2017)
+									li: a(href="news/djsheeran/2017-10-26.pdf", target="_blank") Columbus warehouse listed as 'perfect' for medical marijuana processing (October 26, 2017)
+									li: a(href="news/msemon/2017-08-17.pdf", target="_blank") Farber Specialty Vehicles buys former Andersons site near Brice Road (August 27, 2017)
+									li: a(href="news/djsheeran/2017-08-08.pdf", target="_blank") Cleveland-based doggy daycare to open in Franklinton (August 8, 2017)
+				.broker-bio-right
+					h4 Education
+					p BA, Speech Communications
+						br
+						| Capital University, 1985
+						br
+						br
+						| BA, Business Administration
+						br
+						| Wilmington College, 1999
+					h4 Membership
+					p Columbus Board of Realtors
+						br
+						| National Association of Realtors
+					h4 Community Involvement
+					p Board Member, Acting Up Young Performers Theater
+						br
+						| Board Member, PAWS Animal Shelter
+						br
+						| Junior Achievement Volunteer
+						br
+						| Saint Xavier Parish Council
+						br
+						| Board Member/Adjudicator Association Community Theaters Cincinnati
+					h4 Honors and Awards
+					p Commercial Lines Coverage Specialist (CLS)
+						br
+						| Certified Professional Insurance Agent (CPIA)
+						br
+						| Construction Risk Insurance Specialist (CRIS)
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

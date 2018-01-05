@@ -1,0 +1,104 @@
+- var titleContent = "NAI Ohio Equities | Patrick Larrimer"
+- var metaContent = "Patrick Larrimer is a commercial real estate agent at NAI Ohio Equities, serving clients across the central Ohio region."
+//- Select one of the following includes:
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Patrick Larrimer", "Commercial Agent", "614-629-5249", "614-746-5602", "plarrimer", "naiohioequities", "instagram", "https://www.linkedin.com/in/patrick-larrimer-25995b49", "plarrimer", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+						br
+						| Industrial
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jshipley.html")
+							strong Jackie Shipley
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jshipley@ohioequities.com") jshipley@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Patrick is a Columbus native who represents buyers and sellers, as well as landlords and tenants in all fields of commercial real estate. He has extensive experience in client relations and networking from his experience working in Denver at one of the largest chambers of commerce in the country. Patrick brings energy and determination to all his endeavors, both in work and life.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I got into real estate after working for several years in Denver with the Metro Chamber of Commerce. That organization showed me what makes a city thrive. Commercial real estate is an integral part of a city’s success.
+								h5 Why did you decide to make Columbus your home?
+								p I grew up in Columbus and moved away in my mid 20’s to experience the west. I returned because I believe Columbus to be among the most exciting and fast-growing cities in the country and I want to contribute to that.
+								h5 What is your favorite hidden gem in Columbus?
+								p My favorite hidden gem is the High Beck Tavern. Having worked at a bar while attending Ohio University, you tend to look for those places with a true hometown quality. High Beck has a classic look and feel.  It is a great hang out for both old and young.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "plarrimer@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/urbntimber.png", alt="Urbn Timber Logo")
+									li: img.img-responsive(src="../img/logos/upperiscope.png", alt="Up Periscope logo")
+									li: img.img-responsive(src="../img/logos/topycpa.png", alt="Topy CPA logo")
+								h4 Top Transactions
+								ul#transactions-list
+									li Handy Bikes | 20,340 SF, December 2015 | Sale
+									br
+									p
+										a(href="transactions/plarrimer.pdf", target="_blank") View completed transactions
+							.tab-panel#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="http://www.ohioequities.com/wp/news/patrick-larrimer-assists-the-animal-health-organization-find-a-home/", target="_blank") Patrick Larrimer Assists The Animal Health Organization Find a Home (November 20, 2017)
+									li: a(href="news/plarrimer/2017-08-22.pdf", target="_blank") 373 acres of development land for sale south of Columbus (August 22, 2017)
+				.broker-bio-right
+					h4 Education
+					p BA, Psychology
+						br
+						| Ohio University, 2009
+						br
+						br
+						| St Charles Preparatory
+						br
+						| Class of 2005
+					h4 Professional Affiliations
+					p National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+					h4 Community Involvement
+					p St Charles Alumni Association
+						br
+						| Larrimer Cup, Organizer
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

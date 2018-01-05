@@ -1,0 +1,44 @@
+- var titleContent = "NAI Ohio Equities | Katrina Lampinen"
+- var metaContent = "Katrina Lampinen is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Katrina Lampinen", "Senior Property Manager", "614-629-5238", "klampnen", "naiohioequities", "naiohioequities", "https://www.linkedin.com/company/nai-ohio-equities", "klampinen", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Condominium Association Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Katrina has been involved in various aspects of Real Estate property management for 25 years. Since joining NAI Ohio Equities five years ago, Katrina works exclusively with condominium associations that need off-site management. Each of the communities Katrina is involved in managing has their own unique environment. Katrina works closely with her board members setting up budgets, maintaining operations and keeping owners happy with their investment. Downtown's unique conversion of commercial space to residential living offers the opportunity for new and exciting experiences for our community and Katrina's portfolio.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p Columbus has always been my home, even when I lived out of state for 10 years. Being raised here, and now raising my family here, I can’t imagine a better place to live and work.
+								h5 What is your favorite neighborhood/area of Columbus?
+								p I love working and being downtown. I love seeing all the growth in my hometown community.
+								h5 Where do you like to vacation?
+								p I love the beach. Any beach. Sitting in the sun, feeling the cool breezes and leaving the phone at home. It doesn’t get any better than that!
+								h5 What is a favorite pastime you enjoy?
+								p Raising three teenage daughters is my pastime. We enjoy the pool, high school football games, and any fair we can find in the area.
+				.broker-bio-right
+					h4 Education
+					p BA, Business Management
+						br
+						| University of Phoenix, 2014
+					h4 Membership &amp; Certification
+					p CAI (Community Association Institute)
+						br
+						| High-Rise Safety Certified
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

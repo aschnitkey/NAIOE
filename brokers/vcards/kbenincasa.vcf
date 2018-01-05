@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Benincasa;Kim
+FN:Kim Benincasa
+ORG:NAI Ohio Equities
+TITLE:Broker
+NOTE;ENCODING=QUOTED-PRINTABLE:Main Office Phone:  614.224.2400=0D=0AMain Office Fax:  614.224.5436=0D=0A
+TEL;WORK;VOICE:(740) 819-4619
+TEL;CELL;VOICE:(740) 819-4619
+TEL;WORK;FAX:(740) 454-8980
+ADR;WORK:;;605 S Front Street Suite 200;Columbus;OH;43215;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:605 S Front Street Suite 200=0D=0AColumbus, OH 43215=0D=0AUnited States of A=
+merica
+URL;WORK:http://www.ohioequities.com/brokers/kbenincasa.htm
+EMAIL;PREF;INTERNET:kbenincasa@ohioequities.com
+REV:20110119T191443Z
+END:VCARD

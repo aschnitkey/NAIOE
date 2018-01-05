@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:2.1
+N:McGreevy;Ryan
+FN:Ryan McGreevy
+ORG:NAI Ohio Equities
+TEL;WORK;VOICE:(614) 629-5282
+TEL;CELL;VOICE:(614) 554-3417
+TEL;WORK;FAX:(614) 224-5436
+ADR;WORK;ENCODING=QUOTED-PRINTABLE:;;605 S. Front Street=0D=0ASuite 200;Columbus;OH;43215;United States of Amer=
+ica
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:605 S. Front Street=0D=0ASuite 200=0D=0AColumbus, OH 43215=0D=0AUnited State=
+s of America
+URL;WORK:http://www.ohioequities.com/brokers/rmcgreevy.htm
+EMAIL;PREF;INTERNET:rmcgreevy@ohioequities.com
+REV:20101112T152123Z
+END:VCARD

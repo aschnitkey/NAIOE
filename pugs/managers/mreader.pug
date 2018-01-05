@@ -1,0 +1,62 @@
+- var titleContent = "NAI Ohio Equities | Mark Reader"
+- var metaContent = "Mark Reader is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Mark D. Reader", "Senior Property Manager", "614-939-8620", "mreader", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/mark-reader-1119ba88/", "mreader", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial, Commercial, and Residential Management
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						strong Beth Scharfe
+						br
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:bscharfe@ohioequities.com") bscharfe@ohioequities.com
+						br
+						span.glyphicon.glyphicon-earphone
+						| (614) 939-8601
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Mark Reader manages a portfolio of industrial and commercial buildings that includes manufacturing, office, retail and restaurant spaces. He maintains the New Albany Business Park and Business Campus spanning 3,000 acres. It is one of the largest master-planned business parks in Ohio. His additional responsibilities include seven homeowner associations in New Albany and Dublin that are comprised of approximately 5,000+ homes in premier single family residential communities. He serves as liaison to three Architectural Review Committees and has direct oversight of over $6,000,000.00 in annual budgeting.  He is experienced with High-Rise Management, was previously employed by the City of Columbus, and served in the U.S. Marine Corps.
+								hr
+								h5 What is your favorite neighborhood of Columbus/Central Ohio?
+								p I live and work in my favorite community, New Albany. Every school within the district has earned a national Blue Ribbon School of Excellence by the U.S. Department of Education. Columbus is only 21 minutes away and Business Insider has named it the #1 Suburb to live. There are many great places in the Columbus area, but I enjoy being a part of the New Albany community.
+								h5 Who are your favorite sports teams?
+								p Ohio State Buckeyes. 
+								h5 What is your favorite hidden gem in Columbus?
+								p The Top Steakhouse on East Main Street is well known, yet remains a hidden experience to many. There are few places left like it.
+				.broker-bio-right
+					h4 Education
+					p BS, Business Administration
+						br
+						| Mount Vernon Nazarene University
+					h4 Membership &amp; Certification
+					p Columbus REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg; (OAR)
+						br
+						| National Association of REALTORS&reg; (NAR)
+						br
+						| BOMA Columbus - Legislative Chair
+						br
+						| BOMA Ohio - BWC Liason
+						br
+						| High-Rise Safety Certified
+					h4 Community Involvement
+					p Toys for Tots
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

@@ -1,0 +1,110 @@
+- var titleContent = "NAI Ohio Equities | Daniel P. Sheeran"
+- var metaContent = "Dan Sheeran is a commercial real estate agent at NAI Ohio Equities where he represents clients throughout Columbus and the central Ohio region."
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Daniel P. Sheeran", "Industrial Specialist", "614-629-5216", "614-581-2434", "dsheeran", "IWI_Columbus", "instagram", "https://www.linkedin.com/company/nai-ohio-equities", "dsheeran", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial
+						br
+						| Auto
+						br
+						| Trucking
+						br
+						| Restaurants
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jshipley.html")
+							strong Jackie Shipley
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jshipley@ohioequities.com") jshipley@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Dan is an officer of NAI  Ohio Equities and has more than 45 years experience in commercial, industrial and investment real estate. Communication, creativity, fairness and follow-up are the keys to his unparalleled success in the real estate industry. He believes that only through open, honest, consistent communication can you achieve a client’s trust. He applies creating solutions in sale and leasing negotiations, priding himself on eliminating stumbling blocks by applying a common sense approach.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I found real estate to be a financially rewarding career where we are able to deal with fellow professionals on a daily basis.
+								h5 Why did you decide to make Columbus your home?
+								p I was born and raised here and Columbus has a little bit of everything, which makes it a great place to live, work and play.
+								h5 What is your favorite neighborhood/area of Columbus?
+								p I am especially fond of the German Village area with its good food and bars.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "dsheeran@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/wasserstrom.png", alt="Wasserstrom Logo")
+									li: img.img-responsive(src="../img/logos/arshot.png", alt="Arshot logo")
+									li: img.img-responsive(src="../img/logos/superiordietool.png", alt="Superior Die Tool logo")
+									li: img.img-responsive(src="../img/logos/usps.png", alt="USPS logo")
+									li: img.img-responsive(src="../img/logos/walmart.png", alt="Walmart Logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/industrialpark.html") Southeast Industrial Park | Industrial Sales
+								h4 Transactions
+								ul#transactions-list
+									li State of Ohio | 100,000 SF Office Building
+									li FLivingston Arms | 2,100 apartment units (Sale)
+									br
+									p
+										a(href="transactions/sheeransemon.pdf", target="_blank") View completed transactions
+							.tab-panel#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/djsheeran/2017-12-07.pdf", target="_blank") Need more leg room on that next family vacation? New rental business might have an answer (December 7, 2017)
+									li: a(href="news/djsheeran/2017-10-26.pdf", target="_blank") Columbus warehouse listed as 'perfect' for medical marijuana processing (October 26, 2017)
+									li: a(href="news/msemon/2017-08-17.pdf", target="_blank") Farber Specialty Vehicles buys former Andersons site near Brice Road (August 27, 2017)
+				.broker-bio-right
+					h4 Professional Affiliations
+					p National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+						br
+						| Columbus Commercial Industrial Investment Realtors (CCIIR)
+					h4 Community Involvement
+					p Southside Lions
+						br
+						| Knights of Columbus
+					h4 Transaction Volume
+					p $10,000,000 Lease
+						br
+						| $20,000,000 Sale
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

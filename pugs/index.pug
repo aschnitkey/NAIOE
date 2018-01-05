@@ -1,0 +1,192 @@
+- var titleContent = "NAI Ohio Equities | Central Ohio Commercial Real Estate Services"
+- var metaContent = "NAI Ohio Equities is one of central Ohio's largest Commercial Real Estate companies. With full brokerage, property management, and marketing/technology teams, NAI Ohio Equities is a full service company capable of handling any commercial real estate solution throughout Columbus."
+
+doctype html
+html(lang="en")
+	include ../includes/head.pug
+	body
+		include ../includes/nav.pug
+		.navspacer
+		.page-wrap
+			#hero
+				.hero-image
+					h1.text-right Commercial Real Estate Services | Worldwide
+					h3.text-right Serving the Columbus Region Since 1971
+			.container
+				.row#slug
+					div
+						p.text-center
+							strong: em We are a full service Commercial Real Estate company capable of helping you and your business take control of your real estate needs.
+			.container
+				.row#service-descriptions
+					.col-sm-4
+						img.img-responsive.center-block(src="img/myIcons/apartment.png", alt="Sales and Leasing Logo")
+						h3.text-left: strong Sales and Leasing
+						p We have a proven record of successful real estate transactions including the sales and leasing of land, office, retail, and industrial properties throughout Central Ohio and around the world. NAI Ohio Equities is a dedicated team, ready to work for you. We have an in-house marketing team that will assist all sales associates on how to best list your property. Let one of our professionals work with you on listing your property today.
+						ul.list-unstyled
+							li: a(href="results.html") Read case studies
+							li: a(href="listings.html") View our listings
+							li: a(href="brokers.html") View our brokerage team
+							li: a(href="contactus.html") Request more information
+					.col-sm-4
+						img.img-responsive.center-block(src="img/myIcons/agreement3.png", alt="Tenant Representation Logo")
+						h3.text-left: strong Tenant Representation
+						p If you are new to the Columbus region, expanding your business, or simply looking for new space, our talented and professional tenant representatives will help you understand the process. NAI Ohio Equities is here to walk you through all aspects of site selection; from discovery and identification phase all the way through the negotiation and signing of your new lease or closing on your new space.
+						ul.list-unstyled
+							li: a(href="results.html") View our clients
+							li: a(href="contactus.html") Request more information
+					.col-sm-4
+						img.img-responsive.center-block(src="img/myIcons/building105.png", alt="Property Management Logo")
+						h3.text-left: strong Property Management
+						p NAI Ohio Equities’ team includes 20 helpful and talented property managers, each hired to make sure your property functions effectively. From snow removal to security to HVAC repairs, our property management experts offer peace of mind that every last concern is being considered, managed, and repaired. We also offer full accounting support tailored to your operation.
+						ul.list-unstyled
+							li: a(href="management.html") Property management services
+							li: a(href="managers.html") View our management team
+							li: a(href="servicerequest.html") Submit a service request
+			#agents-hero.container-fluid
+				img(src="img/people.jpg" style="visibility:hidden" alt="size placeholder")
+				.agents-hero-background
+					h1 Who Are We?
+					p Our agents have been helping clients find the perfect real estate solutions for all of their business needs since 1971. Our team members are ready and anxious to offer their assistance for whatever you need.
+					a(href="brokers.html"): strong Find an agent
+			#table-frontpage
+				table.table.table-striped.table-bordered
+					tr
+						td(colspan="4")
+							h3 Top Commercial Real Estate Brokerages in Central Ohio
+							p Data from <a href="http://www.bizjournals.com/columbus/subscriber-only/2016/05/06/commercial-real-estate-brokerages.html" target="_blank">Columbus Business First</a> as of May 6, 2016
+					tr
+						th Rank
+						th.table-col-width Company
+						th.table-col-center Central Ohio Brokers and Sales Agents
+						th.table-col-center Year Founded in Central Ohio
+					tr
+						td 1
+						td NAI Ohio Equities LLC
+						td.table-col-center 41
+						td.table-col-center 1971
+					tr
+						td 2
+						td CBRE Group Inc.
+						td.table-col-center 37
+						td.table-col-center 1983
+					tr
+						td 3
+						td Continental Realty
+						td.table-col-center 28
+						td.table-col-center 1975
+					tr
+						td 4
+						td Colliers International
+						td.table-col-center 25
+						td.table-col-center 1997
+					tr
+						td 5
+						td Cushman & Wakefield
+						td.table-col-center 21
+						td.table-col-center 2010
+			#featured-listings.container-fluid
+				.row
+					img.img-responsive(src="img/listings-main.jpg", alt="Featured Listings")
+					.listings-header-text
+						h1 Featured Listings
+						p
+				.row
+					.listings-types
+						img.img-responsive(src="img/listings-office.jpg", alt="Office Listings")
+						h2 Office Listings
+						p NAI Ohio Equities offers a wide variety of services for office users and investors alike.  Our professional staff currently tracks almost 32,000,000 square feet of office space throughout the Central Ohio area.  With over 40 years of professional market experience, our staff of accredited professionals offers each of our clients the home-field advantage.  We live and work in the Central Ohio area, and we distinctly know the properties, the codes and ordinances, the people and business climate.
+						p: a(href="listings.html?propertyType=1") View Our Office Listings
+					.listings-types
+						img.img-responsive(src="img/listings-industrial.jpg", alt="Industrial Listings")
+						h2 Industrial Listings
+						p NAI Ohio Equities provides the resources necessary to successfully complete even the most complex transactions.  Our services reach throughout the Columbus metropolitan region and the world. While tracking more than 268,000,000 square feet of Industrial space NAI Ohio Equities is able to find not only the best fit, but also the best value for its clients. Industrial clientele include privately owned companies, national and international corporations, institutional owners, private investors and national developers.
+						p: a(href="listings.html?propertyType=3") View Our Industrial Listings
+					.listings-types
+						img.img-responsive(src="img/listings-retail.jpg", alt="Retail Listings")
+						h2 Retail Listings
+						p Finding the right location for a retail venture is one of the most challenging tasks in today's competitive market. It takes knowledge about your client - a complete understanding of the products, services, target markets and competition. It also takes knowledge and insights into the retail real estate market - knowing the available locations and sites, knowing what's happening in the marketplace today and what is expected tomorrow. NAI Ohio Equities works with developers and retail property owners, helping successfully position their properties in the retail market and developing a comprehensive marketing strategy to attain the highest occupancy.
+						p: a(href="listings.html?propertyType=2") View Our Retail Listings
+			#market-reports.container-fluid
+				.market-reports-topright
+					img.img-responsive(src="img/market-reports-hero.png", alt="Market Reports")
+				.market-reports-bottomleft
+					h1 Market Reports
+					p The central Ohio commercial real estate market continues to heat up, with both office and industrial vacancy rates remain relatively flat. Although counterintuitive, we don’t expect to see significant reductions in vacancy even as demand increases. The reason: much of the current available space is the same space that has been undesired by tenants for years due to lack of amenities and functional obsolescence.
+					p So if vacancy is not falling, what indicators do we have to show the market is truly “hot”?
+					.ul-center
+						ul
+							li: a(href="marketing/marketreports/2017/nai_ohio_equities_2017q3.pdf", target="_blank") 3rd Quarter 2017
+							li: a(href="http://www.naiglobal.com/research", target="_blank") NAI Global Market Reports
+			#property-mgmt
+				img.img-responsive(src="img/mgmt.jpg", alt="Property Management")
+				.management-header-text
+					h1 Property Management
+					p Professional Property Management is critical to ensuring the longevity and vitality of your commercial real estate investment. At NAI Ohio Equities, we provide active management and integrated resources to preserve and enhance the value of each of your company's real estate assets. We provide a complete and competitive range of property management services for industrial, office, medical, and retail buildings, as well as educational and multi-family properties and home-owner associations.
+					p All NAI Ohio Equities managed assets operate in accordance with our Property Service Standards Program that promotes consistent, high-level operational practices, yet is designed with the flexibility to cater to the unique needs of each property and client.
+					ul
+						li: a(href="management.html") Property Management Services
+						li: a(href="managers.html") Management Team
+						li: a(href="servicerequest.html") Online Service Request
+			#case-studies
+				h1: a(href="results.html"): span(style="color: #fff;") Case Studies and Testimonials
+				.case-studies_testimonial
+					p: em "Ryan McGreevy very professionally handled the sale of this property and I was very satisfied with his work. I look forward to doing future business together."
+					p.results_byline: span(style="color: #E9B741; font-size: 0.75em;") Skip Fetingas, Seller | 2338 Scioto Harper Drive
+					p.case-studies_casestudy: a(href="results/scioto-harper.html"): span(style="color: #fff;") Read Case Study
+				.case-studies_testimonial
+					p: em "Each and every prospective deal is always handled in a professional and compelling manner. Furthermore, the attention to detail and analysis provided with each RFP has greatly helped the partners in their decision making."
+					p.results_byline: span(style="color: #E9B741; font-size: 0.75em;") Arthur Goldner, Owner | PNC Plaza
+					p.case-studies_casestudy: a(href="results/pnc.html"): span(style="color: #fff;") Read Case Study
+				.case-studies_testimonial
+					p: em "The NAI Ohio Equities Industrial Team has done an excellent job for us. After purchasing Southeast Industrial Park our goal has been to sell the buildings individually. Their team has clearly communicated our objectives to the brokerage community and end users. Through an aggressive marketing effort they have been able to sell 13 of the 18 buildings in the park. We appreciate their determined and honest approach to business."
+					p.results_byline: span(style="color: #E9B741; font-size: 0.75em;") Ben Struewing, VP | Hackman Capital Partners
+					p.case-studies_casestudy: a(href="results/industrialpark.html"): span(style="color: #fff;") Read Case Study
+				.case-studies_testimonial
+					p: em "Working with Matt Gregory and Andy Dutcher was fantastic. They were both very energetic and knowledgeable, responding quickly to our various needs and questions. Both are very personable, understood our needs, and strongly supported our effort to start a social enterprise. I would highly recommend them both."
+					p.results_byline: span(style="color: #E9B741; font-size: 0.75em;") Steve Votaw, CEO | Furniture Bank of Central Ohio
+					p.case-studies_casestudy: a(href="results/furniture.html"): span(style="color: #fff;") Read Case Study
+				.case-studies_testimonial
+					p: em "Joe Menninger and Philip Bird were a delight to work with. They completely understood our parameters and the necessity to sell our real estate, while continuing to maintain our operations in the space during and after the sale."
+					p.results_byline: span(style="color: #E9B741; font-size: 0.75em;") Bo Hindall, Founder/President | Inquiry Systems, Inc.
+					p.case-studies_casestudy: a(href="results/goodale.html"): span(style="color: #fff;") Read Case Study
+				.case-studies_testimonial
+					p: em "We have grown significantly in the past few years and had to lease space at three separate locations in order to accomodate the needs of the agency. I was delighted with the personal commitment made by both Peter Merkle and Matt Gregory to find us a property that met all of Alvis House's needs. The time and effort they have put forth has been invaluable."
+					p.results_byline: span(style="color: #E9B741; font-size: 0.75em;") Denise M. Robinson, President and CEO | Alvis House
+					p.case-studies_casestudy: a(href="results/alvis.html"): span(style="color: #fff;") Read Case Study
+			#news-index.container-fluid
+				h1 Recent News
+				.col-md-4
+					h3: a(href="http://www.ohioequities.com/wp/news/nai-ohio-equities-own-santa-claus/", target="_blank") NAI Ohio Equities’ Own Santa Claus
+					p.news-date December 11, 2017
+					p NAI Ohio Equities has their very own Santa Claus in Maintenance and Facilities Engineer Michael Jennings. Jennings, who has worked for NAI Ohio Equities for over 10 years has been involved in the North Linden Toy Run for just as long.
+					p The North Linden Toy Run works in direct affiliation with the Feddersen Rec Center in North Linden, an underprivileged section of Columbus.
+					p “The rec center will send out requests to all the local area schools to the children that may be less than privileged during this time of year,” explains Michael. “Then, a group of us will organize the community to fulfill the wish list.”
+					p.read-more: a(href="http://www.ohioequities.com/wp/news/nai-ohio-equities-own-santa-claus/", target="_blank") Read More
+				.col-md-4
+					h3: a(href="http://www.ohioequities.com/wp/commercialrealestate101/4-ways-that-driverless-cars-could-impact-the-cre-industry/", target="_blank") Four Ways that Driverless Cars Could Impact the CRE Industry
+					p.news-date December 8, 2017
+					p Companies ranging from the big automakers in Detroit to tech firms in Silicon Valley are pouring research dollars into driverless cars, and this development is projected to completely change the future of commercial real estate. This transition creates opportunities for new investment as well as challenges for existing properties.
+					p.read-more: a(href="http://www.ohioequities.com/wp/commercialrealestate101/4-ways-that-driverless-cars-could-impact-the-cre-industry/", target="_blank") Read More
+				.col-md-4
+					h3: a(href="http://www.ohioequities.com/wp/news/patrick-larrimer-assists-the-animal-health-organization-find-a-home/", target="_blank") Patrick Larrimer Assists The Animal Health Organization Find a Home
+					p.news-date November 20, 2017
+					p The Animal Health Organization, a new 501(c)(3) whose goal it is to provide high-quality, low-cost services to animals, shelters, and families has finally found a home. The non-profit has recently opened at 7206 Gooding Blvd in Delaware, Ohio. The organization provides an array of services to animals including medical care, sheltering, and even providing food, shelter, supplies and medical care to animals of homeless or low-income families.
+					p.read-more: a(href="http://www.ohioequities.com/wp/news/patrick-larrimer-assists-the-animal-health-organization-find-a-home/", target="_blank") Read More
+				h3.view-all-articles: a(href="http://www.ohioequities.com/wp/", target="_blank") View All Articles
+			#employment.hidden
+				.jobs-content
+					h3 Employment Opportunities
+					p NAI Ohio Equities is hiring. If you are looking for employment with our company and fit the requirements we are looking for, we would love to meet you. Please review any job openings below, and if interested, please contact us via the methods specified in the job listings or send your resume to <a href="mailto:employment@ohioequities.com" target="_blank"><span style="color: #fff; text-decoration: underline;">employment@ohioequities.com.</span></a> Thanks!
+					ul.jobs-list
+						a(href="downloads/jobs/maintenance_tech.pdf", target="_blank"): li Maintenance Technician
+		include ../includes/footer.pug
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+		script.
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-83737675-1', 'auto');
+			ga('send', 'pageview');

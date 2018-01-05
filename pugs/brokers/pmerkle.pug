@@ -1,0 +1,154 @@
+- var titleContent = "NAI Ohio Equities | Peter Merkle"
+- var metaContent = "Peter Merkle is a commercial real estate agent at NAI Ohio Equities, serving office and retail clients across the central Ohio region."
+//- Select one of the following includes:
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Peter C. Merkle", "Commercial Real Estate Agent", "614-629-5240", "614-218-3520", "pmerkle", "naiohioequities", "instagram", "https://www.linkedin.com/in/peter-merkle-75727b3", "pmerkle", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Investment Sales
+						br
+						| Office Sales and Leasing
+						br
+						| Urban Infill Development
+						br
+						| Adaptive Reuse
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/rfallert.html")
+							strong Ruth Fallert
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:rfallert@ohioequities.com") rfallert@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5294
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Testimonials
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Peter has been with Ohio Equities for over 14 years. Over the course of his time at Ohio Equities, he has enjoyed working with numerous local, regional and national firms in site acquisition and disposition as well as tenant relocation. Peter keeps a close eye on emerging market trends always keeping the interest of his clients in mind. The use of innovative technology in the marketing process and a creative approach to deal-making are the cornerstones of Peter’s business.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p My father is a real estate broker and is nearing his 40th year in business. Having grown up around real estate, I was always fascinated by the constant ebb and flow of the market.  It continues to be a fun job with the many relationships I have formed with ongoing clients. Many of them I now consider personal friends.
+								h5 Why did you decide to make Columbus your home?
+								p I spent some time living in other cities including Tucson, Arizona which I really enjoyed. Ultimately, it was most important to me to be close to my family who, primarily, live in Columbus.
+								h5 What is your favorite neighborhood of Columbus?
+								p There are so many unique and fun neighborhoods in the City but my favorite, and the one I call home, is Grandview. The ability to walk to Grandview Ave and its shops and restaurants, the tight knit community and outstanding schools are just a few things that make living there really great. I am truly spoiled to have all those things and a commute to work that is usually under 10 minutes.
+								h5 Where do you like to vacation?
+								p There are so many places but a place called Platte Lake in Northern Michigan holds a special place as it is where I spent most summers as a kid.  I was also married not far from there in a town called Leland, Michigan so, to me, summertime in Northern Michigan is about as good as it gets.
+								h5 What is a favorite pastime you enjoy?
+								p I enjoy pretty much any live music especially when I am accompanied by my wife, Katie. I also enjoy an annual pheasant hunting trip to Brule County, South Dakota with my father and brother.
+								h5 Who are your favorite sports teams?
+								p Whatever teams my nephews and nieces play for now and in the future.
+								h5 What is your favorite hidden gem in Columbus?
+								p The Brown Bag Deli in German Village – they make the best sandwiches in town and the owner, Molly, always greets you with a smile. The 
+									strong
+										span(style="text-decoration:underline;") BEST
+									| .
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "pmerkle@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/alvis.html") Alvis House | Tenant Representation
+								.marginspacer
+								h4 Testimonials
+								h5.testimonial-bio-company Caterina Ltd.
+								p.testimonial-bio-quote "We hired NAI-specifically Phil Bird and Peter Merkle--because they had been recommended by us by persons in the industry and who knew them from prior dealings and reputation and because we were impressed with their understanding of the unique nature of our historic neighborhood and our building in particular.  Within two days of the posting, Phil was conducting walk-throughs and by the third day he had an offer that was very close to our asking price.  We had a deal with the buyer in 5 days.  Phil Bird stayed on top of this, working with the appraiser to achieve an informed appraisal, keeping us regularly informed about the progress of the transaction, and dealing professionally with curveballs thrown by others.  We can't praise more highly the excellent work performed for us by NAI in the sale of our commercial property. Job well done!"
+								p.testimonial-bio-source Catherine Adams, former owner
+								h4 Clients
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/daycompanies.png", alt="Day Companies logo")
+									li: img.img-responsive(src="../img/logos/lykenscompanies.png", alt="Lykens Companies logo")
+									li: img.img-responsive(src="../img/logos/kaufman.png", alt="Kaufman Development logo")
+									li: img.img-responsive(src="../img/logos/alvis.png", alt="Alvis House logo")
+									li: img.img-responsive(src="../img/logos/visiondevelopment.png", alt="Vision Development logo")
+									li: img.img-responsive(src="../img/logos/pizzuti.png", alt="Pizzuti Companies logo")
+									li: img.img-responsive(src="../img/logos/growrestaurants.png", alt="Grow Restaurants, LLC logo")
+								h4 Transactions
+								ul#transactions-list
+									li Disposition of Creekside Plaza | Gahanna, OH
+									li Disposition of portfolio of GSA leased office | Columbus, OH
+									li Sale of 51 N High | Office Building | CBD, Columbus, OH
+									li Note Sale | Beck Place Condominiums | German Village, Columbus, OH
+									li Office Portfolio Sale | Brewery District, Columbus, OH
+									li The Madison and White Haines assemblage | CBD, Columbus, OH
+									li Sale of the former headquarters of the IBEW | Short North, Columbus, OH
+									br
+									p
+										a(href="transactions/pmerkle.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/pmerkle/2017-10-18b.pdf", target="_blank") Iconic Caterina building in German Village sold (October 18, 2017)
+									li: a(href="news/pmerkle/2017-10-18a.pdf", target="_blank") Former Caterina building in German Village is sold (October 18, 2017)
+									li: a(href="news/pmerkle/2017-10-02.pdf", target="_blank") $1 million rehab turns Franklinton warehouse into home (October 2, 2017)
+									li: a(href="news/pbird/2017-08-22.pdf", target="_blank") German Village's Caterina building for sale for $1.375M (August 22, 2017)
+									li: a(href="news/pmerkle/2017-08-14.pdf", target="_blank") EXCLUSIVE: Kyle Katz buys prominent Brewery District office building (August 14, 2017)
+									li: a(href="news/pmerkle/2017-07-03.pdf", target="_blank") Clintonville’s Dixie warehouse to be demolished soon for new apartments (July 3, 2017)
+									li: a(href="news/pmerkle/2017-03-06.pdf", target="_blank") Developer moving ahead with 300-unit apartment complex in Clintonville (March 6, 2017)
+									li: a(href="news/pmerkle/2017-01-10.pdf", target="_blank") Seventh Son Announces Expanding Bar & Adding Second Location (January 10, 2017)
+									li: a(href="news/pmerkle/2016-12-07.pdf", target="_blank") Harvest Pizzeria heading out of town for latest expansion (December 7, 2016)
+									li: a(href="news/pmerkle/2016-05-06.pdf", target="_blank") Kaufman Deal Keeps Company Interested in Urban Columbus (May 6, 2016)
+									li: a(href="news/pmerkle/2016-03-15.pdf", target="_blank") NAI Ohio Equities' Andy Dutcher, Matthew Gregory, and Peter Merkle win largest office transaction (March 15, 2016)
+									li: a(href="news/pmerkle/2016-05-10.pdf", target="_blank") Planned Clintonville apartment buildings called 'extended-stay hotels' to avoid rezoning (March 10, 2016)
+									li: a(href="news/pmerkle/2015-12-04.pdf", target="_blank") Done Deal: State Library Building Acquired by NY Investor (December 4, 2015)
+									li: a(href="news/pmerkle/2015-04-03.pdf", target="_blank") Homestead America taking up residence on Livingston Avenue (April 3, 2015)
+									li: a(href="news/pmerkle/2014-11-25.pdf", target="_blank") Three Developers Awarded Green Grants for Cleanup Efforts (November 25, 2014)
+									li: a(href="news/pmerkle/2014-11-15.pdf", target="_blank") Developer plans N. High St. revival (November 15, 2014)
+									li: a(href="news/pmerkle/2014-11-14.pdf", target="_blank") Developer buys Madison's building with speculative plans (November 14, 2014)
+									li: a(href="news/pmerkle/2014-11-12.pdf", target="_blank") Day Companies Purchases Long-Vacant Madison's Building (November 12, 2014)
+									li: a(href="news/pmerkle/2014-10-31.pdf", target="_blank") Retail returning to Downtown at 2 sites near Columbus Commons (October 31, 2014)
+				.broker-bio-right
+					h4 Education
+					p BA, College of Social and Behavioral Sciences
+						br
+						| The Ohio State University, 2002
+					h4 Membership
+					p Athletic Club of Columbus
+						br
+						| The Quechee Club, Quechee, Vermont
+						br
+						| CrossFit Grandview
+						br
+						| Grandview Barbell Club
+						br
+						| Scioto Country Club
+					h4 Community Involvement
+					p iCan Bike Program associated with the Down Syndrome Association of Central Ohio, Volunteer
+					h4 Honors and Awards
+					p Columbus Board of Realtors, 2015 Largest Sale Transaction - Office
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

@@ -1,0 +1,58 @@
+- var titleContent = "NAI Ohio Equities | Jim Merkel, Senior Vice President"
+- var metaContent = "Jim Merkel is Senior VP and a commercial real estate agent at NAI Ohio Equities where he represents clients throughout Columbus and the central Ohio region."
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Jim Merkel", "Senior Vice President", "614-629-5214", "614-937-0870", "jmerkel", "naiohioequities", "instagram", "https://www.linkedin.com/in/jim-merkel-2674a612", "jmerkel", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+						br
+						| Industrial
+						br
+						| Investment
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Jim specializes in office, industrial and investment brokerage. He has been in the real estate industry for over 45 years and provides value-add, comprehensive real estate services for his clients. His work ethic allows for him to put his clients first, whether selling, leasing, buying and managing properties.
+								hr
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/officedepot.png", alt="Office Depot Logo")
+									li: img.img-responsive(src="../img/logos/pioneer.png", alt="Pioneer logo")
+									li: img.img-responsive(src="../img/logos/daimler.png", alt="Daimler Group logo")
+									li: img.img-responsive(src="../img/logos/duke.png", alt="Duke Realty logo")
+				.broker-bio-right
+					h4 Education
+					p BA, Miami University
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| Columbus Commercial Industrial Investment Realtors (CCIIR)
+						br
+						| Society of Industrial and Office Realtors (SIOR)
+						br
+						| Certified Commerical Investment Member (CCIM)
+						br
+						| National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Realtors National Marketing Institute
+						br
+						| National Association of Office and Industrial Parks
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

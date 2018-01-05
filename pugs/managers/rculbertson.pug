@@ -1,0 +1,42 @@
+- var titleContent = "NAI Ohio Equities | Robbin Culbertson RAM, CAM, NALP"
+- var metaContent = "Robbin Culbertson is a property manager at NAI Ohio Equities and is currently the on-site property manager of Riverwatch Tower located near The Ohio State University campus."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Robbin Culbertson, RAM, CAM, NALP", "Property Manager", "614-291-7179", "rculbertson", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/robbin-culbertson-cam-ram-4b916b8", "rculbertson", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Robbin has 25 years of experience in the property management of condos, student housing and multisite units between 335-1300. She also has experience with $7-$30 million in renovation work. Robbin is currently the on-site Property Manager of Riverwatch Tower, located near The Ohio State University main campus.
+								hr
+				.broker-bio-right
+					h4 Membership &amp; Certification
+					p Certified Apartment Manager (CAM)
+						br
+						| Registered Apartment Manager (RAM)
+						br
+						| National Apartment Leasing Professional (NALP)
+					h4 Industry Awards & Recognition
+					p Indianapolis Manager of the Year, 2016 Nominee
+						br
+						| Property Manager of the Year, PREIT, 2003, 2004, 2005
+						br
+						| Toledo Apartment Association President, 2001, 2002
+						br
+						| Toledo Apartment Association Trustee, 1989, 1999, 2000
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

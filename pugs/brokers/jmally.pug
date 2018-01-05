@@ -1,0 +1,127 @@
+- var titleContent = "NAI Ohio Equities | John Mally"
+- var metaContent = "John Mally is a commercial real estate agent at NAI Ohio Equities where he represents clients throughout Columbus and the cental Ohio region."
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("John Mally", "Commercial Real Estate Agent", "614-629-5254", "614-570-7804", "jmally", "naiohioequities", "instagram", "https://www.linkedin.com/in/jmally", "jmally", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+						br
+						| Retail
+						br
+						| Industrial
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/klaney.html")
+							strong Kaydee Laney
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:klaney@ohioequities.com") klaney@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane#bio(role="tabpanel")
+								p John is a committed Realtor with the ability to provide an expert level of market knowledge in a wide array of Real Estate transactions.  His integrity and energy add a level of creative services that can benefit any business. Professionally representing tenants, buyers, businesses, and landlords as a sales and leasing agent with Ohio Equities, the experts in Columbus Commercial RE for over 40 years.
+								p John’s expertise allows him to work on office, retail and industrial transactions. He assists landlords and tenants in developing a detailed plan to meet their overall mission and goals. Upon analyzing properties with clients, he works in many ways to provide market knowledge, opinion of value, and proven steps to getting deals done that satisfy both landlords and tenants. John has an innate ability to collaborate with small and large business owners, working to understand and communicate goals.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I have a strong appreciation for all types of construction, entrepreneurs, and the negotiation of a deal. In my ten years of working with contractors and developers across Ohio I grew a strong interest in site selection and commercial property. After an introduction to Ohio Equities President and broker Mike Simpson, my passion and stewardship for Columbus Real Estate grew quickly.
+									br
+									br
+									| The new corridors thriving in Central Ohio, the growing work force, new attractive retail, and motivated entrepreneurs, are all exciting parts of being involved in commercial real estate.I believe that businesses of every size and shape play an integral part of our economy and deserve the highest level of customer service through that process.
+								h5 Why did you decide to make Columbus your home?
+								p Columbus has always been my home since growing up on Eastmoor Blvd and attending east side Catholic Schools near Bexley. I have always absorbed every ounce of Columbus history and enjoy getting to know the many people that have made central Ohio what it is today. I appreciate the importance of every aspect of a business deal and know that the location of a building is one thing you cannot change, so choose Columbus. Go Bucks!
+							.tab-pane.active#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "jmally@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/dentalassociates.png", alt="Dental Associates logo")
+									li: img.img-responsive(src="../img/logos/farmersinsurance.png", alt="Farmers Insurance logo")
+									li: img.img-responsive(src="../img/logos/huntington.png", alt="Huntington Bank logo")
+									li: img.img-responsive(src="../img/logos/statehighwaypatrolretirement.png", alt="State Highway Patrol Retirement System logo")
+									li: img.img-responsive(src="../img/logos/maryhaven.png", alt="Maryhaven logo")
+									li: img.img-responsive(src="../img/logos/metropcs.png", alt="Metro PCS logo")
+									li: img.img-responsive(src="../img/logos/ronintrainingcenter.png", alt="Ronin Training Center logo")
+									li: img.img-responsive(src="../img/logos/proslat.png", alt="Proslat logo")
+									li: img.img-responsive(src="../img/logos/tridentdesign.png", alt="Trident Design logo")
+									li: img.img-responsive(src="../img/logos/nextlevel.png", alt="Next Level Columbus logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/laundrymax.html") Laundry Max | Retail Sale
+								h4 Transactions
+								ul#transactions-list
+									li Blazer Parkway, Dublin | 6,000 SF | Men's Warehouse (Lease)
+									li 6161 Busch Blvd | 77,000 SF | HPRS (Sale)
+									li Hazelton Etna Road, Etna Township | 13.364 Acres | AD Farrow (Sale)
+									li Morse Crossing, Columbus | 13,688 SF | Epicenter (Lease)
+									li Northwest Blvd, Grandview | 3,500 SF | Trident Design (Lease)
+									li Main Street, Bexley | 2,800 SF | Bexley Chiropractic (Lease)
+									li Cassady Avenue, Bexley | 4,000 SF | Brent Applebaum (Sale)
+									br
+									p
+										a(href="transactions/jmally.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="http://www.columbusceo.com/news/20170718/fortner-upholstering-moves-to-south-side-bringing-jobs-and-space-for-creative-tenants", target="_blank") Fortner Upholstering moves to South Side, bringing jobs and space for creative tenants (July 18, 2017)
+									li: a(href="http://www.bizjournals.com/columbus/news/2016/09/22/south-side-gets-more-retail-and-residential-space.html", target="_blank") South side gets more retail and residential space with the Eisen on Parsons (September 22, 2016)
+									li: a(href="http://www.bizjournals.com/columbus/potmsearch/detail/submission/2840401/John_Mally", target="_blank") People on the move (June 27, 2014)
+				.broker-bio-right
+					h4 Education
+					p BA, Communications
+						br
+						| Bowling Green State University, 2004
+						br
+						br
+						| Hondros College, 2013
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| PAMA
+					h4 Community Involvement
+					p Next Level Gives
+						br
+						| Bishop Hartley Alumni Association
+						br
+						| Parsons Ave Redevelopment
+						br
+						| Flimsee.org
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

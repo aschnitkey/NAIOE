@@ -1,0 +1,50 @@
+- var titleContent = "NAI Ohio Equities | Amber Motycka"
+- var metaContent = "Amber Motycka is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Amber Motycka", "Property Manager", "614-280-0301", "amotycka", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/amber-motycka-9754426b/", "amotycka", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p High-Rise Building Management
+						br
+						| Condominium Association Management
+						br
+						| Home Owner Association Management
+						br
+						| Management of Single-Family Rentals
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Amber is a real estate property manager for Ohio Equities who previously managed a 19-story, luxury condominium association in downtown Columbus. She is now managing office, industrial and retail space in central Ohio. Amber has over six years’ experience in the real estate industry as a property manager. She graduated with a degree in Real Estate Property Management and holds an Ohio real estate license and is an active member of BOMA and the Columbus Board of Realtors.
+								hr
+								h5 What is your favorite neighborhood/area of Columbus?
+								p I love historic Dublin because of all the amazing restaurants and little shops on High Street.
+								h5 What is a favorite pastime that you enjoy?
+								p I love boating and just being on a lake in general.
+								h5 Who are your favorite sports teams?
+								p Cincinnati Reds and Bengals
+				.broker-bio-right
+					h4 Education
+					p A.A.S. Degree in Real Estate Management
+					h4 Membership
+					p Building Owners and Managers Association (BOMA)
+						br
+						| Community Association Institute
+						br
+						| Columbus REALTORS&reg;
+					h4 Certification
+					p High-Rise Safety Certified
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

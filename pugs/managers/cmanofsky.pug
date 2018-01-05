@@ -1,0 +1,70 @@
+- var titleContent = "NAI Ohio Equities | Chuck Manofsky, Executive VP Asset Services"
+- var metaContent = "Chuck Manofsky is the Executive VP of Asset Services at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Charles Manofsky", "Executive VP, Asset Services", "614-629-5257", "cmanofsky", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/charles-manofsky-1a61204/", "cmanofsky", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Membership
+					p Licensed Broker
+						br
+						| Columbus REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg; (OAR)
+						br
+						| National Association of REALTORS&reg; (NAR)
+						br
+						| Member, NAI Property Management Council
+						br
+						| Board Member, Building Owners & Managers Association (BOMA)
+						br
+						| National Association of Industrial and Office Parks (NAIOP)
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						strong Linda Pauley
+						br
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:lpauley@ohioequities.com") lpauley@ohioequities.com
+						br
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5246
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Chuck is Executive Vice President, Asset Services for NAI Ohio Equities. He handles the day-to-day operations of the property management division, assisting property managers in budgeting, forecasting and cash flow analysis, tenant relations, property maintenance and capital improvements.  His major responsibility is to focus on delivery of uniform high quality management services to NAI Ohio Equities’ 10 million square feet commercial portfolio and approximately 8,200 units of condominium, apartments, and homeowner’s associations.
+								hr
+				.broker-bio-right
+					h4 Education
+					p BS, Business Administration
+						br
+						| The Ohio State University, 1976
+					h4 Community Involvement
+					p Rotary International - Upper Arlington
+						br
+						| West Broad Street Elementary School Tutor
+						br
+						| Board Member, Huckleberry House
+						br
+						| Pelotonia - Rider
+					h4 Top Clients
+					p Daimler Group
+						br
+						| CDDC
+						br
+						| The New Albany Company
+						br
+						| Mount Carmel Hospital System
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

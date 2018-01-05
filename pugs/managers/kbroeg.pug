@@ -1,0 +1,60 @@
+- var titleContent = "NAI Ohio Equities | Kelly Broeg"
+- var metaContent = "Kelly Broeg is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Kelly Broeg", "Property Manager", "614-629-5233", "kbroeg", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/kelly-broeg-7572539/", "kbroeg", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Medical Office Buildings
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Kelly Broeg is a Property Manager for NAI Ohio Equities. She has specialized in medical office property management for the last two years, overseeing a portfolio of over 500,000 square feet to include imaging, ASC and administrative space in Central Ohio. Kelly currently represents clients such as The Daimler Group, Healthcare Realty (REIT), OhioHealth and Mount Carmel Health. Before joining NAI Ohio Equities, Kelly's responsibilities included sales, leasing and retail property management.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I was born in Columbus but moved away at a young age and grew up in Northern, Ohio. After attending school at BGSU, I relocated to a couple of different cities but knew I always wanted to end up back in Columbus to live near my family. I love Columbus and all that this great city has to offer!
+								h5 Where do you like to vacation?
+								p Everywhere! Traveling is my #1 favorite activity to do. My bucket list is multiple pages long, but, I feel fortunate that I have traveled to over 25 states, throughout Central America, the Caribbean and all throughout Europe.
+								h5 What is your favorite hidden gem in Columbus?
+								p The Yoga Factory in Westerville, OH – the perfect way to relax at the end of a long day!
+				.broker-bio-right
+					h4 Education
+					p BA, Human Development and Family Sciences
+						br
+						| Bowling Green State University, 2007
+					h4 Membership
+					p BOMA - Building Owners and Managers Association
+						br
+						| Columbus REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+					h4 Community Involvement
+					p Rock City Church - Volunteer
+						br
+						| Columbus Dream Center & Adopt-A-Block
+						br
+						| Missionary work in Central America
+						br
+						| Royal Family KIDS - Camp Counselor
+					h4 Top Clients
+					p The Daimler Group
+						br
+						| OhioHealth
+						br
+						| Mount Carmel
+						br
+						| Healthcare Realty REIT
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

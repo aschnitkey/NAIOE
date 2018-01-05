@@ -1,0 +1,130 @@
+- var titleContent = "NAI Ohio Equities | Joe Menninger, CCIM"
+- var metaContent = "Joe Menninger is a commercial real estate agent at NAI Ohio Equities where he represents clients throughout Columbus and the central Ohio region."
+include ../../extends/website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Joe Menninger, CCIM", "Commercial Broker", "614-629-5262", "614-778-1464", "jmenninger", "jmenninger", "instagram", "https://www.linkedin.com/in/joemenninger", "jmenninger", "https://www.joemenninger.com")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Investment
+						br
+						| Land Acquisition
+						br
+						| Land Sales
+						br
+						| Tenant & Buyer Representation
+						br
+						| Office and Retail Leasing
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jshipley.html")
+							strong Jackie Shipley
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jshipley@ohioequities.com") jshipley@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Testimonials
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Joe is responsible for handling all aspects of buying and selling and/or leasing commercial real estate for wide range of clients. He specializes in buyer and tenant representation, investment sales, land sales and acquisition and office and retail sales and leasing. Joe’s approach to real estate is centered on forming long lasting partnerships with clients in order to achieve their real estate goals.
+								p Joe has ten years of experience working in Real Estate Appraisals and Sales in the Central Ohio Market. This experience gives Joe added analytical value when working with sales and leasing.
+								p Joe has worked in the acquisition of redevelopment targets, land acquisition, investments and in office and retail leasing, acquisition and disposition.
+									br
+									br
+									a(href="http://www.joemenninger.com", target="_blank") Click here to view Joe Menninger's website
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I’ve always known I should be in sales.  With prior appraisal experience, Commercial Real Estate was the obvious choice. The people, workflow, freedom and ability to help a client achieve their real estate needs make commercial real estate a very rewarding career.
+								h5 Why did you decide to make Columbus your home?
+								p Columbus is a great city.  I grew up in Cincinnati and came to Columbus to attend OSU. When I graduated in 2002, I had fallen in love with the city and decided to stick around. While I miss having my family close, the majority of our friends are here in Columbus.
+								h5 What is your favorite neighborhood/area of Columbus and why?
+								p My wife and I live in Grandview and love the walkability and selection of so many great restaurants.  The school district is great and the city has the feel of a small town while still centrally located only a few miles from downtown, OSU and access to major freeways.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "jmenninger@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								h4 Testimonials
+								h5.testimonial-bio-company Murray Material Handling
+								p.testimonial-bio-quote We are a small family-owned company and were given a tight timeline to relocate our Columbus location. Occupancy rates were fairly high at the time, so the search was limited from the start. Joe asked a lot of questions about our business to learn what our needs were, both now and in the future, so we were able to see several properties meeting our criteria in a short period of time. As we expanded our search from leasing only to possible purchase, Joe’s experience really paid off, as we had never been down that road before. He was always available by phone or email to answer questions and guide us through the process, and he provided great referrals for both the financing and our plumbing upgrades once the purchase was complete.
+								p.testimonial-bio-quote Our new property has more square feet than we needed, so we’ve been able to lease out a portion of it as well. Joe has also assisted with that process, and he continues to be a good sounding board as we grow into this building. If &amp; when the time comes to find a new property, I won’t hesitate to contact Joe again and utilize his knowledge, experience, and professionalism.
+								p.testimonial-bio-source Kevin Murray, President
+								h4 Clients
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/campuspartners.png", alt="Campus Partners Logo")
+									li: img.img-responsive(src="../img/logos/whitehall.png", alt="City of Whitehall logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/goodale.html") Goodale Project | Office/Warehouse Sale
+								h4 Top Transactions
+								ul#transactions-list
+									li Acquisition of $1,500,000 Multi-Family Property
+									li Sale of $2,400,000 Hilliard Office Building
+									li Acquisition of Stewart Plaza; $1,710,000 Multi-Tenant Retail Property
+									br
+									p
+										a(href="transactions/jmenninger.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/jmenninger/2017-10-25.pdf", target="_blank") 35 acres of land for sale for residential development in NE Columbus (October 25, 2017)
+									li: a(href="news/jmenninger/2014-06-15-weinland_park_carryout.pdf", target="_blank") Weinland Park carryout talks done in secret (June 15, 2014)
+				.broker-bio-right
+					h4 Education
+					p BS, Human Ecology and Hospitality Management
+						br
+						| The Ohio State University, 2002
+						br
+						br
+						| CCIM 101, 102, 103, 104, Preparing to Negotiate
+					h4 Professional Affiliations
+					p Certified Commercial Investment Member (CCIM)
+						br
+						| The Ohio State Alumni Association
+						br
+						| The Tri-Village Chamber of Commerce Board of Directors
+						br
+						| Columbus Commercial Industrial Investment Realtors (CCIIR)
+						br
+						| National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+						br
+						| Ohio CCIM Chapter
+					h4 Community Involvement
+					p Volunteer for 
+						a(href="http://knightsofheroes.org/home", target="_blank") Knights of Heroes
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

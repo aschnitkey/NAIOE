@@ -1,0 +1,111 @@
+- var titleContent = "NAI Ohio Equities | Ryan McGreevy"
+- var metaContent = "Ryan McGreevy is a commercial real estate agent at NAI Ohio Equities, serving industrial clients across the central Ohio region."
+//- Select one of the following includes:
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Ryan McGreevy", "Commercial Real Estate Agent", "614-629-5282", "614-554-3417", "rmcgreevy", "RMcGreevy", "instagram", "https://www.linkedin.com/in/ryan-mcgreevy-2697489/", "rmcgreevy", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial
+						br
+						| Office
+						br
+						| Investment
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/klaney.html")
+							strong Kaydee Laney
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:klaney@ohioequities.com") klaney@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Testimonials
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Ryan specializes in the leasing and sales of industrial & office properties. With Ryan being a lifelong resident of Columbus, Ohio, he uses his market knowledge to provide his clients with all-inclusive representation. Ryan is upfront and honest which helps him maintain long lasting relationships with his clients.
+								p Ryan understands the importance of hard-work, dedication and integrity in establishing a strong rapport with his clients, whether they are investors, owners or tenants.
+								p Ryan grew up in Upper Arlington, Ohio and attended Upper Arlington High School. After high school Ryan continued his education and received a Bachelors Degree from the University of Dayton in Communications Management. Ryan is very hands on in his community and currently resides in Grandview.
+								h5 Commercial Real Estate Services
+								ul.broker-bio-services-list
+									li Executed leases for office, retail, and industrial in dual and single broker relationships. 
+									li Assisted businesses, landlords, tenants, and investors in buying, selling, and leasing real estate.
+									li Performed door-to-door marketing to landlords and business owners to solicit selling, buying, and leasing services.
+									li Negotiated lease terms between landlords and tenants to execution.
+									li Supervised construction phase of tenant improvements.
+									li Prepared and submitted proposals for future or existing clients.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p My grandfather and father were both in Real Estate and wanted to follow in the family footsteps.
+								h5 Why did you decide to make Columbus your home?
+								p I was born and raised here and enjoyed it so much I decided to return home after college.
+								h5 What is your favorite neighborhood of Columbus?
+								p I grew up in Upper Arlington and enjoy Upper Arlington and the Grandview neighborhoods.
+								h5 Where do you like to vacation?
+								p I enjoy traveling to Europe to experience different cultures.
+								h5 Who are your favorite sports teams?
+								p The Ohio State Buckeyes
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "rmcgreevy@ohioequities.com"
+									});
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="http://www.bizjournals.com/columbus/news/2015/07/06/heres-why-schoola-picked-central-ohio-for-its-3m.html", target="_blank") Here's why Schoola picked Central Ohio for its $3M distribution center (July 6, 2015)
+							.tab-pane#clients(role="tabpanel")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/scioto-harper.html") Scioto Harper Drive | Industrial Sale
+								.marginspacer
+								h4 Testimonials
+								h5.testimonial-bio-company Puptown Lounge, LLC
+								p.testimonial-bio-quote "Ryan was great through the whole process and really understands the market helping us get a great deal on a desirable property. Strongly recommend him for any commercial real estate needs."
+								p.testimonial-bio-source Cliff Boyden, Owner
+				.broker-bio-right
+					h4 Education
+					p BA, Communications Management and Marketing
+						br
+						| The University of Dayton, 2006
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+					h4 Transactions
+					p
+						a(href="transactions/rmcgreevy.pdf", target="_blank") View completed transactions
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

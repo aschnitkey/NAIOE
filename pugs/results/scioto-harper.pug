@@ -1,0 +1,50 @@
+-var titleContent = "NAI Ohio Equities | Scioto Harper Case Study"
+-var metaContent = "Case Study for the NAI Ohio Equities industrial sale at 2338 Scioto Harper Drive in Columbus."
+-var fileNameCSS = "scioto-harper"
+include ../../mixins/results-css.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/results-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			#scioto-harper-header
+				.scioto-harper-header-text
+					h1 Industrial Sale
+					h6 2338 Scioto Harper Drive - Columbus, Ohio
+			.container-fluid
+				.row
+					.col-sm-3.scioto-harper-text-left
+						h3 Case Study
+						h4 2338 Scioto Harper Drive - Columbus, Ohio
+					.col-sm-9
+						p NAI Ohio Equities is one of Central Ohio’s largest, long-standing commercial real estate companies. The firm has been serving the Columbus real estate market since 1971. We strive to provide the highest quality real estate services by adding value to our clients' assets and real estate needs through expert analysis, specific market knowledge, and personalized service. We pride ourselves on our communication and accountability.
+						p NAI Ohio Equities is the Central Ohio affiliate of NAI Global, the single largest, most powerful global network of owner-operated commercial real estate brokerage firms. NAI Global member firms span worldwide, with 375 offices and more than 6,700 local market experts on the ground. Supported by the central resources of the NAI Global organization, member firms deliver market-leading services locally and combine their in-market strengths to form a powerful bond of insights and execution for clients with multi-market challenges in the U.S. and/or globally.
+				.row
+					.col-sm-12
+						dl.dl-horizontal
+							dt Project
+							dd The building was a free standing 5,000/SF warehouse that was located in an industrial neighborhood on the near west side, off McKinley Ave. The seller had high expectations of the property and was hesitant to put it on the market.
+							dt Approach
+							dd The seller wanted top dollar for their property on Scioto Harper Drive. He had a value in mind he wanted to get for the property, but was not sure if it was achievable. Ryan’s client was reluctant to list the property with the fear that his tenant would leave when their lease expired, due to the building being for sale. Ryan and his client decided that rather than listing the property on the market, Ryan would keep his ears open for potential buyers that were looking for similar properties. While sharing this information with the other NAI Ohio Equities brokers, Ryan was able to find a buyer for the property. He found a buyer that needed to purchase a property to conduct a 1031 exchange, saving them on their capital gains taxes. This property was a perfect fit for their needs and Ryan was able to facilitate the sale without ever placing the property on the market.
+							dt Results
+							dd Selling properties off-market is never easy, but with attention to the market and personal connections, Ryan was able to sell the property to a qualified buyer without ever going on the market. A sale price was negotiated that met the seller’s expectations and was top dollar for the area and size of the building. Both the seller and the buyer were satisfied with the results of the transaction.
+				.row.scioto-harper-team-photos
+					p Team Members
+					hr
+					ul
+						li
+							img.img-responsive(src="../img/brokers/rmcgreevy-portrait.jpg", alt="Ryan McGreevy")
+							p Ryan McGreevy
+							p: em Sales and Leasing Agent
+				.row.scioto-harper-testimonials
+					p "Ryan very professionally handled the sale of this property and I was very satisfied with his work. I look forward to doing future business together."
+					p.results_byline
+						span(style="color: #E9B741; font-size: 0.75em") Skip Fetingas | Seller
+						img.img-responsive(src="../img/logos/naiohioequities.png", alt="NAI Ohio Equities logo")
+				.row.scioto-harper-testimonials_return
+					a(href="../results.html") << View All Case Studies and Testimonials
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

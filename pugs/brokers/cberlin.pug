@@ -1,0 +1,135 @@
+- var titleContent = "NAI Ohio Equities | Curt Berlin"
+- var metaContent = "Curt Berlin is a commercial real estate agent at NAI Ohio Equities where he represents industrial clients throughout Columbus and the central Ohio region. Curt is a member of the Industrial Property Team."
+include ../../extends/website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Curt Berlin, SIOR", "Industrial Property Team", "614-629-5221", "614-296-3739", "cberlin", "Cbus_Industrial", "instagram", "https://www.linkedin.com/in/curt-berlin-sior-aa7ba219", "cberlin", "https://www.industrialpropertyteam.com/")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial Real Estate
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/klaney.html")
+							strong Kaydee Laney
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:klaney@ohioequities.com") klaney@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Testimonials
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Curt is one of NAI Ohio Equities Top Producers and has been involved in commercial real estate since 1987. His focus and expertise are in the industrial sector with a specialization in landlord and tenant representation, as well as industrial investment sales. His scope of services include negotiation of lease and sale contract, creating and implementing leasing and sales marketing programs, consulting, property valuation (BOVs), lease vs sale comparison analysis, lease comparison analysis and investment analysis. He works with a wide range of clients on a local, regional and national basis.
+									br
+									br
+									a(href="http://www.industrialpropertyteam.com", target="_blank") Click here to view Industrial Property Team website
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p After graduate school I realized I wanted to work in an entrepreneurial field and real estate fit the bill. It allows you to be creative while providing your services. I also wanted to be my own boss.
+								h5 Why did you decide to make Columbus your home?
+								p It is my hometown, so I decided to stick around after graduating from The Ohio State University.
+								h5 What is a favorite pastime you enjoy?
+								p I enjoy baseball, both playing and coaching.
+								h5 Who are your favorite sports teams?
+								p St Louis Cardinals and Ohio State University teams
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "cberlin@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								h5.testimonial-bio-company Axiom Precision
+								p.testimonial-bio-quote "We were looking for a very popular building in a very tight market and with the fast response time and market knowledge, the Industrial Property Team at NAI Ohio Equities were able to assist us in finding the perfect building."
+								p.testimonial-bio-source Todd Damon, President
+								h5.testimonial-bio-company HF Group
+								p.testimonial-bio-quote "NAI-OE and the Industrial Property Team were extremely patient, helpful and determined to find us the right location and landlord for our special project.  The unique requirements and specifications for our space meant that the number of available sites were limited, the team was never deterred in their efforts and I can’t thank them and NAI enough!"
+								p.testimonial-bio-source Jay Fairfield, Chairman &amp; CEO
+								h5.testimonial-bio-company Honda Logistics
+								p.testimonial-bio-quote "We have worked with Curt since 2012 and he has helped negotiate two new leases.  Each time he understood our need to be in a specific geographic area and knew there were limited options that would fit our requirement.  He completed an extensive search, organized the data, and prepared it so it was easy for me to review.  Once a building was chosen, he assisted in the lease negotiation.  His market knowledge is invaluable and key to us feeling confident in our decisions.  I would be happy to recommend him to anyone with industrial needs in the area."
+								p.testimonial-bio-source Mollie Elliot, Lead Buyer
+								h5.testimonial-bio-company The Meritex Company
+								p.testimonial-bio-quote "I have had the great fortune to work with Matt Osowski as our leasing agent at several properties in Columbus, Ohio.  Because of his tenacity, hard work and understanding of our product type and tenants, we achieved 100% occupancy in this market."
+								p.testimonial-bio-source Jill Evans, Portfolio Manager
+								h5.testimonial-bio-company Hackman Capital Partners
+								p.testimonial-bio-quote "The NAI Ohio Equities Industrial Team has done an excellent job for us. After purchasing Southeast Industrial Park, our goal has been to sell the buildings individually. Their team has clearly communicated our objectives to the brokerage community and end users. Through an aggressive marketing effort they have been able to sell 13 of the 18 buildings in the park. We appreciate their determined and honest approach to business."
+								p.testimonial-bio-source Ben Struewing, VP - Leasing, Sales, &amp; Acquisitions
+								h5.testimonial-bio-company Hyperlogistics Group
+								p.testimonial-bio-quote "We wanted to express our thanks to you for your excellent service over the past 15 years.  You have consistently understood our business and its challenges. Whether it is helping to locate a short term warehouse space or assisting in selling our buildings, your dedication to representing our best interests has always been appreciated.  We have asked you to do a little of everything over the years and you have treated each assignment with equal importance.  From leasing 20,000 SF on a month-to month basis or selling our 340,000 SF Class A building. Your commitment, determination and market knowledge allowed us to achieve our goals.
+									br
+									br
+									| One of your most important traits is your honesty.  It is difficult in these times to maintain a moral compass.  Yours is fine-tuned and on the mark all the time. When we combine this trait with your loyalty, it sets you head and shoulders above all others.  My business partner and I really appreciated all of your good work and dependability.
+									br
+									br
+									| We truly enjoy working with you and would highly recommend you to anyone with warehouse needs in the Central Ohio area or other parts of the country."
+								p.testimonial-bio-source Seatta "Sean" Layland &amp; Geoffrey D. Manack, Owners
+								h5.testimonial-bio-company Kenda Tires
+								p.testimonial-bio-quote "As we wrap up our year and begin to think about the calendar year 2016, I would like to again sincerely thank you for your excellent service over the last 17 plus years.  Over this period of time, you have represented us with several building acquisitions, both in Ohio and across the country, and with each new project, you have always taken the time to understand our thoughts and negotiate with our interests in mind.  Honestly, it is very comforting to work with someone you can trust and who works so hard to achieve the goals we target.  I sincerely appreciate the partnership and drive you bring with each new project. 
+									br
+									br
+									| Curt, please also know that without question, I would highly recommend you to anyone looking to complete a real estate project anywhere in the country."
+								p.testimonial-bio-source P. Jeffrey Pizzola, Group CFO &amp; COO
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/fstlogistics.png", alt="FST Logistics logo")
+									li: img.img-responsive(src="../img/logos/meritex.png", alt="Meritex logo")
+									li: img.img-responsive(src="../img/logos/sbcapitalgroup.png", alt="SB Capital Group logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/industrialpark.html") Southeast Industrial Park | Industrial Sales
+								h4 Transactions
+								ul#transactions-list
+									p
+										a(href="transactions/cberlin.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="http://www.industrialservicesteam.com/#!I-Should-Go-On-Vacation-More-Often/sqre9/56f3ffd20cf28bf0e6ebb65b", target="_blank") I should go on vacation more often! (March 24, 2016)
+									li: a(href="http://www.industrialservicesteam.com/#!NNN-Gross-Full-ServiceQuestions-About-Industrial-Lease-Types-We-Can-Help/sqre9/56b8f4db0cf2fb0f6ff54b59", target="_blank") NNN, Gross, Full Service...Questions About Industrial Lease Types? We Can Help! (February 8, 2016)
+									li: a(href="http://www.industrialservicesteam.com/#!Speedy-Deliveries-are-Changing-Supply-Chain/sqre9/5681a8570cf25a7e545a8fee", target="_blank") Speedy Deliveries are Changing Supply Chain (December 28, 2015)
+				.broker-bio-right
+					h4 Education
+					p BS, Business Administration
+						br
+						| The Ohio State University, 1983
+						br
+						br
+						| Master of Business Administration
+						br
+						| The Ohio State University, 1986
+					h4 Awards & Recognition
+					p CoStar Power Broker, 2015
+					h4 Membership
+					p Society of Office & Industrial Realtors (SIOR)
+					h4 Community Involvement
+					p Grandview Bobcat Boosters
+						br
+						| Baseball Coach
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

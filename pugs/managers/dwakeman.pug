@@ -1,0 +1,71 @@
+- var titleContent = "NAI Ohio Equities | Dave Wakeman"
+- var metaContent = "Dave Wakeman is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("David Wakeman", "Senior Property Manager", "614-629-5267", "dwakeman", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/david-wakeman-4b06976/", "dwakeman", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+						br
+						| Retail
+						br
+						| SID
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../managers/nkost.html")
+							strong Nicole Kost
+						br
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:nkost@ohioequities.com") nkost@ohioequities.com
+						br
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5237
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p David Wakeman is a real estate manager for NAI Ohio Equities overseeing a portfolio of over 900,000 square feet of class “A” office and retail space in the central Ohio area. He has over 15 years of property management experience. Prior to joining the NAI Ohio Equities team, David held a position with one of central Ohio’s largest residential developers.
+								hr
+								h5 What is your favorite neighborhood/area of Columbus?
+								p Bexley – It is a suburb of Columbus with over 100 years of history. It is situated on a 2.5 mile footprint with tree lined streets and historic homes which are all walkable to the main street.
+								h5 Where do you like to vacation?
+								p Chatham, MA – It is a walkable classic New England seaside community located right on the elbow of Cape Cod.
+								h5 What is a favorite pastime you enjoy?
+								p Golf, skiing, walking, biking, and working outside in my yard.
+				.broker-bio-right
+					h4 Education
+					p BLA in Landscape Architecture
+						br
+						| SUNY College of Environmental Science and Forestry
+						br
+						| Syracuse University
+					h4 Membership &amp; Certification
+					p Columbus REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+						br
+						| High-Rise Safety Certified
+					h4 Top Clients
+					p The Daimler Group
+						br
+						| Grange Insurance
+						br
+						| Morse Road Special Improvement District (SID)
+						br
+						| Ohio Chamber of Commerce
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

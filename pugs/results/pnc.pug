@@ -1,0 +1,60 @@
+-var titleContent = "NAI Ohio Equities | PNC Plaza Case Study"
+-var metaContent = "Case Study for the NAI Ohio Equities office leasing of PNC Plaza in downtown Columbus."
+-var fileNameCSS = "pnc"
+include ../../mixins/results-css.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/results-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			#pnc-header
+				.pnc-header-text
+					h1 PNC Plaza
+					h6 155 E Broad Street - Columbus, Ohio
+			.container-fluid
+				.row
+					.col-sm-3.pnc-text-left
+						h3 Case Study
+						h4 PNC Plaza - Columbus, Ohio
+					.col-sm-9
+						p NAI Ohio Equities is one of Central Ohio’s largest, long-standing commercial real estate companies. The firm has been serving the Columbus real estate market since 1971. We strive to provide the highest quality real estate services by adding value to our clients' assets and real estate needs through expert analysis, specific market knowledge, and personalized service. We pride ourselves on our communication and accountability.
+						p NAI Ohio Equities is the Central Ohio affiliate of NAI Global, the single largest, most powerful global network of owner-operated commercial real estate brokerage firms. NAI Global member firms span worldwide, with 375 offices and more than 6,700 local market experts on the ground. Supported by the central resources of the NAI Global organization, member firms deliver market-leading services locally and combine their in-market strengths to form a powerful bond of insights and execution for clients with multi-market challenges in the U.S. and/or globally.
+				.row
+					.col-sm-12
+						dl.dl-horizontal
+							dt Situation
+							dd PNC Plaza located at 155 E Broad Street in downtown Columbus, Ohio was struggling with vacancy during the early 2000s but when accounting firm Deloitte LLP moved out in May of 2010 it left a 45,000 square foot hold over five floors of the 24-story tower.
+							dt Challenge
+							dd With vacancy rates reaching a high of 39 percent in 2010, the challenge was to attract companies downtown. At the time, similar CBD buildings were closer to 17 percent vacancy. It was clear the lease rate was too high to appeal to new tenants who could go to comparable buildings for less rent or stay outside of the downtown area and benefit from lower rent and more parking.
+							dt Solution
+							dd The brokerage team of Matt Gregory and Andy Dutcher of NAI Ohio Equities has worked with the Landlord to emphasize the importance of an attractive price point for leasing. The team worked diligently to attract companies to the downtown building with extensive research and marketing to potential tenants who could fill the wide range of available office space.
+							dt Results
+							dd Through extensive relationship building and tenant prospecting, the team has executed eight new leases, one expansion, and two renewals for a total of 71,841 SF office space leased over the past five years. Most recently, Ohio Health leased 36,297 SF over four floors to accommodate their overflow of employees in the downtown area.
+				.row.pnc-team-photos
+					p Team Members
+					hr
+					ul
+						li
+							img.img-responsive(src="../img/brokers/mgregory-portrait.jpg", alt="Matt Greogry")
+							p Matt Gregory
+							p: em Senior VP, Office Brokerage
+						li
+							img.img-responsive(src="../img/brokers/adutcher-portrait.jpg", alt="Andy Dutcher")
+							p Andy Dutcher
+							p: em VP, Office Brokerage
+						li
+							img.img-responsive(src="../img/support/jwilliams-portrait.jpg", alt="Jenna Williams")
+							p Jenna Williams
+							p: em Marketing Assistant
+				.row.pnc-testimonials
+					p "Each and every prospective deal is always handled in a professional and compelling manner. Furthermore, the attention to detail and analysis provided with each RFP has greatly helped the partners in their decision making."
+					p.results_byline
+						span(style="color: #E9B741; font-size: 0.75em") Arthur Goldner, Owner | PNC Plaza
+						img.img-responsive(src="../img/logos/naiohioequities.png", alt="NAI Ohio Equities logo")
+				.row.pnc-testimonials_return
+					a(href="../results.html") << View All Case Studies and Testimonials
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

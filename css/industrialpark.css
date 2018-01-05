@@ -1,0 +1,205 @@
+/***********************************************************
+	Global Declarations
+***********************************************************/
+
+/* font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Domine', serif; */
+
+
+
+
+
+/***********************************************************
+	PAGE: industrialpark.html
+***********************************************************/
+
+#industrialpark-header {
+	background: url('../results/img/industrialpark.jpg') no-repeat left 55%;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.industrialpark-header-text {
+	background-color: rgba(208,221,232,.8);
+	position: absolute;
+	width: 100%;
+	padding: 15px;
+	bottom: 0;
+}
+
+.industrialpark-header-text h1, h6 {
+	text-shadow: 0 2px 2px rgba(0,0,0,.9);
+	position: relative;
+	left: 50px;
+	max-width: 65%;
+}
+
+.industrialpark-header-text h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+.industrialpark-header-text h6 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.industrialpark-text-left h2, 
+.industrialpark-text-left h3, 
+.industrialpark-text-left h4, 
+.industrialpark-text-left h5, 
+.industrialpark-text-left h6 {
+	margin: 0;
+	padding: 0;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+.industrialpark-team-photos {
+	margin-bottom: 30px;
+}
+
+.industrialpark-team-photos>p {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 5px 0 0 10%;
+}
+
+.industrialpark-team-photos hr {
+	margin-top: 0;
+	width: 80%;
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+
+.industrialpark-team-photos ul {
+	list-style-type: none;
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.industrialpark-team-photos li {
+	max-width: 20%;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	background-color: rgba(208,221,232,.2);
+	padding-bottom: 10px;
+}
+
+.industrialpark-team-photos li img {
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.industrialpark-team-photos li p {
+	margin: 0 0 -5px 0;
+	padding: 0;
+}
+
+.industrialpark-testimonials {
+	margin-bottom: 85px;
+}
+
+.industrialpark-testimonials>p {
+	max-width: 80%;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.industrialpark-testimonials img {
+	max-width: 30%;
+	display: block;
+	margin: 25px auto;
+}
+
+.industrialpark-testimonials_return {
+	text-align: right;
+	margin: 5px 35px 15px 0;
+}
+
+/*******************************************************
+	Media Queries
+*******************************************************/
+
+@media (max-width: 870px) {
+	.industrialpark-header-text h1 {
+		font-size: 2em;
+	}
+
+	.industrialpark-header-text h6 {
+		font-size: 1.5em;
+	}
+
+	#industrialpark-header img {
+		max-height: 70px;
+	}
+
+	.industrialpark-text-left h3 {
+		font-size: 1.5em;
+	}
+
+	.industrialpark-text-left h4 {
+		font-size: 1.1em;
+	}
+
+	p,
+	dd,
+	dt {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 650px) {
+	.industrialpark-team-photos li p {
+		font-size: .8em;
+	}
+}
+
+@media (max-width: 580px) {
+	.industrialpark-team-photos li p {
+		font-size: .7em;
+	}
+
+	.industrialpark-testimonials p {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.industrialpark-header-text h1 {
+		font-size: 1.5em;
+	}
+
+	.industrialpark-header-text h6 {
+		font-size: 1.1em;
+	}
+
+	.industrialpark-header-text h1,
+	.industrialpark-header-text h6 {
+		left: 0px;
+	}
+
+	#industrialpark-header img {
+		max-height: 50px;
+	}
+
+	.industrialpark-team-photos li p {
+		font-size: .7em;
+	}
+
+	.industrialpark-testimonials p {
+		font-size: 1em;
+	}
+}

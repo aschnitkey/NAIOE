@@ -1,0 +1,48 @@
+- var titleContent = "NAI Ohio Equities | Chris Pope"
+- var metaContent = "Chris Pope is a property manager at NAI Ohio Equities where he assists Devon Cotterman with their Mt Carmel account."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Chris Pope", "Property Manager", "614-629-5252", "cpope", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/chris-pope-988a3654", "cpope", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Chris is in charge of coordinating maintenance and vendor relations for the occupants of the Mt. Carmel buildings, consisting of approximately 900,000 square feet. Prior to NAI Ohio Equities, Chris managed hotels in Columbus, Baton Rouge, and Atlanta. His joy of meeting new people across the industry has always been a passion, along with the ability to make a difference in the lives of the people he meets.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p My hometown is Hilliard and I have spent the past several years in Atlanta, GA. I am very excited to call central Ohio my home again.
+								h5 What is your favorite neighborhood/area of Columbus?
+								p This city has come a long way and being a baseball fan, Huntington Park will always be my go to spot.
+								h5 Where do you like to vacation?
+								p A place that has a golf course and a beach nearby.
+								h5 Who are your favorite sports teams?
+								p The Ohio State Buckeyes and Cleveland Indians
+								h5 What is your favorite hidden gem in Columbus?
+								p I need to find one as soon as possible.
+				.broker-bio-right
+					h4 Education
+					p The Ohio Dominican University, 2009
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| Building Owners and Managers Association (BOMA)
+					h4 Top Clients
+					p MB Real Estate
+						br
+						| Mt. Carmel Hospital
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

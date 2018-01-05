@@ -1,0 +1,52 @@
+- var titleContent = "NAI Ohio Equities | Don Baumann"
+- var metaContent = "Don Baumann is the Director of Maintenance at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Donald L. Baumann", "Director of Maintenance", "614-629-5260", "dbaumann", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/don-baumann-053a164b/", "dbaumann", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Journeyman Carpenter
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Donald has been in the Construction and Property Management Business for over 33 years. For the last 25 years, he has been involved with property management. Donald is currently the Director of Maintenance for over 60 technicians at NAI Ohio Equities.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I have lived in Columbus all my life. I love the city and the sports. GO BUCKS!
+								h5 Where do you like to vacation?
+								p I have loved going to Michigan’s Upper Peninsula since I was 8 years old. It is very serene and beautiful.
+								h5 What is a favorite pastime you enjoy?
+								p I love to travel, play golf, fish, and camp.
+								h5 Who are your favorite sports teams?
+								p THE OHIO STATE BUCKEYES!
+				.broker-bio-right
+					h4 Education
+					p Wehrle High School
+						br
+						| Otterbein College
+						br
+						| Carpenter Apprentice School
+					h4 Awards & Recognition
+					p Lead Carpenter Apprentice, 1994
+						br
+						| Certificate of OSHA 30 hour safety course
+					h4 Membership
+					p Past member of BOMA
+						br
+						| Carpenters Local 200
+					h4 Community Involvement
+					p Community Block
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

@@ -1,0 +1,50 @@
+- var titleContent = "NAI Ohio Equities | Jenna Williams"
+- var metaContent = "Jenna Williams is a licensed marketing assistant at NAI Ohio Equities where she works closely with the Office Brokerage Group."
+include ../../extends/social-website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Jenna Williams", "Licensed Marketing Assistant", "614-629-5227", "jwilliams", "aroundcbus", "naiohioequities", "https://www.linkedin.com/in/jenna-williams-011b835a/", "jwilliams", "https://www.officebrokeragegroup.com/")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Membership
+					p National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Jenna joined NAI Ohio Equities in 2014 as a Marketing Assistant for The Office Brokerage Team where she works directly with Agents Matt Gregory, Andy Dutcher, and Philip Bird. As a vital member of the team, her responsibilities include managing all marketing efforts as well as full-support of all business development and transaction management initiative among many other duties. Jenna is a graduate of the University of Mount Union where she majored in marketing.
+									br
+									br
+									a(href="https://www.officebrokeragegroup.com/", target="_blank") Click here to view Office Brokerage Group website
+								hr
+								h5 Where do you like to vacation?
+								p I have gone to Fort Myers, FL a few times. The warm weather, the beaches, and the palm tree lined streets are beautiful!
+								h5 What is a favorite pastime you enjoy?
+								p I really enjoy watching movies! Whether it is going to the movie theater, renting them or binge watching on Netflix – I am always watching something!
+								h5 Who are your favorite sports teams?
+								p My entire family is from around Pittsburgh, PA – so Black & Gold is in my blood! Go Steelers!
+				.broker-bio-right
+					h4 Education
+					p BA, Marketing
+						br
+						| University of Mount Union, 2014
+						br
+						br
+						| Masters in Marketing and Communications
+						br
+						| Currently attending Franklin University
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

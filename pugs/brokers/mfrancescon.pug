@@ -1,0 +1,106 @@
+- var titleContent = "NAI Ohio Equities | Mark Francescon"
+- var metaContent = "Mark Francescon is a commercial real estate agent at NAI Ohio Equities where he represents industrial and office clients throughout Columbus and the central Ohio region."
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Mark Francescon", "Commercial Real Estate Sales", "614-629-5264", "614-376-9285", "mfrancescon", "naiohioequities", "instagram", "https://www.linkedin.com/in/mark-francescon-42b2a510", "mfrancescon", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+						br
+						| Industrial
+						br
+						| Land
+						br
+						| Investment
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/rfallert.html")
+							strong Ruth Fallert
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:rfallert@ohioequities.com") rfallert@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5294
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p With over twelve years of commercial real estate experience, Mark works with owners, tenants, and investors to help them acquire, sell, or lease properties that address their real estate needs.
+								p Specializing in office, medical industrial properties, and land acquisitions, Mark works closely with his clients to help them make an educated decision on their real estate options. He has been involved in various land development deals representing both buyers and sellers.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p In my previous profession as the VP of Sales for the Thomas W Ruff Co., an office furniture dealer in Columbus, I teamed up with several commercial real estate firms to ensure our clients' relocations were successful. It seemed like a natural transition to move to the commercial brokerage side of the business and still be able to work with some of my previous clients.
+								h5 Why did you decide to make Columbus your home?
+								p I am a native of Columbus and have lived here all my life. It’s amazing to see the transformation of this city especially in the downtown and surrounding areas. We are very fortunate to have the city leaders working in partnership with the various developers that have helped shape our city.
+								h5 Where do you like to vacation?
+								p My family and I like to travel to different locations both here and abroad. It’s a big world out there and it’s fun and interesting to meet and speak with people of so many different cultures and hear their stories.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "mfrancescon@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								h4 Clients
+								ul#transactions-list
+									li Private building owners
+									li Shannon Chemical
+									li My Computer Career
+								h4 Transactions
+								ul#transactions-list
+									li My Computer Career | Lease
+									li Rhinegeist Brewing | Lease
+									li Primary One Medical Office | Lease
+									li Maxtown Road Land | Sale
+									li Dublin Road Building | Sale
+									br
+									p
+										a(href="transactions/mfrancescon.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/jmenninger/2017-10-25.pdf", target="_blank") 35 acres of land for sale for residential development in NE Columbus (October 25, 2017)
+				.broker-bio-right
+					h4 Education
+					p BA, Business Administration
+						br
+						| Ohio Dominican College, 1980
+					h4 Membership
+					p Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+					h4 Community Involvement
+					p Charity Newsies
+						br
+						| Columbus Italian Club
+						br
+						| St Timothy Parish member, coach, and volunteer
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

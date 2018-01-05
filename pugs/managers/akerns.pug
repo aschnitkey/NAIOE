@@ -1,0 +1,49 @@
+- var titleContent = "NAI Ohio Equities | Alicia Kerns"
+- var metaContent = "Alicia Kerns is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Alicia Kerns, CMCA, AMS", "Senior Property Manager", "614-222-0996", "akerns", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/alicia-kerns-10441114", "akerns", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Membership &amp; Certification
+					p Certified Manager of Community Associations (CMCA)
+						br
+						| Association Management Specialist (AMS)
+						br
+						| High-Rise Fire Safety Director Certificate
+						br
+						| Columbus REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+						br
+						| CAI (Commiunity Association Institute)
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Alicia is currently the Property Manager for a 103-unit 20-story high-rise in downtown Columbus near the Arena District. She is responsible for on-site management and supervision of the facility, which includes staffing, budgeting, day-to-day operations and general oversight.
+								p Alicia came to NAI Ohio Equities in 2001 after Pizzuti Companies transitioned their property management to Ohio Equities. She has over 15 years experience in Property Management and holds a number of certifications, including Certified Manager of Management Specialist.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I served 6 years in the US Marine Corps and my last duty station was Columbus so I made it my home.
+								h5 What is a favorite pastime that you enjoy?
+								p My family and I enjoy camping and can be found at the campground most weekends. Camping provides quality family time.
+								h5 Who are your favorite sports teams?
+								p Football, OSU, and Alabama (my home state)
+				.broker-bio-right
+					h4 Education
+					p Attended the University of Alabama, Birmingham and Franklin University
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

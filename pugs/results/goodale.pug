@@ -1,0 +1,59 @@
+-var titleContent = "NAI Ohio Equities | Goodale Case Study"
+-var metaContent = "Case Study for the NAI Ohio Equities office deal on Goodale Blvd."
+-var fileNameCSS = "goodale"
+include ../../mixins/results-css.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/results-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			#goodale-header
+				.goodale-header-text
+					h1 Goodale Project
+					h6 1195-1199 Goodale Blvd
+			.container-fluid
+				.row
+					.col-sm-3.goodale-text-left
+						h3 Case Study
+						h4 1195-1199 Goodale Blvd - Columbus, Ohio
+						p: a(href="marketing/goodale.pdf", target="_blank") View Marketing Materials
+							br
+							|
+							a(href="download/goodale.pdf", target="_blank") Download Case Study
+					.col-sm-9
+						p NAI Ohio Equities is one of Central Ohio’s largest, long-standing commercial real estate companies. The firm has been serving the Columbus real estate market since 1971. We strive to provide the highest quality real estate services by adding value to our clients' assets and real estate needs through expert analysis, specific market knowledge, and personalized service. We pride ourselves on our communication and accountability.
+						p NAI Ohio Equities is the Central Ohio affiliate of NAI Global, the single largest, most powerful global network of owner-operated commercial real estate brokerage firms. NAI Global member firms span worldwide, with 375 offices and more than 6,700 local market experts on the ground. Supported by the central resources of the NAI Global organization, member firms deliver market-leading services locally and combine their in-market strengths to form a powerful bond of insights and execution for clients with multi-market challenges in the U.S. and/or globally.
+				.row
+					.col-sm-12
+						dl.dl-horizontal
+							dt Project
+							dd 1195-1199 Goodale Boulevard is a 16,564 SF warehouse building with 2,000 SF of office space. The property owner operates his business out of the building and was looking for a wat to expand into larger space, but needed to sell his existing property first.
+							dt Challenge
+							dd The real estate market at the time of the sale was experiencing a higher demand than supply, making it an ideal time to sell. However, the challenge was to be able to sell the real estate without interfering with current business operations, as well as providing a solution for the business owner to be able to continue operating in the space after the sale while still looking for a larger space.
+							dt Approach
+							dd The strategy included selling the building first and remaining in the building as a tenant while seeking a larger space to handle the potential growth of the business.
+							dt Results
+							dd Joe and Philip listed the property for sale in late August and the property closed a little over four months later. They were able to sell the property for $825,000 or 93.5% of the listing price, as well as negotiate a short-term lease-back that allowed the seller to remain in the building at a rate well below market value.
+				.row.goodale-team-photos
+					p Team Members
+					hr
+					ul
+						li
+							img.img-responsive(src="../img/brokers/jmenninger-portrait.jpg", alt="Joe Menninger")
+							p Joe Menninger
+							p: em Sales and Leasing Agent
+						li
+							img.img-responsive(src="../img/brokers/pbird-portrait.jpg", alt="Philip Bird")
+							p Philip Bird
+							p: em Sales and Leasing Agent
+				.row.goodale-testimonials
+					p "Joe Menninger and Philip Bird were a delight to work with. They completely understood our parameters and the necessity to sell our real estate, while continuing to maintain our operations in the space during and after the sale."
+					p.results_byline
+						span(style="color: #E9B741; font-size: 0.75em") Bo Hindall, Founder/President | Inquiry Systems, Inc
+				.row.goodale-testimonials_return
+					a(href="../results.html") << View All Case Studies and Testimonials
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

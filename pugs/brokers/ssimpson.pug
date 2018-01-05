@@ -1,0 +1,73 @@
+- var titleContent = "NAI Ohio Equities | Sandy Simpson, Chairman"
+- var metaContent = "George 'Sandy' Simpson is the chairman and founder of NAI Ohio Equities."
+//- Select one of the following includes:
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio('George "Sandy" Simpson', "Chairman", "614-629-5200", "614-565-3111", "ssimpson", "naiohioequities", "instagram", "https://www.linkedin.com/company/nai-ohio-equities", "ssimpson", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Education
+					p BS, Real Estate
+						br
+						| The Ohio State University, 1963
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/nlewis.html")
+							strong Nancy Lewis
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:nlewis@ohioequities.com") nlewis@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5211
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Sandy Simpson is the Chairman of NAI Ohio Equities, having founded Ohio Equities in 1971 with the Ohio Company. Sandy was a managing partner and became president in 1976. Over the course of his illustrious real estate history, he has been involved in not only thousands of transactions, but numerous professional organizations. From 1981-1986, he was the president of four organizations, including the Columbus Board of Realtors, the Columbus Commercial Industrial Investment Realtors, Columbus Countrywide Development Corporation SBA Financing, and the Central Ohio Chapter of NAIOP.
+								hr
+				.broker-bio-right
+					h4 Membership
+					p National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+						br
+						| Society of Industrial and Office Realtors (SIOR)
+						br
+						| The Counselors of Real Estate
+						br
+						| National Association of Office and Industrial Parks
+					h4 Community Involvement
+					p James Cancer Hospital Foundation Board
+						br
+						| James Cancer Hospital Ambassador's Society
+						br
+						| Board of the Columbus Cancer Clinic
+						br
+						| Bexley Planning Commission
+						br
+						| Columbus Country Club
+					h4 Honors and Awards
+					p Columbus Board of Realtors, Broker of the Year, 1993
+						br
+						| Columbus Board of Realtors, Erika Blumenstein Award, 2001
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

@@ -1,0 +1,168 @@
+- var titleContent = "NAI Ohio Equities | Matt Gregory SIOR&reg;, Senior VP Office Brokerage"
+- var metaContent = "Matt Gregory is a senior VP of Office Brokerage at NAI Ohio Equities, where he represents office clients throughout Columbus and the central Ohio region."
+include ../../extends/website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Matt Gregory SIOR&reg;", "Senior VP Office Brokerage", "614-629-5234", "614-937-6501", "mgregory", "aroundcbus", "instagram", "https://www.linkedin.com/in/mgregoryohioequities", "mgregory", "https://www.officebrokeragegroup.com/")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office Leasing & Investment Sales
+						br
+						| Tenant & Buyer Representation
+						br
+						| Real Estate Investment Trusts
+						br
+						| Medical Office Buildings
+						br
+						| Non-Profit Organizations
+						br
+						| Bank Owned Property
+						br
+						| Corporate Services
+						br
+						| Sale Leasebacks
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jwilliams.html")
+							strong Jenna Williams
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jwilliams@ohioequities.com") jwilliams@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5227
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p With over fourteen years of commercial real estate experience, Matt couples his extensive market knowledge with innovative technology to help tenants, landlord, sellers and buyers achieve their real estate goals. Matt is committed to the values of honesty and hard work and strives to go the extra mile for all of his clients.
+								p Specializing in tenant and landlord representation for the sales and leasing of office and investment properties in Central Ohio, Matt works closely with clients to develop a comprehensive plan of action and then provides his clients with all the facts necessary to make informed decisions about their real estate opportunities.
+								p In his career, Matt has completed over 450 real estate transactions totaling $225 million in volume and 3,500,000 square feet and is consistently one of NAI Ohio Equities Top Producers. Prior to becoming a lead office broker, Matt spent four years providing in-house marketing and technology services as the firm’s Director of Information Technology.
+									br
+									br
+									a(href="http://www.officebrokeragegroup.com", target="_blank") Click here to view Office Brokerage Group website
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I always tell people who ask this question that commercial real estate is a career that actually chooses you and is usually second calling. My story follows such path. I initially started as a marketing technology intern for Ohio Equities which lead to a full time position as Director of Information Technology. While in this position, I was often told that I had a knack for sales so it was only natural that the firm would eventually transition me into a licensed agent. Growing up, I always wanted to work in a diverse industry which is the epitome of what commercial real estate has to offer.
+								h5 What is your favorite neighborhood/area of Columbus/Central Ohio?
+								p Early in our travels, my wife and I realized we had a strong connection with the Worthington area. We have called this area home for much of our two decades living in Central Ohio. I think our main attraction to Worthington is because of its historic feeling, walkable amenities and central location both downtown and the other northern submarkets.
+								h5 What is a favorite pastime you enjoy?
+								p My family and I enjoy visiting professional sporting venues and often stop at one in every city in which we travel. Thus far we have been to 24 of the 30 major league baseball stadiums and try to see at least one new stadium every year.
+								h5 What is your favorite hidden gem in Columbus?
+								p Are there any hidden gems left in Columbus? With a population that has doubled over the past 15 years to nearly two million people I think nearly every place has been discovered. I used to be able to stay up on all the new openings but now I rely on my clients and co-workers to provide recommendations of all the trendy places to try out.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "mgregory@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/covermymeds.png", alt="CoverMyMeds Logo")
+									li: img.img-responsive(src="../img/logos/healthcarerealtytrust.png", alt="Healthcare Realty Trust logo")
+									li: img.img-responsive(src="../img/logos/installedbusinessproducts.png", alt="IBP logo")
+									li: img.img-responsive(src="../img/logos/furniturebank.png", alt="Furniture Bank logo")
+									li: img.img-responsive(src="../img/logos/cameronmitchellrestaurants.png", alt="Cameron Mitchell Restaurants logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/pnc.html") PNC Plaza | Office Leasing
+									li: a(href="../results/alvis.html") Alvis House | Tenant Representation
+									li: a(href="../results/furniture.html") Furniture Bank | Tenant Representation
+								h4 Transactions
+								ul#transactions-list
+									li Anchor Portfolio | Sale | $15,100,000
+									li 955 Eastwind Drive | Sale | $10,100,000
+									li 1105 Schrock Road | Sale | $9,650,000
+									li Genesis Healthcare | Lease | $8,800,000
+									li Ohio Health | Lease | PNC Plaza | $5,000,000
+									br
+									p
+										a(href="transactions/mgregory.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/pmerkle/2017-10-18b.pdf", target="_blank") Iconic Caterina building in German Village sold (October 18, 2017)
+									li: a(href="news/pmerkle/2017-10-18a.pdf", target="_blank") Former Caterina building in German Village is sold (October 18, 2017)
+									li: a(href="news/pmerkle/2017-08-14.pdf", target="_blank") EXCLUSIVE: Kyle Katz buys prominent Brewery District office building (August 14, 2017)
+									li: a(href="news/mgregory/2017-08-11.pdf", target="_blank") From renting to owning: Toy Barn commits to Dublin (August 11, 2017)
+									li: a(href="news/mgregory/2017-08-09.pdf", target="_blank") Could free bus passes help ease downtown office vacancies and low-wage employee turnover? (August 9, 2017)
+									li: a(href="news/mgregory/2017-07-24.pdf", target="_blank") Exclusive: Apartment developer moving HQ and 90 jobs to New Albany (July 24, 2017)
+									li: a(href="news/mgregory/2017-07-11.pdf", target="_blank") Dublin's Bridge Park lands national sorority as latest office tenant (July 11, 2017)
+									li: a(href="https://www.bizjournals.com/columbus/subscriber-only/2017/06/16/office-leases.html", target="_blank") Largest Central Ohio Office Leases (June 17, 2017)
+									li: a(href="http://costarpowerbrokers.com/power-broker-award-winners/?search_year=2016&search_market=Columbus,%20OH", target="_blank") CoStar Power Broker Award Winners (March 16, 2017)
+									li: a(href="news/mgregory/2017-01-17.pdf", target="_blank") Former BMW dealership site in Dublin for sale in developing district (January 17, 2017)
+									li: a(href="news/mgregory/2016-10-21b.pdf", target="_blank") OFFICE OUTLOOK: High-end space getting harder to find in Columbus (October 21, 2016)
+									li: a(href="news/mgregory/2016-10-21a.pdf", target="_blank") Columbus Class A office space is scarce, spurring developers to build more (October 21, 2016)
+									li: a(href="news/mgregory/2016-08-20.pdf", target="_blank") Northwoods II office building changes ownership; NAI Ohio Equities retains leasing (August 20, 2016)
+									li: a(href="http://www.bizjournals.com/columbus/news/2016/07/22/top-of-the-list-biggest-office-leases-of-2015.html?ana=fbk", target="_blank") Top of the List: Biggest Office Leases of 2015 (July 22, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_162f67b3a8814daeb561ccb083aaae05.pdf", target="_blank") Furniture Bank Bed Race Raises $14,000+! (July 18, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_dfd676d3835642b7944d3df938b6a34a.pdf", target="_blank") Cameron Mitchell moving corporate HQ to the Arena District (May 2, 2016)
+									li: a(href="http://www.costar.com/News/Article/Office-Lease-Up-Jan-18-Chemonics-BerkleyNet-Take-Down-Big-Leases-in-Northern-Virginia/178960", target="_blank") CoverMyMeds Leases 15,000 SF in Highland Hills (January 18, 2016)
+				.broker-bio-right
+					h4 Education
+					p BA, Communication
+						br
+						| The Ohio State University, 2003
+					h4 Professional Affiliations
+					p OAR Director
+						br
+						| CCIM Candidate
+						br
+						| CCIIR, Past President
+						br
+						| CORPAC Governing Board
+						br
+						| COCIE Office Advisory Board
+						br
+						| Columbus REALTORS&reg;, Past Commercial Chair
+						br
+						| SIOR
+					h4 Community Involvement
+					p Worthington AM Rotary, Membership
+						br
+						| St Michael Athletic Association, Treasurer
+						br
+						| Worthington Tax Incentive Review Council
+						br
+						| Columbus State, Adjunct Real Estate Instructor
+					h4 Honors and Awards
+					p Largest Office Sale (2015)
+						br
+						| CoStar Power Broker (2011-2015)
+						br
+						| Columbus REALTORS&reg; 10 Under 40 (2014)
+						br
+						| NAI Ohio Equities Top Producer (2008-2015)
+					h4 Transaction Volume
+					p 450 Transactions
+						br
+						| 3,500,000 SF
+						br
+						| $225,000,000
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

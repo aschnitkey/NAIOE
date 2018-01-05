@@ -1,0 +1,144 @@
+- var titleContent = "NAI Ohio Equities | Bob Monahan"
+- var metaContent = "Bob Monahan is a commercial real estate agent at NAI Ohio Equities where he represents retail clients throughout Columbus and the central Ohio region."
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Bob Monahan", "Commercial Real Estate Agent", "614-629-5222", "614-204-6907", "bmonahan", "naiohioequities", "instagram", "https://www.linkedin.com/in/bob-monahan-412ab343", "bmonahan", "url")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Church Sales and Leasing
+						br
+						| Commercial Specialist
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/klaney.html")
+							strong Kaydee Laney
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:klaney@ohioequities.com") klaney@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Church Transactions
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Bob has been providing commercial, retail, office, land and investment expertise with NAI Ohio Equities since 1985. He has been a proven force within the company and thoroughly researches every project, providing his clients with expert representation and counsel based on skilled analysis of data, market conditions and client priorities.
+								hr
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "bmonahan@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								h4 Churches Sold
+								ul#transactions-list
+									li 3700 Fishinger Blvd
+									li 5284 Avery Road
+									li 878 S Ohio Avenue
+									li 990 Kingsmill Parkway
+									li 30 E College Avenue
+									li 202 N Chillicothe Street, Plain City, Ohio
+									li 5054 Reed Road
+									li 233 S State Street, Westerville, Ohio
+									li Linworth United Methodist Church
+									li Oakland Park Church
+									li Indianola Church
+									li 4238 Kimberly Parkway
+									li 1712 Courtright Road
+									li Pickerington Church
+									li Powell Center – Nazarene Church
+									li 4065 Kenny Road
+									li 11573 Lithopolis Road
+									li 441 S Yearling Road | Sold twice
+									li 1634 Minnesota Avenue
+									li Heritage Bible Church
+									li Dayton Church of God
+									li 233 S State Street
+									li Chillicothe LDS
+									li 787 E Broad Street
+									li 33 E Park Street
+									li 2900 Winchester Pike
+									li Land in Hilliard for Episcopal Church
+								h4 Churches Leased
+								ul#transactions-list
+									li 120 Napoleon Avenue | Leased twice
+									li Karl Road | Salvation Army | Leased
+									li 990 Kingsmill Parkway | Leased twice
+									li 921 Woodrow Avenue | Leased with option to purchase
+									li Brice Road Church at Channingway | Leased
+									li Relocated office for United Methodist Community Ministries of the Capital Area Districts
+								h4 Largest Church Transactions
+								ul#transactions-list
+									li 233 S State Street, Westerville, Ohio | 24,000 SF Church Building | 3.5 Acres | $2,035,366
+									li 4065 Kenny Road, Upper Arlington, Ohio | 7,860 SF Church Building | 2.83 Acres | $1,500,000
+									li 5284 Averty Road, Dublin, Ohio | 6,000 SF Church Building | 7 Acres | $1,126,000
+									li 6200 Linworth Road, Worthington, Ohio | 38,787 SF Church Building | 2.02 Acres | $1,100,000
+								h4 Current Church Listings
+								ul
+									p
+										strong Marion Church
+										| : 5,630 SF religious facility, previously used by First Church of God.
+										a(href="http://www.marionchurchog.com", target="_blank") www.MarionChurchOG.com
+									p
+										strong 40 N 6th Street
+										| : 27,000 SF church in downtown Zanesville, Ohio. Currently owned and occupied by Central Presbyterian Church. Asking Price: $395,000. 
+										a(href="http://www.zanesvillechurch.com", target="_blank") www.ZanesvilleChurch.com
+									p
+										strong Church Development Land
+										| : 23 acres on Dustin Road in Delaware County. 
+										a(href="http://www.dustinroadland.com", target="_blank") www.DustinRoadLand.com
+									p
+										strong Special Purpose For Sale
+										| : 15,000 SF religious facility in Plain City, OH. 
+										a(href="https://www.ohioequities.com/listings.html?propertyId=8110-Corporate-Blvd", target="_blank") 8110 Corporate Blvd
+									p
+										strong Church or Commercial Development
+										| : 5,360 SF religious facility and land for sale in Marion, Ohio. 
+										a(href="https://www.ohioequities.com/listings.html?propertyId=921-Woodrow", target="_blank") 921 Woodrow Avenue
+									p
+										strong New Song Church
+										| : Single-story 4,946 SF church on 7.2 acres of land for sale in Fairborn, Ohio. 
+										a(href="https://www.ohioequities.com/listings.html?propertyId=New-Song-Church", target="_blank") 2709 Old Yellow Springs Road
+									p
+										strong Kenton Church
+										| : 3,840 SF Church for sale in a residential neighborhood of Kenton, Ohio. 
+										a(href="https://www.ohioequities.com/listings.html?propertyId=kenton-church", target="_blank") 525 N. Ida Street
+				.broker-bio-right
+					h4 Education
+					p Undergraduate and graduate degrees from The Ohio State University
+					h4 Membership
+					p National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+					h4 Transactions
+					p: a(href="transactions/bmonahan.pdf", target="_blank") View completed transactions
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

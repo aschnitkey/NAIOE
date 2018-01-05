@@ -1,0 +1,62 @@
+- var titleContent = "NAI Ohio Equities | Amy Karnes"
+- var metaContent = "Amy Karnes is the Marketing Director at NAI Ohio Equities where she is responsible for the marketing direction and branding solutions."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Amy Karnes, CPSM", "Marketing Director", "614-629-5239", "akarnes", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/amy-karnes-cpsm-4407263/", "akarnes", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Awards & Recognition
+					p 2014 SMPS Columbus Award - 1st Place: Website
+						br
+						| 2014 SMPS Columbus Award - 1st Place: Direct Mail Campaign
+						br
+						| 2014 SMPS Regional Conference - 2nd Place: Website
+						br
+						| 2014 SMPS Regional Conference - 2nd Place: Direct Mail
+						br
+						| 2015 SMPS National Conference - 2nd Place: Specific Project Marketing
+						br
+						| Certified Professional Services Marketer
+					h4 Membership
+					p Society of Marketing Professional Services, 2012-2017
+						br
+						| Society of Marketing Professional Services, Education Co-Chair, 2012-2013
+						br
+						| Society of Marketing Professional Services, Education Chair, 2013-2014
+						br
+						| Society of Marketing Professional Services, President-Elect, 2014-2015
+						br
+						| Society of Marketing Professional Services, President, 2015-2016
+						br
+						| Society of Marketing Professional Services, Past President, 2016-2017
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Amy Karnes comes to NAI Ohio Equities with an eleven year history in the architecture, engineering and construction management industry. Her foray into the commercial real estate world will allow her to work closely with both the industry she knows and the ever evolving development of Central Ohio. At NAI Ohio Equities, Amy will be in charge of all day to day marketing of properties, as well as the overall branding, strategy and media relations for the company.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p After graduating from college, I dappled with the idea of moving away from Columbus. After a year of considering this, I suddenly realized how much I loved the neighborhoods and different activities that Columbus has to offer, not to mention the fabulous summertime festivals! Looking back, I was chasing an idea of what I wanted in a city and when I looked around, all the things I wanted were right here.
+								h5 What is your favorite neighborhood of Columbus?
+								p Although I live in Italian Village, which is right in the middle of the Short North, I will always love my first neighborhood I lived in right after college, which is German Village. I love all the hidden alleys, restaurants within the neighborhood and brick streets.
+								h5 What is a favorite pastime you enjoy?
+								p I (almost) never miss a Barre class at 7 Studios. If you ever want to find me on a Monday night at 6, that’s where I will be!
+				.broker-bio-right
+					h4 Education
+					p BA, Strategic Communications
+						br
+						| The Ohio State University, 2004
+					h4 Community Involvement
+					p Italian Village Society Member
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

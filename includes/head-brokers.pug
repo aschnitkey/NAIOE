@@ -1,0 +1,46 @@
+head
+	meta(charset="utf-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1.0")
+	title!= titleContent
+	meta(name="description", content= metaContent)
+	meta(name="google-site-verification", content="uybYJvBJJoEj132t2plDMKFa23EEYxagpy-mbTKZhrg")
+	link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Domine:400,700", rel="stylesheet", type="text/css")
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css")
+	link(rel="stylesheet", type="text/css", href="../css/main.css")
+	block extendStyles
+	link(rel="apple-touch-icon", sizes="57x57", href="../icons/apple-icon-57x57.png")
+	link(rel="apple-touch-icon", sizes="60x60", href="../icons/apple-icon-60x60.png")
+	link(rel="apple-touch-icon", sizes="72x72", href="../icons/apple-icon-72x72.png")
+	link(rel="apple-touch-icon", sizes="76x76", href="../icons/apple-icon-76x76.png")
+	link(rel="apple-touch-icon", sizes="114x114", href="../icons/apple-icon-114x114.png")
+	link(rel="apple-touch-icon", sizes="120x120", href="../icons/apple-icon-120x120.png")
+	link(rel="apple-touch-icon", sizes="144x144", href="../icons/apple-icon-144x144.png")
+	link(rel="apple-touch-icon", sizes="152x152", href="../icons/apple-icon-152x152.png")
+	link(rel="apple-touch-icon", sizes="180x180", href="../icons/apple-icon-180x180.png")
+	link(rel="icon", type="image/png", sizes="192x192", href="../icons/android-icon-192x192.png")
+	link(rel="icon", type="image/png", sizes="32x32", href="../icons/favicon-32x32.png")
+	link(rel="icon", type="image/png", sizes="96x96", href="../icons/favicon-96x96.png")
+	link(rel="icon", type="image/png", sizes="16x16", href="../icons/favicon-16x16.png")
+	link(rel="manifest", href="../icons/manifest.json")
+	meta(name="msapplication-TileColor", content="#ffffff")
+	meta(name="msapplication-TileImage", content="../icons/ms-icon-144x144.png")
+	meta(name="theme-color", content="#ffffff")
+	block extendScripts
+	// Facebook Pixel Code
+	script.
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '874899219332239');
+		fbq('track', 'PageView');
+		fbq('track', 'ViewContent');
+	noscript
+		img(height='1', width='1', src='https://www.facebook.com/tr?id=874899219332239&ev=PageView\
+		&noscript=1')
+	// End Facebook Pixel Code

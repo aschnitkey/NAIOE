@@ -1,0 +1,210 @@
+/***********************************************************
+	Global Declarations
+***********************************************************/
+
+/* font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Domine', serif; */
+
+
+
+
+
+/***********************************************************
+	PAGE: PNC.html
+***********************************************************/
+
+#pnc-header {
+	background: url('../results/img/pnc.jpg') no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.pnc-header-text {
+	background-color: rgba(208,221,232,.8);
+	position: absolute;
+	width: 100%;
+	padding: 15px;
+	bottom: 0;
+}
+
+.pnc-header-text h1, h6 {
+	text-shadow: 0 2px 2px rgba(0,0,0,.9);
+	position: relative;
+	left: 50px;
+	max-width: 65%;
+}
+
+.pnc-header-text h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+.pnc-header-text h6 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.pnc-text-left h2, 
+.pnc-text-left h3, 
+.pnc-text-left h4, 
+.pnc-text-left h5, 
+.pnc-text-left h6 {
+	margin: 0;
+	padding: 0;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+.pnc-team-photos {
+	margin-bottom: 30px;
+}
+
+.pnc-team-photos>p {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 5px 0 0 10%;
+}
+
+.pnc-team-photos hr {
+	margin-top: 0;
+	width: 80%;
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+
+.pnc-team-photos ul {
+	list-style-type: none;
+	max-width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.pnc-team-photos li {
+	max-width: 25%;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	background-color: rgba(208,221,232,.2);
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.pnc-team-photos li img {
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.pnc-team-photos li p {
+	margin: 0 0 -5px 0;
+	padding: 0;
+}
+
+.pnc-testimonials {
+	margin-bottom: 85px;
+}
+
+.pnc-testimonials>p {
+	max-width: 80%;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.pnc-testimonials img {
+	max-width: 30%;
+	display: block;
+	margin: 25px auto;
+}
+
+.pnc-testimonials_return {
+	text-align: right;
+	margin: 5px 35px 15px 0;
+}
+
+/*******************************************************
+	Media Queries
+*******************************************************/
+
+@media (max-width: 870px) {
+	.pnc-header-text h1 {
+		font-size: 2em;
+	}
+
+	.pnc-header-text h6 {
+		font-size: 1.5em;
+	}
+
+	#pnc-header img {
+		max-height: 70px;
+	}
+
+	.pnc-text-left h3 {
+		font-size: 1.5em;
+	}
+
+	.pnc-text-left h4 {
+		font-size: 1.1em;
+	}
+
+	p,
+	dd,
+	dt {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 650px) {
+	.pnc-team-photos li p {
+		font-size: .8em;
+	}
+}
+
+@media (max-width: 580px) {
+	.pnc-team-photos li p {
+		font-size: .7em;
+	}
+
+	.pnc-testimonials p {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.pnc-header-text h1 {
+		font-size: 1.5em;
+	}
+
+	.pnc-header-text h6 {
+		font-size: 1.1em;
+	}
+
+	.pnc-header-text h1,
+	.pnc-header-text h6 {
+		left: 0px;
+	}
+
+	#pnc-header img {
+		max-height: 50px;
+	}
+
+	.pnc-team-photos li p {
+		font-size: .7em;
+	}
+
+	.pnc-testimonials p {
+		font-size: 1em;
+	}
+
+	.pnc-team-photos li {
+		max-width: 30%;
+	}
+}

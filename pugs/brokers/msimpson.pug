@@ -1,0 +1,126 @@
+- var titleContent = "NAI Ohio Equities | Michael Simpson, President"
+- var metaContent = "Michael Simpson is President of NAI Ohio Equities. Michael offers leadership to NAI Ohio Equities agents while also representing his own clients throughout Columbus."
+//- Select one of the following includes:
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Michael A. Simpson", "President", "614-629-5236", "614-306-1722", "msimpson", "naiohioequities", "instagram", "https://www.linkedin.com/in/michael-simpson-38173921", "msimpson", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Retail
+						br
+						| Office
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/klaney.html")
+							strong Kaydee Laney
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:klaney@ohioequities.com") klaney@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Testimonials
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Michael specializes in retail and office brokerage. As President, Michael relies on his 3 decades of experience to guide both long time clients as well as the 23 agents at NAI Ohio Equities.
+								p Michael’s integrity, enthusiasm for real estate and dedication to his clients have enabled him to be one of NAI Ohio Equities top producers year after year.
+								p By developing relationships with an emphasis on personal service, Michael finds that serving clients’ real estate needs requires a balance of business savvy, market insight and effective communication. He focuses on studying local economic conditions influencing a clients’ business and then analyzes that information for its impact on the company’s real estate needs. Michael’s analytical skills and his deep understanding of all aspects of commercial real estate, ensure that his clients receive the best possible representation no matter how complicated the assignment.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p The most rewarding part of being in the commercial real estate industry is the satisfaction that comes from consulting for clients who are making significant real estate decisions that impact their business and families. When clients trust my judgment, take my advice, based on my experience and analysis, I feel a fulfillment that you can’t put a price on.
+								h5 Why did you decide to make Columbus your home?
+								p Ohio is a state of over 11,000,000 people. Central Ohio is the only region in the state with population growth, job growth, and significant new investment.
+								h5 What is your favorite neighborhood/area of Columbus and why?
+								p Being a Bexley native and current resident, I am definitely partial to the city that was the first municipal arboretum in the country.
+								h5 What is your favorite hidden gem in Columbus?
+								p The restaurant renaissance taking place in our urban areas; progressive and affordable, what more could you want!
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "msimpson@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								h4 Testimonials
+								h5.testimonial-bio-company The Ohio State University
+								p.testimonial-bio-quote "Mike has worked with Campus Partners in a various roles including acquisitions, dispositions and consulting on various projects.  In two separate projects for Campus Partners, Mike was able to compel properties owners who were previously unwilling enter into negotiations, to sell their properties, allowing projects important to both the University and the community at large to move forward."
+								p.testimonial-bio-source Keith Myers, Associate Vice President Planning and Real Estate
+								h5.testimonial-bio-company The New Albany Company
+								p.testimonial-bio-quote "New Albany’s success stems from a high level of community interaction among all of the New Albany Company’s business partners. Our partnership with Mike Simpson and his team at NAI Ohio Equities, which includes listing property for sale as well as managing both residential and commercial properties, contributes significantly to our vision and values: to provide the highest possible quality of life for those who live and work in New Albany."
+								p.testimonial-bio-source William G. Ebbing, President
+								h5.testimonial-bio-company Germain Lexus
+								p.testimonial-bio-quote "Mike and his team did a great job with our search for land to build a new Lexus service facility.  Rigid requirements dictated both by state law and customer convenience narrowed the property parameters significantly, but Mike persevered and gave us great options along with great expertise in the market. Additionally, Mike was able to negotiate a contract that gave us the time we needed to entitle the property to allow for the required zoning and street access.  Over all, working with Mike was a great experience."
+								p.testimonial-bio-source Rick Germain
+								h5.testimonial-bio-company Telhio Credit Union
+								p.testimonial-bio-quote "Mike has represented Telhio Credit Union for many years and has successfully found sites for new branches in Polaris, Grove City, Worthington and Lancaster.  While some of these new sites were listed for sale, others were acquired from unwilling sellers, and with Mike's expertise, we were able to negotiate deals fair to all parties.  Mike's expertise stretches beyond identifying sites and negotiating deals:  Mike helps to coordinate our development team including engineers, architects and attorneys as we move through the entire development process.  Overall, our experience with Mike Simpson and NAI Ohio Equites has been positive and we intend to use Mike for future real estate assignments."
+								p.testimonial-bio-source Leslie Bumgarner, President and CEO
+								h5.testimonial-bio-company LiUNA Local 423
+								p.testimonial-bio-quote "With Mike Simpson’s help, LiUNA is saving its membership thousands of dollars a year, while maintaining a location that serves us very well.  Besides the savings, we have the flexibility of being a tenant.  Mike did what he said he would do, and we couldn’t be happier."
+								p.testimonial-bio-source Mark Lynsky, Secretary Treasure
+								h4 Clients
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/newalbanycompany.png", alt="New Albany Company Logo")
+									li: img.img-responsive(src="../img/logos/telhio.png", alt="Telhio Credit Union logo")
+									li: img.img-responsive(src="../img/logos/huntington.png", alt="Huntington Bank logo")
+									li: img.img-responsive(src="../img/logos/pnc.png", alt="PNC Bank logo")
+								h4 Transactions
+								ul#transactions-list
+									p
+										a(href="transactions/msimpson.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/msimpson/2017-11-24.pdf", target="_blank") Former Africentric School expects to fetch a high price during auction (November 24, 2017)
+									li: a(href="news/msimpson/2017-11-13.pdf", target="_blank") Whitehall’s rebound lures new businesses, residents (November 13, 2017)
+									li: a(href="news/msimpson/2017-10-31.pdf", target="_blank") Longaberger’s ‘Big Basket’ might go to sheriff’s auction after sale collapses (October 31, 2017)
+									li: a(href="news/msimpson/2017-08-10.pdf", target="_blank") Downtown development boom seems endless, experts say (August 10, 2017)
+									li: a(href="news/msimpson/2017-07-02-Areas_empty_storefronts.pdf", target="_blank") Area’s empty storefronts likely to be filled, but by quite different tenants (July 2, 2017)
+									li: a(href="news/msimpson/2016-05-20-NAI_Ohio_Equities_gets_job_to_find_retailers_for_New_Albany_-_Co.pdf", target="_blank") NAI Ohio Equities gets job to find retailers for New Albany (May 20, 2016)
+									li: a(href="news/msimpson/2017-05-08.pdf", target="_blank") Buyer sought for 6-acre site in Dublin’s Bridge Street District (May 8, 2017)
+									li: a(href="news/msimpson/2015-07-28-Amazon.pdf", target="_blank") Tax incentives could help Amazon create 2,000 jobs in Central Ohio (July 28, 2015)
+									li: a(href="news/msimpson/2015-01-09-Telhio_Credit_Union_buys_Huntington_branch.pdf", target="_blank") Huntington Bank sells Worthington branch for $2.5M (January 9, 2015)
+									li: a(href="news/msimpson/2014-12-07-Suburbs_building_walkable_urban_centers.pdf", target="_blank") Suburbs building walkable urban centers to lure millennials, empty nesters (December 7, 2014)
+									li: a(href="news/msimpson/2014-11-23-Developers_fill_for_central_Ohio_s_need_for_warehouse_space.pdf", target="_blank") Developers fill for central Ohio’s need for warehouse space (November 23, 2014)
+				.broker-bio-right
+					h4 Education
+					p BA, Economics
+						br
+						| Capital University
+					h4 Professional Affiliations
+					p National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+					h4 Community Involvement
+					p Former Chairman, City of Bexley Planning Commission
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

@@ -1,0 +1,62 @@
+-var titleContent = "NAI Ohio Equities | Furniture Bank Case Study"
+-var metaContent = "Case Study for the NAI Ohio Equities tenant representation deal for Furniture Bank."
+-var fileNameCSS = "furniture"
+include ../../mixins/results-css.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/results-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			#furniture-header
+				.furniture-header-text
+					h1 Tenant Rep Project
+					h6 Furniture Bank
+				img.img-responsive(src="../img/logos/furniturebank.png", alt="Furniture Bank Logo")
+			.container-fluid
+				.row
+					.col-sm-3.furniture-text-left
+						h3 Case Study
+						h4 Furniture Bank of Central Ohio - Columbus, Ohio
+						p: a(href="download/furniture.pdf", target="_blank") Download Case Study
+					.col-sm-9
+						p NAI Ohio Equities is one of Central Ohio’s largest, long-standing commercial real estate companies. The firm has been serving the Columbus real estate market since 1971. We strive to provide the highest quality real estate services by adding value to our clients' assets and real estate needs through expert analysis, specific market knowledge, and personalized service. We pride ourselves on our communication and accountability.
+						p NAI Ohio Equities is the Central Ohio affiliate of NAI Global, the single largest, most powerful global network of owner-operated commercial real estate brokerage firms. NAI Global member firms span worldwide, with 375 offices and more than 6,700 local market experts on the ground. Supported by the central resources of the NAI Global organization, member firms deliver market-leading services locally and combine their in-market strengths to form a powerful bond of insights and execution for clients with multi-market challenges in the U.S. and/or globally.
+				.row
+					.col-sm-12
+						dl.dl-horizontal
+							dt Project
+							dd The Furniture Bank of Central Ohio hired a new CEO who had a vision of opening a showroom and warehouse to the public. The first step was to identify a premier location that could serve multiple markets and demographics at an affordable rate while providing freeway access for deliveries.
+							dt Challenge
+							dd The availbaility of vacant big box stores that were in move-in ready condition and had proper zoning were few and far between. After touring multiple submarkets and soliciting proposals from three different properties, the numbers were not proving to be economically feasible.
+							dt Approach
+							dd After fine-tuning the requirements and focusing on the showroom component only, the team was quickly able to identify a mid-size retail building that would be ideal for the social enterprise. The biggest hurdle was the repair work the building needed to make it ready for the public.
+							dt Results
+							dd Knowing the client's build-out budget was minimal, we were able to successfully negotiate the landlord to perform all capital repairs prior to turning the keys over to Furniture Bank. The property was formerly occupied by Rite Rug Flooring and the zoning code had changed over the past decade not allowing furniture sales. Rather than re-zoning, we suggested submitting an application for a Council Variance (CV) as the quickest and cheapest alternative. Shortly after the 2015 holidays, Columbus City Council approved the Northland Community Council's recommendation to grant the CV needed to allow Furniture Bank to proceed. The new store opened in April of 2016.
+				.row.furniture-team-photos
+					p Team Members
+					hr
+					ul
+						li
+							img.img-responsive(src="../img/brokers/mgregory-portrait.jpg", alt="Matt Greogry")
+							p Matt Gregory
+							p: em Senior VP, Office Brokerage
+						li
+							img.img-responsive(src="../img/brokers/adutcher-portrait.jpg", alt="Andy Dutcher")
+							p Andy Dutcher
+							p: em VP, Office Brokerage
+						li
+							img.img-responsive(src="../img/support/jwilliams-portrait.jpg", alt="Jenna Williams")
+							p Jenna Williams
+							p: em Marketing Assistant
+				.row.furniture-testimonials
+					p "Working with Matt Gregory and Andy Dutcher was fantastic. They were both very energetic and knowledgeable, responding quickly to our various needs and questions. Both are personable, understood our needs, and supported our effort to start a social enterprise. I would highly recommend them both."
+					p.results_byline
+						span(style="color: #E9B741; font-size: 0.75em") Steve Votaw, CEO | Furniture Bank of Central Ohio
+						img.img-responsive(src="../img/logos/furniturebank.png", alt="Furniture Bank logo")
+				.row.furniture-testimonials_return
+					a(href="../results.html") << View All Case Studies and Testimonials
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

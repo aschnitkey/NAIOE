@@ -1,0 +1,109 @@
+- var titleContent = "NAI Ohio Equities | Mike Semon"
+- var metaContent = "Mike Semon is a commercial real estate agent at NAI OHio Equities, serving industrial and retail clients throughout Columbus and the central Ohio region."
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Michael J. Semon", "Industrial Specialist", "614-629-5217", "614-657-2391", "msemon", "IWI_Columbus", "instagram", "https://www.linkedin.com/in/mike-semon-97a7aa26/", "msemon", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial
+						br
+						| Retail
+						br
+						| Land
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jshipley.html")
+							strong Jackie Shipley
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jshipley@ohioequities.com") jshipley@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Mike has over 20 years of extensive, in-depth experience in commercial/industrial real estate sales and leasing as well as landlord/tenant representation services. His integrity, enthusiasm for real estate, and dedication to his clients has enabled Mike to achieve an exceptional level of success exemplifi ed by his averaging over 60 commercial transactions each year during his career at NAI Ohio Equities. Mike possesses analytical skills and a deep understanding of all aspects of commercial / industrial real estate, ensuring that his clients receive the best possible representation no matter how complicated the assignment.
+								hr
+								h5 Where do you like to vacation?
+								p I like to vacation in North Carolina because they have some of the best golf courses in the United States.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "mjsemon@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/wasserstrom.png", alt="Wasserstrom logo")
+									li: img.img-responsive(src="../img/logos/arshot.png", alt="Arshot logo")
+									li: img.img-responsive(src="../img/logos/superiordietool.png", alt="Superior Die Tool logo")
+									li: img.img-responsive(src="../img/logos/healthcarerealtytrust.png", alt="Healthcare Realty Trust logo")
+									li: img.img-responsive(src="../img/logos/craneplastics.png", alt="Crane Plastics logo")
+									li: img.img-responsive(src="../img/logos/usps.png", alt="USPS logo")
+									li: img.img-responsive(src="../img/logos/hackman.png", alt="Hackman Capital logo")
+									li: img.img-responsive(src="../img/logos/amtekco.png", alt="Amtekco Logistics logo")
+									li: img.img-responsive(src="../img/logos/jetcontainer.png", alt="Jet Container Corporation logo")
+									li: img.img-responsive(src="../img/logos/walmart.png", alt="Walmart Logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/industrialpark.html") Southeast Industrial Park | Industrial Sales
+								h4 Transactions
+								ul#transactions-list
+									p
+										a(href="transactions/sheeransemon.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/djsheeran/2017-12-07.pdf", target="_blank") Need more leg room on that next family vacation? New rental business might have an answer (December 7, 2017)
+									li: a(href="news/djsheeran/2017-10-26.pdf", target="_blank") Columbus warehouse listed as 'perfect' for medical marijuana processing (October 26, 2017)
+									li: a(href="news/msemon/2017-08-17.pdf", target="_blank") Farber Specialty Vehicles buys former Andersons site near Brice Road (August 27, 2017)
+									li: a(href="http://www.bizjournals.com/columbus/print-edition/2015/06/05/done-deal-terramart-buys-1000-buckeye-park-road.html", target="_blank") Done Deal: TerraSmart buys 1000 Buckeye Park Road (June 5, 2015)
+									li: a(href="http://www.bizjournals.com/columbus/print-edition/2015/04/24/done-deal-jet-ontainer-picks-up-east-side.html", target="_blank") Done Deal: Jet Container picks up east side expansion site (April 24, 2015)
+									li: a(href="http://www.bizjournals.com/columbus/print-edition/2014/08/01/done-deal-illworks-tenants-get-new-landlord.html", target="_blank") Done Deal: Millworks tenants get new landlord (August 1, 2014)
+									li: a(href="http://www.bizjournals.com/columbus/news/2013/06/19/two-caterers-buys-former-hosters.html", target="_blank") Two Caterers buys former Hoster’s building in Brewery District (June 19, 2013)
+									li: a(href="http://www.bizjournals.com/columbus/news/2013/03/15/wonderland-columbus-eyeing-franklinton.html", target="_blank") Wonderland Columbus eyeing Franklinton (March 15, 2013)
+									li: a(href="http://www.bizjournals.com/columbus/print-edition/2012/05/18/more-condos-sell-at-carlyles-watch-as.html", target="_blank") More condos sell at Carlyles Watch as tower completes conversion (May 18, 2012)
+				.broker-bio-right
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+					h4 Community Involvement
+					p Knights of Columbus
+						br
+						| Our Lady of Peace Catholic Church
+						br
+						| Eagle Scout/Scout Troop 169
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

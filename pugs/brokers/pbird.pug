@@ -1,0 +1,126 @@
+- var titleContent = "NAI Ohio Equities | Philip Bird"
+- var metaContent = "Philip Bird is Associate VP, Office Brokerage at NAI Ohio Equities. Phil represents office clients throughout Columbus and the central Ohio region."
+//- Select one of the following includes:
+include ../../extends/website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Philip Bird", "Associate VP Office Brokerage", "614-629-5296", "614-557-9967", "pbird", "AroundCbus", "instagram", "https://www.linkedin.com/in/philipbird7/", "pbird", "https://www.officebrokeragegroup.com/")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+						br
+						| Medical Office
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jwilliams.html")
+							strong Jenna Williams
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jwilliams@ohioequities.com") jwilliams@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5227
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Testimonials
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Philip specializes in the leasing and sale of general and medical office properties in the downtown and suburban markets. With over ten years of commercial real estate brokerage experience Philip is able to provide his clients with extensive market knowledge and modern tools and resources to help achieve their real estate goals.
+								p Philip believes honesty, integrity, and communication are paramount in establishing and maintaining a strong relationship with his clients, whether they are sellers, landlords, buyers, or tenants.
+									br
+									br
+									a(href="http://www.officebrokeragegroup.com", target="_blank") Click here to view Office Brokerage Group website
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I became very interested in real estate during college while leasing/managing apartments near campus. After speaking with contacts in the business I was intrigued by the idea of beginning a career in an industry that is exciting, constantly evolving, and has essentially no limit on growth potential.
+								h5 Why did you decide to make Columbus your home?
+								p I initially moved to Columbus to attend The Ohio State University. It didn’t take long to realize how special this place is.  Between the people and the city itself I knew I wanted to put down roots here.
+								h5 Where do you like to vacation?
+								p The Caribbean and other warm/tropical climates to take a break from Ohio winters. Also Colorado to visit family and enjoy the mountains.
+								h5 What is your favorite hidden gem in Columbus?
+								p The Pub Out Back – Old Worthington.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "pbird@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/goodale.html") Goodale Project | Office/Warehouse Sale
+								.marginspacer
+								h4 Testimonials
+								h5.testimonial-bio-company Caterina Ltd.
+								p.testimonial-bio-quote "We hired NAI-specifically Phil Bird and Peter Merkle--because they had been recommended by us by persons in the industry and who knew them from prior dealings and reputation and because we were impressed with their understanding of the unique nature of our historic neighborhood and our building in particular.  Within two days of the posting, Phil was conducting walk-throughs and by the third day he had an offer that was very close to our asking price.  We had a deal with the buyer in 5 days.  Phil Bird stayed on top of this, working with the appraiser to achieve an informed appraisal, keeping us regularly informed about the progress of the transaction, and dealing professionally with curveballs thrown by others.  We can't praise more highly the excellent work performed for us by NAI in the sale of our commercial property. Job well done!"
+								p.testimonial-bio-source Catherine Adams, former owner
+								h4 Transactions
+								ul#transactions-list
+									li 24200 St Route 23 | 167,500 SF | Lease
+									li 1105 Schrock Road | 213,000 SF | Sale
+									li 1105 Schrock Road | 45,132 SF | Lease
+									li 936 Eastwind Drive | 39,000 SF | Lease
+									li 101-181 N Hamilton Road | 67,200 SF | Sale
+									br
+									p
+										a(href="transactions/pbird.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/pmerkle/2017-10-18b.pdf", target="_blank") Iconic Caterina building in German Village sold (October 18, 2017)
+									li: a(href="news/pmerkle/2017-10-18a.pdf", target="_blank") Former Caterina building in German Village is sold (October 18, 2017)
+									li: a(href="news/pbird/2017-08-22.pdf", target="_blank") German Village's Caterina building for sale for $1.375M (August 22, 2017)
+									li: a(href="news/mgregory/2017-08-11.pdf", target="_blank") From renting to owning: Toy Barn commits to Dublin (August 11, 2017)
+									li: a(href="news/mgregory/2017-07-24.pdf", target="_blank") Exclusive: Apartment developer moving HQ and 90 jobs to New Albany (July 24, 2017)
+									li: a(href="news/mgregory/2017-07-11.pdf", target="_blank") Dublin's Bridge Park lands national sorority as latest office tenant (July 11, 2017)
+									li: a(href="https://www.bizjournals.com/columbus/subscriber-only/2017/06/16/office-leases.html", target="_blank") Largest Central Ohio Office Leases (June 17, 2017)
+									li: a(href="news/mgregory/2017-01-17.pdf", target="_blank") Former BMW dealership site in Dublin for sale in developing district (January 17, 2017)
+									li: a(href="http://www.bizjournals.com/columbus/potmsearch/detail/submission/6179592/Philip_Bird", target="_blank") People on the move (August 26, 2016)
+				.broker-bio-right
+					h4 Education
+					p BS, Business Administration
+						br
+						| The Ohio State University (Fisher College of Business)
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+					h4 Honors and Awards
+					p 2008 - Top 25 Largest Office Leases
+						br
+						| 2008 - Top 25 Largest Industrial Leases
+					h4 Transaction Volume
+					p 210+ Transactions
+						br
+						| 1,500,000+ SF
+						br
+						| $50,000,000+ Volume
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

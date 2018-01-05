@@ -1,0 +1,129 @@
+mixin bio(name, title, phoneoffice, phonemobile, email, twitter, instagram, linkedin, shortname, url)
+	.broker-bio-header
+		.broker-bio-contact
+			h3!=name
+			h4=title
+			p 605 S Front Street, Suite 200
+				span.to-hide  | Columbus, Ohio 43215
+			p.to-show Columbus, Ohio 43215
+			p=phoneoffice + " office"
+				span.to-hide=" | " + phonemobile + " mobile"
+			p.to-show=phonemobile + " mobile"
+			p
+				a(href="mailto:" + email +"@ohioequities.com")=email + "@ohioequities.com"
+			|
+			|
+			a(href="vcards/" + shortname + ".vcf", target="_blank")
+				img(class="broker-bio-social", src="../img/social/vcard-bio.png", alt="Vcard")
+			|
+			|
+			a(href="https://twitter.com/" + twitter, target="_blank")
+				img(class="broker-bio-social", src="../img/social/twitter-bio.png", alt="Twitter")
+			|
+			|
+			block extendSocial
+			a(href=linkedin, target="_blank")
+				img(class="broker-bio-social", src="../img/social/linkedin-bio.png", alt="LinkedIn")
+			|
+			|
+			a(href="bios/" + shortname + ".pdf", target="_blank")
+				img(class="broker-bio-social", src="../img/social/pdf-bio.png", alt="Bio PDF")
+			|
+			|
+			block extendWebsite
+		img(class="broker-bio-image", src="../img/brokers/bio/" + shortname + ".png")
+
+mixin bio-mgmt(name, title, phoneoffice, email, twitter, instagram, linkedin, shortname, url)
+	.broker-bio-header
+		.broker-bio-contact
+			h3!=name
+			h4=title
+			p 605 S Front Street, Suite 200
+				span.to-hide  | Columbus, Ohio 43215
+			p.to-show Columbus, Ohio 43215
+			p=phoneoffice + " office"
+			p
+				a(href="mailto:" + email +"@ohioequities.com")=email + "@ohioequities.com"
+			|
+			|
+			a(href="vcards/" + shortname + ".vcf", target="_blank")
+				img(class="broker-bio-social", src="../img/social/vcard-bio.png", alt="Vcard")
+			|
+			|
+			a(href="https://twitter.com/" + twitter, target="_blank")
+				img(class="broker-bio-social", src="../img/social/twitter-bio.png", alt="Twitter")
+			|
+			|
+			block extendSocial
+			a(href=linkedin, target="_blank")
+				img(class="broker-bio-social", src="../img/social/linkedin-bio.png", alt="LinkedIn")
+			|
+			|
+			a(href="bios/" + shortname + ".pdf", target="_blank")
+				img(class="broker-bio-social", src="../img/social/pdf-bio.png", alt="Bio PDF")
+			|
+			|
+			block extendWebsite
+		img(class="broker-bio-image", src="../img/managers/bio/" + shortname + ".png")
+
+mixin bio-miranova(name, title, phoneoffice, email, twitter, instagram, linkedin, shortname, url)
+	.broker-bio-header
+		.broker-bio-contact
+			h3=name
+			h4=title
+			p 605 S Front Street, Suite 200
+				span.to-hide  | Columbus, Ohio 43215
+			p.to-show Columbus, Ohio 43215
+			p=phoneoffice + " office"
+			p
+				a(href="mailto:" + email +"@onemiranovaplace.com")=email + "@onemiranovaplace.com"
+			|
+			|
+			a(href="vcards/" + shortname + ".vcf", target="_blank")
+				img(class="broker-bio-social", src="../img/social/vcard-bio.png", alt="Vcard")
+			|
+			|
+			a(href="https://twitter.com/" + twitter, target="_blank")
+				img(class="broker-bio-social", src="../img/social/twitter-bio.png", alt="Twitter")
+			|
+			|
+			block extendSocial
+			a(href=linkedin, target="_blank")
+				img(class="broker-bio-social", src="../img/social/linkedin-bio.png", alt="LinkedIn")
+			|
+			|
+			a(href="bios/" + shortname + ".pdf", target="_blank")
+				img(class="broker-bio-social", src="../img/social/pdf-bio.png", alt="Bio PDF")
+			|
+			|
+			block extendWebsite
+		img(class="broker-bio-image", src="../img/managers/bio/" + shortname + ".png")
+
+mixin bio-marketing(name, title, phoneoffice, email, twitter, instagram, linkedin, shortname, url)
+	.broker-bio-header
+		.broker-bio-contact
+			h3!=name
+			h4=title
+			p 605 S Front Street, Suite 200
+				span.to-hide  | Columbus, Ohio 43215
+			p.to-show Columbus, Ohio 43215
+			p=phoneoffice + " office"
+			p
+				a(href="mailto:" + email +"@ohioequities.com")=email + "@ohioequities.com"
+			|
+			|
+			a(href="vcards/" + shortname + ".vcf", target="_blank")
+				img(class="broker-bio-social", src="../img/social/vcard-bio.png", alt="Vcard")
+			|
+			|
+			a(href="https://twitter.com/" + twitter, target="_blank")
+				img(class="broker-bio-social", src="../img/social/twitter-bio.png", alt="Twitter")
+			|
+			|
+			block extendSocial
+			a(href=linkedin, target="_blank")
+				img(class="broker-bio-social", src="../img/social/linkedin-bio.png", alt="LinkedIn")
+			|
+			|
+			block extendWebsite
+		img(class="broker-bio-image", src="../img/support/bio/" + shortname + ".png")

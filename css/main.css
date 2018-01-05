@@ -1,0 +1,1510 @@
+/***********************************************************
+	Global Declarations
+***********************************************************/
+
+/* font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Domine', serif; */
+
+html, body {
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Domine', serif;
+}
+
+a {
+	color: #AF2D37;
+}
+
+a:hover {
+	color: rgba(175,45,55,.8);
+}
+
+li a {
+	font-weight: bold;
+}
+
+li a:hover {
+	color: rgba(175,45,55,.8);
+}
+
+::selection {
+	background-color: #AF2D37;
+	color: #fff;
+}
+
+.red {
+	color: #AF2D37;
+}
+
+.lightred {
+	color: #D7969B;
+}
+
+.blue {
+	color: #1D6497;
+}
+
+.orange {
+	color: #E9B741;
+}
+
+.navspacer {
+	height: 50px;
+}
+
+.marginspacer {
+	height: 10px;
+}
+
+.tab {
+	margin-left: 40px;
+}
+
+.to-show {
+	display: none;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.paraline10 {
+	line-height: 1.0;
+}
+
+.paraline11 {
+	line-height: 1.1;
+}
+
+.paraline12 {
+	line-height: 1.2;
+}
+
+.paraline13 {
+	line-height: 1.3;
+}
+
+.paraline14 {
+	line-height: 1.4;
+}
+
+.paraline15 {
+	line-height: 1.5;
+}
+
+
+
+/***********************************************************
+	Navigation bar
+***********************************************************/
+
+.navbar-inverse {
+	background-color: #AF2D37;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: pink;
+}
+
+.navbar-brand img {
+	max-width: 175px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a {
+	background-image: none;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+	background-color: #D7969B;
+}
+
+.dropdown-menu > li > a:hover {
+	background-image: none;
+	background-color: rgba(175,45,55,.1);
+}
+
+.navphone img {
+	position: absolute;
+	height: 25px;
+	margin-top: 12px;
+	right: 70px;
+}
+
+
+
+/***********************************************************
+	Hero Image
+***********************************************************/
+
+#hero {
+	height:550px;
+}
+
+.hero-image {
+	height: 100%;
+	background: url('../img/hero.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.hero-image h1,
+.hero-image h3 {
+	position: absolute;
+	right: 3%;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.8);
+}
+
+.hero-image h1 {
+	top: 70px;
+}
+
+.hero-image h3 {
+	top: 140px;
+}
+
+#slug {
+	max-width: 85%;
+	font-size: 2em;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/***********************************************************
+	Agents Hero
+***********************************************************/
+
+#agents-hero {
+	background: url('../img/people.jpg') no-repeat center;
+	background-size: cover;
+	color: #fff;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+#agents-hero img {
+	max-height: 250px;
+}
+
+#agents-hero h1 {
+	text-shadow: 0 1px 1px rgba(0,0,0,.8);
+}
+
+#agents-hero p {
+	text-shadow: 0 1px 1px rgba(0,0,0,.25);
+	margin-bottom: 10px;
+}
+
+#agents-hero a {
+	color: #fff;
+	background-color: rgba(29,100,151,.9);
+	padding: 7px;
+	font-weight: normal;
+}
+
+#agents-hero a:hover {
+	text-decoration: none;
+}
+
+.agents-hero-background {
+	max-width: 75%;
+	padding-left: 20px;
+}
+
+#table-frontpage table {
+	margin: 0;
+}
+
+#table-frontpage th {
+	vertical-align: middle;
+}
+
+.table-col-center {
+	text-align: center;
+}
+
+.table-col-width {
+	width: 50%;
+}
+
+
+
+/***********************************************************
+	Featured Listings
+***********************************************************/
+
+#featured-listings {
+	position: relative;
+}
+
+.listings-header-text {
+	max-width: 400px;
+	padding: 8px;
+	position: absolute;
+	left: 35px;
+	top: 35px;
+	background-color: rgba(175,45,55,.8);
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+
+.listings-types {
+	max-width: 33.33333333%;
+	float: left;
+	padding-top: 4px;
+	padding-right: 4px;
+}
+
+.listings-types img {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.listings-types p,
+.listings-types h2,
+.listings-types h3 {
+	max-width: 90%;
+	margin-left: 5%;
+}
+
+
+
+/***********************************************************
+	Market Reports
+***********************************************************/
+
+#market-reports {
+	background-color: #D0DDE8;
+}
+
+#market-reports img {
+	max-width: 80%;
+}
+
+.market-reports-topright {
+	padding: 20px;
+	width: 60%;
+	float: right;
+}
+
+.market-reports-topright img {
+	margin: auto;
+}
+
+.market-reports-bottomleft {
+	padding: 20px;
+	width: 40%;
+	float: left;
+}
+
+.market-reports-bottomleft ul {
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 0;
+}
+
+.market-reports-bottomleft ul li:before {
+	color: #AF2D37;
+	content: "\2192 \0020";
+}
+
+.market-reports-bottomleft li a {
+	font-weight: normal;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.market-reports-bottomleft li a:hover {
+	font-weight: bold;
+}
+
+
+/***********************************************************
+	Property Management
+***********************************************************/
+
+#property-mgmt {
+	position: relative;
+}
+
+.management-header-text {
+	max-width: 600px;
+	max-height: 91%;
+	padding: 8px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+	background-color: rgba(224,126,50,.8);
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,1);
+	overflow: hidden;
+}
+
+.management-header-text ul {
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 0;
+}
+
+.management-header-text ul li:before {
+	content: "\2192 \0020";
+}
+
+.management-header-text li a {
+	color: #fff;
+	font-weight: normal;
+}
+
+.management-header-text li a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+/***********************************************************
+	Case Studies
+***********************************************************/
+
+#case-studies {
+	padding: 25px 0 20px;
+	background: 
+		linear-gradient(rgba(29,100,151,.9), rgba(29,100,151,.9)),
+		url('../img/skyline.jpg') no-repeat center;
+	background-color: #1D6497;
+	background-size: cover;
+	color: #fff;
+}
+
+#case-studies h1 {
+	margin: 0 auto 35px;
+	padding: 0;
+	text-align: center;
+}
+
+#case-studies p {
+	color: #fff;
+	font-size: 1.25em;
+	width: 60%;
+	margin: 0 20%;
+	padding: 0;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,.7);
+}
+
+.case-studies_testimonial {
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+
+/***********************************************************
+	Recent News
+***********************************************************/
+
+#news-index {
+	margin-bottom: 50px;
+}
+
+#news-index h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+#news-index a {
+	color: #000;
+}
+
+#news-index a:hover {
+	text-decoration: none;
+	color: #E9B741;
+}
+
+#news-index div {
+	margin-bottom: 30px;
+}
+
+.read-more a {
+	color: pink;
+}
+
+.view-all-articles {
+	text-align: right;
+}
+
+
+
+/***********************************************************
+	Employment
+***********************************************************/
+
+#employment {
+	background: url('../img/employment-bgrd.jpg') no-repeat center;
+	background-size: cover;
+	min-height: 400px;
+	padding: 10px 20px;
+	margin-bottom: -10px;
+}
+
+#employment h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#employment img {
+	float: left;
+	max-width: 300px;
+	margin-right: 20px;
+}
+
+.jobs-content {
+	max-width: 50%;
+	background-color: #1D6497;
+	color: #fff;
+	padding: 5px 15px;
+	margin-top: 20px;
+}
+
+.jobs-content h3 {
+	margin-bottom: 20px;
+}
+
+.jobs-list {
+	position: relative;
+	left: 20px;
+}
+
+.jobs-list a {
+	color: #fff;
+}
+
+
+
+/***********************************************************
+	Footer
+***********************************************************/
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -220px; /* equal to footer height */
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+	height: 220px; /* equal to footer height */
+}
+
+footer {
+	height: 220px;
+	background-color: #6D7276;
+	overflow: hidden;
+	color: #fff;
+	clear: both;
+}
+
+.footer-column {
+	float: left;
+	margin-left: 4%;
+}
+
+.footer-h3 {
+	font-family: 'Domine', serif;
+	font-weight: normal;
+	font-size: 1.3em;
+	margin-bottom: 0;
+}
+
+.footer-links {
+	padding-left: 10px;
+	margin-top: 5%;
+}
+
+.footer-column li {
+	list-style-type: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: .85em;
+	line-height: 1.2;
+}
+
+.footer-column li a,
+.footer-column-right a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-column li a:hover,
+.footer-column-right a:hover {
+	color: #F5DAA2;
+}
+
+.footer-column-right {
+	float: right;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+
+.footer-column-right p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	font-size: .75em;
+	line-height: 1.2;
+	margin-top: 5%;
+	margin-bottom: 8px;
+	padding-left: 10px;
+}
+
+.footer-column-right img {
+	width: 30px;
+	margin-top: 8px;
+}
+
+.copyright {
+	clear: both;
+	font-size: .75em;
+	margin: 0 2% 0 4%;
+	text-align: right;
+}
+
+
+
+/***********************************************************
+	PAGE: services.html, management.html
+***********************************************************/
+
+#services-header {
+	background: url('../img/services.jpg') no-repeat center;
+	background-size: cover;
+	background-color: #f0f0f0;
+	width: 100%;
+	height: 250px;
+}
+
+#services-body {
+	max-width: 85%;
+	margin: 75px auto 50px;
+}
+
+#services-body h1,
+#services-body h2 {
+	color: #1D6497;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+
+#services-body h1 {
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+#services-body h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#services-body h3 {
+	margin-top: 40px;
+	font-size: 1.5em;
+	color: rgba(29,100,151,.6);
+	font-weight: bold;
+	text-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.services-bold {
+	font-weight: 600;
+}
+
+.right-point,
+.arrowbullet,
+.therefore {
+	list-style-type: none;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+
+.right-point > li::before {
+	content: "\203a";
+	margin-right: 5px;
+}
+
+.therefore > li::before {
+	content: "\2234";
+	margin-right: 5px;
+}
+
+.arrowbullet > li::before {
+	content: "\25B8";
+	margin-right: 5px;
+}
+
+.services-values-list {
+	list-style-type: none;
+	margin-top: 50px;
+}
+
+.services-differentiators-list {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.services-values-list img,
+.services-differentiators-list img {
+	display: block;
+	margin: 0 auto 20px;
+	max-height: 100px;
+}
+
+.services-values-list li,
+.services-differentiators-list li {
+	max-width: 31.333333333333333%;
+	margin: 1%;
+	float: left;
+}
+
+.services-values-list h4,
+.services-differentiators-list h4 {
+	color: #fff;
+	background-color: #1D6497;
+	margin-bottom: 0;
+	padding: 10px 5px;
+}
+
+.services-values-list p,
+.services-differentiators-list p {
+	background-color: rgba(225,225,225,.4);
+	height: 100px;
+	margin-top: 0;
+	padding: 5px;
+}
+
+.services-differentiators-list p {
+	height: 170px;
+}
+
+.services-overview-types-list p {
+	height: 225px;
+}
+
+.services-transition {
+	width: 100%;
+	height: 350px;
+	background: url('../img/services-transition.jpg') no-repeat center 70%;
+	background-size: cover;
+	margin-bottom: 60px;
+}
+
+#services-body > .services-overview h2 {
+	margin-bottom: 25px;
+	text-shadow: none;
+	color: #1D6497;
+}
+
+#services-body > .services-overview h3 {
+	margin-bottom: 20px;
+}
+
+#services-body > .services-overview p {
+	max-width: 900px;
+	margin: auto;
+}
+
+.services-overview-list {
+	margin: 10px auto;
+	overflow: hidden;
+	columns: 4;
+	list-style-type: none;
+	max-width: 900px;
+}
+
+.services-overview-list li:before {
+	content: "\00b7";
+	margin-right: 5px;
+}
+
+.services-overview-panel {
+	max-width: 900px;
+	margin: 25px auto;
+}
+
+.panel-title img {
+	margin-right: 5px;
+}
+
+.panel-title a {
+	color: #AF2D37;
+}
+
+.panel-office-services,
+.panel-industrial-services,
+.panel-retail-services {
+	max-width: 100%;
+	height: 250px;
+	margin-bottom: 25px;
+}
+
+.panel-office-services {
+	background: url('../img/stock-office.jpg') no-repeat center 50% fixed;
+	background-size: cover;
+}
+
+.panel-industrial-services {
+	background: url('../img/stock-industrial.jpg') no-repeat center 80% fixed;
+	background-size: cover;
+}
+
+.panel-retail-services {
+	background: url('../img/stock-retail.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+.panel-investment-services,
+.panel-corporate-services,
+.panel-logistics-services {
+	max-width: 100%;
+	height: 350px;
+	margin-bottom: 25px;
+}
+
+.panel-investment-services {
+	background: url('../img/stock-investment.jpg') no-repeat center 70%;
+	background-size: cover;
+}
+
+.panel-corporate-services {
+	background: url('../img/stock-corporate.jpg') no-repeat center 60%;
+	background-size: cover;
+}
+
+.panel-logistics-services {
+	background: url('../img/stock-logistics.jpg') no-repeat center 50%;
+	background-size: cover;
+}
+
+.brok-services-panel {
+	margin-bottom: 90px;
+}
+
+.brok-services-panel .panel-body > p {
+	margin-bottom: 25px;
+}
+
+.brok-services-panel dl {
+	column-width: 400px;
+	column-gap: 45px;
+}
+
+.brok-services-panel dd,
+.corporate-services-breakout dd {
+	margin-bottom: 15px;
+}
+
+.investment-services-breakout,
+.logistics-services-list {
+	margin: 25px 0 50px;
+	background-color: #eff1f2;
+	box-shadow: 0 0 6px rgba(0,0,0,.4);
+}
+
+.investment-services-breakout {
+	padding-bottom: 20px;
+}
+
+.investment-services-breakout h4 {
+	padding: 10px 5px;
+	color: #AF2D37;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.investment-services-breakout p {
+	padding: 5px;
+	margin-bottom: 25px;
+}
+
+.corporate-services-breakout {
+	margin-bottom: 45px;
+}
+
+.corporate-services-breakout dt {
+	color: #AF2D37;
+}
+
+.logistics-services-list {
+	padding: 10px 25px 25px;
+	columns: 3;
+	column-gap: 25px;
+	list-style-type: none;
+}
+
+.logistics-services-list h4 {
+	color: #AF2D37;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	column-span: all;
+	margin-bottom: 15px;
+}
+
+.logistics-services-list li:before {
+	content: "\203a";
+	color: #6D7276;
+	margin-right: 10px;
+}
+
+.email-join h2 {
+	padding-top: 75px;
+}
+
+.email-join span {
+	top: 3px;
+	margin-right: 5px;
+}
+
+.email-signup {
+	margin: 45px auto 25px;
+}
+
+#management-header {
+	background: url('../img/skyline.jpg') no-repeat center 40%;
+	background-size: cover;
+	background-color: #f0f0f0;
+	width: 100%;
+	height: 250px;
+}
+
+.management-services-body {
+	padding: 40px 10px;
+}
+
+.accounting-body {
+	background-color: #E1E1E1;
+}
+
+.management-services-body h3,
+.accounting-body h3,
+.gallery-row h3,
+.mgmt-testimonials-header {
+	color: #1D6497;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2)
+}
+
+.management-row {
+	margin-bottom: 25px;
+}
+
+.accounting-body h4 {
+	color: rgba(29,100,151,.6);
+	text-shadow: 0 1px 1px rgba(0,0,0,.1);
+	margin-top: 30px;
+}
+
+#services-body > h4 {
+	color: rgba(29,100,151,.6);
+	text-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.management-testimonials {
+	max-width: 80%;
+	font-size: 1.5em;
+	font-style: italic;
+	margin: 20px auto auto;
+}
+
+.management-testimonials-credit:before {
+	content:"\2014";
+	margin-left: 30px;
+}
+
+.management-testimonials-credit {
+	max-width: 80%;
+	margin: 10px auto 50px;
+	font-size: 1.25em;
+}
+
+.galleria {
+	width: 100%;
+	height: 600px;
+	background: #000;
+}
+
+.gallery-row h3 {
+	margin-top: 35px;
+	margin-bottom: 5px;
+}
+
+.gallery-row p {
+	margin-bottom: 15px;
+}
+
+/**** Sign Up Form ****/
+.ctct-embed-signup {
+	max-width: 800px;
+	margin: auto;
+}
+
+
+
+/***********************************************************
+	PAGE: brokers.html
+***********************************************************/
+
+.brokers-container {
+	max-width: 90%;
+	min-height: 645px;
+	margin: 20px 5%;
+}
+
+.office-agents a,
+.office-agents a:hover {
+	text-decoration: none;
+	color: #AF2D37;
+}
+
+.office-agents li {
+	background-color: rgba(208,221,232,.3);
+	display: inline-block;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.office-agents img {
+	max-width: 175px;
+}
+
+.office-agents p {
+	padding: 5px 0 0 5px;
+	font-size: 0.9em;
+}
+
+.br-linebreak {
+	display: initial;
+}
+
+
+
+/***********************************************************
+	PAGE: connect.html
+***********************************************************/
+
+#contact-grid {
+	line-height: 1.2;
+	max-width: 85%;
+}
+
+.connect-header {
+	font-family: 'Domine', serif;
+	font-size: 2.5em;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+.connect-header img {
+	max-width: 40px;
+	margin-top: -10px;
+	margin-right: -3px;
+}
+
+#contact-grid h2 {
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+#contact-grid h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#contact-grid p {
+	margin-bottom: 40px;
+}
+
+
+
+/***********************************************************
+	PAGE: listings.html
+***********************************************************/
+
+#directContainer {
+	position: relative;
+	width: 100%;
+	height: 1000px;
+	margin-top: 70px;
+}
+
+.listings-btn-grp {
+	max-width: 100%;
+}
+
+.listings-btn-grp a div:hover {
+	background-color: #1D6497;
+}
+
+.map-button,
+.list-button,
+.advanced-button {
+	width: 30%;
+	height: 50px;
+	background-color: rgba(29,100,151,.5);
+	position: relative;
+	float: left;
+	margin: 10px 1.5%;
+	padding: 12px;
+	border: 2px solid #1D6497;
+	color: #fff;
+	font-size: 1.2em;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+
+.active-button {
+	background-color: #1D6497;
+}
+
+
+
+/***********************************************************
+	PAGE: results.html
+***********************************************************/
+
+.results_content {
+	background: 
+		linear-gradient(rgba(29,100,151,.9), rgba(29,100,151,.9)),
+		url('../results/img/pnc.jpg') no-repeat fixed center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 45px 0 35px;
+	text-align: center;
+}
+
+.results_content h1 {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 auto 75px;
+	text-align: center;
+	color: #fff;
+	border-top: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+}
+
+.results_content p {
+	color: #fff;
+	font-size: 1.3em;
+	width: 60%;
+	margin: 0 20%;
+	padding: 0;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,.7);
+}
+
+.results_byline {
+	text-align: center;
+}
+
+.results_casestudies {
+	margin: 10px auto 70px;
+	text-align: center;
+}
+
+.results_casestudies p {
+	display: inline-block;
+	border: 3px solid;
+	width: inherit;
+	padding: 5px;
+}
+
+
+
+
+/***********************************************************
+	PAGE: privacy.html
+***********************************************************/
+
+.privacy-policy {
+	max-width: 80%;
+	margin: 85px auto 55px;
+}
+
+
+
+
+/***********************************************************
+	PAGE: lima/index.html
+***********************************************************/
+
+.lima-selector h2 {
+	position: relative; 
+	top: 125px; 
+	color: #1D6497; 
+	text-shadow: 1px 1px rgba(0,0,0,.1);
+}
+
+.selector-body-lima {
+	max-width: 90%; 
+	margin: 75px auto 0; 
+	position: relative; 
+	top: 125px;
+}
+
+
+
+
+
+/***********************************************************
+	Media Queries
+***********************************************************/
+
+@media (max-width: 1125px) {
+	.services-differentiators-list p {
+		height: 200px;
+	}
+
+	.services-differentiators-list p,
+	.services-values-list p {
+		font-size: .9em;
+	}
+
+	.services-differentiators-list h4,
+	.services-values-list h4 {
+		font-size: 1em;
+	}
+
+	.galleria {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1030px) {
+	.galleria {
+		height: 400px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.management-header-text {
+		top: 15px;
+		left: 15px;
+	}
+
+	.management-header-text ul {
+		display: block;
+		text-align: center;
+	}
+
+	.management-header-text ul li {
+		display: inline;
+		margin-right: 20px;
+	}
+
+	.management-header-text ul li:before {
+		content: none;
+	}
+
+	.management-header-text li a {
+		padding: 2px;
+	}
+
+	.management-header-text li a:hover {
+		font-weight: normal;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+	}
+
+	.galleria {
+		height: 400px;
+	}
+}
+
+@media (max-width: 900px) {
+	.hero-image h1 {
+		font-size: 2em;
+	}
+
+	.hero-image h3 {
+		font-size: 1.5em;
+		top: 120px;
+	}
+
+	.services-values-list li,
+	.services-differentiators-list li {
+		max-width: 400px;
+		display: block;
+		margin: auto;
+		float: none;
+		text-align: center;
+	}
+
+	.services-differentiators-list p,
+	.services-values-list p {
+		height: inherit;
+		margin-bottom: 50px;
+		text-align: justify;
+		font-size: .9em;
+		padding: 10px;
+	}
+
+	.services-differentiators-list h4,
+	.services-values-list h4 {
+		font-size: 1.2em;
+	}
+
+	.galleria {
+		height: 400px;
+	}
+
+	.lima-selector h2 {
+		top: 0;
+	}
+
+	.selector-body-lima {
+		top: 0;
+	}
+}
+
+@media (max-width: 825px) {
+	#market-reports h1 {
+		font-size: 2em;
+	}
+
+	.market-reports-topright,
+	.market-reports-bottomleft {
+		float: none;
+		width: 100%;
+	}
+
+	#market-reports img {
+		max-width: 60%;
+	}
+
+	#property-mgmt {
+		min-height: 400px;
+		background: url('../img/mgmt.jpg') no-repeat top;
+	}
+
+	#property-mgmt img {
+		display: none;
+	}
+
+	.management-header-text ul {
+		text-align: left;
+	}
+
+	.management-header-text ul li {
+		display: block;
+	}
+
+	.management-header-text ul li:before {
+	content: "\2192 \0020";
+	}
+
+	.management-header-text li {
+		font-size: .9em;
+	}
+
+	#services-body h1 {
+		font-size: 2em;
+	}
+
+	#services-body h2 {
+		font-size: 1.5em;
+	}
+
+	#services-body p {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 777px) {
+	#slug {
+		font-size: 1.5em;
+	}
+
+	#service-descriptions img,
+	#service-descriptions h3 {
+		display: inline;
+		margin: 0 10px 20px 0;
+	}
+
+	#service-descriptions ul {
+		margin-bottom: 20px;
+	}
+
+	.hero-image h1 {
+		font-size: 1.8em;
+		top: 60px;
+	}
+
+	.hero-image h3 {
+		font-size: 1.4em;
+		top: 110px;
+	}
+
+	.office-agents img {
+		max-width: 125px;
+	}
+
+	.office-agents a {
+		font-size: .9em;
+	}
+
+	.br-linebreak {
+		display: none;
+	}
+
+	.galleria {
+		height: 400px;
+	}
+
+	.gallery-row {
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.hero-image h1 {
+		font-size: 1.5em;
+	}
+
+	.hero-image h3 {
+		font-size: 1.3em;
+		top: 110px;
+	}
+}
+
+@media (max-width: 500px) {
+	.hero-image h1 {
+		font-size: 1.15em;
+		top: 70px;
+	}
+
+	.hero-image h3 {
+		font-size: 1em;
+		top: 100px;
+	}
+
+	#agents-hero h1 {
+		font-size: 1.8em;
+	}
+
+	.text-left {
+		font-size: 1.5em;
+	}
+
+	#table-frontpage {
+		font-size: .75em;
+	}
+
+	.listings-header-text {
+		top: 10px;
+		left: 20px;
+	}
+
+	.listings-types {
+		max-width: 100%;
+	}
+
+	.listings-types h2 {
+		font-size: 1.75em;
+	}
+
+	#property-mgmt {
+		min-height: 500px;
+		background: url('../img/mgmt.jpg') no-repeat top;
+	}
+
+	#property-mgmt h1,
+	#case-studies h1,
+	#news-index h1 {
+		font-size: 2em;
+	}
+
+	#property-mgmt p {
+		text-shadow: 0 1px 1px rgba(0,0,0,.1);
+	}
+
+	.management-header-text li {
+		font-size: .9em;
+	}
+
+	#case-studies p {
+		width: 80%;
+		margin: auto;
+	}
+
+	#news-index h3 {
+		font-size: 1.5em;
+	}
+
+	.to-hide {
+		display: none;
+	}
+
+	.office-agents img {
+		max-width: 100px;
+	}
+
+	.office-agents a {
+		font-size: .75em;
+	}
+
+	#services-body h1 {
+		font-size: 1.5em;
+	}
+
+	#services-body h2 {
+		font-size: 1em;
+	}
+
+	#services-header {
+		height: 150px;
+	}
+
+	.services-differentiators-list p,
+	.services-values-list p {
+		height: inherit;
+		padding: 10px;
+	}
+
+	.connect-header span {
+		font-size: .9em;
+	}
+
+	.connect-header img {
+		max-width: 30px;
+	}
+
+	.jobs-content {
+		max-width: 100%;
+	}
+
+	.jobs-content h3 {
+		font-size: 1.3em;
+	}
+
+	.to-show {
+		display: initial;
+	}
+
+	.galleria {
+		height: 350px;
+	}
+
+	.gallery-row {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

@@ -1,0 +1,69 @@
+- var titleContent = "NAI Ohio Equities | Bob Sutton"
+- var metaContent = "Bob Sutton is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Robert C Sutton, CPM", "Senior Property Manager", "614-629-5204", "bsutton", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/robert-c-sutton-cpm-7225684/", "rsutton", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Commercial Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Bob has been involved with Commercial Real Estate since 1986. He has worked in all facets of the industry, including development, construction, acquisition, ownership, management, foreclosures and sales. Bob has also managed all types of property to include suburban office, downtown high-rise office, industrial, retail, condominiums and apartments in Central Ohio and Central Florida.
+								hr
+								h5 Why did you get into Commercial Real Estate?
+								p I was recruited into the profession when I left active military service.
+								h5 Where do you like to vacation?
+								p Any place with activities and where I have never been before.
+								h5 What is a favorite pastime you enjoy?
+								p Genealogy and reading (military history, finance, business)
+								h5 Who are your favorite sports teams?
+								p Anything Georgia Tech. Go Jackets!
+				.broker-bio-right
+					h4 Education
+					p BS, Engineering Science and Mechanics
+						br
+						| Georgia Institute of Technology, 1973
+						br
+						br
+						| MBA, Finance and Accounting
+						br
+						| University of Chicago, 1978
+					h4 Awards & Recognition
+					p Certified Property Manager, IREM
+						br
+						| 2015 Member of the Year, BOMA Columbus
+					h4 Membership
+					p National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+						br
+						| Building Owners and Managers Association (BOMA)
+						br
+						| Institute of Real Estate Management (IREM)
+					h4 Top Clients
+					p Stanley Black and Decker, Inc
+						br
+						| ABB, Inc
+						br
+						| Heyman Advisors
+						br
+						| C-III Asset Management
+						br
+						| Like Oak Properties
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

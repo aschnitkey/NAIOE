@@ -1,0 +1,36 @@
+- var titleContent = "NAI Ohio Equities | Jackie Shipley"
+- var metaContent = "Jackie Shipley is an administrative assistant at NAI Ohio Equities where she provides support for several commercial real estate agents."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Jackie Shipley", "Administrative Assistant", "614-629-5219", "jshipley", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/jackie-shipley-29572a43/", "jshipley", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Jackie originally joined the NAI Ohio Equities team in December 2000 as an Administrative Assistant. She pursued other opportunities for a few years and returned in 2012. Jackie provides marketing and administrative support to agents for various projects and assignments, including the creation and development of Sales and Lease Flyer, Offering Memorandums and Broker Opinions of Value.
+								hr
+								h5 Where do you like to vacation?
+								p I love to vacation in North Carolina. North Carolina offers a diverse array of activities for whatever adventure you may be planning.
+								h5 What is a favorite pastime you enjoy?
+								p Photography. I’m the one that usually has a camera stuck in somebody’s face or I’m yelling “Wait, wait – we need to get a picture of this.”
+								h5 Who are your favorite sports teams?
+								p Seattle Seahawks and Columbus Clippers
+				.broker-bio-right
+					h4 Education
+					p Columbus State Community College
+					h4 Specialties
+					p Microsoft Office Specialist in Word 2013
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

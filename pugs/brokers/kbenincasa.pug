@@ -1,0 +1,117 @@
+- var titleContent = "NAI Ohio Equities | Kim Benincasa"
+- var metaContent = "Kim Benincasa is a commercial real estate agent at NAI Ohio Equities where she represents office and retail clients throughout Columbus and the central Ohio region."
+include ../../mixins/brokers-bio.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio("Kim Benincasa", "Commercial Real Estate Agent", "614-629-5280", "740-819-4619", "kbenincasa", "naiohioequities", "instagram", "https://www.linkedin.com/in/kim-benincasa-6a24656", "kbenincasa", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Eastern Ohio Market
+						br
+						| Industrial
+						br
+						| Office
+						br
+						| Retail Sales and Leasing
+						br
+						| Land Acquisition and Development
+						br
+						| Investment Sales
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/rfallert.html")
+							strong Ruth Fallert
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:rfallert@ohioequities.com") rfallert@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5294
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Born and raised in Southeastern Ohio, and licensed since 2001, with extensive market knowledge, key relationships and strong community ties, Kim brings that extra something to each and every transaction.  Kim believes that the client relationship is the most important aspect of her job and that repeat customers and client referrals are by far the best testimonials.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I have been fascinated and involved in real estate in one way or another for most of my life. My mother was in property management and I married into and participated in a family owned business which was expanded multiple times over the years and eventually, sold to a fortune 100 Company. During that time, I was privileged to tour facilities all over the country and forge wonderful relationships which continue to serve me in my real estate career today.
+								h5 Why did you decide to make Columbus your home?
+								p I actually followed my 3 daughters who all chose Columbus as their new home directly out of college. What a great place to live and work...always something to do.  Emerging markets and redeveloping old ones…it’s so fun to watch the metamorphosis. Arts.. Food…Shopping…Sports…what’s not to love about that?!
+								h5 Where do you like to vacation?
+								p I love to travel to new cities.  I love walking around downtown, taking in the sites and admiring the architecture, finding restaurants and local points of interest. Also, anywhere with a beach (no explanation needed).
+								h5 What is a favorite pastime you enjoy?
+								p Golf, gardening, painting, interior decorating.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "kbenincasa@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/lillibridge.png", alt="Lillibridge Healthcare Logo")
+									li: img.img-responsive(src="../img/logos/gannett.png", alt="Gannett logo")
+									li: img.img-responsive(src="../img/logos/pendaform.png", alt="Pendaform logo")
+									li: img.img-responsive(src="../img/logos/lumilite.png", alt="Lumi-Lite logo")
+									li: img.img-responsive(src="../img/logos/fyda.png", alt="Fyda Freighters logo")
+									li: img.img-responsive(src="../img/logos/huntington.png", alt="Huntington Bank logo")
+									li: img.img-responsive(src="../img/logos/northvalleybank.png", alt="North Valley Bank logo")
+									li: img.img-responsive(src="../img/logos/centurynationalbank.png", alt="Century National Bank logo")
+									li: img.img-responsive(src="../img/logos/westportcapital.png", alt="Westport Capital")
+								h4 Transactions
+								ul#transactions-list
+									li Holiday Inn Express
+									li Rural King
+									li Fyda Freightliners
+									li Panera
+									li Mattress Firm
+									li Popeye's Chicken
+									li Huntington National Bank
+									li Century National Bank
+									li Genesis Healthcare
+									br
+									p
+										a(href="transactions/kbenincasa.pdf", target="_blank") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/plarrimer/2017-08-22.pdf", target="_blank") 373 acres of development land for sale south of Columbus (August 22, 2017)
+									li: a(href="http://www.bizjournals.com/columbus/print-edition/2015/04/17/people-to-know-kim-benincasa.html", target="_blank") People to Know: Kim Benincasa (April 17, 2016)
+				.broker-bio-right
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| Zanesville Board of REALTORS&reg;
+						br
+						| Internation Council of Shopping Centers (ICSC)
+					h4 Community Involvement
+					p Zane State College Foundation
+						br
+						| Genesis Healthcare Foundation
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

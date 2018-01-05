@@ -1,0 +1,50 @@
+- var titleContent = "NAI Ohio Equities | Mark Wengerd"
+- var metaContent = "Mark Wengerd is Chief Financial Officer at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Mark A. Wengerd", "Chief Financial Officer", "614-629-5253", "mwengerd", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/mark-wengerd-a6201412/", "mwengerd", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Awards & Recognition
+					p Certified Public Accountant (non-active)
+					h4 Membership
+					p CFO Network
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Mark Wengerd has over 30 years of experience in commercial real estate finance and accounting. Mark started with NAI Ohio Equities in 1993 and is responsible for overseeing the accounting department and financial direction of the company. Mark also is responsible for the Human Resource and benefits department.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p While attending OSU I realized what a great city Columbus is.
+								h5 What is your favorite neighborhood/area of Columbus?
+								p My favorite neighborhood is Upper Arlington. I like the proximity to downtown Columbus, mature trees and the small town feel.
+								h5 Where do you like to vacation?
+								p My family and I alternate every year between beach vacations and action/siteseeing vacations. We try to go someplace different every year.
+								h5 What is a favorite pastime you enjoy?
+								p My favorite pastime is golf.
+								h5 Who are your favorite sports teams?
+								p The Ohio State Buckeyes, Cleveland Browns, and Cleveland Indians.
+				.broker-bio-right
+					h4 Education
+					p BS, Business Administration
+						br
+						| The Ohio State University, 1983
+						br
+						| Max M Fisher College of Business
+					h4 Community Involvement
+					p Mercator Charities, Past President, Board Member
+						br
+						| St. Thomas More Catholic Church, Finance Committee
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

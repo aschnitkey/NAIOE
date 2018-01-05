@@ -1,0 +1,71 @@
+- var titleContent = "NAI Ohio Equities | Kim Bock"
+- var metaContent = "Kim Bock is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-miranova("Kim Bock", "Senior Property Manager", "614-737-4417", "kim", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/kim-bock-0933852/", "kbock", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Multi-Site Management
+						br
+						| Financial Planning & Budgeting
+						br
+						| Team Building and Development
+						br
+						| Goal Setting & Prioritization
+						br
+						| Asset Management
+						br
+						| Contract Negotiations & Administration
+						br
+						| Policy & Procedure Development
+						br
+						| Client Relations Management
+						br
+						| Project Management
+						br
+						| Marketing
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Kim is the Property Manager of the luxury high-rise, Miranova, located in downtown Columbus, Ohio. The building includes 113 condos and a vast array of amenities. She is responsible for the on-site management and supervision of the facility, which includes staffing, budgeting, board of directors, resident relations and day-to-day operations.
+								p Previously, Kim managed an 18-story, luxury high-rise in Nashville, Tennessee. She has worked in the property management field for over 27 years and has held various positions with Fortune 500 companies including Camden Property Trust, Equity Residential and Montecito Property Company.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I grew up outside of Columbus on a farm in Madison County.  I moved to Arizona and Nashville for a few years and ultimately came home to be close to my family.
+								h5 What is your favorite neighborhood of Columbus?
+								p My favorite area of Columbus is German/Merion/Schumacher Village. It’s where I live and exemplifies a strong sense of community.
+								h5 Where do you like to vacation?
+								p The beach. I love the ocean, sunrise, and sunset.
+								h5 What is your favorite hidden gem in Columbus?
+								p Elm & Iron!!!
+				.broker-bio-right
+					h4 Education
+					p BS, Finance
+						br
+						| Franklin University, 1989
+					h4 Membership &amp; Certification
+					p National Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+						br
+						| High-Rise Safety Certified
+					h4 Community Involvement
+					p Merion Village Association
+						br
+						| Community Outreach
+						br
+						| Dog Rescue Pet Runs
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

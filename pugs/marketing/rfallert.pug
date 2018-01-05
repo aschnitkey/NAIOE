@@ -1,0 +1,40 @@
+- var titleContent = "NAI Ohio Equities | Ruth Fallert"
+- var metaContent = "Ruth Fallert is an administrative assistant at NAI Ohio Equities where she works closely with the Retail Services Team along with other agents."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Ruth Fallert", "Administrative Assistant", "614-629-5294", "rfallert", "retailteamus", "retailteamus", "https://www.linkedin.com/in/rfallert/", "rfallert", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Ruth joined the NAI Ohio Equities team in November 2007 as an Administrative and Marketing Assistant. With a hard-working attitude Ruth learned what it takes to provide excellent customer service to her assigned agents and their clients. Her responsibilities have given her strong skills including organization, marketing, research and advanced computer applications. To enhance her role, Ruth became a notary public and a licensed real estate salesperson. Ruth was previously employed in the commercial insurance industry where she had a proven record as an exceptional employee receiving multiple promotions and awards. Ruth held a variety of positions supporting mid-level management as well as holding supervisory, technical and support positions.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I have always been interested in real estate and had been exposed to some areas of commercial real estate in past occupations.  I liked the diversity of the position and the challenge of learning a new career.
+								h5 What is your favorite neighborhood/area of Columbus?
+								p My favorite neighborhood of Columbus is German Village.  I love the historic architecture, brick streets, and pretty gardens.
+								h5 What is a favorite pastime you enjoy?
+								p I greatly enjoy spending time with my grandchildren.
+								h5 What is your favorite hidden gem in Columbus?
+								p One of my favorite gems in Columbus is the Topiary Park.
+				.broker-bio-right
+					h4 Membership
+					p National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Columbus REALTORS&reg;
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
