@@ -278,8 +278,9 @@ li a:hover {
 
 
 #whats-trending2 {
-	background: url('../img/trending.jpg') no-repeat;
+	background: url('../img/trending2.jpg') no-repeat;
 	background-size: cover;
+	padding-right: 55px;
 }
 
 #whats-trending2 h1 {
@@ -299,7 +300,7 @@ li a:hover {
 .whats-trending2-body {
 	background: #fff;
 	padding: 20px;
-	margin: 35px 35px 35px 0;
+	margin: 35px 0 75px;
 	border: 3px solid #6D7276;
 }
 
