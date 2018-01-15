@@ -248,8 +248,9 @@ li a:hover {
 ***********************************************************/
 
 #whats-trending {
-	background: url('../img/trending.jpg') no-repeat;
+	background: url('../img/trending2.jpg') no-repeat;
 	background-size: cover;
+	padding-right: 55px;
 }
 
 #whats-trending h1 {
@@ -267,37 +268,6 @@ li a:hover {
 }
 
 .whats-trending-body {
-	background: rgba(255,255,255,.8);
-	padding: 20px;
-	margin: 0 50px 35px 50px;
-	border: 2px solid #AF2D37;
-}
-
-
-
-
-
-#whats-trending2 {
-	background: url('../img/trending2.jpg') no-repeat;
-	background-size: cover;
-	padding-right: 55px;
-}
-
-#whats-trending2 h1 {
-	display: inline-block;
-	background: #fff;
-	font-weight: normal;
-	margin: 35px 50px;
-	padding: 25px;
-}
-
-#whats-trending2 h1 span {
-	color: #AF2D37;
-	font-weight: bold;
-	text-shadow: 0 1px 1px rgba(0,0,0,.3);
-}
-
-.whats-trending2-body {
 	background: #fff;
 	padding: 20px;
 	margin: 35px 0 75px;
@@ -1249,6 +1219,10 @@ footer {
 	.galleria {
 		width: 100%;
 	}
+
+	#whats-trending h1 {
+		margin-left: 15px;
+	}
 }
 
 @media (max-width: 1030px) {
@@ -1289,6 +1263,22 @@ footer {
 
 	.galleria {
 		height: 400px;
+	}
+
+	#whats-trending h1 {
+		margin-left: 0px;
+		padding: 15px;
+	}
+
+	#whats-trending {
+		padding-right: 35px;
+	}
+}
+
+@media (max-width: 992px) {
+	#whats-trending {
+		padding-left: 35px;
+		padding-right: 35px;
 	}
 }
 
@@ -1434,6 +1424,14 @@ footer {
 
 	.gallery-row {
 		padding: 0 10px;
+	}
+
+	#whats-trending h1 {
+		margin-bottom: 15px;
+	}
+
+	.whats-trending-body {
+		margin-top: 15px;
 	}
 }
 
