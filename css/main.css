@@ -254,7 +254,7 @@ li a:hover {
 ***********************************************************/
 
 #whats-trending {
-	background: url('../img/trending2.jpg') no-repeat;
+	background: url('../img/trending.jpg') no-repeat;
 	background-size: cover;
 	padding-right: 55px;
 }
