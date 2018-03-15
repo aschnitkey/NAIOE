@@ -1,0 +1,38 @@
+- var titleContent = "NAI Ohio Equities | Ali Calori"
+- var metaContent = "Ali Calori is a marketing assistant at NAI Ohio Equities where she assists members of the brokerage team in marketing and general day to day administrative tasks."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Ali Calori", "Marketing Assistant", "614-629-5294", "acalori", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/ali-calori-99bba8a9/", "acalori", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Community Involvement
+					p Six-Word Memoir Volunteer 
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Ali is originally from Hudson, Ohio and moved to Columbus after earning her degree in Creative Writing &amp; English Literature from Ohio University. Her previous positions include a Marketing &amp; Communications Fellowship with the Ohio Arts Council and working with the Marketing &amp; Special Events Team for Columbus Recreation and Parks Department. Ali enjoys writing, reading, running, and traveling in her free time. 
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I originally decided to make Columbus my home because of my fellowship, but quickly realized all of the unique opportunities that came with the city. I’ve found myself surrounded by a swarm of innovative peers and found a community that I feel fully invested in. Watching the city grow, shift, and expand is truly remarkable to be a part of.
+								h5 Where do you like to vacation?
+								p I love New York City. The chaos is so exciting! My favorite aspect of New York is how each borough has its own flavor and unique character.
+								h5 What is a favorite pastime you enjoy?
+								p My favorite pastime has to be reading. I grew up in a home where my parents constantly surrounded us with literature and I’ve found it’s one of the best ways for me to relax. One of my favorite feelings is when I can sink into a story and feel empowered by what I’m reading.
+				.broker-bio-right
+					h4 Education
+					p BA, Creative Writing &amp; English Literature
+						br
+						| Ohio University, 2015
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
