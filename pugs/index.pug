@@ -172,10 +172,9 @@ html(lang="en")
 				.jobs-content
 					h3 Employment Opportunities
 					p NAI Ohio Equities is hiring. If you are looking for employment with our company and fit the requirements we are looking for, we would love to meet you. Please review any job openings below, and if interested, please contact us via the methods specified in the job listings or send your resume to <a href="mailto:employment@ohioequities.com" target="_blank"><span style="color: #fff; text-decoration: underline;">employment@ohioequities.com.</span></a> Thanks!
-					ul.jobs-list
-						a(href="downloads/jobs/property_manager.pdf", target="_blank"): li Property Manager
-						a(href="downloads/jobs/assistant_property_manager.pdf", target="_blank"): li Assistant Property Manager
-						a(href="downloads/jobs/maintenance_tech.pdf", target="_blank"): li Maintenance Tech
+					.indeedjobs-widget(data-id="ff4755848bf012bdedf0", data-theme="dark", data-height="320")
+					script.
+						(function(d, id) { if (d.getElementById(id)) return; var js = d.createElement('script'); js.id = id; js.src = 'https://www.indeedjobs.com/widget.js'; d.head.appendChild(js); })(document, 'indeedjobs-js');
 		include ../includes/footer.pug
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
 		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
