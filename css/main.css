@@ -160,7 +160,7 @@ li a:hover {
 
 .hero-image {
 	height: 100%;
-	background: url('../img/hero.jpg') no-repeat center;
+	background: url('../img/hero2018apr.jpg') no-repeat /*center*/;
 	background-size: cover;
 }
 
@@ -168,25 +168,25 @@ li a:hover {
 .hero-image h3 {
 	position: absolute;
 	right: 3%;
-	color: #fff;
-	text-shadow: 0 1px 1px rgba(0,0,0,.8);
+	color: #000;
+	text-shadow: 0 1px 1px rgba(255,255,255,1);
 }
 
-.hero-image h1 {
+/*.hero-image h1 {
 	top: 70px;
 }
 
 .hero-image h3 {
 	top: 140px;
-}
+}*/
 
-/*.hero-image h1 {
+.hero-image h1 {
 	top: 65px;
 }
 
 .hero-image h3 {
 	top: 130px;
-}*/
+}
 
 #slug {
 	max-width: 85%;
@@ -1291,6 +1291,17 @@ footer {
 }
 
 @media (max-width: 992px) {
+
+	.hero-image h1 {
+		font-size: 2em;
+		top: 50px;
+	}
+
+	.hero-image h3 {
+		font-size: 1.5em;
+		top: 90px;
+	}
+
 	#whats-trending {
 		padding-left: 35px;
 		padding-right: 35px;
@@ -1298,15 +1309,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-	.hero-image h1 {
-		font-size: 2em;
-	}
-
-	.hero-image h3 {
-		font-size: 1.5em;
-		top: 120px;
-	}
-
 	.services-values-list li,
 	.services-differentiators-list li {
 		max-width: 400px;
@@ -1413,12 +1415,10 @@ footer {
 
 	.hero-image h1 {
 		font-size: 1.8em;
-		top: 60px;
 	}
 
 	.hero-image h3 {
 		font-size: 1.4em;
-		top: 110px;
 	}
 
 	.office-agents img {
@@ -1452,28 +1452,35 @@ footer {
 
 @media (max-width: 600px) {
 	.hero-image h1 {
-		font-size: 1.5em;
+		font-size: 1.7em;
+		top: 500px;
+		color: #fff;
+		text-shadow: 0 1px 1px rgba(0,0,0,.9);
 	}
 
 	.hero-image h3 {
-		font-size: 1.3em;
-		top: 110px;
+		font-size: 1.5em;
+		top: 530px;
+		color: #fff;
+		text-shadow: 0 1px 1px rgba(0,0,0,.9);
 	}
 }
 
 @media (max-width: 500px) {
 	.hero-image h1 {
 		font-size: 1.15em;
-		top: 70px;
 	}
 
 	.hero-image h3 {
 		font-size: 1em;
-		top: 100px;
 	}
 
 	#agents-hero h1 {
 		font-size: 1.8em;
+	}
+
+	#slug p {
+		font-size: .7em;
 	}
 
 	.text-left {
