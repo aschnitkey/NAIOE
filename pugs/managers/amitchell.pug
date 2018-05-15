@@ -1,0 +1,57 @@
+- var titleContent = "NAI Ohio Equities | Alissha Mitchell"
+- var metaContent = "Alissha Mitchell is a property manager with NAI Ohio Equities where she is responsible for the management of medical office buildings."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Alissha Mitchell", "Property Manager", "614-224-2400", "amitchell", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/ssbyam/", "amitchell", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+						br
+						| Medical Office Building Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Alissha Mitchell joined NAI Ohio Equities to manage medical office buildings after managing a 17-story high-rise condominium near the downtown area for Towne Properties over the last 3 years. She has nearly 23 years in property management, managing luxury, class-A portfolios in residential and mixed use. She has worked in training and development, sales and operations and private consulting for several firms in the area. She enjoys managing commercial systems and complex projects and delivering exceptional service to clients big or small. A native of Columbus, Alissha and her husband Brian have five children ages 7-20, and joke often their real jobs start the minute they get home.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I was born and raised in Columbus.
+								h5 What is your favorite neighborhood/area of Columbus?
+								p I love Grandview because of the walkability of shops, dining, and entertainment. It has always endeared me to the area.
+								h5 Where do you like to vacation?
+								p Beach, beach, and more beach. I am not picky!
+								h5 What is your favorite hidden gem in Columbus?
+								p I love the Bexley Bed and Breakfast. They have hosted some of our most special guests, family and friends and as a getaway from the kids, you can’t go wrong.
+				.broker-bio-right
+					h4 Education
+					p BA, English
+						br
+						| The Ohio State University, 2014
+						br
+						br
+						| BA, Business Administration
+						br
+						| Ohio Dominican University
+					h4 Industry Awards &amp; Recognition
+					p Rising Star, Columbus Board of Realtors, 2015
+						br
+						| On-site Manager of the Year 2015, Towne Properties
+					h4 Membership
+					p Columbus REALTORS&reg;
+					h4 Community Involvement
+					p Capital Area Humane Society, Volunteer
+						br
+						| Former Member of the Bexley Board of Education, 2015-2017
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
