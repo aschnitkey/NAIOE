@@ -429,7 +429,7 @@ li a:hover {
 
 #case-studies {
 	padding: 25px 0 20px;
-	background: 
+	background:
 		linear-gradient(rgba(29,100,151,.9), rgba(29,100,151,.9)),
 		url('../img/skyline.jpg') no-repeat center;
 	background-color: #1D6497;
@@ -1129,7 +1129,7 @@ footer {
 ***********************************************************/
 
 .results_content {
-	background: 
+	background:
 		linear-gradient(rgba(29,100,151,.9), rgba(29,100,151,.9)),
 		url('../results/img/pnc.jpg') no-repeat fixed center;
 	background-size: cover;
@@ -1195,16 +1195,16 @@ footer {
 ***********************************************************/
 
 .lima-selector h2 {
-	position: relative; 
-	top: 125px; 
-	color: #1D6497; 
+	position: relative;
+	top: 125px;
+	color: #1D6497;
 	text-shadow: 1px 1px rgba(0,0,0,.1);
 }
 
 .selector-body-lima {
-	max-width: 90%; 
-	margin: 75px auto 0; 
-	position: relative; 
+	max-width: 90%;
+	margin: 75px auto 0;
+	position: relative;
 	top: 125px;
 }
 
@@ -1394,7 +1394,28 @@ footer {
 	}
 
 	#services-body p {
-		font-size: .9em;
+		font-size: 1em;
+	}
+
+	.services-transition {
+		height: 250px;
+	}
+
+	.panel-office-services,
+	.panel-industrial-services,
+	.panel-retail-services {
+		background-attachment: scroll;
+	}
+
+	.panel-investment-services,
+	.panel-corporate-services,
+	.panel-logistics-services {
+		height: 250px;
+		background-size: contain;
+	}
+
+	.logistics-services-list {
+		columns: 1;
 	}
 }
 
@@ -1411,6 +1432,10 @@ footer {
 
 	#service-descriptions ul {
 		margin-bottom: 20px;
+	}
+
+	.services-overview-list {
+		columns: 1;
 	}
 
 	.hero-image h1 {
@@ -1542,14 +1567,6 @@ footer {
 
 	.office-agents a {
 		font-size: .75em;
-	}
-
-	#services-body h1 {
-		font-size: 1.5em;
-	}
-
-	#services-body h2 {
-		font-size: 1em;
 	}
 
 	#services-header {
