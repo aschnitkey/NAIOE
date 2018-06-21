@@ -1,0 +1,53 @@
+- var titleContent = "NAI Ohio Equities | Kelly Frey"
+- var metaContent = "Kelly Frey is a marketing assistant at NAI Ohio Equities where she specializes in assisting agents in the marketing, communication, and organization of their listings."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Kelly Frey", "Marketing Assistant", "614-629-5294", "kfrey", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/kellyfrey/", "kfrey", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Education
+					p BA, English
+						br
+						| The Ohio State University, 2014
+						br
+						br
+						| Real Estate License
+						br
+						| Hondros College, 2004
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Kelly brings over 13 years of in-depth real estate knowledge to the team. Kelly is an Ohio native and is licensed in the state of Ohio and has worked both sides of the desk; as a top producing residential agent and as an executive administrator. Overseeing communications with external partners regarding promotions and marketing, client relationship management through email and social media, and designing agent centric systems are strong skills Kelly brings to our company. From beginning to end Kelly is involved in delivering world class marketing and service for her team of agents.
+								hr
+								h5 What is your favorite neighborhood of Columbus?
+								p Lewis Center for the wonderful shopping that Polaris Fashion Mall offers.
+								h5 Where do you like to vacation?
+								p I enjoy vacationing the coast of California. The diversity of each city makes every day a new adventure.
+								h5 Who are your favorite sports teams?
+								p Cleveland Cavs!
+				.broker-bio-right
+					h4 Industry Awards &amp; Recognition
+					p CYP Club, Young Professional Network
+						br
+						| Licking County Chamber of Commerce 
+					h4 Community Involvement
+					p Stop the Suffering - Animal Rescue (62 hours)
+						br
+						| Heath Nursing Care Center (16,420 hours)
+						br
+						| Special Olympics (155 hours)
+						br
+						| American Heart Walk (46 hours)
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
