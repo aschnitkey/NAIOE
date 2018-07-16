@@ -1,0 +1,38 @@
+- var titleContent = "NAI Ohio Equities | Steven Jankowski"
+- var metaContent = "Steven Jankowski is marketing and social media intern for the Sheeran Semon Team at NAI Ohio Equities."
+include ../../extends/social-website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Steven Jankowski", "Marketing and Social Media Intern", "614-629-5261", "sjankowski", "SheeranSemonCRE", "NAIOhioEquities", "https://www.linkedin.com/in/steven-jankowski-6a816714b/", "sjankowski", "https://www.sheeransemonteam.com/")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial Warehouse Investment with Sheeran Semon Team
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Steven joined the Sheeran Semon Team in November of 2018 as a marketing and social media intern. He is currently studying in his senior year at Ohio Dominican University to earn a Bachelor's Degree in Public Relations and Marketing Communications. Steven assists the team with the creation of marketing/ social media pieces, as well as research and prospecting information.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I decided to make Columbus home because of the rapid growth and exciting opportunities there are in all major industries. I grew up in Cincinnati, but Columbus has a completely different feeling to it.
+								h5 Where do you like to vacation?
+								p I love to vacation in Northern Michigan. My favorite spots are Traverse City, and Harbor Springs. Northern Michigan is the perfect combination of being on the water, with perfect weather during the summer.
+								h5 What is a favorite pastime you enjoy?
+								p I am an avid golfer in my free time. I am always looking for new and exciting courses to play in Columbus, which has so many world-class courses to choose from being in such a historic city for golf.
+				.broker-bio-right
+					h4 Education
+					p BA, Public Relations &amp; Marketing Communications
+						br
+						| Ohio Dominican University, Projected Graduation Date: Spring, 2019
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

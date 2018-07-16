@@ -1,0 +1,44 @@
+- var titleContent = "NAI Ohio Equities | Katie Kasas"
+- var metaContent = "Katie Kasas is a property manager with NAI Ohio Equities where she specializes in tenant communication, vendor relations, budgeting, maintenance projects, and day-to-day operations."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Katie Kasas", "Property Manager", "614-629-5204", "kkasas", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/katie-kasas-a49255102/", "kkasas", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+						br
+						| Office Building Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Katie has been managing commercial properties since 2015. She is experienced in managing office, flex, retail and industrial spaces. Her responsibilities include tenant communication, vendor relations, budgeting, maintenance projects and day to day operations. Katie enjoys problem salving and achieving results with effective communication and a positive attitude. 
+								hr
+								h5 Where do you like to vacation?
+								p I love to travel everywhere of anywhere, especially if there’s a beach.  I enjoy traveling to see new places, learning about cultures and have new experiences. 
+								h5 Who are your favorite sports teams?
+								p Ohio State Buckeyes
+								h5 What is your favorite hidden gem in Columbus?
+								p Sideswipe Brewing
+				.broker-bio-right
+					h4 Education
+					p Associates Degree, 2014
+						br
+						| Columbus State Community College
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| BOMA
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
