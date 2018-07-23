@@ -1,0 +1,46 @@
+- var titleContent = "NAI Ohio Equities | Lacey Hagan"
+- var metaContent = "Lacey Hagan is an Assistant Property Manager in the New Albany Office overseeing a portfolio of commercial buildings that includes manufacturing, office, retail and restaurant spaces."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Lacey Hagan", "Assistant Property Manager", "614-939-8600", "lhagan", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/laceyhagan/", "lhagan", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Membership
+					p Columbus REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+						br
+						| Ohio Association of REALTORS&reg;
+						br
+						| Women's Council of REALTORS&reg; Columbus
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Lacey Hagan is an Assistant Property Manager in the New Albany Office overseeing a portfolio of commercial buildings that includes manufacturing, office, retail and restaurant spaces. Her responsibilities also include nine homeowner associations in New Albany and Dublin that are comprised of approximately 6,000+ homes in premier single family residential communities. She serves as liaison to four Architectural Review Committees and assists with over $6,000,000.00 in annual budgeting. Her educational background is from Bowling Green and she is a member of the Columbus Board of Realtors, Ohio Association of Realtors and the National Association of Realtors.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I moved to Columbus because I love the centralized location, and most importantly the development and growth this city has to offer. There are ample opportunities in Columbus to grow as a professional and entrepreneur, Columbus is always expanding.
+								h5 Where do you like to vacation?
+								p Locally, I enjoy getting away for the weekend and going to Lake Hope in Hocking Hills. Great trails to hike and beautiful scenery.
+								h5 What is a favorite pastime that you enjoy?
+								p Anything outdoors, I love working out and hiking. Love trying new restaurants and cooking.
+								h5 Who are your favorite sports teams?
+								p Columbus Blue Jackets and Cincinnati Reds.
+				.broker-bio-right
+					h4 Education
+					p BA, Geography
+						br
+						| 2016, Bowling Green State University
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
