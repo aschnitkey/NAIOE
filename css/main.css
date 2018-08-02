@@ -1191,7 +1191,7 @@ footer {
 
 
 /***********************************************************
-	PAGE: lima/index.html
+	PAGE: Selectors for multi-listing portfolios
 ***********************************************************/
 
 .lima-selector h2 {
@@ -1206,6 +1206,14 @@ footer {
 	margin: 75px auto 0;
 	position: relative;
 	top: 125px;
+}
+
+.camden-selector-ul {
+	text-align: center;
+}
+
+.camden-selector-ul li img {
+	max-width: 300px;
 }
 
 
