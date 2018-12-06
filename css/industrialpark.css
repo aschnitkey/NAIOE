@@ -14,7 +14,7 @@
 ***********************************************************/
 
 #industrialpark-header {
-	background: url('../results/img/industrialpark.jpg') no-repeat left 55%;
+	background: url('../results/img/industrialpark.webp') no-repeat left 55%;
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -50,10 +50,10 @@
 	padding: 0;
 }
 
-.industrialpark-text-left h2, 
-.industrialpark-text-left h3, 
-.industrialpark-text-left h4, 
-.industrialpark-text-left h5, 
+.industrialpark-text-left h2,
+.industrialpark-text-left h3,
+.industrialpark-text-left h4,
+.industrialpark-text-left h5,
 .industrialpark-text-left h6 {
 	margin: 0;
 	padding: 0;

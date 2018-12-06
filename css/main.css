@@ -160,7 +160,7 @@ li a:hover {
 
 .hero-image {
 	height: 100%;
-	background: url('../img/hero2018apr.jpg') no-repeat /*center*/;
+	background: url('../img/hero2018apr.webp') no-repeat /*center*/;
 	background-size: cover;
 }
 
@@ -203,7 +203,7 @@ li a:hover {
 ***********************************************************/
 
 #agents-hero {
-	background: url('../img/people.jpg') no-repeat center;
+	background: url('../img/people.webp') no-repeat center;
 	background-size: cover;
 	color: #fff;
 	padding: 20px;
@@ -262,7 +262,7 @@ li a:hover {
 ***********************************************************/
 
 #whats-trending {
-	background: url('../img/trending.jpg') no-repeat;
+	background: url('../img/trending.webp') no-repeat;
 	background-size: cover;
 	padding-right: 55px;
 }
@@ -431,7 +431,7 @@ li a:hover {
 	padding: 25px 0 20px;
 	background:
 		linear-gradient(rgba(29,100,151,.9), rgba(29,100,151,.9)),
-		url('../img/skyline.jpg') no-repeat center;
+		url('../img/skyline.webp') no-repeat center;
 	background-color: #1D6497;
 	background-size: cover;
 	color: #fff;
@@ -501,7 +501,7 @@ li a:hover {
 ***********************************************************/
 
 #employment {
-	background: url('../img/employment-bgrd.jpg') no-repeat center;
+	background: url('../img/employment-bgrd.webp') no-repeat center;
 	background-size: cover;
 	min-height: 400px;
 	padding: 10px 20px;
@@ -636,7 +636,7 @@ footer {
 ***********************************************************/
 
 #services-header {
-	background: url('../img/services.jpg') no-repeat center;
+	background: url('../img/services.webp') no-repeat center;
 	background-size: cover;
 	background-color: #f0f0f0;
 	width: 100%;
@@ -750,7 +750,7 @@ footer {
 .services-transition {
 	width: 100%;
 	height: 350px;
-	background: url('../img/services-transition.jpg') no-repeat center 70%;
+	background: url('../img/services-transition.webp') no-repeat center 70%;
 	background-size: cover;
 	margin-bottom: 60px;
 }
@@ -805,17 +805,17 @@ footer {
 }
 
 .panel-office-services {
-	background: url('../img/stock-office.jpg') no-repeat center 50% fixed;
+	background: url('../img/stock-office.webp') no-repeat center 50% fixed;
 	background-size: cover;
 }
 
 .panel-industrial-services {
-	background: url('../img/stock-industrial.jpg') no-repeat center 80% fixed;
+	background: url('../img/stock-industrial.webp') no-repeat center 80% fixed;
 	background-size: cover;
 }
 
 .panel-retail-services {
-	background: url('../img/stock-retail.jpg') no-repeat fixed;
+	background: url('../img/stock-retail.webp') no-repeat fixed;
 	background-size: cover;
 }
 
@@ -828,17 +828,17 @@ footer {
 }
 
 .panel-investment-services {
-	background: url('../img/stock-investment.jpg') no-repeat center 70%;
+	background: url('../img/stock-investment.webp') no-repeat center 70%;
 	background-size: cover;
 }
 
 .panel-corporate-services {
-	background: url('../img/stock-corporate.jpg') no-repeat center 60%;
+	background: url('../img/stock-corporate.webp') no-repeat center 60%;
 	background-size: cover;
 }
 
 .panel-logistics-services {
-	background: url('../img/stock-logistics.jpg') no-repeat center 50%;
+	background: url('../img/stock-logistics.webp') no-repeat center 50%;
 	background-size: cover;
 }
 
@@ -925,7 +925,7 @@ footer {
 }
 
 #management-header {
-	background: url('../img/skyline.jpg') no-repeat center 40%;
+	background: url('../img/skyline.webp') no-repeat center 40%;
 	background-size: cover;
 	background-color: #f0f0f0;
 	width: 100%;
@@ -1131,7 +1131,7 @@ footer {
 .results_content {
 	background:
 		linear-gradient(rgba(29,100,151,.9), rgba(29,100,151,.9)),
-		url('../results/img/pnc.jpg') no-repeat fixed center;
+		url('../results/img/pnc.webp') no-repeat fixed center;
 	background-size: cover;
 	width: 100%;
 	height: 100%;

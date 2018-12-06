@@ -14,7 +14,7 @@
 ***********************************************************/
 
 #scioto-harper-header {
-	background: url('../results/img/scioto-harper.jpg') no-repeat 0 65%;
+	background: url('../results/img/scioto-harper.webp') no-repeat 0 65%;
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -50,10 +50,10 @@
 	padding: 0;
 }
 
-.scioto-harper-text-left h2, 
-.scioto-harper-text-left h3, 
-.scioto-harper-text-left h4, 
-.scioto-harper-text-left h5, 
+.scioto-harper-text-left h2,
+.scioto-harper-text-left h3,
+.scioto-harper-text-left h4,
+.scioto-harper-text-left h5,
 .scioto-harper-text-left h6 {
 	margin: 0;
 	padding: 0;
