@@ -4,7 +4,7 @@
 	padding-top: 65px;
 	height: 300px;
 	background-color: rgba(0,0,0,.7);
-	background: 
+	background:
 		linear-gradient(rgba(109,114,118,.8), rgba(109,114,118,.8)),
 		url('../img/brokers/bio/textures/pattern4.jpg');
 }
@@ -141,8 +141,8 @@
 	margin-bottom: 25px;
 }
 
-.nav-pills > li.active > a, 
-.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
     background-color: #fff;
     color: #1D6497;
@@ -174,6 +174,12 @@
 	content: "\00bb";
 	position: absolute;
 	left: -12px;
+	color: #AF2D37;
+}
+
+.broker-bio-news-list li a:nth-child(2)::after {
+	content: url('../img/social/pdf-after.png');
+	padding-left: 5px;
 }
 
 .broker-bio-news-list li a {
@@ -339,8 +345,8 @@
 		display: none;
 	}
 
-	.nav-pills > li.active > a, 
-	.nav-pills > li.active > a:hover, 
+	.nav-pills > li.active > a,
+	.nav-pills > li.active > a:hover,
 	.nav-pills > li.active > a:focus,
 	.nav-pills > li > a,
 	#bio p,
