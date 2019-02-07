@@ -1,0 +1,36 @@
+- var titleContent = "NAI Ohio Equities | Jamie Chancey"
+- var metaContent = "Jamie Chancey is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Jamie Chancey", "Property Manager", "614-629-5205", "jchancey", "naiohioequities", "naiohioequities", "https://www.linkedin.com/company/nai-ohio-equities", "jchancey", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Jamie Chancey is a Property Manager for NAI Ohio Equities. Over the last twelve years, Jamie has held various positions within NAI Ohio Equities, specializing in residential high-rise property management. Her responsibilities include budgeting, relations with owners and tenants, contractor and maintenance oversight, and day to day operations. Jamie’s educational background is in computer support technology.
+								hr
+								h5 What is your favorite neighborhood/area of Columbus?
+								p My favorite neighborhood in Columbus is Grandview Heights.  I like the old town feel and the face that restaurants and local shops are all in walking distance.
+								h5 Where do you like to vacation?
+								p My ideal vacation spot would probably be Clearwater Beach in Florida.  My son and I also enjoy traveling to Washington D.C.
+								h5 What is a favorite pastime that you enjoy?
+								p I enjoy taking craft lessons with my Mother.  She took me to my first ceramic lesson when I was little.  Now we enjoy quilting lessons, ceramics, and glass fusion.  We hope to try some pottery classes soon as well.
+				.broker-bio-right
+					h4 Education
+					p Computer Support Technology
+						br
+						| Eastland Career Center
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
