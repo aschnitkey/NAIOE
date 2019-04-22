@@ -1,0 +1,240 @@
+// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Domine', serif;
+
+//-------------------------------------------------------------------
+//    IMPORT FRAMEWORKS
+//-------------------------------------------------------------------
+
+@import normalize
+@import skeleton
+
+
+//-------------------------------------------------------------------
+//    GLOBAL SETTINGS
+//-------------------------------------------------------------------
+
+body
+  font-family: 'Source Sans Pro', sans-serif
+
+p::selection
+  background-color: #D03238
+  color: #fff
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Domine', serif
+
+a.button.button-primary:hover
+  background-color: #1D6497
+
+.fadeLoad
+  opacity: 1
+  transition: 1.2s opacity
+
+.faded
+  opacity: 0
+  transition: none
+
+
+//-------------------------------------------------------------------
+//    HERO SECTION
+//-------------------------------------------------------------------
+
+.hero
+  width: 100%
+  background: linear-gradient(rgba(16,12,8,.9), rgba(16,12,8,.9)) ,url('../img/meeting.jpg') no-repeat
+  background-size: cover
+  padding-top: 30px
+  padding-bottom: 75px
+
+.heroLogo
+  max-width: 250px
+  margin: auto
+  display: block
+
+.heroContent,
+.dividerContent
+  margin-top: 155px
+  color: #f5f5f5
+  line-height: 1.7
+  font-size: 1.25em
+  font-weight: 200
+
+.heroContent img
+  max-width: 100%
+  // border: 5px solid white
+  // box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.75)
+
+a.button.button-primary
+  background-color: #D03238
+  border-color: #D03238
+
+
+//-------------------------------------------------------------------
+//    WHY US SECTION
+//-------------------------------------------------------------------
+
+.whyus
+  margin-top: 75px
+  text-align: center
+  color: #585858
+
+  h3
+    color: #585858
+    font-weight: 400
+    margin-bottom: 10px
+
+  .spotText
+    max-width: 60%
+    margin: 35px auto 45px
+    font-size: 1.1em
+
+  h4
+    color: #D03238
+    font-size: 1.8em
+    margin: 0
+
+  .columns p
+    font-size: .8em
+    margin: 0
+
+  .four.columns
+    width: 29.33%
+    margin-left: 2%
+    margin-right: 2%
+
+
+//-------------------------------------------------------------------
+//    DIVIDER SECTION
+//-------------------------------------------------------------------
+
+.divider
+  width: 100%
+  background: linear-gradient(rgba(16,12,8,.9), rgba(16,12,8,.9)) ,url('../img/skyline.jpg') 70% no-repeat
+  background-size: cover
+  padding-top: 30px
+  padding-bottom: 55px
+  margin-top: 155px
+
+  .dividerContent
+    margin-top: 0
+
+    .five
+      padding-left: 75px
+
+    img
+      max-width: 100%
+
+.work
+  text-align: center
+  margin-top: 75px
+
+  .row
+    margin-top: 70px
+
+  .placeholder
+    height: 300px
+    width: 200px
+    background-color: grey
+    margin: auto
+    display: block
+
+
+//-------------------------------------------------------------------
+//    TESTIMONIALS SECTION
+//-------------------------------------------------------------------
+
+.testimonials
+  width: 100%
+  background-color: #E1E1E1
+  margin-top: 85px
+  text-align: center
+  padding-top: 5%
+
+  h4
+    font-size: 1.5em
+
+  p
+    max-width: 60%
+    margin: auto
+    color: #727272
+
+  .source
+    margin-top: 20px
+    color: #D03238
+    font-style: italic
+    font-weight: 700
+
+  .testLogo
+    max-width: 25%
+    margin-bottom: 55px
+
+
+//-------------------------------------------------------------------
+//    FOOTER
+//-------------------------------------------------------------------
+
+.footer
+  background-color: #000
+  color: #fff
+  height: 100%
+  text-align: center
+  padding-top: 20px
+
+  a
+    text-decoration: none
+    color: #fff
+
+    & :hover
+      text-decoration: underline
+      color: #F5DAA2
+
+  p
+    margin: 0
+
+  .icons img
+    height: 24px
+    margin: 15px 7px 10px
+
+
+//-------------------------------------------------------------------
+//    MEDIA QUERIES
+//-------------------------------------------------------------------
+
+@media only screen and (max-width: 550px)
+
+  .hero a.button
+    margin-bottom: 55px
+
+  .divider img
+    display: none
+
+@media only screen and (max-width: 1000px)
+  .heroContent
+    margin-top: 55px
+
+  .heroContent .seven.columns
+    width: 100%
+    margin-bottom: 35px
+
+    & h3
+      font-size: 1.7em
+
+  .heroContent .five.columns
+    width: 80%
+    margin-left: 10%
+
+  .whyus .four.columns
+    width: 100%
+    margin-bottom: 15px
+
+  .divider
+    margin-top: 55px
+
+  .dividerContent .seven.columns
+    width: 100%
+
+    & h3
+      font-size: 1.7em
+
+  .divider img
+    display: none
