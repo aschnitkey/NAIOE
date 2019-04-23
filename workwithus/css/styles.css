@@ -851,9 +851,9 @@ a.button.button-primary:hover {
 
 .fadeLoad {
   opacity: 1;
-  -webkit-transition: 1.2s opacity;
-  -o-transition: 1.2s opacity;
-  transition: 1.2s opacity; }
+  -webkit-transition: 0.7s opacity;
+  -o-transition: 0.7s opacity;
+  transition: 0.7s opacity; }
 
 .faded {
   opacity: 0;
