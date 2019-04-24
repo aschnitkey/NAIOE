@@ -974,7 +974,7 @@ a.button.button-primary {
   .footer a {
     text-decoration: none;
     color: #fff; }
-    .footer a :hover {
+    .footer a:hover {
       text-decoration: underline;
       color: #F5DAA2; }
   .footer p {
@@ -987,7 +987,11 @@ a.button.button-primary {
   .hero a.button {
     margin-bottom: 55px; }
   .divider img {
-    display: none; } }
+    display: none; }
+  .footer .text {
+    width: 48%;
+    text-align: center;
+    margin: auto; } }
 
 @media only screen and (max-width: 1000px) {
   .heroContent {
