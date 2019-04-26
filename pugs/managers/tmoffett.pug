@@ -1,0 +1,38 @@
+- var titleContent = "NAI Ohio Equities | Tom Moffett"
+- var metaContent = "Tom Moffett is a property manager at NAI Ohio Equities, where he manages Waterford Condominium, a 19-story luxury high-rise building in downtown Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Tom Moffett", "Property Manager", "614-280-0301", "tmoffett", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/tommoffettopsmgr/", "tmoffett", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Tom is the property manager of the Waterford Condominium, a 19-story, luxury high-rise building in downtown Columbus. He is responsible for on-site management and supervision of the commercial and residential tower, which includes; staffing, budgeting, day-to-day operations, and resident relations, as well as coordinating management activities with the condominium board. 
+								p Tom has over 15 years experience in the hospitality industry with a specific focus on operations management. He has overseen multi-million dollar renovations on existing midrise buildings to being responsbile for new builds opening on time.
+								hr
+								h5 Where do you like to vacation?
+								p My family and I love to vacation in Charleston, SC.  Why?  We were lucky enough to live there for a few years and fell in love with the culture, food, and beaches there.
+								h5 What is a favorite pastime that you enjoy?
+								p I really enjoy cooking and spending time with my family outdoors.  Fishing, boating, camping, whatever it may be.
+								h5 Who are your favorite sports teams?
+								p I’m an OSU grad, the Go Bucks all the way!!!!
+				.broker-bio-right
+					h4 Education
+					p BS, Consumer Affairs
+						br
+						| The Ohio State University, 2004
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
