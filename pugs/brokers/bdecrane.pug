@@ -40,21 +40,26 @@ html(lang="en")
 								a(href="#clients", aria-controls="listings", role="tab", data-toggle="pill") Clients and Testimonials
 						.tab-content
 							.tab-pane.active#bio(role="tabpanel")
-								p Blake specializes in the leasing and sales of industrial properties. With a background in logistics, Blake understands the importance of efficient movement of goods. Utilizing this knowledge and listening to the client needs allows him to analyze which building most effectively meets their requirements.
-								p He brings his relentless preparation and strong work ethic to a team of experienced real estate professionals.
-								p Blake is a Columbus native, graduated from St. Charles Preparatory in 2011, and then continued his education at Arizona State University, where he obtained a Bachelor of Science degree in Supply Chain Management.
+								p Blake specializes in industrial property sales and leasing. With a background in logistics, Blake understands the importance of efficient movement of goods. Utilizing this knowledge and listening to the client’s needs allows him to analyze which building most effectively meets their requirements. He brings his relentless preparation and strong work ethic to a team of experienced real estate professionals.
+								p A Columbus native, Blake graduated from St. Charles Preparatory before continuing his education at Arizona State University, where he obtained a Bachelor of Science degree in Supply Chain Management with a minor in Sustainability.
 									br
 									br
 									a(href="http://www.industrialpropertyteam.com", target="_blank") Click here to view Industrial Property Team website
 								hr
-								h5 Why did you decide to get into Commercial Real Estate?
-								p I decided to get into Commercial Real Estate because I enjoy working alongside and advising business owners and decision makers while helping them with their unique set of requirements.
+								h5 What do you like most about Commercial Real Estate?
+								p I like that each day is different and the new relationships that are constantly being made.
 								h5 Why did you decide to make Columbus your home?
-								p Columbus has always been my home and after going away for school I knew I wanted to move back close to my family.
+								p After spending time traveling and attending school out of state, I always found myself wanting to return to my hometown.
 								h5 What is a favorite pastime you enjoy?
-								p Golfing, fishing, family dinners, playing with my dogs, and classic cars.
+								p My favorite pastime is enjoying long family dinners. I consider myself extremely lucky to be close with my family, and it is time I do not take for granted.
 								h5 What is your favorite hidden gem in Columbus?
-								p Hellas.
+								p Club 185 – it may not be much of a hidden gem but its my go-to hangout spot nestled in my favorite neighborhood, German Village.
+								h5 Who are your favorite sports teams?
+								p My three favorite sports to watch are individual sports (golf, boxing, and mixed martial arts). In all three I find it difficult to pick a favorite because I love learning about all their respective stories and backgrounds.
+								h5 Where do you like to vacation? Why?
+								p My significant other and I try to vacation in different places each year. There are so many amazing places to explore, and I have found that if you didn’t have a good time in a place, it was a you problem and not a problem with the place.
+								h5 If you had to pick a song to walk-up to (similar to baseball), what would it be?
+								p No music. Was there anything more intimidating than Mike Tyson walking to the ring with no music?
 							.tab-pane#listings(role="tabpanel")
 								#buildout
 								script(type="text/javascript", src="//buildout.com/api.js?v8")
@@ -67,6 +72,10 @@ html(lang="en")
 									brokerId: "bdecrane@ohioequities.com"
 									});
 							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/meritex.png", alt="Meritex logo")
+									li: img.img-responsive(src="../img/logos/hackman.png", alt="Hackman Capital logo")
+									li: img.img-responsive(src="../img/logos/fstlogistics.png", alt="FST Logistics logo")
 								h5.testimonial-bio-company Axiom Precision
 								p.testimonial-bio-quote "We were looking for a very popular building in a very tight market and with the fast response time and market knowledge, the Industrial Property Team at NAI Ohio Equities were able to assist us in finding the perfect building."
 								p.testimonial-bio-source Todd Damon, President
@@ -100,6 +109,18 @@ html(lang="en")
 								h4 Case Studies
 								ul#case-studies-list
 									li: a(href="../results/fst.html") FST Logistics | Sale/Leaseback Transaction
+								h4 Top Transactions
+								ul#transactions-list
+									li Inno-Pak | 54,430 SF | 1932 Pittsburgh Dr (Sale-Leaseback)
+									li Meritex Columbus | 43,750 SF | 2199-2201 Dividend Dr (Lease)
+									li Shipping Tree | 39,235 SF | 4720 Poth Rd (Lease)
+									li Gatehouse Media Ohio Holdings II, Inc. | 8.5 Acres | 0 Crosswind Dr (Sale)
+									li WTOL, LLC | 164,450 SF | 555 Yearling Rd (Sale)
+									li Wells Fargo Bank | 141,447 SF | 4051 Fondorf (Sale)
+									li FST Logistics | 324,000 | 3280 South Park Pl (Lease)
+									li Columbus 2 LLC | 134,282 SF | 2400-2410 McGaw Rd (Sale)
+									li Shasta Beverages, Inc. | 351,228 SF | 3219 Rohr Rd (Lease)
+									li FST Logistics | 356,000 | 5400 Renner Rd & 1727 Georgesville Rd (Sale-Leaseback)
 				.broker-bio-right
 					h4 Education
 					p St Charles Preparatory
@@ -116,7 +137,9 @@ html(lang="en")
 						| Ohio Association of REALTORS&reg;
 						br
 						| Columbus REALTORS&reg;
-					h4 Transactions
-					p: a(href="transactions/bdecrane.pdf", target="_blank") View completed transactions
+						br
+						| Muirfield Village Golf Club
+						br
+						| Athletic Club of Columbus
 	include ../../includes/footer-brokers.pug
 	include ../../includes/scripts.pug
