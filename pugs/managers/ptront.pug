@@ -1,0 +1,45 @@
+- var titleContent = "NAI Ohio Equities | Peter Tront"
+- var metaContent = "Peter Tront is a property manager at NAI Ohio Equities where he assists Chris Pope with management of over 900,000 SF of Mt Carmel buildings."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Peter Tront", "Property Manager", "614-629-5208", "ptront", "naiohioequities", "naiohioequities", "https://www.linkedin.com/company/nai-ohio-equities", "ptront", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Peter has been active in the commercial real estate/property management sector for the past four years. Originally from New Jersey, he brings a diverse background to NAI Ohio Equities working on a large range of properties including market-rate, low-income, and bank-owned assets. Peter will be working alongside Chris Pope on managing the over 900,000 SF of Mt. Carmel buildings in our portfolio. 
+								hr
+								h5 What is your favorite neighborhood of Central Ohio?
+								p I personally love the Dublin/Hilliard area. The area is starting to boom with more stores and restaurants opening every month with new places to explore.
+								h5 Where do you like to vacation?
+								p The island of St. Thomas. When I was younger my family would vacation there, so I have many fond memories of the island. 
+								h5 Who are your favorite sports teams?
+								p New York Yankees.
+				.broker-bio-right
+					h4 Education
+					p Bachelor of Music, Music Performance
+						br
+						| Cleveland State University, 2015
+						br
+						br
+						| Master of Music, Music Performance
+						br
+						| Wright State University, 2017
+					h4 Community Involvement
+					p Movement Church, Volunteer
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
