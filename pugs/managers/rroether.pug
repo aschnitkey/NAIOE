@@ -1,0 +1,56 @@
+- var titleContent = "NAI Ohio Equities | Ryan Roether"
+- var metaContent = "Ryan Roether is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Ryan Roether", "Property Manager", "614-629-5233", "rroether", "naiohioequities", "naiohioequities", "https://www.linkedin.com/company/75852/", "rroether", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Medical Office Buildings
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Ryan Roether has been a licensed Ohio Real Estate agent since 2007 and achieved an Ohio Brokers License in 2018. Prior to joining NAI Ohio Equities, Ryan spent 12 years in residential property management, sales and leasing for condominium and home owner associations. Ryan will be responsible for tenant communication, vendor relations, budgeting, maintenance projects and day to day operations for our growing medical office building management group.
+								hr
+								h5 What has been the best part of Columbus' growth over the past few decades?
+								p Urban renewal and revitilization of older neighborhoods. 
+								h5 Where do you like to vacation?
+								p Edisto Island, South Carolina because it is a quiet, laid back little island.
+								h5 What is a favorite pastime you enjoy?
+								p I enjoy playing basketball and coaching youth basketball. 
+				.broker-bio-right
+					h4 Education
+					p BS, Criminal Justice Business Administration
+						br
+						| University of Phoenix, 2005
+					h4 Membership
+					p Columbus REALTORS&reg; 
+						br
+						| Ohio REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+						br
+						| Community Associations Institute (CAI)
+					h4 Industry Awards &amp; Recognition
+					p Achieved Ohio Brokers License in November 2018
+						br
+						| ABR REBAC (Accredited Buyer Representation)
+						br
+						| Achieved Ohio Real Estate License in 2007
+					h4 Community Involvement
+					p Coach, Upward Basketball
+						br
+						| Coach, Hilliard Optimist Basketball League
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
