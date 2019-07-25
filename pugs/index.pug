@@ -106,7 +106,9 @@ html(lang="en")
 						p: a(href="listings.html?propertyType=2") View Our Retail Listings
 			#market-reports.container-fluid
 				.market-reports-topright
-					img.img-responsive(src="img/market-reports-hero.png", alt="Market Reports")
+					//- img.img-responsive(src="img/market-reports-hero.png", alt="Market Reports")
+					video(autoplay playsinline preload="metadata" muted loop src="marketing/marketreports/2019/nai_ohio_equities_2019q2_office.mp4" id="videoSourceTag")
+						//- source(src="marketing/marketreports/2019/nai_ohio_equities_2019q2_office.mp4")
 				.market-reports-bottomleft
 					h1 Market Reports
 					p The Office vacancy rate increased to 7.1% during the second quarter of 2019. Up from 6.4% since the end of Q1 2019.
@@ -196,6 +198,7 @@ html(lang="en")
 		include ../includes/footer.pug
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
 		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+		script(src="js/script-video.js")
 		script.
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

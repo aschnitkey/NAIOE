@@ -336,6 +336,7 @@ li a:hover {
 
 #market-reports {
 	background-color: #D0DDE8;
+	overflow: hidden;
 }
 
 #market-reports img {
@@ -346,10 +347,15 @@ li a:hover {
 	padding: 20px;
 	width: 60%;
 	float: right;
+	text-align: center;
 }
 
 .market-reports-topright img {
 	margin: auto;
+}
+
+.market-reports-topright video {
+	max-width: 100%;
 }
 
 .market-reports-bottomleft {
