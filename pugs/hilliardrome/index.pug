@@ -1,0 +1,31 @@
+- var titleContent = "NAI Ohio Equities - Hilliard Office + Land"
+- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed an office building and land for sale in Hilliard, Ohio. Available individually or as a package."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector.powellcondo
+			h2.text-center
+				| Office Building and Land For Sale
+				br
+				small Can be Purchased Individually or as Portfolio
+			.selector-body-lima
+				ul.office-agents
+					a(href="https://www.ohioequities.com/listings.html?propertyId=3325-Hilliard-Rome-Road", target="_blank", style="font-size: 1.2em;")
+						li
+							img.officeagentsoverride(src="https://s3.amazonaws.com/buildout-production/datas/3537199/86955ee4cb57858161a4168b3391a4aee91ebf4b/full.jpg?1564491881", alt="Hilliard Office + Land Portfolio", style="height: 187.5px; width: 250px;")
+							p Office Building + Land<br>3325 Hilliard Rome<br>Hilliard, Ohio
+					a(href="https://www.ohioequities.com/listings.html?propertyId=530864-sale", target="_blank", style="font-size: 1.2em;")
+						li
+							img.officeagentsoverride(src="https://s3.amazonaws.com/buildout-production/datas/3545673/c51129051859190e0b136a097efadefade4d8fc8/full.jpg?1564671149", alt="3325 Hilliard Rome", style="height: 187.5px; width: 250px;")
+							p Office Building For Sale<br>3325 Hilliard Rome<br>Hilliard, Ohio
+					a(href="https://www.ohioequities.com/listings.html?propertyId=530875-sale", target="_blank", style="font-size: 1.2em;")
+						li
+							img.officeagentsoverride(src="https://s3.amazonaws.com/buildout-production/datas/3545935/81d75a202cf08e77e06f236f9d8c49c37d94f0fb/full.jpg?1564672119", alt="Hilliard Rome Land", style="height: 187.5px; width: 250px;")
+							p Land For Sale<br>Hilliard Rome Road<br>Hilliard, Ohio
+		div(style="height: 350px;")
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
