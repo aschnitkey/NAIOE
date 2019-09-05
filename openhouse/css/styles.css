@@ -47,13 +47,19 @@ h1, h2, h3, h4, h5, h6 {
     text-align: initial;
 }
 
+.invite-details dl {
+    margin-bottom: 30px;
+}
 .invite-details dt {
     font-weight: 900;
     font-size: 1.1em;
 }
-
 .invite-details dd {
     font-style: italic;
+}
+.invite-details img {
+    display: block;
+    margin-bottom: 15px;
 }
 
 #place-holder {
