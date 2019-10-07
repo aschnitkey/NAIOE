@@ -1,0 +1,51 @@
+- var titleContent = "NAI Ohio Equities | Andrew Schnitkey"
+- var metaContent = "Andrew Schnitkey is the Interactive Marketing Designer at NAI Ohio Equities where he is responsible for the company website and any other form of online marketing and design of commercial real estate properties."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Andrew Schnitkey", "Interactive Marketing Designer", "614-629-5281", "aschnitkey", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/aschnitkey/", "aschnitkey", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Web Development
+						br
+						| HTML & CSS
+						br
+						| Preprocessors (Pug & SASS)
+						br
+						| Technology & Design
+						br
+						| Interactive Marketing Campaigns
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Andrew joined NAI Ohio Equities in 2007 after four years as Director of Technology for Zelnik Realty Group. Over those four years Andrew developed an in-depth understanding of the Commercial Real Estate industry and how different methods of marketing are more effective for different purposes.
+								p As an Interactive Marketing Designer for NAI Ohio Equities, Andrew is responsible for online marketing solutions (including property websites, custom URL management, email marketing campaigns, and other miscellaneous projects). Andrew also serves as the website administrator for the company where he is responsible for designing, implementing, maintaining, and updating the website with information and news as needed.
+								p With over ten years experience creating marketing solutions in the Commercial Real Estate industry, Andrew is able to use his knowledge and understanding of the business to best help agents achieve the most efficient methods of using technology to market their listings.
+								p As part of the Marketing and Technology team at NAI Ohio Equities, Andew assists the entire marketing team in the research of new marketing trends as well as designing and implementing new strategic marketing ideads for the NAI Ohio Equities brand.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I grew up in a very small rural town in northwest Ohio. When I came to Columbus to attend The Ohio State University, I quickly fell in love with the city. There is so much diversity and activity in Columbus, anyone can quite literally always find something to do that fits their interests. Despite being one of the fastest growing cities in the country, Columbus still is able to maintain a smaller-town feel with all of the surrounding communities that make up the metro area.
+								h5 What is a favorite pastime that you enjoy?
+								p I love music and one of my favorite hobbies is both listening to and playing music. Sometime I feel like just putting on headphones and listening to someone else's music, and other times I feel like picking up my guitar and playing my own stuff (even if I'm not that great at it).
+								h5 Who are your favorite sports teams?
+								p Well, obviously being an alum of The Ohio State University, I love any and all sports that the Buckeyes are participating in. Growing up I was a huge fan of the Cleveland Browns and the Cleveland Indians, but my favorite sport has always been basketball and my favorite team in the Cleveland Cavaliers, winners of the 2016 NBA Championship!
+								h5 What is your favorite hidden gem in Columbus?
+								p I'm a really big fan of <a href="http://gvcoffeeshop.com/" target="_blank">German Village Coffee Shop</a>. When I'm in the mood for a short stack of the best pancakes in town, or a world-famous Western Omelette with hash browns, German Village Coffee Shop is where I turn.
+				.broker-bio-right
+					h4 Education
+					p BS, Geographic Information Systems (GIS)
+						br
+						| The Ohio State University, 2003
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

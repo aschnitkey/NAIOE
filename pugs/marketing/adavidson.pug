@@ -1,0 +1,36 @@
+- var titleContent = "NAI Ohio Equities | Austin Davidson"
+- var metaContent = "Austin Davidson is a researcher at NAI Ohio Equities where he conducts market and property research to help agents expand their market knowledge and expertise."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Austin Davidson", "Researcher", "614-629-5215", "adavidson", "naiohioequities", "naiohioequities", "https://www.linkedin.com/company/nai-ohio-equities/", "adavidson", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Austin recently joined the Ohio Equities team as a researcher. He currently assists the Industrial Brokerage team in gathering detailed information and surveying industrial properties, in an effort to help the team work as efficiently as possible. New to the Columbus area, Austin has enjoyed exploring his new city and meeting people in the industry who have a passion for what they do. He is a recent graduate of Miami University and looks forward to becoming a valuable asset to the team.
+								hr
+								h5 What is one of your favorite buildings in Columbus?
+								p The North Market is one of my favorite buildings in Columbus! They have amazing food and the environment is always great. I go every Sunday to try new food or get one of my favorites, Satori Ramen. If you are a ramen fan, you have to try this place.
+								h5 Where do you like to vacation?
+								p My favorite type of vacation is one where I get to see the world. I just recently traveled to Bali and I have to say that was one of the most incredible trips I have ever taken. A couple of years ago, I had the privilege of traveling to Alaska. The northern lights were amazing and the mountains were unbelievable. Two totally different environments, but it was the experience of traveling the world that I enjoyed the most. I look forward to my next adventure.
+								h5 Who are your favorite sports teams?
+								p The Ohio State Buckeyes, Columbus Blue Jackets, Cincinnati Reds and a Lebron James Fan.
+				.broker-bio-right
+					h4 Education
+					p BA, Sports Leadership and Management
+						br
+						| Miami University, 2019
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
