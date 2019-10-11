@@ -5,9 +5,10 @@ doctype html
 html(lang="en")
 	include ../extends/gtm-ext.pug
 	body
+		a.skipnav(href="#skipnavContent") Skip to Main Content
 		include ../includes/nav.pug
 		.navspacer
-		.page-wrap
+		.page-wrap#skipnavContent
 			#hero
 				.hero-image
 					h1.text-right Commercial Real Estate Services | Worldwide
