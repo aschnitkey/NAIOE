@@ -23,18 +23,13 @@ a:hover					 {
 }
 
 .dropdown:focus-within {
-	border: 3px solid #1D6497;
-}
-
-.dropdown-toggle:focus {
-	border: 3px solid #1D6497;
-}
-
-body.user-is-tabbing button:focus,
-body.user-is-tabbing input:focus,
-body.user-is-tabbing select:focus,
-body.user-is-tabbing textarea:focus {
 	outline: 3px solid #1D6497;
+}
+
+@supports (-ms-ime-align: auto) {
+	.dropdown-toggle:focus {
+		outline: 3px solid #1D6497;
+	}
 }
 
 .skipnav {
