@@ -1,0 +1,32 @@
+- var titleContent = "NAI Ohio Equities | Julie Schaefer"
+- var metaContent = "Julie Schaefer is an Assistant Property Manager in the New Albany Office overseeing a portfolio of commercial buildings."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Julie Schaefer", "Assistant Property Manager", "614-939-8618", "jschaefer", "naiohioequities", "naiohioequities", "https://www.linkedin.com/company/nai-ohio-equities/", "jschaefer", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Julie Schaefer is an Assistant Property Manager in the New Albany Office overseeing a portfolio of commercial buildings that includes manufacturing, office, retail and restaurant spaces. Her responsibilities also include nine homeowner associations in New Albany and Dublin that are comprised of approximately 6,000+ homes in premier single-family residential communities. She serves as liaison to four Architectural Review Committees and assists with over $6,000,000.00 in annual budgeting. Julie is a life-long Columbus resident.
+								hr
+								h5 What is one of your favorite buildings in Columbus?
+								p Huntington Park!  I am a lifelong baseball fan and grew up watching the Clippers at Cooper Stadium.  While it is not the same, it is still a great ballpark and always fun to visit.
+								h5 If you had to pick a song to walk-out to (similar to baseball), what would it be?
+								p "Put Your Records On" by Corrine Bailey Rae
+								h5 Who are your favorite sports teams?
+								p The New York Yankees, The Cleveland Indians (if they are not playing the Yankees), The Ohio State Buckeyes, and I am a long-suffering Cleveland Browns fan. 
+				.broker-bio-right
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
