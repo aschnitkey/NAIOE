@@ -847,7 +847,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Domine', serif; }
 
 a.button.button-primary:hover {
-  background-color: #1D6497; }
+  background-color: #1D6497;
+  -webkit-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in; }
 
 .fadeLoad {
   opacity: 1;
