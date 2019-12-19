@@ -1,0 +1,32 @@
+- var titleContent = "NAI Ohio Equities | Rachel Romes"
+- var metaContent = "Rachel Romes is a marketing assistant at NAI Ohio Equities where she works closely with Joe Menninger, John Mally, Kim Benincasa, Mark Francescon, and Conor David, among other responsibilities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Rachel Romes", "Marketing Assistant", "614-629-5294", "rromes", "NAIOhioEquities", "NAIOHioEquities", "https://www.linkedin.com/in/rachel-romes-2ba422196/", "rromes", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Originally from the greater Cleveland area, Rachel moved to Columbus to be closer to her family after a three-year stretch in Los Angeles. Prior to joining our team, Rachel has established her career in sales, sales management, executive administration as well as digital marketing. At NAI Ohio Equities Rachel will be the Marketing Assistant for brokers Joe Menninger, John Mally, Kim Benincasa, Mark Francescon, and Conor David.
+								hr
+								h5 Where do you like to vacation?
+								p I'm a bit of a history buff and self-proclaimed foodie, which naturally leads to my love of travel and exploring new places. While I am partial to any destination with abundant sunshine, salty air, and a great food scene, it's hard to choose one spot.  My favorite vacation to date was a road trip that I took with family from L.A. up to San Francisco. Loved the food, the architecture, the history and will definitely return to the bay area.
+								h5 What is a favorite pastime that you enjoy?
+								p I love to try new foods either out in the city or experimenting in my kitchen. In my previous "home" cities, I've always made a point to spend much of my free time exploring the sites, arts, outdoors, local favorites and history. I spend much of my free time now exploring Columbus as well as the surrounding areas, however having only lived here for a year, it seems there’s an endless list of exploring to do.
+								h5 What is your favorite hidden gem in Columbus?
+								p It’s a combo experience for me. Grabbing the pig out pizza from Mikey’s Late Night Slice and hopping next door to play Super Mario at 16 Bit.
+				.broker-bio-right
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
