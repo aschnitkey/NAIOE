@@ -222,6 +222,11 @@
 	display: none;
 }
 
+/* For names that need shortened on multiple lines */
+.nameShorten {
+	max-width: 500px;
+}
+
 /*******************************************************************
     Media Queries
 *******************************************************************/
