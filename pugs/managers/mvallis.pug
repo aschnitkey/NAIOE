@@ -1,0 +1,38 @@
+- var titleContent = "NAI Ohio Equities | Mitchell Vallis"
+- var metaContent = "Mitchell Vallis is a Property Manager with NAI Ohio Equities. Mitchell handles all day-to-day management of medical office buildings."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Mitchell Vallis", "Property Manager", "614-629-5208", "mvallis", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/mitchell-vallis-56b5a3120/", "mvallis", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Originally from Orange County, California, Mitchell moved in Columbus to attend The Ohio State University and stayed after graduation. Starting his career in property management, he assists Chris Pope on the management of our Mount Carmel portfolio. Mitchell handles all day-to-day management of the medical office buildings. In his spare time, he enjoys playing volleyball and basketball and tries to surf whenever there is an ocean nearby!
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I was recruited to play for The Ohio State University’s men’s volleyball team. After I graduated from Ohio State, I decided to stay in Columbus to start my career.
+								h5 Where do you like to vacation?
+								p Costa Rica, it has the best surfing I’ve ever experience and last time I went I get to meet surf legend Robert August.
+								h5 Who are your favorite sports teams?
+								p Any team LeBron James is on.
+				.broker-bio-right
+					h4 Education
+					p BS, Accounting, Minor in Economics
+						br 
+						| The Ohio State University, 2016
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
