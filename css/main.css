@@ -221,6 +221,24 @@ li a:hover {
 }
 
 
+/***********************************************************
+	COVID-19 Updates
+***********************************************************/
+
+#covid-updates {
+	padding: 5em;
+}
+
+#covid-updates h1 {
+	margin-bottom: 0;
+}
+#covid-updates h2 {
+	font-size: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+
 
 /***********************************************************
 	Agents Hero
@@ -1371,6 +1389,9 @@ footer {
 }
 
 @media (max-width: 900px) {
+	#covid-updates {
+		padding: 2rem;
+	}
 	.services-values-list li,
 	.services-differentiators-list li {
 		max-width: 400px;
