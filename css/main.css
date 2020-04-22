@@ -699,6 +699,55 @@ footer {
 	height: 250px;
 }
 
+#services-brokerage-header {
+	background-image: url('../img/services-brokerage.jpg');
+	background-color: #3f3f3f;
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10rem 0;
+}
+
+#services-brokerage-header h1 {
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 4em;
+}
+
+#services-brokerage-header p {
+	color: #fff;
+	/* width: 70%;
+	max-width: 65ch; */
+	width: min(65ch, 70%);
+	margin: 5rem auto 0;
+	line-height: 1.6;
+	font-size: 1.3em;
+	font-weight: 100;
+	text-align: justify;
+}
+
+.services-brokerage-btn-container {
+	text-align: center;
+	margin-top: 5rem;
+}
+
+#services-brokerage-header p.button {
+	display: inline;
+	background-color: #AF2D37;
+	padding: 1rem 2rem;
+	border: 3px solid #AF2D37;
+	margin: 0 1rem;
+}
+
+#services-brokerage-header p.button:hover {
+	background-color: #fff;
+	color: #AF2D37;
+	transition: .2s linear;
+}
+
 #services-body {
 	max-width: 85%;
 	margin: 75px auto 50px;

@@ -1,0 +1,23 @@
+- var titleContent = "NAI Ohio Equities | Services"
+- var metaContent = "NAI Ohio Equities provides every commercial real estate service required by our clients, whether that need is valuation, acquisition disposition, leasing, property management, consultation, strategic planning, and representation."
+
+doctype html
+html(lang="en")
+	include ../includes/head.pug
+	body
+		include ../includes/nav.pug
+		.navspacer
+		.page-wrap
+			#services-brokerage-header
+				h1 Brokerage Services
+				p Every commercial real estate transaction is different. When you choose NAI Ohio Equities as your broker, you know that you are working with professionals who have the expertise and local knowledge to get you the results for your own unique needs.
+				.services-brokerage-btn-container
+					p.button Find An Agent
+					p.button View Our Listings
+			#services-body
+				.email-join
+					h2.center-text #[span.glyphicon.glyphicon-envelope] Join Our Email List
+				.email-signup
+					include ../includes/signup.pug
+	include ../includes/footer.pug
+	include ../includes/scripts.pug
