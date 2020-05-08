@@ -701,7 +701,7 @@ footer {
 
 #services-brokerage-header {
 	background-image: url('../img/services-brokerage.jpg');
-	background-color: #3f3f3f;
+	background-color: #2b2b2b;
 	background-blend-mode: overlay;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -709,12 +709,18 @@ footer {
 	padding: 10rem 0;
 }
 
+#services-brokerage-header h1,
+#services-brokerage-header p {
+	text-shadow: 0 1px 1px rgba(0,0,0,.9);
+}
+
 #services-brokerage-header h1 {
 	margin: auto;
 	padding: 0;
 	text-align: center;
 	color: #fff;
-	font-size: 4em;
+	max-width: 50%;
+	font-size: 5em;
 }
 
 #services-brokerage-header p {
@@ -723,8 +729,8 @@ footer {
 	max-width: 65ch; */
 	width: min(65ch, 70%);
 	margin: 5rem auto 0;
-	line-height: 1.6;
-	font-size: 1.3em;
+	line-height: 1.5;
+	font-size: 1.2em;
 	font-weight: 100;
 	text-align: justify;
 }
@@ -740,6 +746,7 @@ footer {
 	padding: 1rem 2rem;
 	border: 3px solid #AF2D37;
 	margin: 0 1rem;
+	text-shadow: none;
 }
 
 #services-brokerage-header p.button:hover {
@@ -747,6 +754,64 @@ footer {
 	color: #AF2D37;
 	transition: .2s linear;
 }
+
+#services-body .container {
+	max-width: 100%;
+}
+
+.cardset {
+	text-align: center;
+}
+
+.cardset .card {
+	max-width: 25%;
+	display: inline-block;
+	margin: 2rem;
+	padding: 1rem 2rem;
+	text-align: center;
+	background-color: #f5f5f5;
+	min-width: 300px;
+	transform: translateY(100px);
+	opacity: 0;
+}
+
+.card.visible {
+	transform: translateY(0);
+	opacity: 1;
+	transition: transform 400ms ease-in, opacity 800ms ease-in;
+}
+
+.cardset .card:hover {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all .3s linear;
+	background-color: rgba(215,150,155,.1);
+}
+
+.card-icon {
+	display: block;
+	max-width: 65%;
+	margin: 3rem auto;
+	text-align: center;
+	opacity: .6;
+}
+
+#services-body .cardset .card h2.card-title {
+	font-size: 2.5em;
+	color: #AF2D37;
+}
+
+.card-body {
+	line-height: 1.5;
+	text-align: left;
+}
+
+.card-more {
+	text-align: left;
+}
+
+/* Old Services Styling */
+
+
 
 #services-body {
 	max-width: 85%;
