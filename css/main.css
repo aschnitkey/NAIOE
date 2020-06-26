@@ -785,12 +785,17 @@ footer {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	transition: all .3s linear;
 	background-color: rgba(215,150,155,.1);
+	text-decoration: none;
+}
+
+.cardset .card:focus {
+	text-decoration: none;
 }
 
 .card-icon {
 	display: block;
-	max-width: 65%;
-	margin: 3rem auto;
+	max-width: 50%;
+	margin: 2rem auto;
 	text-align: center;
 	opacity: .6;
 }

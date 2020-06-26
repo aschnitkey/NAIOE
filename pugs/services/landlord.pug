@@ -1,0 +1,24 @@
+- var titleContent = "NAI Ohio Equities | Landlord Representation"
+- var metaContent = "NAI Ohio Equities relies on decades of experience within the Central Ohio market to provide every service needed by our office clients."
+
+doctype html
+html(lang="en")
+	include ../../extends/services-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			.services-sub-header
+				h1 Landlord 
+					br 
+					| Representation
+			a(href="../services.html#landlord").back-to-services &#8592; Back To Services
+			.container.services-sub-content
+				.row.services--description
+					.col-md-6
+						p We address every leasing assignment as if we were the owner – with the goal of not only filling vacancies, but also increasing asset values. Our in-office collaboration and marketing strategies get your property in front of high-quality prospects. We pride ourselves on our client communication: you will have all of the information on market conditions, occupancy levels, rental rates, proposed development, and other real estate and economic trends to help you maximize your cash flow. 
+					.col-md-6
+						img.img-responsive(src="../img/stock-landlord.jpg", alt="Landlord Representation")
+		script(src="../js/services.js")
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

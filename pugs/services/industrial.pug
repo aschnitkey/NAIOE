@@ -1,0 +1,92 @@
+- var titleContent = "NAI Ohio Equities | Industrial Services"
+- var metaContent = "NAI Ohio Equities industrial professionals provide expert services in buying, selling, leasing and consulting on all types of industrial products, both in Columbus and around the world."
+
+doctype html
+html(lang="en")
+	include ../../extends/services-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			.services-sub-header
+				h1 Industrial 
+					br 
+					| Services
+			a(href="../services.html#industrial").back-to-services &#8592; Back To Services
+			.container.services-sub-content
+				.row.services--description
+					.col-md-6
+						p Our professionals provide expert services in buying, selling, leasing and consulting on all types of industrial products, both in Columbus and around the world. Whether your need is 3,000 or 3,000,000 square feet, logistics or manufacturing facilities, site selection, or last mile warehouses, we partner with our clients from the beginning through the end of the transaction. Let us focus on the details of the deal so you can focus on your core business.
+					.col-md-6
+						img.img-responsive(src="../img/stock-industrial.jpg", alt="Industrial Services")
+				hr
+				.row.services--market-snapshot
+					h2 Industrial Market Snapshot
+					.col-md-7.market-snapshot--chart
+						img.img-responsive(src="../img/market-reports-industrial.png", alt="Industrial Market Snapshot") 
+						a(href="../marketing/marketreports/2020/nai_ohio_equities_2020q1.pdf") Download Full 1st Quarter 2020 Market Report
+					.col-md-5
+						.market-snapshot--content
+							p.market-snapshot--bullet01
+								span.market-snapshot--number.snapshot-number01 01
+								| The Industrial vacancy rate increased to 5.4% during the first quarter of 2020.
+							p.market-snapshot--bullet02
+								span.market-snapshot--number.snapshot-number02 02
+								| The Industrial market had positive absorption of +130,000 SF in the first quarter of 2020.
+							.market-snapshot--header
+								h3 1st Quarter 2020
+								ul
+									li The average rental lease rate for all industrial properties was $5.30 per square foot per year at the end of the Q1 2020, representing a 1.9% increase in rental rates from $5.20 PSF at the end of Q4 2019.
+									li “The Columbus industrial market just experienced another good quarter. However, expect to see some softening in the market in Q2 2020 due to the Covid-19 situation. Given that, we still believe Central Ohio is poised to be one of the first markets to recover.” - 
+										strong Curt Berlin SIOR, Industrial Specialist
+				hr
+				.row.services--agents
+					h2 Our Industrial Agents
+					.card.card--agent
+						img.img-responsive(src="../img/brokers/cberlin-portrait.jpg", alt="Curt Berlin")
+						.card--agent-info
+							h3.card--agent-name Curt Berlin, SIOR
+							p.card--agent-title: strong Industrial Property Team
+							p.card--agent-phone (614) 629-5221
+							p.card--agent-bio: a(href="../brokers/cberlin.html") View Bio
+						a.button.button-primary(href="../brokers.html")  All Industrial Agents
+				hr
+				.row.services--testimonials
+					h2 Our Industrial Clients
+					.testimonials--content
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/meritex.png" alt="The Meritex Company logo")
+								p.testimonial--body "I have had the great fortune to work with NAI Ohio Equities as our leasing agent at several properties in Columbus, Ohio.  Because of their tenacity, hard work and understanding of our product type and tenants, we achieved 100% occupancy in this market."
+								p.testimonial--source - Jill Evans, Portfolio Manager
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/hackman.png" alt="Hackman Capital Partners logo")
+								p.testimonial--body "NAI Ohio Equities has done an excellent job for us. After purchasing Southeast Industrial Park, our goal has been to sell the buildings individually. Their team has clearly communicated our objectives to the brokerage community and end users. Through an aggressive marketing effort they have been able to sell 13 of the 18 buildings in the park. We appreciate their determined and honest approach to business."
+								p.testimonial--source - Ben Struewing, VP - Leasing, Sales &amp; Acquisitions
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/shippingtree.png" alt="ShippingTree logo")
+								p.testimonial--body "NAI Ohio Equities did a great job assisting us with our expansion into the Columbus, Ohio, Market.  We had our sights set on a location but our timing was moved up due to our client’s needs.  We found that this space would not be ready in time to meet with our client’s timeline, but the NAI Ohio Equities team adjusted quickly to find us a new property that was able to meet the timing demand. Their market knowledge and ability to adapt helped us secure a great warehouse/distribution facility in Columbus."
+								p.testimonial--source - Jesse Kaufman, CEO &amp; Founder
+				.row.servicess--casestudies
+					.col.col-md-4
+						img.img-responsive.casestudy--logo(src="../img/logos/fstlogistics.png", alt="FST Logistics logo")
+					.col.col-md-8.casestudy--content
+						p.casestudy--body "NAI Ohio Equities was instrumental in helping us analyze the potential of a sale/leaseback. From our first exploratory meeting, through the financial analysis, marketing and sale negotiations, they were there every step of the way. It was nice to know this transaction was being handled by such true professionals."
+						p.casestudy--source Art DeCrane, CEO
+						a(href="../results/fst.html"): .button.button-primary Read Case Study
+				hr
+				.row.services--listings
+					h2 Our Industrial Listings
+					.card.card--listing
+						img.img-responsive(src="https://s3.amazonaws.com/buildout-production/datas/4288536/6525ae98c78a71f64447f53fef6fe6880c6a2254/full.jpg", alt="5300 Crosswinds Drive")
+						.card--listing-info
+							h3.card--listing-propname 5300 Crosswinds Drive
+							p.card--listing-title: strong The Columbus Dispatch
+							p.card--listing-desc 68± acres with 4 buildings on the property
+							p.card--listing-view: a(href="https://www.ohioequities.com/listings.html?propertyId=5300-Crosswind") View Listing
+						a(href="../listings.html?propertyType=3"): .button.button-primary All Industrial Listings
+		script(src="../js/services.js")
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

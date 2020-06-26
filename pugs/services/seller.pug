@@ -1,0 +1,24 @@
+- var titleContent = "NAI Ohio Equities | Seller Representation"
+- var metaContent = "NAI Ohio Equities relies on decades of experience within the Central Ohio market to provide every service needed by our office clients."
+
+doctype html
+html(lang="en")
+	include ../../extends/services-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			.services-sub-header
+				h1 Seller 
+					br 
+					| Representation
+			a(href="../services.html#seller").back-to-services &#8592; Back To Services
+			.container.services-sub-content
+				.row.services--description
+					.col-md-6
+						p Our brokers know how to position properties for maximum value and promote them to the most qualified buyers allowing you to sell your asset quickly and for top dollar. Through knowledge of local submarkets, sophisticated financial modeling and underwriting, custom marketing solutions, strong negotiating, and relationships with local investors, we can give you a competitive selling advantage. We take accountability of our listings, managing the process from start to finish while optimizing your return.
+					.col-md-6
+						img.img-responsive(src="../img/stock-seller.jpg", alt="Seller Representation")
+		script(src="../js/services.js")
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

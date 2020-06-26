@@ -1,0 +1,365 @@
+/*********************************************
+Imports
+*********************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap');
+
+
+/*********************************************
+Base styles
+*********************************************/
+
+
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 2%;
+}
+
+.button-primary {
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: #AF2D37;
+    border: 2px solid #AF2D37;
+    transition: all ease-in .3s;
+}
+
+.button-primary:hover {
+    background-color: #AF2D37;
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-to-services {
+    margin-left: 1em;
+    font-size: 2rem;
+    position: relative;
+    top: -50px;
+}
+.back-to-services:hover {
+    text-decoration: none;
+}
+
+
+/*********************************************
+Services Sub Page Base
+*********************************************/
+
+.services-sub-header {
+    padding: 5em;
+    margin-bottom: 5em;
+    width: 100%;
+    background: rgba(141, 67, 67, 0.3) url('../img/services-transition.jpg') no-repeat center 70%;
+    background-size: cover;
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.services-sub-header h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 10rem;
+    line-height: 0.9;
+}
+
+.services-sub-content p {
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
+.services-sub-content .row {
+    margin-bottom: 10em;
+}
+
+.services--description {
+    display: flex;
+    align-items: center;
+}
+
+.services--description p {
+    max-width: 65ch;
+}
+
+.services--market-snapshot h2,
+.services--agents h2,
+.services--listings h2,
+.services--testimonials h2 {
+    font-size: 8rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+/*********************************************
+Market Snapshot
+*********************************************/
+
+
+
+.services--market-snapshot img {
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+
+.market-snapshot--chart a {
+    margin-top: 5em;
+}
+
+.market-snapshot--content {
+    margin: 0 0 0 auto;
+    max-width: 90%;
+}
+
+.market-snapshot--header {
+    background-color: #F2F2F2;
+    font-family: 'Lato', sans-serif;
+    color: #AAAAAA;
+    padding: 1em 2em;
+}
+
+.market-snapshot--header h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #08204D;
+    margin-bottom: 1em;
+}
+
+.market-snapshot--header li {
+    margin-bottom: 1em;
+}
+
+.market-snapshot--number {
+    background-color: aqua;
+    padding: 1em;
+    border-radius: 100%;
+    position: relative;
+    top: 1em;
+    color: #fff;
+    margin-right: 1em;
+}
+
+.snapshot-number01 {
+    background-color: #18526A;
+}
+
+.snapshot-number02 {
+    background-color: #00B0B5;
+}
+
+.market-snapshot--content p {
+    text-indent: -4em;
+    max-width: 90%;
+    position: relative;
+    left: 3em;
+    margin-bottom: 2em;
+    color: #AAAAAA;
+}
+
+
+/*********************************************
+Agents
+*********************************************/
+
+.services--agents .card--agent,
+.services--listings .card--listing {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.services--agents .card--agent,
+.services--listings .card--listing {
+    max-width: 100%;
+}
+
+.card--agent img {
+    max-width: 40%;
+    float: left;
+    margin-right: 3em;
+}
+
+.card--agent img,
+.card--listing img {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card--listing img {
+    margin-bottom: 3em;
+}
+
+.card--agent-info,
+.card--listing-info {
+    margin-bottom: 1.5em;
+}
+
+.card--agent-info h3,
+.card--listing-info h3 {
+    font-size: 4rem;
+    color: #AF2D37;
+    margin-bottom: .5em;
+    text-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+
+.card--agent-info p,
+.card--listing-info p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.card--agent-info p.card--agent-bio,
+.card--listing-info p.card--listing-view {
+    font-size: 1.5rem;
+}
+
+
+/*********************************************
+Testimonials
+*********************************************/
+
+.col--testimonial {
+    max-width: 90%;
+    margin: auto;
+}
+
+.testimonial--card {
+    padding: 2em;
+    border: 1px solid black;
+    /* min-height: 600px; */
+}
+
+.testimonial--logo {
+    max-width: 80%;
+    margin: 0 auto 3em;
+}
+
+.testimonial--body {
+    max-width: 35ch;
+    margin: 0 auto 2em;
+    line-height: 1.6;
+}
+
+.testimonial--source {
+    font-weight: bold;
+    color: #AF2D37;
+}
+
+p.casestudy--body {
+    font-size: 2.5rem;
+    color: #474747;
+    font-style: italic;
+    margin: 0 auto 1em;
+}
+
+p.casestudy--source {
+    font-weight: bold;
+    color: #AF2D37;
+    margin: 0 auto 3em;
+}
+
+
+
+/*********************************************
+Media Queries
+*********************************************/
+
+@media (max-width: 990px) {
+
+    /* Base styles */
+
+    .services-sub-header {
+        padding-left: 2em;
+    }
+
+    .services-sub-header h1 {
+        font-size: 5rem;
+    }
+
+    .services--description {
+        display: inline;
+    }
+
+    .services--description p {
+        margin-bottom: 3em;
+    }
+
+    .services--market-snapshot h2,
+    .services--agents h2,
+    .services--listings h2,
+    .services--testimonials h2 {
+        font-size: 5rem;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+
+    /* Market Snapshot */
+
+    .market-snapshot--chart {
+        margin-bottom: 3em;
+    }
+
+    .market-snapshot--chart img {
+        max-width: 90%;
+        margin: 1em auto;
+    }
+
+    .market-snapshot--content {
+        margin: auto;
+    }
+
+    /* Agents */
+
+    .services--market-snapshot,
+    .services--agents,
+    .services--testimonials {
+        padding: 0 1em;
+    }
+    .card--agent,
+    .card--listing {
+        width: 100%;
+    }
+    .card.card--agent img {
+        float: none;
+        margin: auto;
+        max-width: 50%;
+    }
+
+    .card--agent-info {
+        margin: 2em auto;
+    }
+
+    .card--agent-info h3,
+    .card--agent-info p {
+        text-align: center;
+    }
+
+    .card.card--agent .button {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Testimonials */
+
+    .col--testimonial {
+        margin-bottom: 2em;
+    }
+
+    .casestudy--logo {
+        max-width: 70%;
+        margin: 0 auto 2em;
+    }
+
+    .casestudy--content {
+        padding: 0 4em;
+    }
+
+    /* Listings */
+
+    .services--listings {
+        padding: 0 4em;
+    }
+
+    .card--listing-info h3 {
+        font-size: 3em;
+    }
+
+}

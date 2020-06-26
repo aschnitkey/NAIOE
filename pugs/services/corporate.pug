@@ -1,0 +1,24 @@
+- var titleContent = "NAI Ohio Equities | Corporate Services"
+- var metaContent = "NAI Ohio Equities relies on decades of experience within the Central Ohio market to provide every service needed by our office clients."
+
+doctype html
+html(lang="en")
+	include ../../extends/services-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			.services-sub-header
+				h1 Corporate 
+					br 
+					| Services
+			a(href="../services.html#corporate").back-to-services &#8592; Back To Services
+			.container.services-sub-content
+				.row.services--description
+					.col-md-6
+						p NAI Ohio Equities has decades of experience within the Central Ohio office market. We have an understanding of the current market and how it is evolving, including recent trends. Our commercial office brokers use innovative techniques while guiding you through all the details of the transaction, including market comps, negotiations, and the construction process. Whether you are looking to buy or sell, fill vacant space, or relocate your business, our brokers will find a solution that works for you.
+					.col-md-6
+						img.img-responsive(src="../img/stock-corporate.jpg", alt="Corporate Services")
+		script(src="../js/services.js")
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

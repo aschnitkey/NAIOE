@@ -1,0 +1,92 @@
+- var titleContent = "NAI Ohio Equities | Retail Services"
+- var metaContent = "NAI Ohio Equities retail agents understand the importance of location, space requirements, tax implications, and rental rates, so we can help you navigate the local retail market to find a space that will give your company the visibility and reach it needs."
+
+doctype html
+html(lang="en")
+	include ../../extends/services-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			.services-sub-header
+				h1 Retail 
+					br 
+					| Services
+			a(href="../services.html#retail").back-to-services &#8592; Back To Services
+			.container.services-sub-content
+				.row.services--description
+					.col-md-6
+						p In retail, the right property can make or break a company’s success. At NAI Ohio Equities, we understand the importance of location, space requirements, tax implications, and rental rates, so we can help you navigate the local market to find a space that will give your company the visibility and reach it needs. Our brokers share knowledge and resources so we know of more properties coming available and prospective tenants considering a move or additional locations.
+					.col-md-6
+						img.img-responsive(src="../img/stock-retail.jpg", alt="Retail Services")
+				hr
+				.row.services--market-snapshot
+					h2 Retail Market Snapshot
+					.col-md-7.market-snapshot--chart
+						img.img-responsive(src="../img/market-reports-retail.png", alt="Retail Market Snapshot") 
+						a(href="../marketing/marketreports/2020/nai_ohio_equities_2020q1.pdf") Download Full 1st Quarter 2020 Market Report
+					.col-md-5
+						.market-snapshot--content
+							p.market-snapshot--bullet01
+								span.market-snapshot--number.snapshot-number01 01
+								| The Retail vacancy rate increased to 3.5% during the first quarter of 2020.
+							p.market-snapshot--bullet02
+								span.market-snapshot--number.snapshot-number02 02
+								| The Industrial market had negative absorption of -41,320 SF in the first quarter of 2020.
+							.market-snapshot--header
+								h3 1st Quarter 2020
+								ul
+									li Rents in Columbus are high relative to Ohio’s other major metros, averaging $16.20/SF as of the secondquarter, nearly 20% above average rents in Cincinnati and 10% above Cleveland.
+									li “The virus pandemic will have an outsized disruption on the retail sector in the near term, with long-term effects expected to continue well into 2021. Some experts peg restaurant casualties at 20%, creating opportunities for alternative uses, and stronger restaurants later this year” - 
+										strong Mike Simpson, President
+				hr
+				.row.services--agents
+					h2 Our Retail Agents
+					.card.card--agent
+						img.img-responsive(src="../img/brokers/msimpson-portrait.jpg", alt="Mike Simpson")
+						.card--agent-info
+							h3.card--agent-name Mike Simpson
+							p.card--agent-title: strong President
+							p.card--agent-phone (614) 629-5236
+							p.card--agent-bio: a(href="../brokers/msimpson.html") View Bio
+						a.button.button-primary(href="../brokers.html")  All Retail Agents
+				hr
+				.row.services--testimonials
+					h2 Our Retail Clients
+					.testimonials--content
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/ohiostate.png" alt="The Ohio State University logo")
+								p.testimonial--body "NAI Ohio Equities has worked with Campus Partners in a various roles including acquisitions, dispositions and consulting on various projects. In two separate projects for Campus Partners, they were able to compel property owners who were previously unwilling to enter into negotiations, to sell their properties, allowing projects important to both the University and the community at large to move forward."
+								p.testimonial--source - Keith Myers, Associate Vice President Planning and Real Estate
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/lexus.png" alt="Germain Lexus logo")
+								p.testimonial--body "NAI Ohio Equities did a great job with our search for land to build a new Lexus service facility. Rigid requirements dictated both by state law and customer convenience narrowed the property parameters significantly, but NAI Ohio Equities persevered and gave us great options along with great expertise in the market. Additionally, they were able to negotiate a contract that gave us the time we needed to entitle the property to allow for the required zoning and street access. Over all, working with NAI Ohio Equities was a great experience."
+								p.testimonial--source - Rick Germain, Germain Lexus
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/epicenter.png" alt="Epiecenter Event Space logo")
+								p.testimonial--body "NAI Ohio Equities helped us find the perfect spot for a business, keeping in consideration all our needs and was persistent. They are their word and have been the most thoughtful and committed realtors I’ve ever worked with."
+								p.testimonial--source - Zedrick Clark
+				.row.servicess--casestudies
+					.col.col-md-4
+						img.img-responsive.casestudy--logo(src="../img/logos/laundrymax.png", alt="Laundry Max logo")
+					.col.col-md-8.casestudy--content
+						p.casestudy--body "The neighborhood needed something to cater to the nearby apartments. We really thought everyone would appreciate the change."
+						p.casestudy--source Yogesh Patel, Owner
+						a(href="../results/laundrymax.html"): .button.button-primary Read Case Study
+				hr
+				.row.services--listings
+					h2 Our Retail Listings
+					.card.card--listing
+						img.img-responsive(src="https://s3.amazonaws.com/buildout-production/datas/4637653/f658a1adb05e621ee3d860f1cccc41aaff04f2bc/full.jpg", alt="6505 Dublin Center Drive")
+						.card--listing-info
+							h3.card--listing-propname 6505 Dublin Center Drive
+							p.card--listing-title: strong Prime Dublin Retail Site and Restaurant
+							p.card--listing-desc Prime opportunity to purchase an existing restaurant in Dublin, Ohio
+							p.card--listing-view: a(href="https://www.ohioequities.com/listings.html?propertyId=6505-Dublin-Center-Drive") View Listing
+						a(href="../listings.html?propertyType=2"): .button.button-primary All Retail Listings
+		script(src="../js/services.js")
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

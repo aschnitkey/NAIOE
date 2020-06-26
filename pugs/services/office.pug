@@ -1,0 +1,92 @@
+- var titleContent = "NAI Ohio Equities | Office Services"
+- var metaContent = "NAI Ohio Equities relies on decades of experience within the Central Ohio market to provide every service needed by our office clients."
+
+doctype html
+html(lang="en")
+	include ../../extends/services-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			.services-sub-header
+				h1 Office 
+					br 
+					| Services
+			a(href="../services.html#office").back-to-services &#8592; Back To Services
+			.container.services-sub-content
+				.row.services--description
+					.col-md-6
+						p NAI Ohio Equities has decades of experience within the Central Ohio office market. We have an understanding of the current market and how it is evolving, including recent trends. Our commercial office brokers use innovative techniques while guiding you through all the details of the transaction, including market comps, negotiations, and the construction process. Whether you are looking to buy or sell, fill vacant space, or relocate your business, our brokers will find a solution that works for you.
+					.col-md-6
+						img.img-responsive(src="../img/stock-office.jpg", alt="Office Services")
+				hr
+				.row.services--market-snapshot
+					h2 Office Market Snapshot
+					.col-md-7.market-snapshot--chart
+						img.img-responsive(src="../img/market-reports-office.png", alt="Office Market Snapshot") 
+						a(href="../marketing/marketreports/2020/nai_ohio_equities_2020q1.pdf") Download Full 1st Quarter 2020 Market Report
+					.col-md-5
+						.market-snapshot--content
+							p.market-snapshot--bullet01
+								span.market-snapshot--number.snapshot-number01 01
+								| The Office vacancy rate increased to 7.7% during the first quarter of 2020.
+							p.market-snapshot--bullet02
+								span.market-snapshot--number.snapshot-number02 02
+								| The Office market had positive absorption of +39,000 SF in the first quarter of 2020.
+							.market-snapshot--header
+								h3 1st Quarter 2020
+								ul
+									li Office vacancy increased to 7.7% despite a positive absorption of 39,061 SF
+									li “The office sector remained relatively flat throughout the first quarter and it’s too early to tell what impact, if any, the pandemic will have on lease rates and overall activity.” - 
+										strong Matt Gregory, VP Office Brokerage
+				hr
+				.row.services--agents
+					h2 Our Office Agents
+					.card.card--agent
+						img.img-responsive(src="../img/brokers/mgregory-portrait.jpg", alt="Matt Gregory")
+						.card--agent-info
+							h3.card--agent-name Matt Gregory, SIOR, CCIM
+							p.card--agent-title: strong Senior VP, Office Brokerage
+							p.card--agent-phone (614) 629-5234
+							p.card--agent-bio: a(href="../brokers/mgregory.html") View Bio
+						a.button.button-primary(href="../brokers.html")  All Office Agents
+				hr
+				.row.services--testimonials
+					h2 Our Office Clients
+					.testimonials--content
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/furniturebank.png" alt="Furniture Bank logo")
+								p.testimonial--body "Working with NAI Ohio Equities was fantastic. They were very energetic and knowledgeable, responding quickly to our various needs and questions. Our agents were very personable, understood our needs, and strongly supported our effort to start a social enterprise. I would highly recommend them."
+								p.testimonial--source - Steve Votaw, CEO
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/kkg.png" alt="Kappa Kappa Gamma logo")
+								p.testimonial--body "NAI Ohio Equities went above and beyond to get everyone on board with the decision to move. They made us all feel comfortable and at ease throughout the entire process and were patient and helpful during this lengthy journey."
+								p.testimonial--source - Kari Kittrell Poole, Executive Director
+						.col.col-md-4.col--testimonial
+							.testimonial--card
+								img.img-responsive.testimonial--logo(src="../img/logos/covermymeds.png" alt="Cover My Meds logo")
+								p.testimonial--body "NAI Ohio Equities provided valuable and frequent updates on real estate market conditions, deals in play, whose word can be trusted, etc. Also, it was clear throughout our process that other persons and organizations hold Ohio Equities generally in high regard as knowledgeable and trustworthy counter-parties. Through their reputation, we gained a huge benefit in others assuming at the outset that we were a worthy, albeit small, organization."
+								p.testimonial--source - Alan Scantland, CEO
+				.row.servicess--casestudies
+					.col.col-md-4
+						img.img-responsive.casestudy--logo(src="../img/logos/alvis.png", alt="Alvis House logo")
+					.col.col-md-8.casestudy--content
+						p.casestudy--body "We have grown significantly in the past few years and had to lease space at three separate locations in order to accomodate the needs of the agency. I was delighted with the personal commitment made by NAI Ohio Equities to find us a property that met all of Alvis House's needs. The time and effort they have put forth has been invaluable."
+						p.casestudy--source Denise M. Robinson, President and CEO
+						a(href="../results/alvis.html"): .button.button-primary Read Case Study
+				hr
+				.row.services--listings
+					h2 Our Office Listings
+					.card.card--listing
+						img.img-responsive(src="https://s3.amazonaws.com/buildout-production/datas/946546/full.jpg", alt="85 McNaughten Road")
+						.card--listing-info
+							h3.card--listing-propname 85 McNaughten Road
+							p.card--listing-title: strong Class "A" Medical Office Space For Lease
+							p.card--listing-desc Flexible Suite Options, 3,640 - 5,324 SF 
+							p.card--listing-view: a(href="../brokers/mgregory.html") View Listing
+						a(href="../listings.html?propertyType=1"): .button.button-primary All Office Listings
+		script(src="../js/services.js")
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
