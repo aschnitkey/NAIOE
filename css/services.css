@@ -8,7 +8,9 @@ Imports
 /*********************************************
 Base styles
 *********************************************/
-
+.container.services-sub-content hr {
+    border-top: 2px solid #000;
+}
 
 .button {
     display: inline-block;
@@ -68,7 +70,7 @@ Services Sub Page Base
 }
 
 .services-sub-content .row {
-    margin-bottom: 10em;
+    margin-bottom: 8em;
 }
 
 .services--description {
@@ -171,10 +173,8 @@ Agents
     max-width: 100%;
 }
 
-.card--agent img {
-    max-width: 40%;
-    float: left;
-    margin-right: 3em;
+.card--agent .col-md-6:first-of-type {
+    padding-right: 3em;
 }
 
 .card--agent img,
@@ -205,9 +205,26 @@ Agents
     line-height: 1.4;
 }
 
-.card--agent-info p.card--agent-bio,
 .card--listing-info p.card--listing-view {
     font-size: 1.5rem;
+}
+
+.card--agent-info span {
+    color: #AF2D37;
+    margin-right: 1em;
+}
+
+.card--agent-info .card--agent-title {
+    margin-bottom: 1em;
+}
+
+.card--agent-bio {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.card--agent-info .card--agent-email {
+    margin-bottom: 1em;
 }
 
 
@@ -261,6 +278,20 @@ p.casestudy--source {
 Media Queries
 *********************************************/
 
+@media (max-width: 1200px) {
+    .card--agent-info h3 {
+        font-size: 3rem;
+    }
+
+    .card--agent-info p {
+        font-size: 1.5rem;
+    }
+
+    .card.card--agent a.button-primary {
+        font-size: 1.2rem;
+    }
+}
+
 @media (max-width: 990px) {
 
     /* Base styles */
@@ -306,6 +337,7 @@ Media Queries
         margin: auto;
     }
 
+
     /* Agents */
 
     .services--market-snapshot,
@@ -337,7 +369,13 @@ Media Queries
         transform: translateX(-50%);
     }
 
-    /* Testimonials */
+    .card.card--agent a.button-primary {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+
+    /* Clients */
 
     .col--testimonial {
         margin-bottom: 2em;
@@ -351,6 +389,7 @@ Media Queries
     .casestudy--content {
         padding: 0 4em;
     }
+
 
     /* Listings */
 

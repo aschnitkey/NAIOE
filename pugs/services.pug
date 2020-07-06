@@ -12,8 +12,8 @@ html(lang="en")
 				h1 Brokerage Services
 				p Every commercial real estate transaction is different. When you choose NAI Ohio Equities as your broker, you know that you are working with professionals who have the expertise and local knowledge to get you the results for your own unique needs.
 				.services-brokerage-btn-container
-					p.button Find An Agent
-					p.button View Our Listings
+					a(href="brokers.html").button Find An Agent
+					a(href="listings.html").button View Our Listings
 			#services-body
 				.container 
 					.cardset 
@@ -42,6 +42,11 @@ html(lang="en")
 							h2.card-title Corporate
 								br 
 								| Services
+						a(href="services/valuation.html").card#valuation 
+							img.card-icon(src="img/myIcons/services-icons/valuation.png", alt="")
+							h2.card-title Valuation
+								br 
+								| &amp; Advisory
 						a(href="services/landlord.html").card#landlord 
 							img.card-icon(src="img/myIcons/services-icons/landlord.png", alt="")
 							h2.card-title Landlord
@@ -57,11 +62,6 @@ html(lang="en")
 							h2.card-title Seller
 								br 
 								| Representation
-						a(href="services/valuation.html").card#valuation 
-							img.card-icon(src="img/myIcons/services-icons/valuation.png", alt="")
-							h2.card-title Valuation
-								br 
-								| &amp; Advisory
 				.email-join
 					h2.center-text #[span.glyphicon.glyphicon-envelope] Join Our Email List
 				.email-signup

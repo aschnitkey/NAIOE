@@ -740,19 +740,21 @@ footer {
 	margin-top: 5rem;
 }
 
-#services-brokerage-header p.button {
+#services-brokerage-header a.button {
 	display: inline;
 	background-color: #AF2D37;
 	padding: 1rem 2rem;
 	border: 3px solid #AF2D37;
 	margin: 0 1rem;
 	text-shadow: none;
+	color: #fff;
 }
 
-#services-brokerage-header p.button:hover {
+#services-brokerage-header a.button:hover {
 	background-color: #fff;
 	color: #AF2D37;
 	transition: .2s linear;
+	text-decoration: none;
 }
 
 #services-body .container {

@@ -41,15 +41,31 @@ html(lang="en")
 										strong Matt Gregory, VP Office Brokerage
 				hr
 				.row.services--agents
-					h2 Our Office Agents
-					.card.card--agent
-						img.img-responsive(src="../img/brokers/mgregory-portrait.jpg", alt="Matt Gregory")
-						.card--agent-info
-							h3.card--agent-name Matt Gregory, SIOR, CCIM
-							p.card--agent-title: strong Senior VP, Office Brokerage
-							p.card--agent-phone (614) 629-5234
-							p.card--agent-bio: a(href="../brokers/mgregory.html") View Bio
-						a.button.button-primary(href="../brokers.html")  All Office Agents
+					h2 Featured Office Specialist
+					.card.card--agent.row
+						.col-md-6
+							img.img-responsive(src="../img/brokers/mgregory-portrait.jpg", alt="Matt Gregory")
+						.col-md-6
+							.card--agent-info
+								h3.card--agent-name Matt Gregory, SIOR, CCIM
+								p.card--agent-title: strong Senior VP, Office Brokerage
+								p.card--agent-phone
+									span.glyphicon.glyphicon-earphone 
+									| (614) 629-5234 (office)
+								p.card--agent-phone
+									span.glyphicon.glyphicon-phone 
+									| (614) 937-6501 (mobile)
+								p.card--agent-phone.card--agent-email
+									span.glyphicon.glyphicon-envelope
+									a(href="mailto:mgregory@ohioequities.com") mgregory@ohioequities.com
+								p.card--agent-phone 
+									strong Education: 
+									| The Ohio State University
+								p.card--agent-phone.card--agent-exp
+									strong Years Experience: 
+									| 15
+								p.card--agent-bio: a(href="../brokers/mgregory.html") View Bio
+							a.button.button-primary(href="../brokers.html")  View All Office Specialists
 				hr
 				.row.services--testimonials
 					h2 Our Office Clients
