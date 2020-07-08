@@ -41,15 +41,31 @@ html(lang="en")
 										strong Mike Simpson, President
 				hr
 				.row.services--agents
-					h2 Our Retail Agents
-					.card.card--agent
-						img.img-responsive(src="../img/brokers/msimpson-portrait.jpg", alt="Mike Simpson")
-						.card--agent-info
-							h3.card--agent-name Mike Simpson
-							p.card--agent-title: strong President
-							p.card--agent-phone (614) 629-5236
-							p.card--agent-bio: a(href="../brokers/msimpson.html") View Bio
-						a.button.button-primary(href="../brokers.html")  All Retail Agents
+					h2 Featured Retail Specialist
+					.card.card--agent.row
+						.col-md-6
+							img.img-responsive(src="../img/brokers/msimpson-portrait.jpg", alt="Mike Simpson")
+						.col-md-6
+							.card--agent-info
+								h3.card--agent-name Mike Simpson
+								p.card--agent-title: strong President
+								p.card--agent-phone
+									span.glyphicon.glyphicon-earphone 
+									| (614) 629-5236 (office)
+								p.card--agent-phone.card--agent-mobile
+									span.glyphicon.glyphicon-phone 
+									| (614) 306-1722 (mobile)
+								p.card--agent-phone.card--agent-email
+									span.glyphicon.glyphicon-envelope
+									a(href="mailto:msimpson@ohioequities.com") msimpson@ohioequities.com
+								p.card--agent-phone.card--agent-education
+									strong Education: 
+									| Capital University
+								p.card--agent-phone.card--agent-exp
+									strong Years Experience: 
+									| 24
+								p.card--agent-bio: a(href="../brokers/msimpson.html") View Full Bio
+							a.button.button-primary(href="../brokers.html")  View All Retail Specialists
 				hr
 				.row.services--testimonials
 					h2 Our Retail Clients
@@ -80,12 +96,14 @@ html(lang="en")
 				.row.services--listings
 					h2 Our Retail Listings
 					.card.card--listing
-						img.img-responsive(src="https://s3.amazonaws.com/buildout-production/datas/4637653/f658a1adb05e621ee3d860f1cccc41aaff04f2bc/full.jpg", alt="6505 Dublin Center Drive")
+						img.img-responsive(src="https://s3.amazonaws.com/buildout-production/datas/4792696/6d631cbdd66900484012083d5651dbc6ec471dd1/full.jpg", alt="6505 Dublin Center Drive")
 						.card--listing-info
 							h3.card--listing-propname 6505 Dublin Center Drive
 							p.card--listing-title: strong Prime Dublin Retail Site and Restaurant
 							p.card--listing-desc Prime opportunity to purchase an existing restaurant in Dublin, Ohio
 							p.card--listing-view: a(href="https://www.ohioequities.com/listings.html?propertyId=6505-Dublin-Center-Drive") View Listing
+						iframe(src="https://8impact.com/360/nai/6505-dublin-center-dr/", frameborder="0", width="100%", height="750px")
+						br
 						a(href="../listings.html?propertyType=2"): .button.button-primary All Retail Listings
 		script(src="../js/services.js")
 	include ../../includes/footer-brokers.pug

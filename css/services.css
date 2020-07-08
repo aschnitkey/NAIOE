@@ -178,7 +178,8 @@ Agents
 }
 
 .card--agent img,
-.card--listing img {
+.card--listing img,
+.casestudy--building {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -272,6 +273,18 @@ p.casestudy--source {
     margin: 0 auto 3em;
 }
 
+.casestudy--content {
+    padding-left: 4em;
+}
+
+
+/*********************************************
+Listings
+*********************************************/
+
+.card--listing iframe {
+    margin-bottom: 2em;
+}
 
 
 /*********************************************

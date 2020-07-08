@@ -1701,6 +1701,12 @@ footer {
 		color: #fff;
 		text-shadow: 0 1px 1px rgba(0,0,0,.9);
 	}
+
+	#services-brokerage-header h1 {
+		font-size: 5rem;
+		text-align: center;
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 500px) {

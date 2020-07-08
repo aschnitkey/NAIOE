@@ -41,15 +41,31 @@ html(lang="en")
 										strong Curt Berlin SIOR, Industrial Specialist
 				hr
 				.row.services--agents
-					h2 Our Industrial Agents
-					.card.card--agent
-						img.img-responsive(src="../img/brokers/cberlin-portrait.jpg", alt="Curt Berlin")
-						.card--agent-info
-							h3.card--agent-name Curt Berlin, SIOR
-							p.card--agent-title: strong Industrial Property Team
-							p.card--agent-phone (614) 629-5221
-							p.card--agent-bio: a(href="../brokers/cberlin.html") View Bio
-						a.button.button-primary(href="../brokers.html")  All Industrial Agents
+					h2 Featured Industrial Specialist
+					.card.card--agent.row
+						.col-md-6
+							img.img-responsive(src="../img/brokers/cberlin-portrait.jpg", alt="Curt Berlin")
+						.col-md-6
+							.card--agent-info
+								h3.card--agent-name Curt Berlin, SIOR
+								p.card--agent-title: strong Industrial Property Team
+								p.card--agent-phone
+									span.glyphicon.glyphicon-earphone 
+									| (614) 629-5221 (office)
+								p.card--agent-phone.card--agent-mobile
+									span.glyphicon.glyphicon-phone 
+									| (614) 296-3739 (mobile)
+								p.card--agent-phone.card--agent-email
+									span.glyphicon.glyphicon-envelope
+									a(href="mailto:cberlin@ohioequities.com") cberlin@ohioequities.com
+								p.card--agent-phone.card--agent-education
+									strong Education: 
+									| The Ohio State University
+								p.card--agent-phone.card--agent-exp
+									strong Years Experience: 
+									| 33
+								p.card--agent-bio: a(href="../brokers/cberlin.html") View Full Bio
+							a.button.button-primary(href="../brokers.html")  All Industrial Specialists
 				hr
 				.row.services--testimonials
 					h2 Our Industrial Clients
@@ -61,9 +77,9 @@ html(lang="en")
 								p.testimonial--source - Jill Evans, Portfolio Manager
 						.col.col-md-4.col--testimonial
 							.testimonial--card
-								img.img-responsive.testimonial--logo(src="../img/logos/hackman.png" alt="Hackman Capital Partners logo")
-								p.testimonial--body "NAI Ohio Equities has done an excellent job for us. After purchasing Southeast Industrial Park, our goal has been to sell the buildings individually. Their team has clearly communicated our objectives to the brokerage community and end users. Through an aggressive marketing effort they have been able to sell 13 of the 18 buildings in the park. We appreciate their determined and honest approach to business."
-								p.testimonial--source - Ben Struewing, VP - Leasing, Sales &amp; Acquisitions
+								img.img-responsive.testimonial--logo(src="../img/logos/fstlogistics.png" alt="Hackman Capital Partners logo")
+								p.testimonial--body "The team from NAI Ohio Equities was instrumental in helping us analyze the potential of a sale/leaseback. From our first exploratory meeting, through the financial analysis, marketing and sale negotiations, they were there every step of the way. It was nice to know this transaction was being handled by such true professionals."
+								p.testimonial--source - Art DeCrane, CEO
 						.col.col-md-4.col--testimonial
 							.testimonial--card
 								img.img-responsive.testimonial--logo(src="../img/logos/shippingtree.png" alt="ShippingTree logo")
@@ -71,11 +87,11 @@ html(lang="en")
 								p.testimonial--source - Jesse Kaufman, CEO &amp; Founder
 				.row.servicess--casestudies
 					.col.col-md-4
-						img.img-responsive.casestudy--logo(src="../img/logos/fstlogistics.png", alt="FST Logistics logo")
+						img.img-responsive.casestudy--logo.casestudy--building(src="../img/services-industrialpark.jpg", alt="Southeast Industrial Park")
 					.col.col-md-8.casestudy--content
-						p.casestudy--body "NAI Ohio Equities was instrumental in helping us analyze the potential of a sale/leaseback. From our first exploratory meeting, through the financial analysis, marketing and sale negotiations, they were there every step of the way. It was nice to know this transaction was being handled by such true professionals."
-						p.casestudy--source Art DeCrane, CEO
-						a(href="../results/fst.html"): .button.button-primary Read Case Study
+						p.casestudy--body "The NAI Ohio Equities team has done an excellent job for us. After purchasing Southeast Industrial Park our goal has been to sell the buildings individually. Their team has clearly communicated our objectives to the brokerage community and end users. Through an aggressive marketing effort they have been able to sell 13 of the 18 buildings in the park. We appreciate their determined and honest approach to business."
+						p.casestudy--source Ben Streuwing | VP, Hackman Capital Partners
+						a(href="../results/industrialpark.html"): .button.button-primary Read Case Study
 				hr
 				.row.services--listings
 					h2 Our Industrial Listings
