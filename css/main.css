@@ -247,6 +247,35 @@ li a:hover {
 } */
 
 
+/***********************************************************
+	Display Logos
+***********************************************************/
+
+.logos-list {
+	width: 100%;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 350px;
+	/* background-color: pink; */
+}
+
+.logos-list img {
+	max-width: 25%;
+}
+
+.logos-list img {
+	max-width: 20%;
+	margin: 5px 2.5%;
+	filter: grayscale(100%);
+	transition: .3s linear;
+}
+
+.logos-list img:hover {
+	filter: grayscale(0%);
+	transform: scale(1.1);
+}
+
+
 
 /***********************************************************
 	Agents Hero
