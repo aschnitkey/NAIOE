@@ -254,18 +254,12 @@ li a:hover {
 .logos-list {
 	width: 100%;
 	list-style-type: none;
-	margin-top: 20px;
-	margin-bottom: 350px;
-	/* background-color: pink; */
-}
-
-.logos-list img {
-	max-width: 25%;
+	margin-bottom: 5em;
 }
 
 .logos-list img {
 	max-width: 20%;
-	margin: 5px 2.5%;
+	margin: 2.5%;
 	filter: grayscale(100%);
 	transition: .3s linear;
 }
@@ -275,11 +269,20 @@ li a:hover {
 	transform: scale(1.1);
 }
 
+.logo-divider {
+	max-width: 90%;
+	border-top: 2px solid #EEEEEE;
+}
+
 
 
 /***********************************************************
 	Agents Hero
 ***********************************************************/
+
+#service-descriptions {
+	padding: 5% 0;
+}
 
 #agents-hero {
 	background: url('../img/people.jpg') no-repeat center;
@@ -1665,6 +1668,10 @@ footer {
 		font-size: 1.5em;
 	}
 
+	.logos-list img {
+		max-width: 45%;
+	}
+
 	#service-descriptions img,
 	#service-descriptions h3 {
 		display: inline;
@@ -1753,6 +1760,15 @@ footer {
 
 	#slug p {
 		font-size: .7em;
+	}
+
+	.logos-list img {
+		max-width:45%;
+	}
+
+	.logos-list {
+		margin: auto;
+		text-align: center;
 	}
 
 	.text-left {
