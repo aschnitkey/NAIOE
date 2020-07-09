@@ -2,12 +2,12 @@ let pageType = document.querySelector('.services-sub-header h1');
 let pageTypeStr = pageType.textContent.toLowerCase().toString();
 let officeAgents = [
     {name: "Matt Gregory SIOR, CCIM", title: "Senior VP Office Brokerage", ext: "234", mobile: "(614) 937-6501", shortname: "mgregory", education: "The Ohio State University", exp: "2002"}, 
-    {name: "Andy Dutcher SIOR", title: "Senior VP Office Brokerage", ext: "266", mobile: "(614) 425-2959", shortname: "adutcher", education: "Ohio Univeristy", exp: "2008"},
+    {name: "Andy Dutcher SIOR", title: "Senior VP Office Brokerage", ext: "266", mobile: "(614) 425-2959", shortname: "adutcher", education: "Ohio Univeristy", exp: "2007"},
     {name: "Philip Bird", title: "VP Office Brokerage", ext: "296", mobile: "(614) 557-9967", shortname: "pbird", education: "The Ohio State University", exp: "2006"},
     {name: "Conor David CCIIR", title: "Commercial Real Estate Agent", ext: "298", mobile: "(248) 535-5773", shortname: "cdavid", education: "The Ohio State University", exp: "2017"},
     {name: "Mark Francescon", title: "Commercial Real Estate Sales", ext: "264", mobile: "(614) 376-9285", shortname: "mfrancescon", education: "Ohio Dominican College", exp: "2005"},
     {name: "John Mally", title: "Commercial Real Estate Agent", ext: "254", mobile: "(614) 570-7804", shortname: "jmally", education: "Bowling Green State University", exp: "2014"},
-    {name: "Jim Merkel", title: "Senior Vice President", ext: "214", mobile: "(614) 937-0870", shortname: "jmerkel", education: "Miami University", exp: "1971"},
+    {name: "Jim Merkel", title: "Senior Vice President", ext: "214", mobile: "(614) 937-0870", shortname: "jmerkel", education: "Miami University", exp: "1970"},
     {name: "Peter Merkle", title: "VP Office Brokerage", ext: "240", mobile: "(614) 218-3520", shortname: "pmerkle", education: "The Ohio State University", exp: "2002"},
     {name: "Michael Simpson", title: "President", ext: "236", mobile: "(614) 306-1722", shortname: "msimpson", education: "Capital University", exp: "1987"}
 ];
