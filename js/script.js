@@ -43,7 +43,6 @@ const allLogos = [
 	{source: "whitehall.png", alt: "City of Whitehall logo"}
 ];
 let dispLogos = document.querySelectorAll('.logos-list img');
-
 let logoContainer = [];
 
 while(logoContainer.length < 8) {
