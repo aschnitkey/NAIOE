@@ -1594,6 +1594,12 @@ footer {
 	.selector-body-lima {
 		top: 0;
 	}
+
+	.logos-list img {
+		max-width: 30%;
+		margin: 1em 3em;
+		filter: grayscale(0%);
+	}
 }
 
 @media (max-width: 825px) {
