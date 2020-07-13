@@ -444,7 +444,7 @@ li a:hover {
 }
 
 .market-reports-topright video {
-	max-width: 100%;
+	max-width: 480px;
 }
 
 .market-reports-bottomleft {
@@ -1733,6 +1733,10 @@ footer {
 
 	.whats-trending-body {
 		margin-top: 15px;
+	}
+
+	.market-reports-topright video {
+		max-width: 100%;
 	}
 }
 
