@@ -24,7 +24,7 @@ let industrialAgents = [
     {name: "Ryan McGreevy", title: "Commercial Real Estate Agent", ext: "282", mobile: "(614) 554-3417", shortname: "rmcgreevy", education: "The University of Dayton", exp: "2007"},
     {name: "Joe Menninger CCIM", title: "Commercial Broker", ext: "262", mobile: "(614) 778-1464", shortname: "jmenninger", education: "The Ohio State University", exp: "2003"},
     {name: "Matt Osowski SIOR", title: "Industrial Property Team", ext: "229", mobile: "(614) 397-4877",  shortname: "mosowski", education: "", exp: "2006"},
-    {name: "Michael Semon", title: "Industrial Specialist", ext: "217", mobile: "(614) 657-2391", shortname: "msemon", education: "", exp: "2005"},
+    {name: "Michael Semon", title: "Industrial Specialist", ext: "217", mobile: "(614) 657-2391", shortname: "msemon", education: "", exp: "1996"},
     {name: "Daniel P. Sheeran", title: "Industrial Specialist", ext: "216", mobile: "(614) 581-2434", shortname: "dsheeran", education: "", exp: "1971"},
     {name: "Dan Sheeran, Jr", title: "Industrial Specialist", ext: "228", mobile: "(513) 310-5497", shortname: "djsheeran", education: "Capital University", exp: "2017"}
 ];
