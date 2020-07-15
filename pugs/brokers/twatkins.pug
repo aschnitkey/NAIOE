@@ -1,0 +1,78 @@
+- var titleContent = "NAI Ohio Equities | Tyler Watkins"
+- var metaContent = "Tyler Watkins is a commercial real estate agent with NAI Ohio Equities, where he provides superb service and value to his clients."
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Tyler Watkins", "Commercial Real Estate Agent", "614-629-5232", "304-238-8613", "twatkins", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/tyler-watkins-48a846112/", "twatkins", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Investment
+						br 
+						|Industrial
+						br
+						| Land
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/klaney.html")
+							strong Kaydee Laney
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:klaney@ohioequities.com") klaney@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Tyler moved to Columbus after graduating from Ohio University in 2016. Before joining NAI Ohio Equities, he was a residential sales agent for M/I Homes where he received numerous customer service and sales awards, including the Building Industry Association of Central Ohio Rookie Salesperson of the Year award. Tyler is looking forward to translating these skills into commercial real estate by providing superb service and value to his clients.
+								hr
+								h5 What is your favorite neighborhood/area of Columbus?
+								p German Village, the Book Loft is my favorite place in the city and all the great restaurants. My hometown in Marietta Ohio also has mainly brick streets so it reminds me a little bit of home. 
+								h5 Where do you like to vacation?
+								p Colorado. I love hiking, white water rafting, fishing,  and the scenic golf courses. 
+								h5 Who are your favorite sports teams?
+								p Ohio State Buckeyes and the St. Louis Cardinals. 
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "twatkins@ohioequities.com"
+									});
+				.broker-bio-right
+					h4 Education
+					p BS, Biological Sciences
+						br
+						| Ohio University, 2016
+					h4 Membership
+					p Columbus Young Professionals Network
+					h4 Community Involvement
+					p Volunteer at Rock City Church Dream Center
+					h4 Honors and Awards
+					p 2018 Building Industry Association of Central Ohio Rookie Salesperson of the Year
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
