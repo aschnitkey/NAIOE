@@ -26,7 +26,8 @@ let industrialAgents = [
     {name: "Matt Osowski SIOR", title: "Industrial Property Team", ext: "229", mobile: "(614) 397-4877",  shortname: "mosowski", education: "", exp: "2006"},
     {name: "Michael Semon", title: "Industrial Specialist", ext: "217", mobile: "(614) 657-2391", shortname: "msemon", education: "", exp: "1996"},
     {name: "Daniel P. Sheeran", title: "Industrial Specialist", ext: "216", mobile: "(614) 581-2434", shortname: "dsheeran", education: "", exp: "1971"},
-    {name: "Dan Sheeran, Jr", title: "Industrial Specialist", ext: "228", mobile: "(513) 310-5497", shortname: "djsheeran", education: "Capital University", exp: "2017"}
+    {name: "Dan Sheeran, Jr", title: "Industrial Specialist", ext: "228", mobile: "(513) 310-5497", shortname: "djsheeran", education: "Capital University", exp: "2017"},
+    {name: "Tyler Watkins", title: "Commercial Real Estate Agent", ext: "232", mobile: "(304) 238-8613", shortname: "twatkins", education: "Ohio University", exp: "2020"}
 ];
 
 function updateAgentFrom(agentType) {
@@ -52,7 +53,13 @@ function updateAgentFrom(agentType) {
         cardAgent.querySelector('.card--agent-education').remove();
     }
     
-    cardAgent.querySelector('.card--agent-exp').innerHTML = `<strong>Years Experience:</strong> ${agentExperience}`;
+    // Check if experience is < 3 years and remove if so
+    if (agentExperience < 3) {
+        cardAgent.querySelector('.card--agent-exp').remove();
+    } else {
+        cardAgent.querySelector('.card--agent-exp').innerHTML = `<strong>Years Experience:</strong> ${agentExperience}`;
+    }
+    
     cardAgent.querySelector('.card--agent-bio a').setAttribute('href', `../brokers/${agentType[randomNumber].shortname}.html`);
 }
 
