@@ -1,0 +1,105 @@
+- var titleContent = "NAI Ohio Equities | Doug Shull"
+- var metaContent = "Doug Shull is a commercial real estate agent with NAI Ohio Equities where he specializes in industrial sales, leasing and development."
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Doug Shull", "Industrial Specialist", "614-629-5218", "614-496-0048", "dshull", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities/", "dshull", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jshipley.html")
+							strong Jackie Shipley
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jshipley@ohioequities.com") jshipley@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Doug joins us from Carey Realty Partners where he specialized in industrial sales, leasing and development.  Doug will continue working in the industrial field at NAI Ohio Equities. Previously, he was Vice President of Asset Management of National Realty Services. While there, he directed the property management, facilities maintenance and marketing activities of a 4,000,000 square foot portfolio of commercial real estate for such institutional owners as Prudential Insurance Company, the Equitable, State Teachers Retirement System of Ohio and Cabot Partners. In addition, he acted as court-appointed receiver on more than 300,000 square feet of industrial and office properties.
+								p In total, Mr. Shull has acted as project marketing director, receiver and/or owner’s representative for more than 7,000,000 square feet of industrial and office properties. He has completed more than 470 lease transactions totaling in excess of 8,000,000 square feet and successfully closed more than $62,000,000 of industrial/commercial brokerage transactions. 
+								hr
+								h5 What has been the best part of Columbus' growth over the past few decades?
+								p Columbus is now a recognized a site for commerce – nationally and internationally. It’s incumbent for all us to do what we can to continue making that economic pie grow.
+								h5 What is a favorite pastime you enjoy?
+								p College Football.  Greatest team game ever invented!
+								h5 What is your favorite hidden gem in Columbus?
+								p 1. The Top Steak House 2. Hunan House
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "dshull@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/siemens.png", alt="Siemens Logo")
+								h4 Transactions
+								ul#transactions-list
+									li Owens Corning | 486,000 SF
+									li Motoman USA | 183,000 SF
+									li State of Ohio – Dept of Natural Resources | 210,000 SF
+									li PipeValves | 132,000 SF
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/mgregory/2016-08-20.pdf", target="_blank") Northwoods II office building changes ownership; NAI Ohio Equities retains leasing (August 20, 2016)
+									li: a(href="http://www.bizjournals.com/columbus/news/2016/07/22/top-of-the-list-biggest-office-leases-of-2015.html?ana=fbk", target="_blank") Top of the List: Biggest Office Leases of 2015 (July 22, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_162f67b3a8814daeb561ccb083aaae05.pdf", target="_blank") Furniture Bank Bed Race Raises $14,000+! (July 18, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_dfd676d3835642b7944d3df938b6a34a.pdf", target="_blank") Cameron Mitchell moving corporate HQ to the Arena District (May 2, 2016)
+									li: a(href="http://www.costar.com/News/Article/Office-Lease-Up-Jan-18-Chemonics-BerkleyNet-Take-Down-Big-Leases-in-Northern-Virginia/178960", target="_blank") CoverMyMeds Leases 15,000 SF in Highland Hills (January 18, 2016)
+				.broker-bio-right
+					h4 Education
+					p BS, Business Administration-Finance
+						br
+						| Ashland University, 1971
+					h4 Membership
+					p CCIIR, Past President and Trustee
+						br
+						| Columbus REALTORS&reg;
+						br
+						| Ohio Board of REALTORS&reg;
+						br
+						| National Association of REALTORS&reg;
+					h4 Community Involvement
+					p Past Member- Johnstown Monroe School Board
+						br
+						| Monroe Township Board of Zoning Appeals
+						br
+						| Board of Trustees – Johnstown United Methodist Church
+						br
+						| Past Council Member- Village of Johnstown, Ohio
+						br
+						| Past Member-Tax Incentive Review Council – Licking County, Ohio
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
