@@ -1,0 +1,44 @@
+- var titleContent = "NAI Ohio Equities | Amy Roberts"
+- var metaContent = "Amy Roberts is a Marketing Assistant at NAI Ohio Equities where she enjoys working with agents to help grow sales by taking marketing to the next level."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Amy Roberts", "Marketing Assistant", "614-629-5294", "aroberts", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/amy-roberts-692115bb/", "aroberts", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Community Involvement
+					p Colony Cats &amp; Dogs - Adoption Specialist
+						br
+						| Girls on the Run of Central Ohio - Volunteer
+						br
+						| Mid-Ohio Food Bank - Volunteer
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Amy joins NAI Ohio Equities after four years in marketing with Newmark Knight Frank.  She enjoys the fast-paced environment of the Commercial Real Estate world and is enthusiastic about the growth of the industry in the Columbus area.  Amy enjoys working with brokers to help grow sales by taking marketing to the next level.  When she’s not working, Amy enjoys discovering new restaurants with friends or taking an outdoor yoga class.  As a life-long equestrian, she is happiest in the saddle or helping her daughter work with horses.
+								hr
+								h5 What is one of your favorite buildings in Columbus?
+								p The Leveque Tower.  Makes you feel like you are in a European city with its impressive architecture and classically beautiful interior.
+								h5 What has been the best part of Columbus' growth over the past few decades?
+								p The revitalization of Downtown.  I can remember when I first moved to Columbus in the late 90’s, nobody went Downtown unless you worked there.
+								h5 If you had to pick a song to walk-out to (similar to baseball), what would it be?
+								p "Homecoming" by Kanye West and Chris Martin
+								h5 Why did you decide to make Columbus your home?
+								p I moved to Columbus while attending Ohio State.  I grew up in a small town and wanted more of a big city vibe.  Plus, almost all of my extended family lives here.
+				.broker-bio-right
+					h4 Education
+					p BA, Communication
+						br
+						| The Ohio State University, 1997
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
