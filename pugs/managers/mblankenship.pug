@@ -1,0 +1,42 @@
+- var titleContent = "NAI Ohio Equities | Mindy Blankenship"
+- var metaContent = "Mindy Blankenship is the Community Association Manager for Burnham Square in the Arena District and 828 at the Yard in Grandview, where she is responsible for the successful management of the communities which includes budgeting, day-to-day operations, resident relations, and assisting the Board of Directors."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Mindy Blankenship", "Property Manager", "614-228-6250", "mblankenship", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities", "mblankenship", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Community Association Management, CMCA
+						br 
+						| Financial Planning and Budgeting 
+						br 
+						| Team Building and Leadership
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Mindy is the Community Association Manager for Burnham Square in the Arena District and 828 at the Yard in Grandview. She is responsible for the successful management of the communities which includes budgeting, day-to-day operations, resident relations, and assisting the Board of Directors.
+								hr
+								h5 Where do you like to vacation?
+								p The Channel Islands National Park. Swimming at Scorpion Beach and hiking along the sea cliffs on Santa Cruz Island is an incredible experience. I love learning about the island’s diverse wildlife and rich history.
+								h5 What is a favorite pastime that you enjoy?
+								p I enjoy hiking and camping, swimming, and practicing yoga.
+								h5 What is your favorite hidden gem in Columbus?
+								p The Book Loft in German Village
+				.broker-bio-right
+					h4 Education
+					p Ventura College, 2005-2007
+						br
+						| Columbus College of Art and Design, 2008-2010
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
