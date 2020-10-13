@@ -1,0 +1,59 @@
+- var titleContent = "NAI Ohio Equities | Dwight D. Robertson"
+- var metaContent = "Dwight Robertson is the VP Property Management for NAI Ohio Equities where he leads the Property Management Division, which services a diverse portfolio of office, medical, retail, industrial, multi-family, and homeowner associations."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Dwight D. Robertson", "VP Property Management", "614-629-5263", "drobertson", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities/", "drobertson", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Community Involvement
+					p Mid-Ohio Foodbank
+						br 
+						| Youth For Christ 
+						br 
+						| Hoover Sailing Club
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p As Vice President of Property Management, with over 30 years of commercial real estate experience, Dwight leads our Property Management Division, which services a diverse portfolio of office, medical, retail, industrial, multi-family, and homeowner associations. He interfaces continuously with our Property Management and Brokerage professionals to optimize client relations, real estate strategy, and return on investment. Before joining NAI Ohio Equities, Dwight served as Executive Vice President of Real Estate Services for Equity, where he led the organization’s national brokerage and property management divisions. As a Certified Facility Manager, Dwight is known for his technical acumen and excels at providing his clients with sound operational efficiencies and outcomes.
+								hr
+								h5 Where do you like to vacation?
+								p Our family recently discovered Destin, Florida which has become our favorite vacation spot.  The area is known for its white sand, emerald water and fishing village vibe…all of which make it a great family escape.
+								h5 What is a favorite pastime that you enjoy?
+								p I’ve grown up as an outdoor enthusiast and enjoy many pastimes; however, my favorite is racing sailboats.  The sport places you in the elements and requires great strategy and teamwork.   On most summer weekends I can be found either participating in or coaching my kids at a regatta.   
+								h5 Who are your favorite sports teams?
+								p Currently my favorite sports team is the Olentangy Berlin Bears.  I have two children in high school sports and enjoy seeing them excel as athletes and team members.
+				.broker-bio-right
+					h4 Education
+					p BS, English
+						br
+						| Duquesne University, 1991
+						br
+						| -Outstanding Senior 
+						br 
+						| -Men's Swim Team
+					h4 Membership 
+					p International Facility Management Association - Certified Facility Manager 
+						br 
+						| Ohio REALTORS&reg; – Member of Commercial and Industrial Committee
+						br 
+						| National Association of REALTORS&reg;
+						br 
+						| Columbus Commercial Industrial Investment Realtors&reg; (CCIIR)
+						br 
+						| Licensed Real Estate Salesperson – Ohio & Pennsylvania
+						br 
+						| Greater Erie Board of REALTORS&reg; – Past Chairperson Commercial Industrial Committee
+
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
