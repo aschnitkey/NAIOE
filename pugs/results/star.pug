@@ -1,0 +1,63 @@
+-var titleContent = ""
+-var metaContent = ""
+-var fileNameCSS = "star"
+include ../../mixins/results-css.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/results-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			#star-header
+				.star-header-text
+					h1 Sale/Leaseback Project
+					h6 Star Leasing Company
+				img.img-responsive(src="../img/logos/starleasing.png", alt="Star Leasing Company Logo")
+			.container-fluid
+				.row
+					.col-sm-3.star-text-left
+						h3 Case Study
+						h4 Star Leasing Company - Columbus, Ohio
+						p: a(href="download/star.pdf", target="_blank") Download Case Study
+					.col-sm-9
+						p NAI Ohio Equities is one of Central Ohio’s largest, long-standing commercial real estate companies. The firm has been serving the Columbus real estate market since 1971. We strive to provide the highest quality real estate services by adding value to our clients' assets and real estate needs through expert analysis, specific market knowledge, and personalized service. We pride ourselves on our communication and accountability.
+						p NAI Ohio Equities is the Central Ohio affiliate of NAI Global, the single largest, most powerful global network of owner-operated commercial real estate brokerage firms. NAI Global member firms span worldwide, with 375 offices and more than 6,700 local market experts on the ground. Supported by the central resources of the NAI Global organization, member firms deliver market-leading services locally and combine their in-market strengths to form a powerful bond of insights and execution for clients with multi-market challenges in the U.S. and/or globally.
+				.row
+					.col-sm-12
+						dl.dl-horizontal
+							dt Project
+							dd Founded in 1974 in Columbus, Ohio, Star Leasing Company is the “One Solution” for all semi-trailer needs, including rental, leasing, maintenance, sales and finance.
+							dd Today, the company functions as an ESOP and occupies 12 full-service maintenance/branch locations across the Midwest and Southeast. Of those locations, three were owned by a group of former and current Star Leasing employees. Located in the Cincinnati, Indianapolis and Atlanta areas these facilities are a unique product type consisting of maintenance facilities and additional acreage for trailer storage.
+							dd The ownership group decided to analyze if selling was a better fit moving forward.
+							dt Approach
+							dd Star Leasing consulted with NAI Ohio Equities’ Industrial Property Team to determine if a sale/leaseback was a financially viable alternative. With Star Leasing being a strong, growing company and capitalization rates at or near all-time lows, it made sense to pursue this opportunity. The Industrial Property Team recommended a 10-year lease term to maximize the sale value while securing these vital locations.
+							dd In consultation with Star Leasing, the Industrial Property Team decided to market the portfolio with an asking price to set expectations for potential buyers. After a short marketing period, a call for offers date was set. Utilizing the team’s vast databases to locate qualified investors, numerous confidentiality agreements were executed and multiple written offers were received. After reviewing each of them with the ownership group and Star Leasing’s leadership, the top three were chosen for the short list. Discussions were opened with the goal of identifying the one who would be a compatible landlord, have the highest likelihood of closing and offer the best price.
+							dt Results
+							dd Cardinal Industrial Real Estate, based out of Sherman Oaks, California, was ultimately selected. This transaction had a few interesting turns as the deal moved towards closing. In the final two weeks of the original due diligence period we became aware of the need for a Phase 2 Environmental Site Assessment. This was understandable, and the seller had no problem resolving the issue. What was completely unexpected was that the additional two weeks would land us at the start of a global pandemic. After placing the deal on hold for 90 days, the buyer ultimately felt comfortable enough with the deal to close at the original terms.
+				.row.star-team-photos
+					p Team Members
+					hr
+					ul
+						li
+							img.img-responsive(src="../img/brokers/cberlin-portrait.jpg", alt="Curt Berlin, SIOR")
+							p Curt Berlin SIOR
+							p: em Sales and Leasing Agent
+						li
+							img.img-responsive(src="../img/brokers/mosowski-portrait.jpg", alt="Matt Osowski, SIOR")
+							p Matt Osowski
+							p: em Sales and Leasing Agent
+						li
+							img.img-responsive(src="../img/brokers/bdecrane-portrait.jpg", alt="Blake DeCrane")
+							p Peter Merkle
+							p: em Sales and Leasing Agent
+				.row.star-testimonials
+					p "The Industrial Property Team from NAI Ohio Equities were great advisors throughout the entire sale/leaseback process. This transaction was unique in that it was a multi-market assignment and closed in the midst of a global pandemic. Despite these challenges, the team was able to help get this deal to the finish line."
+					p.results_byline
+						span(style="color: #E9B741; font-size: 0.75em") Steve Jackson, CEO | Star Leasing Company
+						img.img-responsive(src="../img/logos/starleasing.png", alt="Star Leasing Company logo")
+				.row.star-testimonials_return
+					a(href="../results.html") << View All Case Studies and Testimonials
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
