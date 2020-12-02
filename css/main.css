@@ -1447,6 +1447,10 @@ footer {
 	max-width: 300px;
 }
 
+.camden-even li img {
+	max-height: 200px;
+}
+
 .selector-body-lima .office-agents a li .officeagentsoverride {
 	max-width: 250px;
 }
