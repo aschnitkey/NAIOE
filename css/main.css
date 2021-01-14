@@ -220,6 +220,12 @@ li a:hover {
 	margin-right: auto;
 }
 
+.aboutusvideo {
+	display: block;
+	margin: 50px auto 0;
+	max-width: 100%;
+}
+
 
 /***********************************************************
 	COVID-19 Updates
