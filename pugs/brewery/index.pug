@@ -1,0 +1,45 @@
+- var titleContent = "NAI Ohio Equities | Brewery District Office Properties"
+- var metaContent = "NAI Ohio Equities' John Mally has listed several office buildings in The Brewery District in Downtown Columbus, Ohio."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Office Space Available
+				br
+				| Brewery District Properties
+			.selector-body-lima
+				ul.office-agents.camden-selector-ul
+					a(href="https://www.ohioequities.com/listings.html?propertyId=831-n-front-st", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/7898593/05e13287e99ba149e529f77fd12934ffecfa2498/full.jpg?1617592515", alt="831 S Front Street")
+							p
+								strong(style="font-size: 1.5rem") 831 S Front Street
+								br
+								| Creative Space for Sale or Lease<br>4,120 SF Building
+					a(href="https://www.ohioequities.com/listings.html?propertyId=Plant-2", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/6934140/45eb5bd9601cac0c616e056ac1e3ccc1a49549c6/full.jpg?1609360035", alt="C19 E Kossuth St")
+							p 
+								strong(style="font-size: 1.5rem") 19 E Kossuth St
+								br
+								| All-brick Office Townhouse<br>958 SF Building
+				.camden-footer-spacer(style="width: 100%; height: 400px;")
+		script.
+			const items = document.querySelectorAll('.camden-selector-ul li');
+			items.forEach((item) => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			item.addEventListener('mouseover', () => {
+			item.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
+			});
+			item.style.transition = "all .3s ease-out"
+			item.addEventListener('mouseout', () => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			});
+			});
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
