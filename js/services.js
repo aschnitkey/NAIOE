@@ -14,8 +14,7 @@ let officeAgents = [
 let retailAgents = [
     {name: "Kim Benincasa", title: "Commercial Real Estate Agent", ext: "280", mobile: "(740) 819-4619", shortname: "kbenincasa", education: "", exp: "2008"},
     officeAgents.find( ({ shortname }) => shortname == "jmally"),
-    {name: "Bob Monahan", title: "Commercial Real Estate Agent", ext: "222", mobile: "(614) 204-6907", shortname: "bmonahan", education: "The Ohio State University", exp: "1985"},
-    officeAgents.find( ({ shortname }) => shortname == "msimpson")
+    {name: "Bob Monahan", title: "Commercial Real Estate Agent", ext: "222", mobile: "(614) 204-6907", shortname: "bmonahan", education: "The Ohio State University", exp: "1985"},{name: "Michael Simpson", title: "President", ext: "236", mobile: "(614) 306-1722", shortname: "msimpson", education: "Capital University", exp: "1987"}, {name: "Carter Stephens", title: "Commercial Investment Specialist", ext: "261", mobile: "(631-704-2257", shortname: "cstephens", education: "Ohio University", exp: "2020"},{name: "Tyler Watkins", title: "Commercial Real Estate Agent", ext: "232", mobile: "(304) 238-8613", shortname: "twatkins", education: "Ohio University", exp: "2017"}
 ];
 let industrialAgents = [
     {name: "Curt Berlin SIOR", title: "Industrial Property Team", ext: "221", mobile: "(614) 296-3739", shortname: "cberlin", education: "The Ohio State University", exp: "1986"},
