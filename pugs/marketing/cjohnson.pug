@@ -1,0 +1,38 @@
+- var titleContent = "NAI Ohio Equities | Firstname Lastname"
+- var metaContent = ""
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Chelsea Johnson", "Marketing Director", "614-224-2400", "cjohnson", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/chelsea-johnson-cdj/", "cjohnson", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Certifications
+					p Google Analytics - Google
+						br 
+						| Inbound - HubSpot 
+						br 
+						| Event Marketing Strategy, Hybrid Event, and Virtual Event - Cvent 
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Chelsea Johnson is the Marketing Director for NAI Ohio Equities. She has 10 years of experience working in developing corporate cultures, marketing, and brand development.
+								p Chelsea is an expert on building brand cultures, driving marketing KPIs and developing marketing strategies. She has been recognized through job promotions and has achieved industry-standard certifications.
+								p She believes the best organizations start with having great employees and strong company culture. And that branding starts within the organization first. She says “If the organization does not have a true understanding of its ‘Company DNA’ there is no way they can service their customers at a high level.”
+								p Chelsea’s core professional values are centered around a positive attitude, adaptability, and a high level of professionalism. She has been told she’s the “company cheerleader,” and believes that an organization only WINs when everyone is working together as a TEAM!
+								p In Chelsea’s downtime, she enjoys watching football, playing sports such as golf, and listening to music. If you’re interested in speaking with Chelsea about brand development and marketing strategy planning, please send a brief message and connect with her at any point.
+								hr
+				.broker-bio-right
+					h4 Education
+					p The Ohio State University
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
