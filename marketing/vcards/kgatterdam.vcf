@@ -1,0 +1,14 @@
+begin:vcard
+version:3.0
+prodid:Microsoft-MacOutlook/16.50.21061301
+UID:B75B3533-29BC-466E-AF8E-83E32736C0F5
+fn;charset=utf-8:Kurt Gatterdam
+n;charset=utf-8:Gatterdam;Kurt;;;
+title;charset=utf-8:Chief Financial Officer
+org;charset=utf-8:NAI Ohio Equities;
+url;charset=utf-8;type=work:www.ohioequities.com
+adr;charset=utf-8;type=work;type=pref:;;605 S Front St\, Suite 200;Columbus;OH;43215;USA
+label;charset=utf-8;type=work;type=pref:605 S Front St\, Suite 200\nColumbus\, OH 43215\nUSA
+tel;charset=utf-8;type=work:614-629-5253
+email;charset=utf-8;type=internet;type=pref;type=work:kgatterdam@ohioequities.com
+end:vcard
