@@ -1,10 +1,10 @@
 // video selector
 
 let videoSource = [
-    "marketing/marketreports/2020/nai_ohio_equities_2020q4_office.mp4",
-    "marketing/marketreports/2020/nai_ohio_equities_2020q4_industrial.mp4",
-    "marketing/marketreports/2020/nai_ohio_equities_2020q4_retail.mp4",
-    "marketing/marketreports/2020/nai_ohio_equities_2020q4_multifamily.mp4"
+    "marketing/marketreports/2021/nai_ohio_equities_2021q2_office.mp4",
+    "marketing/marketreports/2021/nai_ohio_equities_2021q2_industrial.mp4",
+    "marketing/marketreports/2021/nai_ohio_equities_2021q2_retail.mp4",
+    "marketing/marketreports/2021/nai_ohio_equities_2021q2_multifamily.mp4"
 ];
 
 let videoTag = document.getElementById("videoSourceTag");
