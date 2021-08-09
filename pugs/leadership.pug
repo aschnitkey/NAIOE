@@ -1,0 +1,36 @@
+- var titleContent = "NAI Ohio Equities | Leadership Team"
+- var metaContent = "NAI Ohio Equities' Leadership Team is made up of C-Level executives who lead NAI Ohio Equities in strategy, vision, and execution."
+
+doctype html
+html(lang="en")
+	include ../includes/head.pug
+	body
+		include ../includes/nav.pug
+		.navspacer
+		.brokers-container
+			div.panel-group#accordion(role="tablist", aria-multiselectable="true")
+				.panel.panel-default
+					.panel-heading#headingOne(role="tab")
+						h4.panel-title
+							a(role="button", data-toggle="collapse", data-parent="#accordion", href="#collapseOne", aria-expanded="true", aria-controls="collapseOne") NAI Ohio Equities Executive Leadership Team
+					.panel-collapse.collapse.in#collapseOne(role="tabpanel", aria-labelledby="headingOne")
+						.panel-body
+							ul.office-agents
+								a(href="brokers/ssimpson.html")
+									li
+										img(src="img/brokers/ssimpson-portrait.jpg")
+										p Sandy Simpson<br>Chairman<br>614-629-5280 office 
+								a(href="brokers/msimpson.html")
+									li 
+										img(src="img/brokers/msimpson-portrait.jpg")
+										p Michael Simpson<br>President<br>614-629-5236 office
+								a(href="marketing/kgatterdam.html")
+									li 
+										img(src="img/support/kgatterdam-portrait.jpg")
+										p Kurt Gatterdam<br>Chief Financial Officer<br>614-629-5253 office
+								a(href="managers/drobertson.html")
+									li 
+										img(src="img/managers/drobertson-portrait.jpg")
+										p Dwight Robertson<br>Executive VP, Property Mgmt.<br>614-629-5263 office
+		include ../includes/footer.pug
+		include ../includes/scripts.pug
