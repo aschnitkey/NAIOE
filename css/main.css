@@ -643,6 +643,59 @@ li a:hover {
 }
 
 
+/***********************************************************
+	Careers.html
+***********************************************************/
+
+#careers {
+	padding: 2em;
+}
+
+.careers-header {
+	height: 300px;
+	width: 100%;
+	background: url("../img/careers/careers01.jpg") center center no-repeat;
+	background-size: cover;
+	margin: 3em 0 5em;
+}
+
+#careers h1, #careers h2, #careers h3, #careers h4, #careers h5, #careers h6 {
+	margin: 0;
+	color: #1D6497;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+#careers h1 {
+	font-size: 6rem;
+}
+#careers h2 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+
+#careers p {
+	margin-bottom: 3em;
+	max-width: 70ch;
+}
+
+#careers h3 {
+	margin-bottom: 0.5em;
+}
+
+.open-jobs-list {
+	margin-bottom: 2em;
+}
+
+#careers p.benefits {
+	margin-bottom: 0.5em;
+}
+
+#careers img {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
 
 /***********************************************************
 	Footer
@@ -1902,5 +1955,18 @@ footer {
 
 	.connect-header a.contact-btn {
 		padding: 5px 10px;
+	}
+
+	#careers h2 {
+		margin-bottom: 2em;
+	}
+
+	#careers p, #careers li {
+		font-size: 1.7rem;
+		line-height: 1.6;
+	}
+
+	#careers h3 {
+		font-size: 3.3rem;
 	}
 }
