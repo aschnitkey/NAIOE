@@ -1,0 +1,44 @@
+- var titleContent = "NAI Ohio Equities - Office Space For Lease"
+- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed several offices for lease in Dublin, Ohio."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Grant and Spring
+				br
+				| Downtown Columbus Office
+			.selector-body-lima
+				ul.office-agents.camden-selector-ul
+					a(href="https://www.ohioequities.com/listings.html?propertyId=145-n-grant-ave", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/10367938/aa7cc325f344af2692130afc75e3d47fd4bc3e88/full.jpg?1630594790", alt="145 N Grant Ave")
+							p
+								strong(style="font-size: 1.5rem") 145 N Grant Avenue
+								br
+								| 12,220 SF Single-Story Building<br>Redevelopment or Owner/Occupant Opportunity
+					a(href="https://www.ohioequities.com/listings.html?propertyId=161-n-grant-ave", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/10367416/f37dc1a36dc22ebc3bd7f2d06a436eeb5a797349/full.jpg?1630593005", alt="161 N Grant Ave")
+							p 
+								strong(style="font-size: 1.5rem") 161 N Grant Avenue
+								br
+								| 41,188 SF Four-Story Building<br>±0.48 Total Acres over Two Parcels
+		script.
+			const items = document.querySelectorAll('.camden-selector-ul li');
+			items.forEach((item) => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			item.addEventListener('mouseover', () => {
+			item.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
+			});
+			item.style.transition = "all .3s ease-out"
+			item.addEventListener('mouseout', () => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			});
+			});
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
