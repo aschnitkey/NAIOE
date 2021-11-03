@@ -7,6 +7,7 @@
 	background:
 		linear-gradient(rgba(109,114,118,.8), rgba(109,114,118,.8)),
 		url('../img/brokers/bio/textures/pattern4.jpg');
+	overflow: hidden;
 }
 
 .broker-bio-contact {
@@ -47,10 +48,10 @@
 }
 
 .broker-bio-image {
-	height: 300px;
+	height: 400px;
 	position: absolute;
-	right: 10%;
-	bottom: 0px;
+	right: 1%;
+	bottom: -25%;
 }
 
 .broker-bio-content {
