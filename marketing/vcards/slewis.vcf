@@ -1,0 +1,14 @@
+begin:vcard
+version:3.0
+prodid:Microsoft-MacOutlook/16.55.21111400
+UID:9014E9B8-C9E6-47FC-AF83-C5711BC02DF0
+fn;charset=utf-8:Sarah Lewis
+n;charset=utf-8:Lewis;Sarah;;;
+title;charset=utf-8:Marketing Assistant
+org;charset=utf-8:NAI Ohio Equities;
+url;charset=utf-8;type=work:www.ohioequities.com/marketing/slewis.html
+adr;charset=utf-8;type=work;type=pref:;;605 S Front St\, Ste 200;Columbus;OH;43215;
+label;charset=utf-8;type=work;type=pref:605 S Front St\, Ste 200\nColumbus\, OH 43215
+tel;charset=utf-8;type=work:614-629-5219
+email;charset=utf-8;type=internet;type=pref;type=work:slewis@ohioequities.com
+end:vcard
