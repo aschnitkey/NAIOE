@@ -1,0 +1,39 @@
+- var titleContent = "NAI Ohio Equities | Alexa Strohm"
+- var metaContent = "Alexa Strohm is a Content Writer at NAI Ohio Equities where she is responsible for creating and editing content for the company across a variety of digital platforms, as well as print materials, including proposals and presentations."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Alexa Strohm", "Content Writer", "614-629-5246", "astrohm", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/alexastrohm/", "astrohm", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p As Content Writer for NAI Ohio Equities, Alexa is responsible for creating and editing content for the company across a variety of digital platforms, as well as print materials, including proposals and presentations.
+								p With more than a decade of marketing and communications experience, Alexa has a diverse background in a variety of industries including technology, state and local government, and most recently, commercial real estate.  This diversity is also reflected in the type of content she has generated ranging from the development of strategic business deliverables to marketing collateral and digital content. She is skilled in technical, news and feature writing, proposal development, design, branding, and content marketing. 
+								hr
+								h5 What is one of your favorite buildings in Columbus?
+								p The Trinity Episcopal Church on the corner of Broad and High is a beautiful example of Gothic Revival architecture. I love the pointed arches but I’m especially fond of the beautiful stained glass windows.
+								h5 What has been the best part of Columbus's growth over the past few decades?
+								p The most exciting development to me about Columbus’ growth over the past few decades is the push to bring life to downtown Columbus by enticing people to not only work downtown, but to live in the colorful neighborhoods in and around it, and to enjoy the array of entertainment and dining options that now exist.
+								h5 Where do you like to vacation?
+								p For me, my favorite part of vacationing is exploring, so it’s difficult to choose just one place.  I love discovering the hidden gems or experiences that make each place unique. I love the lakes of Michigan, the mountains of Tennessee, the hustle and bustle of New York City, and the beaches of the Caribbean. I also love a good day trip to small town Ohio.
+								h5 What is your favorite hidden gem in Columbus? 
+								p Like most people, I enjoy a good pizza pie. I’ve tried my fair share of local shops and had many delicious pies, but if you are ever on the north side, stop in and grab a Terita’s pizza. It’s a north side tradition that will not disappoint.
+				.broker-bio-right
+					h4 Education
+					p BA, Journalism 
+						br
+						| Otterbein College, 2009
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
