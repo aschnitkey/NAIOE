@@ -242,8 +242,9 @@
 	}
 
 	.broker-bio-image {
-		margin-right: -10%;
+		right: 5%;
 	}
+	
 }
 
 @media (max-width: 950px) {
@@ -262,18 +263,19 @@
 
 @media (max-width: 777px) {
 	.broker-bio-header {
-		height: 250px;
+		height: 100%;
 	}
 
 	.broker-bio-image {
-		height: 250px;
+		height: 300px;
 	}
 }
 
 @media (max-width: 730px) {
 	.broker-bio-header {
-		height: 200px;
+		height: 100%;
 		padding-top: 30px;
+		padding-bottom: 20px;
 	}
 
 	.broker-bio-header h3 {
@@ -289,7 +291,7 @@
 	}
 
 	.broker-bio-image {
-		height: 200px;
+		height: 270px;
 	}
 
 	.broker-bio-content p {
@@ -318,12 +320,15 @@
 
 @media (max-width: 530px) {
 	.broker-bio-header {
-		height: 165px;
+		height: 100%;
 		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 10%;
 	}
 
 	.broker-bio-image {
-		height: 150px;
+		height: 195px;
+		right: 0%;
 	}
 
 	.broker-bio-contact h3 {
@@ -354,9 +359,11 @@
 	.nav-pills > li.active > a,
 	.nav-pills > li.active > a:hover,
 	.nav-pills > li.active > a:focus,
-	.nav-pills > li > a,
-	#bio p,
-	#bio h5 {
-		font-size: .85em;
+	.nav-pills > li > a {
+		font-size: 1.9em;
+	}
+
+	#bio p {
+		font-size: 1.1em;
 	}
 }
