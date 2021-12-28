@@ -1523,6 +1523,35 @@ footer {
 
 
 
+/***********************************************************
+	PAGE: Multifamily Opinion of Value Analysis (/bov)
+***********************************************************/
+
+.bov {
+	padding: 2rem;
+}
+.bov h1 {
+	margin: 5rem auto;
+	color:#1D6497;
+}
+
+.bov-body {
+	padding: 0 15rem;
+	font-size: 1.25em;
+	line-height: 1.5;
+}
+
+.bov-body p {
+	margin-top: 3rem;
+}
+
+.bov-body ul li {
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+}
+
+
 
 
 /***********************************************************
