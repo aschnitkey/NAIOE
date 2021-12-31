@@ -1549,6 +1549,16 @@ footer {
 	font-size: 0.9em;
 	margin: 0;
 	padding: 0;
+	list-style: none;
+}
+
+.bov-body ul li i {
+	font-weight: 100;
+}
+
+.bov-body ul li i::before {
+	margin-right: 1rem;
+	color: #1D6497;
 }
 
 
