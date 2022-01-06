@@ -1,0 +1,61 @@
+- var titleContent = "NAI Ohio Equities | Devon Cotterman"
+- var metaContent = "Devon Cotterman is a property manager at NAI Ohio Equities."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Devon M. Cotterman, RPA", "Senior Property Manager", "614-939-8600", "dcotterman", "naiohioequities", "naiohioequities", "https://www.linkedin.com/in/devon-cotterman-rpa-a85765b7/", "dcotterman", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management:
+						br
+						| Medical Office
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Devon Cotterman is a senior property manager for NAI Ohio Equities. He joined the company in 2003, leaving briefly in 2020- 2021, and has specialized in managing medical office properties for the past 15 years. He currently oversees a portfolio of commercial office, homeowners associations and business park associations in the New Albany area. Devon has represented clients such as The New Albany Company, Piedmont Health, Mount Carmel Health, The Daimler Group and Remedy Medical Properties. Prior to re-joining NAI Ohio Equities in 2021, Devon worked for Anchor Health Properties in Atlanta, Georgia where he managed the Northern Georgia and Palm Beach Gardens, Florida portfolio of medical office buildings.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p It has always felt like home, even when I spent time away. It is the perfect blend of big city, small town, surrounded by beautiful country and very family friendly.
+								h5 Where do you like to vacation?
+								p Coastal South Carolina. I have spent at least one week per year on the same island in the South Carolina low country since I was 4 years old, it’s hard to define until you’ve travelled there; but it is a unique and very relaxing experience.
+								h5 Who are your favorite sports teams?
+								p The Ohio State Buckeyes
+								h5 What is your favorite hidden gem in Columbus?
+								p Relatively unknown and/or underappreciated restaurants, we have a lot of them!
+				.broker-bio-right
+					h4 Education
+					p Bachelor of Accounting
+						br
+						| Franklin University
+						br
+						br
+						| BOMI Real Property Administrator (RPA)
+					h4 Awards & Recognition
+					p 2005 BOMA Scholarship Recipient
+					h4 Membership
+					p Building Owners and Managers Association (BOMA)
+						br
+						| National Association of REALTORS&reg;
+					h4 Community Involvement
+					p Pelotonia, Rider and Team Captain: 2012-2015
+					h4 Top Clients
+					p The New Albany Company
+						br 
+						| Mount Carmel Health
+						br
+						| The Daimler Group
+						br
+						| Remedy Medical Properties
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
