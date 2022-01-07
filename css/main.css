@@ -1548,10 +1548,15 @@ footer {
 	padding: 0 15rem;
 	font-size: 1.25em;
 	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #3a3a3a;
 }
 
 .bov-body p {
 	margin-top: 3rem;
+	font-size: 2rem;
 }
 
 .bov-body ul li {
@@ -1573,10 +1578,12 @@ footer {
 .card-row {
 	display: flex;
 	justify-content: space-between;
+	background-color: #e1e1e175;
+	min-width: 100vw;
+	margin: 5rem 0 5rem -18.5rem;
 }
 .card {
-	background-color: #1D6497;
-	max-width: 200px;
+	margin: 3em 1em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1584,6 +1591,9 @@ footer {
 }
 .card img {
 	max-width: 50%;
+}
+.card h3 {
+	font-size: 1.8rem;
 }
 
 
