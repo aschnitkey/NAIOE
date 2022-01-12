@@ -1,0 +1,51 @@
+- var titleContent = "NAI Ohio Equities - Livingston Court"
+- var metaContent = "NAI Ohio Equities' Bob Monahan has listed retail space, an outlot, and a carwash by the Livingston Court Shopping Center on Livingston Avenue in Columbus, Ohio. "
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Retail, Outlot, &amp; Carwash Available
+				br
+				| Livingston Court
+			.selector-body-lima
+				ul.office-agents.camden-selector-ul
+					a(href="https://www.ohioequities.com/listings.html?propertyId=Livingston-Court", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/11280203/6fc8095be3fbb513029ca21ef40769885100ba07/full.jpg?1639511415", alt="Livingston Court Shopping Center")
+							p
+								strong(style="font-size: 1.5rem") Livingston Court Shopping Center
+								br
+								| Retail Space<br>9,450 SF Available For  Lease
+					a(href="https://www.ohioequities.com/listings.html?propertyId=Livingston-Court-Outlot", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/11325049/3633fb16c2d29fa167a61984bf6245eafc4c9977/full.jpg?1640123934", alt="Livingston Court Out Parcel")
+							p 
+								strong(style="font-size: 1.5rem") Livingston Court Out Parcel
+								br
+								| Former Fast Food Site<br>Available For Sale or Ground Lease
+					a(href="https://www.ohioequities.com/listings.html?propertyId=Car-Wash-Sale", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/11421606/003bb0639a7b974b83bc075bdd2cb6ba8de5845f/full.jpg?1641920210", alt="Former Car Wash")
+							p 
+								strong(style="font-size: 1.5rem") Former Car Wash
+								br
+								| Many Possible Uses<br>Retail Site For Sale
+		script.
+			const items = document.querySelectorAll('.camden-selector-ul li');
+			items.forEach((item) => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			item.addEventListener('mouseover', () => {
+			item.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
+			});
+			item.style.transition = "all .3s ease-out"
+			item.addEventListener('mouseout', () => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			});
+			});
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
