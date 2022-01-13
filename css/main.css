@@ -1527,6 +1527,8 @@ footer {
 	PAGE: Multifamily Opinion of Value Analysis (/bov)
 ***********************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
 .bov {
 	padding: 2rem;
 }
@@ -1621,6 +1623,37 @@ footer {
 	font-size: 1.8rem;
 }
 
+.bov-agent-gutter {
+	display: flex;
+	background-color: rgb(0 0 0 / 5%);
+	border: 1px solid #D0DDE8;
+	padding: 5rem;
+	justify-content: space-between;
+}
+.bov-agent-gutter-content {
+	display: flex;
+	flex-direction: column;
+	max-width: 60%;
+}
+.bov-quote-symbol {
+	position: absolute;
+	font-size: 30rem;
+	opacity: 10%;
+}
+.bov-agent-bio-photo {
+	max-width: 30%;
+	border: 10px solid #1D6497;
+}
+.bov-agent-quote {
+	text-align: left;
+}
+.bov-agent-name {
+	font-family: 'The Nautigal', cursive;
+	font-weight: 700;
+	font-size: 2em;
+	text-align: left;
+}
+
 
 
 
@@ -1652,6 +1685,9 @@ footer {
 		margin-left: 15px;
 	}
 
+	.bov-body {
+		padding: 0 5rem;
+	}
 	.bov-body p {
 		font-size: 1em;
 	}
@@ -1781,6 +1817,27 @@ footer {
 		max-width: 30%;
 		margin: 1em 3em;
 		filter: grayscale(0%);
+	}
+
+	.bov-body {
+		padding: 0 2rem;
+	}
+	.bov-agent-gutter {
+		flex-direction: column;
+		width: 100%;
+		padding: 5rem 1rem;
+	}
+	.bov-agent-gutter-content {
+		max-width: 100%;
+	}
+	.bov-agent-bio-photo {
+		max-width: 50%;
+		margin: auto;
+		border: 5px solid #1D6497;
+		margin-bottom: 5rem;
+	}
+	.bov-quote-symbol {
+		font-size: 15rem;
 	}
 }
 
