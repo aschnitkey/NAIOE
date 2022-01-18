@@ -1614,6 +1614,7 @@ footer {
 	background-color: rgb(0 0 0 / 5%);
 	border: 1px solid #D0DDE8;
 	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .card img {
 	max-width: 60%;
@@ -1625,10 +1626,12 @@ footer {
 
 .bov-agent-gutter {
 	display: flex;
-	background-color: rgb(0 0 0 / 5%);
-	border: 1px solid #D0DDE8;
+	background-color: #1D6497;
+	border: 1px solid #000;
+	color: #fcfafa;
 	padding: 5rem;
 	justify-content: space-between;
+	margin-bottom: 5rem;
 }
 .bov-agent-gutter-content {
 	display: flex;
@@ -1637,12 +1640,16 @@ footer {
 }
 .bov-quote-symbol {
 	position: absolute;
-	font-size: 30rem;
+	font-size: 25rem;
 	opacity: 10%;
+	transform: rotateX(180deg);
+	margin-top: -3rem;
+	margin-left: -3rem;
 }
 .bov-agent-bio-photo {
-	max-width: 30%;
-	border: 10px solid #1D6497;
+	max-width: 25%;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .bov-agent-quote {
 	text-align: left;
@@ -1703,6 +1710,9 @@ footer {
 	}
 	.bov-body ul li {
 		margin-bottom: 1rem;
+	}
+	.bov-quote-symbol {
+		font-size: 20rem;
 	}
 }
 
@@ -1772,6 +1782,9 @@ footer {
 		padding-left: 35px;
 		padding-right: 35px;
 	}
+	.bov-quote-symbol {
+		font-size: 15rem;
+	}
 }
 
 @media (max-width: 900px) {
@@ -1825,7 +1838,7 @@ footer {
 	.bov-agent-gutter {
 		flex-direction: column;
 		width: 100%;
-		padding: 5rem 1rem;
+		padding: 5rem 2rem;
 	}
 	.bov-agent-gutter-content {
 		max-width: 100%;
@@ -1833,11 +1846,12 @@ footer {
 	.bov-agent-bio-photo {
 		max-width: 50%;
 		margin: auto;
-		border: 5px solid #1D6497;
 		margin-bottom: 5rem;
 	}
 	.bov-quote-symbol {
 		font-size: 15rem;
+		margin-top: -1rem;
+		margin-left: -1rem;
 	}
 }
 
@@ -2142,5 +2156,9 @@ footer {
 
 	#careers h3 {
 		font-size: 3.3rem;
+	}
+	.bov-header h1 {
+		font-size: 2em;
+		margin-top: 0;
 	}
 }
