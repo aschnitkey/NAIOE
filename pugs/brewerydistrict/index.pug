@@ -1,0 +1,52 @@
+- var titleContent = "NAI Ohio Equities | Brewery District Office Properties"
+- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed several office buildings in The Brewery District in Downtown Columbus, Ohio."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Office Space Available
+				br
+				| Brewery District Properties
+			.selector-body-lima
+				ul.office-agents.camden-selector-ul.camden-even
+					a(href="https://www.ohioequities.com/listings.html?propertyId=671-S-High-St", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/11593628/ca7ea785fb092058e67d68cfb9a05e18a33e6a0b/full.jpg?1643729689", alt="Grange Headquarters")
+							p 
+								strong(style="font-size: 1.5rem") Grange Headquarters
+								br
+								| 671 S High St<br>17,385 - 171,190 SF Available
+					a(href="https://www.ohioequities.com/listings.html?propertyId=585-S-Front-St", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/11593844/aa6f22729faee2c07a1137931c46e6184ff68085/full.jpg?1643730940", alt="Brewers Yard I")
+							p
+								strong(style="font-size: 1.5rem") Brewers Yard I
+								br
+								| 585 S Front St<br>3,594 - 13,104 SF Available
+					a(href="https://www.ohioequities.com/listings.html?propertyId=605-S-Front-St", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/11594186/43d6f9a02f90eaa7ff4015f3e00f82fd7093eb04/full.jpg?1643731947", alt="Brewers Yard II")
+							p
+								strong(style="font-size: 1.5rem") Brewers Yard II
+								br
+								| 605 S Front St<br>2,778 - 23,638 SF Available
+				.camden-footer-spacer(style="width: 100%; height: 400px;")
+		script.
+			const items = document.querySelectorAll('.camden-selector-ul li');
+			items.forEach((item) => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			item.addEventListener('mouseover', () => {
+			item.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
+			});
+			item.style.transition = "all .3s ease-out"
+			item.addEventListener('mouseout', () => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			});
+			});
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
