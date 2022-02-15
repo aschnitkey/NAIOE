@@ -1,0 +1,47 @@
+- var titleContent = "NAI Ohio Equities | Chad Cupp"
+- var metaContent = "Chad Cupp is a property manager with NAI Ohio Equities where she specializes in tenant communication, vendor relations, budgeting, maintenance projects, and day-to-day operations."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Chad Cupp", "Property Manager", "614-629-5237", "ccupp", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/chad-cupp-7492a084/", "ccupp", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Chad Cupp is an experienced Facility and Commercial Property Manager.  Chad takes pride in providing the best customer service possible. For more than a decade, as the Plant Engineering Manager, Chad was responsible for all Master Facility Planning at a large Central Ohio medical center where he oversaw the $38 million addition of two hospital buildings with responsibilities including property acquisition, design construction, and tenant management and facilities management. Chad currently manages a mix of six warehouse and office properties totaling 1.5 million square feet for NAI Ohio Equities.
+								p Chad earned an Associate in Science degree in Fish and Wildlife Management before graduating with a Bachelor of Science in Business Administration in 2004. He is also an active member of IFMA and NFPA. Chad loves the outdoors, sports, cooking and hanging out with his family.
+								hr
+								h5 Where do you like to vacation?
+								p Anywhere water related, Treasure Key, Outerbanks etc. I love water, “In the end all things turn into 1, and a River Runs Through it……I am haunted by waters”
+								h5 What is a favorite pastime you enjoy?
+								p Flyfishing
+								h5 Who are your favorite sports teams?
+								p Buckeyes, Browns, Jackets, Crew
+				.broker-bio-right
+					h4 Education
+					p AS, Fish and Wildlife Management
+						br
+						| Hocking College, 1999
+						|
+						p BS, Business Administration
+							br 
+							| Franklin University, 2004
+					h4 Membership
+					p IFMA 
+						br
+						| NFPA
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
