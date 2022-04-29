@@ -1,0 +1,41 @@
+- var titleContent = "NAI Ohio Equities | Robert Shankland"
+- var metaContent = "Robert Shankland currently serves as the Property Manager for Parks Edge Condominiums, a 190-unit luxury high-rise building in the Arena District of Columbus, Ohio"
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Robert Shankland", "Property Manager", "614-222-2196", "rshankland", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/robert-shankland-b2744626/", "rshankland", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Hotel Planning &amp; Control
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Driven by his passion for providing exceptional customer service, Robert Shankland has more than a decade of management experience in hotels across the country and abroad. In addition to being recognized several times by a national hotel brand as a top performer, he has also implemented processes that have led to decreased costs and improved efficiencies.
+								p Currently, Robert serves as the Property Manager for Parks Edge Condominiums, a 190-unit luxury high-rise building in Columbus' Arena District, where he is responsible for the successful operation of the facility and for working closely with its Board of Directors.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p Continued growth and development has made Columbus a consistently fun place to live!
+								h5 What is a favorite pastime you enjoy?
+								p Hiking, camping, golfing, spending time with loved ones.
+								h5 Who are your favorite sports teams?
+								p Buffalo Bills &amp; Buffalo Sabres
+				.broker-bio-right
+					h4 Education
+					p BA, Hotel and Restaurant Management 
+						br
+						| Niagara University, 2010
+					h4 Industry Awards &amp; Recognition 
+					p Drury Hotels Top Performer for Customer Service - 2018. 2019, 2020, 2021
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
