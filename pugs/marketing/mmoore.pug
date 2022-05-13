@@ -1,0 +1,38 @@
+- var titleContent = "NAI Ohio Equities | Mitchell Moore"
+- var metaContent = ""
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Mitchell Moore", "Client Services Coordinator", "614-629-5257", "mmoore", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/mmoore1/", "mmoore", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Community Involvement 
+					p Westerville Central Men’s Lacrosse team - Head Defensive Coach
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Mitchell Moore recently graduated from Ohio University with a Bachelor’s of Specialized Studies in Marketing and Communications. Mitchell will work as the Client Services Coordinator for our Office Brokerage Group. As a member of the growing team, he will help with research, listings, and more.
+								hr
+								h5 Where do you like to vacation?
+								p My favorite place to vacation is Colorado. I love the outdoors, so between skiing and hiking, Colorado is an ideal place to visit at all times of the year. 
+								h5 What is a favorite pastime that you enjoy?
+								p I enjoy golfing with family &amp; friends in my free time
+								h5 Who are your favorite sports teams?
+								p The Cleveland Browns are my favorite sports team. 
+				.broker-bio-right
+					h4 Education
+					p BSS, Marketing &amp; Communications 
+						br
+						| Ohio University, 2021
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
