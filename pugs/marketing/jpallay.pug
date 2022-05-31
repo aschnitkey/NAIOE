@@ -1,0 +1,40 @@
+- var titleContent = "NAI Ohio Equities | Jeff Pallay, CFO"
+- var metaContent = "Jeff Pallay is the Chief Financial Officer at NAI Ohio Equities. With approximately 30 years of commercial real estate experience, Jeff leads their Finance and Accounting team which provides accounting services for NAI Ohio Equities clients. Additionally, he is responsible for driving efficiency within the Company’s financial systems, working with both internal and external stakeholders to ensure a positive outcome while enhancing the company’s strategic relationships with vendors and clients."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Jeff Pallay", "Chief Financial Officer", "614-629-5223", "jpallay", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/jeff-pallay-cpa-95b6776/", "jpallay", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Membership
+					p American Institute of Certified Public Accountants
+						br 
+						| Ohio Society of Certified Public Accountants
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p As Chief Financial Officer, with approximately 30 years of commercial real estate experience, Jeff leads our Finance and Accounting team which provides accounting services for NAI Ohio Equities clients. Additionally, he is responsible for driving efficiency within the Company’s financial systems, working with both internal and external stakeholders to ensure a positive outcome while enhancing the company’s strategic relationships with vendors and clients.  Before joining NAI Ohio Equities, Jeff started his career at the Edward J. DeBartolo Corporation in Youngstown, Ohio.  Following a stop in public accounting, he was Corporate Controller for Holt Caterpillar in Columbus, Ohio.  Most recently, Jeff was the Vice President – Corporate Controller of Washington Prime Group, a publicly held retail REIT.  Jeff is a Certified Public Accountant who is known for collaborating with his internal customers to get them data in which to make informed decisions along with helping them to better understand their results of operations. 
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p It’s a big city but it doesn’t feel like you’re in a big city. There is so much to do from an entertainment and dining perspective. It’s a great place to raise your family. 
+								h5 Where do you like to vacation?
+								p Anywhere with sand and water. I really like traveling to the Caribbean.  It is very easy to unplug and relax. 
+								h5 Who are your favorite sports teams?
+								p I am a big Ohio State fan.  I also like the Cleveland Guardians and I am a season ticket holder for the Columbus Blue Jackets.  I have been a Pittsburgh Steeler fan my entire life. 
+				.broker-bio-right
+					h4 Education
+					p BSBA, Accounting 
+						br
+						| Youngstown State University, 1993
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
