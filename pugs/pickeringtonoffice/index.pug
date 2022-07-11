@@ -1,0 +1,44 @@
+- var titleContent = "NAI Ohio Equities - Office Space For Sale"
+- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed several fully leased office investment opportunities in Pickerington, Ohio."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Pickerington, Ohio
+				br
+				| Office Investments
+			.selector-body-lima
+				ul.office-agents.camden-selector-ul
+					a(href="https://www.ohioequities.com/listings.html?propertyId=10400-blacklick-eastern-road", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/12878166/9feb86936ab2d9838aadb1a0861f16ee9ff840c9/full.jpg?1657036820", alt="10400 Blacklick-Eastern Road")
+							p
+								strong(style="font-size: 1.5rem") 10400 Blacklick-Eastern Road
+								br
+								| 16,337 SF Two-Story office investment<br>100% occupied with 20 Tenants
+					a(href="https://www.ohioequities.com/listings.html?propertyId=12927-Stonecreek-Dr", target="_blank")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/12878276/f3668ff1e4320dba828837bb7287ba3de04277aa/full.jpg?1657037105", alt="12927 Stonecreek Drive")
+							p 
+								strong(style="font-size: 1.5rem") 12927 Stonecreek Drive
+								br
+								| 11,811 SF two-story office investment<br>100% occupied with 8 Tenants
+		script.
+			const items = document.querySelectorAll('.camden-selector-ul li');
+			items.forEach((item) => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			item.addEventListener('mouseover', () => {
+			item.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
+			});
+			item.style.transition = "all .3s ease-out"
+			item.addEventListener('mouseout', () => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			});
+			});
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
