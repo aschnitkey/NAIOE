@@ -1,0 +1,32 @@
+- var titleContent = "NAI Ohio Equities | Brandi Smith"
+- var metaContent = "Brandi Smith is a property manager with NAI Ohio Equities"
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Brandi Smith", "Property Manager", "614-939-8618", "bsmith", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/brandi-smith-388967a0", "bsmith", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p With 20 years of experience working in association management, land development and real estate, Brandi Smith is a dedicated, knowledgeable Property Manager. After relocating from Los Angeles, California to Central Ohio, Brandi attended Ohio Dominican University where she graduated with a Bachelor of Science Degree in Risk Management and Insurance. From there, Brandi earned the Certified Manager of Community Associations (CMCA®) designation from the Community Association Managers International Certification Board (CAMICB) and the Associations Management Specialist (AMS®) designation from the Community Associations Institute (CAI). She is also a member of the Building Industry of Central Ohio (BIA). Most recently, Brandi served as Board President for the CAI Central Ohio Chapter in 2021. 
+								p Brandi’s experience emphasizes residential property management and includes condominium and homeowners’ associations. She also specializes in Board engagement and developing operational and sales strategies.
+				.broker-bio-right
+					h4 Education
+					p BS, Risk Management and Insurance 
+						br
+						| Ohio Dominican University
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
