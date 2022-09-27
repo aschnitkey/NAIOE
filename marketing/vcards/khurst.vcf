@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.6//EN
+N:Hurst;Kaydee;;;
+FN:Kaydee Hurst
+ORG:NAI Ohio Equities;
+TITLE:Marketing Assistant
+EMAIL;type=INTERNET;type=pref:khurst@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:614-629-5226
+TEL;type=CELL;type=VOICE:(419) 506-1931
+ADR;type=WORK;type=pref:;;605 S Front Street\, Suite 200;Columbus;Ohio;43215;
+END:VCARD
