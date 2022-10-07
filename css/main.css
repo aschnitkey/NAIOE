@@ -1533,6 +1533,11 @@ footer {
 	margin: auto;
 }
 
+.hrt-ul li {
+	min-width: 40%;
+	background-color: rgba(0,0,0,.01);
+}
+
 
 
 /***********************************************************
