@@ -1835,6 +1835,19 @@ footer {
 		height: 400px;
 	}
 
+	.hrt-ul li {
+		padding: 3rem 0;
+	}
+
+	.camden-selector-ul {
+		padding: 0;
+	}
+
+	.camden-selector-ul li {
+		display: inline-block;
+		margin: 1rem auto;
+	}
+
 	.lima-selector h2 {
 		top: 0;
 	}
