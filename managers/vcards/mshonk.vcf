@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 13.0//EN
+N:Shonk;Marissa;;;
+FN:Marissa Shonk
+ORG:NAI Ohio Equities;
+TITLE:Executive Assistant
+EMAIL;type=INTERNET;type=pref:mshonk@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:6146295249
+ADR;type=WORK;type=pref:;;605 S Front St\, Suite 200;Columbus;OH;43215;
+URL;type=WORK;type=pref:https://www.ohioequities.com
+END:VCARD
