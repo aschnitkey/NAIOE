@@ -1,33 +1,26 @@
-- var titleContent = "NAI Ohio Equities - Office Space For Lease"
-- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed several offices for lease in Dublin, Ohio."
+- var titleContent = "NAI Ohio Equities - Healthcare Realty Cleveland"
+- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed several medical office spaces for lease in Cleveland, Ohio."
 
 doctype html
 html(lang="en")
-	include ../../includes/head-brokers.pug
+	include ../../../includes/head-selectorsub.pug
 	body
-		include ../../includes/nav-brokers.pug
+		include ../../../includes/nav-selectorsub.pug
 		.navspacer
 		.page-wrap.lima-selector
 			h2.text-center
-				small Worthington Woods
+				small Healthcare Realty Trust
 				br
-				| Office Condos For Sale
+				| Cleveland Medical Office Space
 			.selector-body-lima
 				ul.office-agents.camden-selector-ul
-					a(href="https://www.ohioequities.com/listings.html?propertyId=939-Worthington-Woods", target="_blank", rel="noopener noreferrer")
+					a(href="#")
 						li
-							img(src="https://s3.amazonaws.com/buildout-production/datas/4212478/999d6f029ac6437d8802ad96bfd335fe5296b314/full.jpg?1582898375", alt="939 Worthington Woods Loop")
+							img(src="img/6789-ridge.jpg", alt="6789 Ridge Rd")
 							p
-								strong(style="font-size: 1.5rem") 939 Worthington Woods Loop
+								strong(style="font-size: 1.5rem") 6789 Ridge Rd
 								br
-								| 1,200 SF Available for an Owner/User<br>General Office Space
-					a(href="https://www.ohioequities.com/listings.html?propertyId=943-Worthington-Woods", target="_blank", rel="noopener noreferrer")
-						li
-							img(src="https://s3.amazonaws.com/buildout-production/datas/4212372/20e02e2038dd194b2b43f8d78374e78ce6697cce/full.jpg?1582896880", alt="943 Worthington Woods Loop")
-							p 
-								strong(style="font-size: 1.5rem") 943 Worthington Woods Loop
-								br
-								| 1,200 SF Available for an Owner/User<br>Medical Office Space
+								| 29,382 SF Building<br>Medical Office Space
 		script.
 			const items = document.querySelectorAll('.camden-selector-ul li');
 			items.forEach((item) => {
@@ -40,5 +33,5 @@ html(lang="en")
 			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
 			});
 			});
-	include ../../includes/footer-brokers.pug
-	include ../../includes/scripts.pug
+	include ../../../includes/footer-selectorsub.pug
+	include ../../../includes/scripts.pug
