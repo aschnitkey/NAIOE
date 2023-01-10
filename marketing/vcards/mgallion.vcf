@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 13.1//EN
+N:Gallion;Mariana;;;
+FN:Mariana Gallion
+ORG:NAI Ohio Equities;
+EMAIL;type=INTERNET;type=WORK;type=pref:mgallion@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:614-629-5219
+ADR;type=WORK;type=pref:;;605 S Front St\, Ste 200;Columbus;OH;43215;USA
+URL;type=pref:https://www.ohioequities.com
+END:VCARD
