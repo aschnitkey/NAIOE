@@ -1,0 +1,43 @@
+- var titleContent = "NAI Ohio Equities | Nick Proverbs"
+- var metaContent = "Nick Proverbs is a property manager with NAI Ohio Equities in Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Nick Proverbs", "Property Manager", "614-629-5215", "nproverbs", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/nicholas-hamilton-proverbs-283163b8/", "nproverbs", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Having now spent nearly six years in the industry, Nick Proverbs began his career as a Concierge Supervisor before becoming a Property Manager. During that time, Nick successfully developed, implemented, and managed building procedures and protocols for several condominium communities as well as served as the interim Property Manager for The Parks Edge and Arena District Swim Club communities between January 2022 and April 2022. Nick’s keen ability to build strong relationships with residents, vendors, and employees led to his promotion to Property Manager in 2023. He currently manages both The Alexander and The Bexley Gateway communities. 
+								p Nick studied photography at The Ohio State University, earning his Bachelor of Arts degree in 2016. He is a member of the Community Association’s Institute and has earned his certification as a High-Rise Safety Director. 
+								hr
+								h5 What is one of your favorite buildings in Columbus?
+								p The LeVeque tower. Ever since I first arrived in Columbus, I have adored the building’s Art Deco style and location within the city. I’ve always regarded it as Columbus’s own Chrysler building.
+								h5 What is a favorite pastime you enjoy?
+								p My hobbies include photography, clockmaking, visiting an art gallery or museum, and playing a boardgame with friends.
+								h5 Who are your favorite sports teams?
+								p My hobbies include photography, clockmaking, visiting an art gallery or museum, and playing a boardgame with friends.
+				.broker-bio-right
+					h4 Education
+					p BA, Photography 
+						br
+						| The Ohio State University, 2016
+					h4 Membership 
+					p Community Associations Institute
+						br 
+						| High-Rise Safety Director Certified
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
