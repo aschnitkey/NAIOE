@@ -1,0 +1,43 @@
+- var titleContent = "NAI Ohio Equities | Adam Pope"
+- var metaContent = "Adam Pope is an Assistant Property Manager with NAI Ohio Equities in Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Adam Pope", "Assistant Property Manager", "614-629-5284", "apope", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities/", "apope", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p With nearly 14 years of experience in event planning, Adam Pope has a proven track record of driving annual sales growth and delivering exceptional customer service. He now brings his strong communication and problem-solving skills to his new role as Assistant Property Manager. Adam aims to deepen his knowledge of property management and intends to obtain a real estate license this year.
+								p Adam is a graduate of Ohio Dominican University, earning his Bachelor of Arts degree in 2013 in Accounting/Business Administration. He is also an Ohio sports fanatic and holds season tickets to the Columbus Blue Jackets and is a member of two recreational men’s softball teams.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p Hilliard was my hometown for over 30 years until our recent move into nearby Dublin. Columbus has experienced a huge growth in recent years, and we enjoy exploring the local areas and their endless entertainment options.
+								h5 What is your favorite Columbus neighborhood?
+								p I would consider my favorite area a tie between Bridge Park in Dublin and Old Hilliard. Both locations feature several of our favorite local restaurants and the walkability in each spot makes it even better during the warmer months in Columbus.
+								h5 Where do you like to vacation?
+								p Like many, the beach! Our go to destination is St. Pete Beach, Florida to kick back and relax.
+								h5 Who are your favorite sports teams?
+								p The Ohio State Buckeyes and Cleveland Guardians
+				.broker-bio-right
+					h4 Education
+					p BA, Accounting/Business Administration
+						br 
+						| Ohio Dominican University, 2013
+					h4 Community Involvement
+					p Mid-Ohio Foodbank
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
