@@ -1,0 +1,50 @@
+- var titleContent = "NAI Ohio Equities | Matt Isaly"
+- var metaContent = "Matt Isaly is a Property Manager at NAI Ohio Equities where he specializes in Condominium and HOA management."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Matt Isaly", "Property Manager", "614-629-5237", "misaly", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/mattisaly", "misaly", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Matt Isaly has more than 30 years of experience in residential and commercial real estate in a number of capacities. As a property manager, investor, and agent, Matt has a strong background in creating value for his clients through his understanding of client needs, ability to steer property improvement projects, develop and motivate top-performing teams, and optimize internal operations. He has earned recognition for best overall portfolio growth in 2016 and best maintenance performance in 2018. 
+								p Matt specializes in condominium and HOA management and is a member of IREM and the Community Associations Institute and holds a CMCA designation. Matt earned his Bachelor of Arts degree in Economics from Rollins College and his Master of Business Administration from Capital University.
+								hr
+								h5 Where do you like to vacation?
+								p Delray Beach, Florida and Drummond Island, Michigan. Family, Weather &amp; Water.
+								h5 What's a favorite pastime you enjoy? 
+								p Barbecuing and Fishing.
+								h5 Who are your favorite sports teams?
+								p THE Ohio State University: football, basketball, hockey, track &amp; field, swimming, baseball…; Cincinnati Bengals, Cleveland Guardians, and Bishop Watterson High School.
+								h5 What is your favorite hidden gem in Columbus?
+								p Moy’s Chinese Restaurant on Campus and Chilispot in Kenny Centre Mall
+				.broker-bio-right
+					h4 Education
+					p BA, Economics 
+						br 
+						| Rollins College, 1989
+						br 
+						br 
+						| MBA, Capital University, 1995
+					h4 Membership 
+					p Community Association Institute 
+						br 
+						| Certified Manager of Community Associations (CMCA)
+						br 
+						| Institute of Real Estate Management (IREM)
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
