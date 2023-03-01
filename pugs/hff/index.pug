@@ -1,5 +1,5 @@
-- var titleContent = "NAI Ohio Equities - Office Space For Lease"
-- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed several offices for lease in Dublin, Ohio."
+- var titleContent = "NAI Ohio Equities - Home For Families RFP"
+- var metaContent = "NAI Ohio Equities RFP page for Home For Families"
 
 doctype html
 html(lang="en")
@@ -8,14 +8,19 @@ html(lang="en")
 		include ../../includes/nav-brokers.pug
 		.navspacer
 		.page-wrap.lima-selector
-			//- h2.text-center
-			//- 	small Worthington Woods
-			//- 	br
-			//- 	| Office Condos For Sale
+			h2.text-center
+				small 33 N Grubb Street
+				br
+				| Columbus, Ohio 43215
 			.selector-body-lima
-				img(src="img/hff_logo.png", alt="Homes For Families Logo", style="margin:0 auto 5em; display:block;")
+				a(href="https://www.homeforfamilies.org", target="_blank", rel="noopener noreferrer") 
+					img(src="img/hff_logo.png", alt="Home For Families Logo", style="margin:0 auto 5em; display:block;")
+				//- .div(style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 1em auto 2em; font-size: 2rem;")
+				//- 	p(style="text-align: center;") 33 N Grubb St 
+				//- 		br
+				//- 		| Columbus, Ohio 43215
 				ul.office-agents.camden-selector-ul
-					a(href="img/hff_rfp.pdf", target="_blank", rel="noopener noreferrer")
+					a(href="img/HFF_rfp.pdf", target="_blank", rel="noopener noreferrer")
 						li(style="background-color: #AF2D37; color: white")
 							//- img(src="https://s3.amazonaws.com/buildout-production/datas/4212478/999d6f029ac6437d8802ad96bfd335fe5296b314/full.jpg?1582898375", alt="939 Worthington Woods Loop")
 							p(style="padding: 2rem 2rem 1rem;")
