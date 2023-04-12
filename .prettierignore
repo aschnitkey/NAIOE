@@ -1,2 +1,5 @@
 # Ignore all CSS files:
 *.css
+
+# Ignore minified js
+*.min.js

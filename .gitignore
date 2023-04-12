@@ -6,6 +6,7 @@ index.sublime-project
 index.sublime-workspace
 .well-known/pki-validation
 owa/.well-known/pki-validation
+.prettierignore
 
 # Compiled source #
 ###################
