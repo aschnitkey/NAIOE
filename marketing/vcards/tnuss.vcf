@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 13.3.1//EN
+N:Nuss;Tizzie;;;
+FN:Tizzie Nuss
+ORG:NAI Ohio Equities;
+TITLE:VP of People and Culture
+EMAIL;type=INTERNET;type=WORK;type=pref:tnuss@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:614-629-5211
+ADR;type=WORK;type=pref:;;605 S Front St\, Ste 200;Columbus;OH;43215;
+URL;type=pref:https://www.ohioequities.com
+END:VCARD

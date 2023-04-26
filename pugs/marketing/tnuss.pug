@@ -1,0 +1,41 @@
+- var titleContent = "NAI Ohio Equities | Tizzie Nuss"
+- var metaContent = "Tizzie Nuss is the Vice President of People & Culture at NAI Ohio Equities in Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Tizzie Nuss", "VP of People & Culture", "614-629-5211", "tnuss", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/tizzie-nuss-3096b0/", "tnuss", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Community Involvement
+					p Founder, The Spark Project 
+						br 
+						| Adjunct Professor, Wittenberg University (Spring 2023)
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p With over 20 years of Human Resources experience, Tizzie leads our “People First” strategies as our VP of People &amp; Culture. Before joining NAI Ohio Equities, Tizzie started her career in education working for the YMCA of Central Ohio. Her love for people eventually drew her to HR where she worked at Honda of America, Thirty-One Gifts, Battelle, and IGS Entergy. 
+								p Tizzie is known for her strong entrepreneurial spirit and passion to spark positive change – inside and out of the office. She lives in Columbus with her husband, 2 kids, and their dog, Bodhi.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p Columbus has so much to do and still has that wonderful small-town feel. We love raising our family here!
+								h5 Where do you like to vacation?
+								p Anywhere by the ocean! I’ve been going to Hilton Head since I was a kid and we’ve been taking my kids since they were little, which has become such a fun tradition!
+								h5 Who are your favorite sports teams?
+								p LA Dodgers and USC
+				.broker-bio-right
+					h4 Education
+					p Bachelor's Degree, HR Management 
+						br 
+						| Franklin University
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

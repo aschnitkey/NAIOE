@@ -1,0 +1,54 @@
+- var titleContent = "NAI Ohio Equities | Chris Harbert"
+- var metaContent = "Chris Harbert is an Assistant Property Manager with NAI Ohio Equities in Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Chris Harbert", "Assistant Property Manager", "614-629-5208", "charbert", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/chris-harbert-b297318/", "charbert", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Chris Harbert joins NAI Ohio Equities with 23 years of experience in hospitality and facilities management. As Director of Facilities for Hilton, Chris oversaw the maintenance of facilities used for corporate bookings and conferences, as well as renovation projects, and the development of capital plans and their execution.
+								p As Assistant Property Manager for Mt. Carmel’s nearly 900,000-square-foot portfolio, Chris will have a similar focus, taking great pride in ensuring that any issues that arise are managed appropriately with great consideration for patient care and professionalism. 
+								p Chris enjoys spending time with his family where together they explore different festivals across the state. He also enjoys discovering small breweries and working tirelessly at having the best yard on the block. 
+								hr
+								h5 What is one of your favorite buildings in Columbus? 
+								p I am always very intrigued by historical buildings. LeVeque Tower, The Atlas Building, St. Josephs Cathedral, Ruggery Building
+								h5 What has been the best part of Columbus’ growth over the past few decades? 
+								p Watching areas of the city that maybe have not gotten the most attention or upkeep be revitalized. Watching the transformation of those areas is amazing.
+								h5 If you had to pick a song to walk-out to (similar to baseball), what would it be?
+								p Hall of Fame/The Script
+								h5 Why did you decide to make Columbus your home? 
+								p This city has everything we could need or want besides year-round summer weather and an ocean. There are so many opportunities, new restaurants to try and things to do.
+								h5 What is your favorite neighborhood/area of Columbus/Central Ohio? 
+								p Hilliard. It’s where I grew up and lived up until a few years ago so it always has a special place with me. 
+								h5 Where do you like to vacation? 
+								p Outer Banks. We enjoy how peaceful it is, it is mainly all house rentals, so you have more space, the beaches are not crowded, its perfect for a family. Along with that it allows us to bring our dogs which our kids love to see them run crazy on the beach.
+								h5 What’s a favorite pastime you enjoy? 
+								p Camping. Great to get away, live a little primitively and detach from electronics. 
+								h5 Who are your favorite sports teams? 
+								p Ohio State Buckeyes, Cleveland Browns and Cleveland Guardians, I am also trying to learn soccer so might want to add in the Crew (credit to Ted Lasso for this)!
+								h5 What is your favorite hidden gem in Columbus? 
+								p 
+									a(href="http://ringsidecolumbus.com", target="_blank", rel="noopener noreferrer") Ringside Café. 
+									| Neat historical building, great food and service.
+				.broker-bio-right
+					h4 Education
+					p Hospitality Management 
+						br 
+						| Columbus State Community College, 2001
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
