@@ -1503,6 +1503,9 @@ footer {
 	color: #1D6497;
 	text-shadow: 1px 1px rgba(0,0,0,.1);
 }
+.lima-selector h2 span {
+	font-size: 0.8em;
+}
 
 .selector-body-lima {
 	max-width: 90%;
@@ -1850,6 +1853,14 @@ footer {
 
 	.lima-selector h2 {
 		top: 0;
+		padding: 0 1rem;
+		font-size: 2em;
+	}
+	.lima-selector h2 small {
+		text-align: right;
+	}
+	.office-agents.camden-selector-ul a {
+		font-size: 1em;
 	}
 
 	.selector-body-lima {
