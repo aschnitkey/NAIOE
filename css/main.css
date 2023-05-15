@@ -1541,6 +1541,40 @@ footer {
 	background-color: rgba(0,0,0,.01);
 }
 
+.contactbox {
+	/* background-color: rgba(208,221,232, .3);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+	margin: 10rem auto;
+	padding: 2rem 5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contactset {
+	display: flex;
+	padding: 1rem;
+}
+
+.contactagent {
+	background-color: rgba(208,221,232,.3);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	margin: 1rem;
+	padding-bottom: 2rem;
+	overflow-wrap: normal;
+}
+
+.contactagent img {
+	max-width: 300px;
+	margin-bottom: 3rem
+}
+
+.contactagent h4,
+.contactagent p {
+	margin: 0 2rem;
+	line-height: 1.4;
+}
+
 
 
 /***********************************************************
