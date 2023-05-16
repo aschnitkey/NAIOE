@@ -1,5 +1,5 @@
 - var titleContent = "NAI Ohio Equities | Heartland Commerce Park - Mount Vernon, Ohio"
-- var metaContent = "NAI Ohio Equities' Doug Shull has listed 11 industrial buildings in The Heartland Commerce Park in Mount Vernon, Ohio."
+- var metaContent = "NAI Ohio Equities' Doug Shull and Joe Menninger have listed 11 industrial buildings in The Heartland Commerce Park in Mount Vernon, Ohio. These buildings are ideal for manufacturing uses."
 
 doctype html
 html(lang="en")
@@ -93,19 +93,39 @@ html(lang="en")
 							a(href="https://www.ohioequities.com/listings.html?propertyId=Engineering-Center", target="_blank", rel="noopener noreferrer") For Lease
 				.contact-container(style="display: flex; flex-direction: row; justify-content: center; margin-top: 5rem;")
 					<button data-tf-popup="eBZDeumZ" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=Heartland" data-tf-transitive-search-params data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#AF2D37;color:#fff;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Request More Info!</button><script src="//embed.typeform.com/next/embed.js"></script>
-				.contactbox
-					h3 Contact Us 
-					.contactset 
-						.contactagent 
-							a(href="#"): img(src="../img/brokers/dshull-portrait.jpg", alt="Doug Shull portrait")
-							h4 Doug Shull 
-							p 614-629-52--
-							p: a(href="mailto:dshull@ohioequities.com") dshull@ohioequities.com
-						.contactagent 
-							img(src="../img/brokers/jmenninger-portrait.jpg", alt="Joe Menninger portrait")
-							h4 Joe Menninger
-							p 614-629-52--
-							p: a(href="mailto:jmenninger@ohioequities.com") jmenninger@ohioequities.com
+			h2.text-center.agents-header
+				span Agents
+			.selector-body-lima.bottom-margin
+				ul.office-agents.selector-agents.camden-selector-ul(style="color: #AF2D37;")
+					li
+						img(src="../img/brokers/dshull-portrait.jpg", alt="Doug Shull portrait")
+						p
+							strong(style="font-size: 1.5rem") Doug Shull
+							br
+							| 614-629-52--
+							br 
+							a(href="mailto:dshull@ohioequities.com") dshull@ohioequities.com
+					li
+						a(href="../brokers/jmenninger.html"): img(src="../img/brokers/jmenninger-portrait.jpg", alt="Joe Menninger portrait")
+						p
+							a(href="../brokers/jmenninger.html"): strong(style="font-size: 1.5rem") Joe Menninger
+							br
+							| 614-629-52--
+							br 
+							a(href="mailto:jmenninger@ohioequities.com") jmenninger@ohioequities.com
+				//- .contactbox
+				//- 	h3 Contact Us 
+				//- 	.contactset 
+				//- 		.contactagent 
+				//- 			a(href="#"): img(src="../img/brokers/dshull-portrait.jpg", alt="Doug Shull portrait")
+				//- 			h4 Doug Shull 
+				//- 			p 614-629-52--
+				//- 			p: a(href="mailto:dshull@ohioequities.com") dshull@ohioequities.com
+				//- 		.contactagent 
+				//- 			img(src="../img/brokers/jmenninger-portrait.jpg", alt="Joe Menninger portrait")
+				//- 			h4 Joe Menninger
+				//- 			p 614-629-52--
+				//- 			p: a(href="mailto:jmenninger@ohioequities.com") jmenninger@ohioequities.com
 		script.
 			const items = document.querySelectorAll('.camden-selector-ul li');
 			items.forEach((item) => {
