@@ -1,0 +1,37 @@
+- var titleContent = "NAI Ohio Equities | Vicki Smith"
+- var metaContent = "Vicki Smith is a property manager with NAI Ohio Equities in Columbus, Ohio"
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Vicki Smith", "Property Manager", "614-852-9640", "vsmith", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities/", "vsmith", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p With more than 20 years in the apartment industry, Vicki Smith has served in a number of capacities including manager, district manager and regional supervisor, along with 17 years managing condominiums and HOAs. She will now leverage that expertise and knowledge as the Property Manager for Parks Edge, a premier condominium in the heart of the Arena District with two buildings totaling more than 190 occupied units. 
+								p Vicki enjoys reading, traveling, playing Euchre, cheering on the Buckeyes, and spending time with family and friends. 
+								hr
+								h5 What is your favorite neighborhood/area of Columbus/Central Ohio? 
+								p Bexley for the tree lined streets, architecture of the homes, the Drexel move theatre and shops and dining options.
+								h5 What is one of your favorite buildings in Columbus? 
+								p The “Shoe”
+								h5 What is your favorite hidden gem in Columbus? 
+								p Johnson’s Ice Cream in Bexley. Because what is better than homemade ice cream on a warm summer evening?
+				.broker-bio-right
+					h4 Membership
+					p Community Associations Institute
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

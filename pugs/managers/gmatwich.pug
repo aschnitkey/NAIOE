@@ -1,0 +1,39 @@
+- var titleContent = "NAI Ohio Equities | Geoffrey Matwich"
+- var metaContent = "Geoffrey Matwich is a property manager with NAI Ohio Equities in Columbus, Ohio"
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Geoffrey Matwich", "Assistant Property Manager", "614-629-5255", "gmatwich", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities/", "gmatwich", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Geoffrey Matwich has spent more than 20 years in the hospitality industry, working for the Marriott and Hilton brands in sales and operations, and most recently as a General Manager. As Geoffrey transitions to the role of Assistant Property Manager, he plans to leverage his ability to build strong relationships and to provide a top-notch tenant experience. 
+								p Geoffrey will work on a portfolio of both office and medical office buildings, interfacing with our team of maintenance technicians to proactively address building maintenance while ensuring prompt and effective communication with tenants. Geoffrey attended The Ohio State University where he earned a Bachelor of Music Education degree. 
+								hr
+								h5 What has been the best part of Columbus’ growth over the past few decades?
+								p It has been wonderful to see the City develop its own identity separate from the university. I feel like many of the graduates that would have fled to other cities in the past are now drawn to Columbus thanks to the high quality of life and cost of living.
+								h5 Where do you like to vacation? 
+								p I was lucky enough to take my family to Wyoming to visit the Grand Tetons and parts of Yellowstone National Park in 2021. I was fortunate enough to go as a child myself which made this extra special. Taking the ferry across Jenny Lake for a family hike was the highlight of our trip. 
+								h5 Who are your favorite sports teams? 
+								p I inherited the heartache that is being a Cleveland sports fan. The lone bright spot was celebrating the Cavaliers 2016 NBA Championship in Cleveland with my son with many losing Browns seasons in between. 
+				.broker-bio-right
+					h4 Education
+					p BA, Music Education 
+						br 
+						| The Ohio State University, 2003
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
