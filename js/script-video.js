@@ -1,10 +1,10 @@
 // video selector
 
 let videoSource = [
-  'marketing/marketreports/2022/nai_ohio_equities_2023q1_office.mp4',
-  'marketing/marketreports/2022/nai_ohio_equities_2023q1_industrial.mp4',
-  'marketing/marketreports/2022/nai_ohio_equities_2023q1_retail.mp4',
-  // 'marketing/marketreports/2022/nai_ohio_equities_2023q1_multifamily.mp4',
+  'marketing/marketreports/2023/nai_ohio_equities_2023q2_office.mp4',
+  'marketing/marketreports/2023/nai_ohio_equities_2023q2_industrial.mp4',
+  'marketing/marketreports/2023/nai_ohio_equities_2023q2_retail.mp4',
+  // 'marketing/marketreports/2023/nai_ohio_equities_2023q2_multifamily.mp4',
 ];
 
 let videoTag = document.getElementById('videoSourceTag');
