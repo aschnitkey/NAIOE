@@ -1,0 +1,57 @@
+- var titleContent = "NAI Ohio Equities - Office Space For Lease"
+- var metaContent = "NAI Ohio Equities' Office Brokerage Group has listed several offices for lease in Dublin, Ohio."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Worthington, Ohio
+				br
+				| Office Subleases Available
+			.selector-body-lima
+				ul.office-agents.camden-selector-ul
+					a(href="https://www.ohioequities.com/listings.html?propertyId=500-w-wilson-bridge-rd", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://d33y5rc9xva21v.cloudfront.net/eyJidWNrZXQiOiJidWlsZG91dC1wcm9kdWN0aW9uIiwia2V5IjoiZGF0YXMvMTU3MjA3MTcvYTQ4M2I4Yzk1MzFjNzg2ZTBlNTI3ZDE5MjdmNmNiYTYzZDY5MmU5Zi9vcmlnaW5hbC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIwMDAsImhlaWdodCI6MTUwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19", alt="500 W Wilson Bridge Road")
+							p
+								strong(style="font-size: 1.5rem") 500 W Wilson Bridge Road
+								br
+								| 4,983 SF 
+								br 
+								| Expires 08/31/2024
+					a(href="https://www.ohioequities.com/listings.html?propertyId=6877-N-High-Street", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://d33y5rc9xva21v.cloudfront.net/eyJidWNrZXQiOiJidWlsZG91dC1wcm9kdWN0aW9uIiwia2V5IjoiZGF0YXMvMTIxMjM0MTAvMGM1NmE3MzU5ZTY1ZmViYjEyZjAzYWQ1NzQyYThkNGJhNjMwNWM4MC9vcmlnaW5hbC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIwMDAsImhlaWdodCI6MTUwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19", alt="6877 N High Street")
+							p 
+								strong(style="font-size: 1.5rem") 6877 N High Street
+								br
+								| 1,603 SF 
+								br 
+								| Expires 09/30/2024
+					a(href="https://www.ohioequities.com/listings.html?propertyId=200-e-campus-view", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://d33y5rc9xva21v.cloudfront.net/eyJidWNrZXQiOiJidWlsZG91dC1wcm9kdWN0aW9uIiwia2V5IjoiZGF0YXMvMTQ3NjY5MjcvNDYzYzAwMmExOWUzYWNlZWNiOWNlOWZhNGYyMDAwZDhmMDE2ZjU0Yy9vcmlnaW5hbC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIwMDAsImhlaWdodCI6MTUwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19", style="max-height: 200px;", alt="200 E Campus View Blvd")
+							p
+								strong(style="font-size: 1.5rem") 200 E Campus View Blvd
+								br
+								| 10,180 SF
+								br 
+								| Expires 02/28/2025
+		script.
+			const items = document.querySelectorAll('.camden-selector-ul li');
+			items.forEach((item) => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			item.addEventListener('mouseover', () => {
+			item.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
+			});
+			item.style.transition = "all .3s ease-out"
+			item.addEventListener('mouseout', () => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			});
+			});
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
