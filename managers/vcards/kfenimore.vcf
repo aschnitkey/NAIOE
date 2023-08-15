@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 13.5//EN
+N:Fenimore;Kelly;;;
+FN:Kelly Fenimore
+EMAIL;type=INTERNET;type=WORK;type=pref:kfenimore@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:6146295233
+ADR;type=WORK;type=pref:;;;;;;
+END:VCARD

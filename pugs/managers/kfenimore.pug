@@ -1,0 +1,45 @@
+- var titleContent = "NAI Ohio Equities | Kelly Fenimore"
+- var metaContent = "Kelly Fenimore is a Property Manager with NAI Ohio Equities in Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Kelly Fenimore", "Property Manager", "614-629-5233", "kfenimore", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/kelly-fenimore-b6313016/", "kfenimore", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Kelly Fenimore has been managing commercial properties for 19 years and finds nothing more satisfying than fixing an issue that seems impossible to fix. She began her career in the legal department of a real estate law firm where she abstracted commercial leases before becoming a property manager where she gained experience managing both retail and office buildings.
+								p Kelly is a member of BOMA and Columbus Realtors, and a graduate of Ohio University where she earned her Bachelor of Arts degree in Business Management. In her free time, Kelly enjoys the outdoors, including kayaking, canoeing and white-water rafting.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I previously worked in the legal department at a real estate law firm and abstracted commercial leases; after this I began at another real estate company and had an accounting background so it was just the natural way to go.
+								h5 What has been the best part of Columbus’s growth over the past few decades? 
+								p All the new buildings that have gone up and been renovated in downtown Columbus.  It looks so different than it did 30 years ago.
+								h5 Where do you like to vacation? 
+								p Anywhere near a beach.  I went to Hawaii a couple of years ago and would love to go back.
+								h5 What is a favorite pastime you enjoy? 
+								p Kayaking and canoeing and white-water rafting.  I love doing those as they are good for relaxation (well mostly) … My sister and I owned a winery a few years ago and we had a great time making, bottling and sampling wine.  I understand the owning a business so have sympathy for smaller businesses going through the recent pandemic.
+				.broker-bio-right
+					h4 Education
+					p BA, Business Management 
+						br 
+						| Ohio University, 1988
+					h4 Membership 
+					p BOMA 
+						br 
+						| Columbus REALTORS&reg;
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
