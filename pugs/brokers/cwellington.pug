@@ -1,0 +1,84 @@
+- var titleContent = "NAI Ohio Equities | Chris Wellington"
+- var metaContent = "Chris Wellington is a Commercial Real Estate Agent with NAI Ohio Equities in Columbus, Ohio."
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Chris Wellington", "Commercial Real Estate Agent", "614-629-5298", "614-507-6990", "cwellington", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/chris-wellington-a5471a5b/", "cwellington", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Commercial Real Estate
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/khurst.html")
+							strong Kaydee Hurst
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:khurst@ohioequities.com") khurst@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Chris Wellington began his career as an Account Executive for the Pittsburgh Pirates before partnering into a commercial service company where he launched a division focused on commercial project work. In 2020, he moved into the role of CEO before selling the business in 2022. His experience and success in new business development, key account management, and project management paired with his exposure and understanding of commercial real estate through his business made the transition to a commercial agent a natural choice. Chris recently earned his real estate license and is a member of the inaugural Fast Track training program at NAI Ohio Equities.
+								p Chris is a Columbus native and graduated from Miami University with a Bachelor of Arts degree in Marketing. He is a fervent cyclist and has made the trek from Pittsburgh to Washington DC just for fun!
+								hr
+								h5 What is one of your favorite buildings in Columbus?
+								p It’s not a building per se, but an iconic Columbus structure. Ony of my favorite structures in Columbus is the Union Station Arch in the Arena District. I appreciate its uniqueness, but also its history and the story of how it got to where it is today.
+								h5 What has been the best part of Columbus's growth over the past few decades?
+								p The population growth has been really incredible to see and be a part of. Many people I know that are from the area have continued to build their lives here, and on top of that, many people that I know from other parts of the country have started to call Columbus their home. It feels like we’re becoming a mid-western destination.
+								h5 What is your favorite neighborhood of Columbus?
+								p The Arena District.  I’m a big fan of history and love how that land has transformed alongside the evolution of Columbus. In my former role, I worked extensively with the developer, Nationwide Realty Investors and spent significant time in the area. It’s inspiring to know the impact such a bold idea has had in our city over the past 20 years, especially with the right leadership and vision behind it to make it what it is today.
+								h5 Where do you like to vacation?
+								p Lake Keowee, South Carolina.  I grew up boating on big lakes in Kentucky and am fortunate to now have family through my wife that has a home on a similar type of lake. One of my favorite weeks every year is the annual “Dillard” family trip where we can all be together for 4-5 days, on the water, and be truly away from the day-to-day. Lake time is its own time zone and it’s always something that we look forward to sharing with the whole family – all 15 to 20 of them under the same roof!
+								h5 What is a faovrite pastime you enjoy?
+								p I love playing Euchre with my family during holidays or when we are together. It gets oddly competitive but is so much fun.
+								h5 What is your favorite hidden gem in Columbus?
+								p I am a big fan of pizza. Granted, there are MANY great spots for a solid Columbus style pizza, I’m very partial to Grandad’s or Rotolo’s in Grandview.
+								.navspacer
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "cwellington@ohioequities.com"
+									});
+				.broker-bio-right
+					h4 Education
+					p BA, Marketing 
+						br 
+						| Miami University, 2011
+					h4 Membership 
+					p Columbus Board of REALTORS&reg;
+						br 
+						| Ohio Association of REALTORS&reg;
+						br 
+						| National Association of REALTORS&reg;
+					h4 Community Involvement 
+					p Columbus Gives Back, Volunteer
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

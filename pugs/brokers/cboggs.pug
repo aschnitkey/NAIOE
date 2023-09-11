@@ -1,0 +1,77 @@
+- var titleContent = "NAI Ohio Equities | Chad Boggs"
+- var metaContent = "Chad Boggs is a Commercial Real Estate Agent with NAI Ohio Equities in Columbus, Ohio"
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Chad Boggs", "Commercial Real Estate Agent", "614-629-5261", "614-595-2752", "cboggs", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/chadboggs25/", "cboggs", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Commercial Real Estate
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/kmarston.html")
+							strong Kendra Marston
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:kmarston@ohioequities.com") kmarston@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5294
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Chad Boggs joins NAI Ohio Equities after spending more than 15 years in information technology in the logistics and retail sectors. As a small business owner, Chad has experience as both a landlord and commercial tenant, which led to the discovery of his passion for commercial real estate. He hopes to use this passion to help others achieve their financial goals through real estate.
+								p Chad is a graduate of Ohio University and Hondros College and earned his real estate license in 2023. He is one of five new agents selected to be a part of the NAI Ohio Equities’ Fast Track program and is a member of both Columbus REALTORS® and the National Association of REALTORS®. In his free time, Chad enjoys taking family vacations on the crystal-clear lakes of Michigan and savoring a Reuben sandwich at Red Brick Tap & Grill, one of his favorite patios in the city. 
+								hr
+								h5 Why did you decide to make Columbus your home? 
+								p I was born and raised in Columbus, having graduated high school from Hilliard Davidson High School.  After graduating from Ohio University, I knew I wanted to be in Columbus long term. Columbus offers a thriving arts and cultural scene with numerous museums, theaters, sporting events, and festivals throughout the year. I love the balance between urban amenities and the suburban feel that Columbus offers.  
+								h5 Where do you like to vacation?
+								p Every year my family takes a trip to that state up North which includes copious amounts of boating, swimming, fishing, and relaxing. We love the crystal-clear lakes, sunsets on the water, and just enjoying quality family time only a short drive from Columbus.
+								h5 What is your favorite hidden gem in Columbus?
+								p I really enjoy going to Red Brick Tap &amp; Grill in Merion Village. Great food and drink menu and a wonderful patio. One of the best Reuben’s in the city!
+								.navspacer
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "cboggs@ohioequities.com"
+									});
+				.broker-bio-right
+					h4 Education
+					p BA, Management Information Systems 
+						br 
+						| Ohio University, 2007
+						br 
+						br 
+						| Hondros College, 2023
+					h4 Membership 
+					p Columbus REALTORS&reg;
+						br 
+						| National Association of REALTORS&reg;
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

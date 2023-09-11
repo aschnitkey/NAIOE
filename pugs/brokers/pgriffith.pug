@@ -1,0 +1,73 @@
+- var titleContent = "NAI Ohio Equities | Peter Griffith"
+- var metaContent = "Peter Griffith is a Commercial Real Estate Agent with NAI Ohio Equities in Columbus, Ohio."
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Peter Griffith", "Commercial Real Estate Agent", "614-629-5247", "614-980-4497", "pgriffith", "NAIOhioEquities", "NAIOhioEquities", "linkedinurl", "pgriffith", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Commercial Real Estate Agent
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/mgallion.html")
+							strong Mariana Gallion
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:mgallion@ohioequities.com") mgallion@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Peter Griffith is a Columbus native and has been with NAI Ohio Equities since 2022. While studying Economics at The Ohio State University, Peter completed two full-term internships while working alongside the Sheeran Semon Team during an award-winning year. During that time, Peter was exposed to well over 100 transactions, gaining practical experience and market knowledge that he will now carry into his career as a broker. Peter was awarded a full scholarship through Columbus REALTORS® Young Professionals Network to obtain his real estate license which he completed in 2023, and he is a member of the NAI Fast Track training program.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p Columbus is the only home I have ever known, and the city is flush with opportunity. Columbus seems to be getting bigger and busier by the day, but it has yet to lose that small-town feel.
+								h5 Where do you like to vacation?
+								p As a child I was fortunate enough to spend time in Destin, Florida every spring. I really haven’t taken a true vacation in years, but when I do you can bet that I will be somewhere on a beach.
+								h5 What is your favorite hidden gem in Columbus?
+								p Giuseppe’s Ritrovo in Bexley has the best food, the best drinks, and the best staff in the city. A fine dining experience with a warm family feel. 
+								.navspacer
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "pgriffith@ohioequities.com"
+									});
+				.broker-bio-right
+					h4 Industry Awards &amp; Recognition 
+					p Young Professionals Network (YPN) Scholarship Recipient 
+					h4 Membership 
+					p Columbus REALTORS&reg;
+						br 
+						| Ohio Association of REALTORS&reg;
+						br 
+						| National Association of REALTORS&reg;
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

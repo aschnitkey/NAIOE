@@ -1,0 +1,84 @@
+- var titleContent = "NAI Ohio Equities | Andrew Green"
+- var metaContent = "Andrew Green is a Commercial Real Estate Agent with NAI Ohio Equities in Columbus, Ohio."
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Andrew Green", "Commercial Real Estate Agent", "614-629-5232", "330-808-2925", "agreen", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/andrew-green-2677331ba/", "agreen", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Commercial Real Estate
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/khurst.html")
+							strong Kaydee Hurst
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:khurst@ohioequities.com") khurst@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5226
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Andrew Green joins NAI Ohio Equities with more than 10 years of experience as a commercial appraiser. Andrew has a deep understanding of the commercial valuation process which will aid him in advising clients regarding the ways their investment might be impacted by market conditions, as well as with risk mitigation strategies.
+								p Andrew graduated from The Ohio State University Fisher College of Business with a Bachelor of Arts degree in Business Administration, majoring in both marketing and real estate. He earned his real estate license in 2023 and continues to hold licenses in both Ohio and Indiana as a general commercial appraiser. As an appraiser, Andrew specialized in cannabis-related retail, industrial properties, and automotive dealerships.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p Stemming from a passion for knowing sports statistics at a young age, I have always been into data analysis and statistics in many facets of life, which applies well to commercial real estate when it comes to decision making for buyers or sellers. However, I am also an extroverted person and enjoy relationship building so the brokerage role especially is a great blend of the two. I was able to enter into the Commercial Real Estate/Urban Planning specialization at the OSU Fisher College of Business and have loved the industry ever since.
+								h5 What is one of your favorite buildings in Columbus? 
+								p 379 W. Broad St aka the former Toledo and Ohio Central railroad station is in my opinion the most unique building in the city with its pagoda tower and Romanesque styled front. Built in 1895, the building is still adjacent to the railroad, although it is now freight only. The building has survived two fires and coincidentally is now the headquarters of International Association of Fire Fighters Local 67, a firefighters' union.
+								h5 What is your favorite neighborhood in Columbus?
+								p I am partial to the neighborhood I currently live in, Merion Village. The South Side in general seems to be getting more popular throughout the years and I really enjoy that so many commercial buildings are incorporated into the residential neighborhood between High St and Parsons Ave. It is close enough to walk anywhere in German Village but still has its own feel that attracts a wide variety of people. The bar and dining scene of S. High St has seen many new operations in recent years. 
+								h5 What is a favorite pastime you enjoy? 
+								p I enjoy golfing and biking, and often enjoy playing pick up basketball at Schiller Park in the evenings. My wife and I enjoy going to Lake Erie often, particularly the Marblehead/Port Clinton area. You can’t beat the fishing there!
+								h5 What is your favorite hidden gem in Columbus? 
+								p Club 185 for the burgers!
+								.navspacer
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "agreen@ohioequities.com"
+									});
+				.broker-bio-right
+					h4 Education
+					p BA, Business Administration
+						br 
+						| Majors in Marketing and Commercial Real Estate &amp; Urban Development
+						br
+						| The Ohio State University
+					h4 Membership 
+					p Columbus REALTORS&reg;
+						br 
+						| Ohio Association of REALTORS&reg;
+						br 
+						| National Association of REALTORS&reg;
+					h4 Community Involvement 
+					p Merion Village Association
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

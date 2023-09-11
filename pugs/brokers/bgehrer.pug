@@ -1,0 +1,79 @@
+- var titleContent = "NAI Ohio Equities | Bastian Gehrer"
+- var metaContent = "Bastian Gehrer is a Commercial Real Estate Agent with NAI Ohio Equities in Columbus, Ohio."
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Bastian Gehrer", "Commercial Real Estate Agent", "614-629-5270", "484-707-3527", "bgehrer", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/bastiangehrer/", "bgehrer", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Commercial Real Estate
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/mgallion.html")
+							strong Mariana Gallion
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:mgallion@ohioequities.com") mgallion@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							//- li(role="presentation")
+							//- 	a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							//- li(role="presentation")
+							//- 	a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p After graduating from Marietta College in 2023, Bastian Gehrer joined NAI Ohio Equities’ Fast Track program, where he is one of just five selected to be a part of the 2023 inaugural class. Bastian graduated with a Bachelor of Arts degree in Entrepreneurship where his coursework in strategic planning, market analysis, and innovative thinking prepared him for a commercial real estate career. Bastian’s entrepreneurial mindset along with his desire to develop relationships, drew him to the industry. Bastian recently obtained his real estate license and is a member of the Columbus Realtors. 
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p I decided to get into commercial real estate because I am driven by the enormous growth potential and challenges real estate has to offer. My foundation in Entrepreneurship, coupled with my educational background, makes real estate the ideal arena for me to harness these skills and fully embrace my entrepreneurial drive. Connecting with individuals from diverse professional backgrounds, forging new relationships, and delving into their experiences and industries is something I relish. Real estate thrives on collaborative efforts and identifying the perfect partners, affording me the chance to steep myself in comprehensive industry insights at the outset of my career journey.
+								h5 Where do you like to vacation?
+								p My Favorite place to vacation is back home to Austria. There is nothing better than visiting my Family, good Austrian food and drinks, hiking the Alps in the summer and skiing in the winter. 
+								h5 What is a favorite pastime you enjoy?
+								p I love going on nature walks with my dog and girlfriend after a long day. It gives us time to talk about our day and enjoy the beautiful parks and walkways Columbus has to offer.
+								h5 What is your favorite hidden gem in Columbus?
+								p I live in Dublin and just recently discovered the “Hill Garten” in Old Hilliard, which is only about ten minutes from my house. It is an outdoor Wine/Beer bar which has an awesome vibe, is dog friendly and often even hosts live music. 
+								.navspacer
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "bgehrer@ohioequities.com"
+									});
+				.broker-bio-right
+					h4 Education
+					p BA, Entrepreneurship
+						br 
+						| Marietta College, 2023
+					h4 Membership 
+					p Columbus Board of REALTORS&reg;
+					h4 Community Involvement 
+					p Alpa Tau Omega Fraternity, Marietta College, Membership Educator 2021-2022 
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
