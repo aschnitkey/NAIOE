@@ -851,7 +851,8 @@ footer {
 	margin-top: 5rem;
 }
 
-#services-brokerage-header a.button {
+#services-brokerage-header a.button,
+a.button-primary {
 	display: inline;
 	background-color: #AF2D37;
 	padding: 1rem 2rem;
@@ -861,7 +862,8 @@ footer {
 	color: #fff;
 }
 
-#services-brokerage-header a.button:hover {
+#services-brokerage-header a.button:hover,
+a.button-primary:hover {
 	background-color: #fff;
 	color: #AF2D37;
 	transition: .2s linear;
