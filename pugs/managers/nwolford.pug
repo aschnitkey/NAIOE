@@ -1,0 +1,37 @@
+- var titleContent = "NAI Ohio Equities | Nicole Wolford"
+- var metaContent = "Nicole Wolford serves as an Association Manager to the New Albany Homeowners Association for NAI Ohio Equities in Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Nicole Wolford", "Property Manager", "614-939-8600", "nwolford", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/nicole-wolford-663671125/", "nwolford", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Nicole Wolford serves as an Association Manager to the New Albany Homeowners Association and comes to NAI Ohio Equities after having spent the past five years as a community manager for a well-known boutique-style brand where she oversaw the management of two communities. Nicole led her team and communities through a successful renovation and was recognized for delivering both superior customer service and desired aesthetics to the portfolio. She has demonstrated a capability in leading large projects from bidding through completion while staying on budget and maintaining strong relationships with the community.
+								p Nicole studied Construction Engineering at the University of Toledo and is skilled in contract and price negotiation, budgeting, planning and forecasting, and mergers and acquisitions. Her hobbies include beauty and fashion, fitness, and travel. 
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I fell in love with the diversity that we offer here whether it be with cuisine or festivals
+								h5 What is your favorite neighborhood/area of Columbus/Central Ohio?
+								p Grandview because of the walkability, the block parties, and the amazing people. It’s where I have called home for the past 10 years.
+								h5 What is your favorite hidden gem in Columbus?
+								p Griggs Reservoir, it is my favorite place to go when I need to decompress and clear my mind!
+				.broker-bio-right
+					h4 Community Involvement
+					p Habitat for Humanity, volunteer
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

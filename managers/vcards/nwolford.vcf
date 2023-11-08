@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 14.0//EN
+N:Wolford;Nicole;;;
+FN:Nicole Wolford
+ORG:NAI Ohio Equities;
+TITLE:Property Manager
+EMAIL;type=INTERNET;type=pref:nwolford@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:614-939-8600
+ADR;type=WORK;type=pref:;;605 S Front St\, Ste 200;Columbus;OH;43215;USA
+item1.URL;type=pref:https://www.ohioequities.com
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
