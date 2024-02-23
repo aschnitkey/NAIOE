@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 14.2.1//EN
+N:Gersper;Mike;;;
+FN:Mike Gersper
+ORG:NAI Ohio Equities;
+EMAIL;type=INTERNET;type=WORK;type=pref:mgersper@ohioequities.com
+TEL;type=CELL;type=VOICE;type=pref:+1 (216) 903-7473
+TEL:+12169037473
+TEL;type=WORK;type=VOICE:619-629-5298
+ADR;type=HOME;type=pref:;;605 S Front St\, Ste 200;Columbus;OH;43215;
+URL;type=WORK;type=pref:https://www.ohioequities.com
+END:VCARD
