@@ -1,0 +1,234 @@
+/***********************************************************
+	Global Declarations
+***********************************************************/
+
+/* font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Domine', serif; */
+
+
+
+
+
+/***********************************************************
+	PAGE: hrt.html
+***********************************************************/
+
+#hrt-header {
+	background: url('../results/img/hrt.jpg') no-repeat left ;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+#hrt-header img {
+	max-height: 100px;
+	position: absolute;
+	right: 7px;
+	bottom: 7px;
+}
+
+.hrt-header-text {
+	background-color: rgba(208,221,232,.8);
+	position: absolute;
+	width: 100%;
+	padding: 15px;
+	bottom: 0;
+}
+
+.hrt-header-text h1, h6 {
+	text-shadow: 0 2px 2px rgba(0,0,0,.9);
+	position: relative;
+	left: 50px;
+	max-width: 65%;
+}
+
+.hrt-header-text h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+.hrt-header-text h6 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.hrt-text-left h2, 
+.hrt-text-left h3, 
+.hrt-text-left h4, 
+.hrt-text-left h5, 
+.hrt-text-left h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.hrt-base-text {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.dt-section {
+	margin-bottom: 2em;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+.hrt-team-photos {
+	margin-bottom: 30px;
+}
+
+.hrt-team-photos>p {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 5px 0 0 10%;
+}
+
+.hrt-team-photos hr {
+	margin-top: 0;
+	width: 80%;
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+
+.hrt-team-photos ul {
+	list-style-type: none;
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.hrt-team-photos li {
+	max-width: 20%;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	background-color: rgba(208,221,232,.2);
+	padding-bottom: 10px;
+}
+.hrt-team-photos li:hover {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all .3s linear;
+}
+
+.hrt-team-photos li img {
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.hrt-team-photos li p {
+	margin: 0 0 -5px 0;
+	padding: 0;
+	color: #000;
+	font-weight: initial;
+}
+.hrt-team-photos li a:hover {
+	text-decoration: none;
+}
+
+.hrt-testimonials {
+	margin-bottom: 85px;
+}
+
+.hrt-testimonials>p {
+	max-width: 80%;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.hrt-testimonials img {
+	max-width: 20%;
+	display: block;
+	margin: 25px auto;
+}
+
+.hrt-testimonials_return {
+	text-align: right;
+	margin: 5px 35px 15px 0;
+}
+
+/*******************************************************
+	Media Queries
+*******************************************************/
+
+@media (max-width: 870px) {
+	.hrt-header-text h1 {
+		font-size: 2em;
+	}
+
+	.hrt-header-text h6 {
+		font-size: 1.5em;
+	}
+
+	#hrt-header img {
+		max-height: 70px;
+	}
+
+	.hrt-text-left h3 {
+		font-size: 1.5em;
+	}
+
+	.hrt-text-left h4 {
+		font-size: 1.1em;
+	}
+
+	p,
+	dd,
+	dt {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 650px) {
+	.hrt-team-photos li p {
+		font-size: .8em;
+	}
+}
+
+@media (max-width: 580px) {
+	.hrt-team-photos li p {
+		font-size: .7em;
+	}
+
+	.hrt-testimonials p {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.hrt-header-text h1 {
+		font-size: 1.5em;
+	}
+
+	.hrt-header-text h6 {
+		font-size: 1.1em;
+	}
+
+	.hrt-header-text h1,
+	.hrt-header-text h6 {
+		left: 0px;
+	}
+
+	#hrt-header img {
+		max-height: 50px;
+	}
+
+	.hrt-team-photos li p {
+		font-size: .7em;
+	}
+
+	.hrt-testimonials p {
+		font-size: 1em;
+	}
+
+	.hrt-team-photos li {
+		max-width: 30%;
+	}
+}
