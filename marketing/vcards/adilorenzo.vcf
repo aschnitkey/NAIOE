@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 14.3.1//EN
+N:DiLorenzo;Al;;;
+FN:Al DiLorenzo
+ORG:NAI Ohio Equities;
+TITLE:Licensed Marketing Assistant
+EMAIL;type=INTERNET;type=pref:adilorenzo@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:614-629-5294
+ADR;type=WORK;type=pref:;;605 S Front St\, Ste 200;Columbus;OH;43215;
+item1.URL;type=pref:https://www.ohioequities.com
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
