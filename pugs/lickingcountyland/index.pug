@@ -1,0 +1,56 @@
+- var titleContent = "NAI Ohio Equities - Licking County Land"
+- var metaContent = "Commercial Real Estate land opportunities in Licking County, Ohio presented by John Mally with NAI Ohio Equities in Columbus, Ohio."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Licking County, Ohio
+				br
+				| Commercial Land Opportunities
+			.selector-body-lima
+				ul.office-agents.camden-selector-ul
+					a(href="https://ohioequities.com/listings.html?propertyId=Etna-Land", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://d33y5rc9xva21v.cloudfront.net/eyJidWNrZXQiOiJidWlsZG91dC1wcm9kdWN0aW9uIiwia2V5IjoiZGF0YXMvMjEzOTkzMDEvYTY3NjRiMzNmYzAyYmNlN2ExOGNmYTQ2MzRlYjU5NjUwMDFjYzFiZC9vcmlnaW5hbC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIwMDAsImhlaWdodCI6MTUwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19", alt="I-70 & SR-310").selector-img-even-height
+							p
+								strong(style="font-size: 1.5rem") I-70 &amp; SR-310
+								br
+								| 13.37 Acres Available<br>Retail, Hospitality, or Office Pads
+					a(href="https://ohioequities.com/listings.html?propertyId=9472-national", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://d33y5rc9xva21v.cloudfront.net/eyJidWNrZXQiOiJidWlsZG91dC1wcm9kdWN0aW9uIiwia2V5IjoiZGF0YXMvMjk0MjYxOTUvYWU3MWRlMmM0YTAwZDg4OWU4YTY0NGY1MDY3YjEyN2M1MmRiYjY4YS9vcmlnaW5hbC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIwMDAsImhlaWdodCI6MTUwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19", alt="9472 National Road SW").selector-img-even-height
+							p 
+								strong(style="font-size: 1.5rem") 9472 National Road SW
+								br
+								| 23.7 Acres Available<br>Retail, Service Stations, Office, and More
+			h2.text-center.agents-header
+				span Contact
+			.selector-body-lima.bottom-margin
+				ul.office-agents.selector-agents.camden-selector-ul(style="color: #AF2D37;")
+					li
+						a(href="../brokers/jmally.html"): img(src="../img/brokers/jmally-portrait.jpg", alt="John Mally portrait")
+						p
+							a(href="../brokers/jmally.html"): strong(style="font-size: 1.5rem") John Mally
+							br
+							| 614-629-5254
+							br 
+							a(href="mailto:jmally@ohioequities.com") jmally@ohioequities.com
+		script.
+			const items = document.querySelectorAll('.camden-selector-ul li');
+			items.forEach((item) => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			item.addEventListener('mouseover', () => {
+			item.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
+			});
+			item.style.transition = "all .3s ease-out"
+			item.addEventListener('mouseout', () => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			});
+			});
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

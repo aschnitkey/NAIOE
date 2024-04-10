@@ -1556,6 +1556,11 @@ h2.text-center.agents-header {
 	margin-bottom: 20rem;
 }
 
+.selector-img-even-height {
+	max-height: 200px;
+	min-width: 300px;
+}
+
 
 
 /***********************************************************
