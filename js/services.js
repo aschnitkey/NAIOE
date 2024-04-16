@@ -38,15 +38,6 @@ let officeAgents = [
     exp: '2014',
   },
   {
-    name: 'Jim Merkel',
-    title: 'Senior Vice President',
-    ext: '214',
-    mobile: '(614) 937-0870',
-    shortname: 'jmerkel',
-    education: 'Miami University',
-    exp: '1970',
-  },
-  {
     name: 'Peter Merkle',
     title: 'VP Office Brokerage',
     ext: '240',
@@ -64,6 +55,15 @@ let officeAgents = [
     education: 'Capital University',
     exp: '1987',
   },
+  {
+    name: 'Chad Boggs',
+    title: 'Commercial Real Estate Agent',
+    ext: '261',
+    mobile: '(614) 595-2752',
+    shortname: 'cboggs',
+    education: 'Ohio University',
+    exp: '2023',
+  },
 ];
 let retailAgents = [
   {
@@ -76,24 +76,8 @@ let retailAgents = [
     exp: '2008',
   },
   officeAgents.find(({ shortname }) => shortname == 'jmally'),
-  {
-    name: 'Bob Monahan',
-    title: 'Commercial Real Estate Agent',
-    ext: '222',
-    mobile: '(614) 204-6907',
-    shortname: 'bmonahan',
-    education: 'The Ohio State University',
-    exp: '1985',
-  },
-  {
-    name: 'Michael Simpson',
-    title: 'President',
-    ext: '236',
-    mobile: '(614) 306-1722',
-    shortname: 'msimpson',
-    education: 'Capital University',
-    exp: '1987',
-  },
+  officeAgents.find(({ shortname }) => shortname == 'msimpson'),
+  officeAgents.find(({ shortname }) => shortname == 'cboggs'),
 ];
 let industrialAgents = [
   {
@@ -114,7 +98,6 @@ let industrialAgents = [
     education: 'Arizona State University',
     exp: '2015',
   },
-  officeAgents.find(({ shortname }) => shortname == 'mfrancescon'),
   {
     name: 'Ryan McGreevy',
     title: 'Commercial Real Estate Agent',
