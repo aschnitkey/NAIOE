@@ -1,0 +1,127 @@
+- var titleContent = "NAI Ohio Equities | Al DiLorenzo"
+- var metaContent = "Al Dilorenzo is a Realtor®, artist, and community organizer working for NAI Ohio Equities in Columbus, Ohio."
+//- Select one of the following includes:
+//- include ../../mixins/brokers-bio.pug
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Al DiLorenzo", "Associate", "614-629-5294", "614-999-5861", "adilorenzo", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/aldilorenzo", "adilorenzo", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Commercial Sales &amp; Leasing
+					//- h4#header-assistant Assistant
+					//- p
+					//- 	span.glyphicon.glyphicon-user
+					//- 	a(href="../marketing/jwilliams.html")
+					//- 		strong Jenna Williams
+					//- 	br
+					//- 	|
+					//- 	|
+					//- 	span.glyphicon.glyphicon-envelope
+					//- 	a(href="mailto:jwilliams@ohioequities.com") jwilliams@ohioequities.com
+					//- 	br
+					//- 	|
+					//- 	|
+					//- 	span.glyphicon.glyphicon-earphone
+					//- 	| (614) 629-5227
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							//- li(role="presentation")
+							//- 	a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							//- li(role="presentation")
+							//- 	a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Al Dilorenzo began her career as a marketing coordinator before advancing into a full-time role as a residential and commercial agent. Her background in technology, website development, design and social media management gives Al a deep understanding of effective real estate marketing which she leverages to enhance the presence and visibility of listings for clients. Her approach to real estate is consultive, with the goal of helping businesses reach their goals in the short-, medium-, and long-term.
+								p Al is passionate about the impact commercial real estate has on Columbus’ growth and is involved in numerous organizations that are shaping Columbus’ future including the National Board of REALTORS&reg;, Ohio REALTORS&reg;, Columbus REALTORS&reg;, Ohio Commercial Real Estate Exchangers (OCREE), Ohio Business Brokers Association (OBBA), International Business Brokers Association (IBBA), CREW – Columbus, Urban Land Institute, and Columbus Metropolitan Club. She holds a B.F.A. in Studio Art from Denison University and serves in multiple arts organizations as President of Mural ReMix, in the Board of Directors for 934 Gallery, and Board of Directors for Milo Arts District.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate? 
+								p I see Commercial Real Estate as an opportunity to be on the leading edge of what’s happening in our community at an economic, business, and grassroots level.
+								h5 What is one of your favorite buildings in Columbus?
+								p The William Green building is my favorite. I appreciate its unique shape in the Columbus skyline.
+								h5 What has been the best part of Columbus’ growth over the past few decades?
+								p The best part about Columbus’ growth is seeing its culture thrive through its evolution from agricultural town to metropolitan city.
+								.navspacer
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "adilorenzo@ohioequities.com"
+									});
+							//- .tab-pane#clients(role="tabpanel")
+							//- 	ul#clients-list.clearfix
+							//- 		li: img.img-responsive(src="../img/logos/covermymeds.png", alt="CoverMyMeds Logo")
+							//- 		li: img.img-responsive(src="../img/logos/cameronmitchellrestaurants.png", alt="Cameron Mitchell Restaurants logo")
+							//- 		li: img.img-responsive(src="../img/logos/furniturebank.png", alt="Furniture Bank logo")
+							//- 		li: img.img-responsive(src="../img/logos/healthcarerealtytrust.png", alt="Healthcare Realty Trust logo")
+							//- 		li: img.img-responsive(src="../img/logos/arthurgoldman.png", alt="Arthur Goldner & Associates logo")
+							//- 	h4 Case Studies
+							//- 	ul#case-studies-list
+							//- 		li: a(href="../results/pnc.html") PNC Plaza | Office Leasing
+							//- 	h4 Transactions
+							//- 	ul#transactions-list
+							//- 		li Cameron Mitchell Restaurants | 16,846 SF | The Buggyworks (Lease)
+							//- 		br
+							//- 		p
+							//- 			a(href="transactions/adutcher.pdf", target="_blank", rel="noopener noreferrer") View completed transactions
+							//- .tab-pane#news(role="tabpanel")
+							//- 	ul.broker-bio-news-list
+							//- 		li: a(href="news/mgregory/2016-08-20.pdf", target="_blank", rel="noopener noreferrer") Northwoods II office building changes ownership; NAI Ohio Equities retains leasing (August 20, 2016)
+							//- 		li: a(href="http://www.bizjournals.com/columbus/news/2016/07/22/top-of-the-list-biggest-office-leases-of-2015.html?ana=fbk", target="_blank", rel="noopener noreferrer") Top of the List: Biggest Office Leases of 2015 (July 22, 2016)
+							//- 		li: a(href="http://media.wix.com/ugd/9c9a38_162f67b3a8814daeb561ccb083aaae05.pdf", target="_blank", rel="noopener noreferrer") Furniture Bank Bed Race Raises $14,000+! (July 18, 2016)
+							//- 		li: a(href="http://media.wix.com/ugd/9c9a38_dfd676d3835642b7944d3df938b6a34a.pdf", target="_blank", rel="noopener noreferrer") Cameron Mitchell moving corporate HQ to the Arena District (May 2, 2016)
+							//- 		li: a(href="http://www.costar.com/News/Article/Office-Lease-Up-Jan-18-Chemonics-BerkleyNet-Take-Down-Big-Leases-in-Northern-Virginia/178960", target="_blank", rel="noopener noreferrer") CoverMyMeds Leases 15,000 SF in Highland Hills (January 18, 2016)
+						.navspacer
+				.broker-bio-right
+					h4 Education
+					p BFA, Studio Art 
+						br
+						| Dennison University, 2019
+					h4 Membership
+					p National Board of REALTORS&reg;
+						br 
+						| Ohio REALTORS&reg;
+						br 
+						| Columbus REALTORS&reg;
+						br 
+						| Ohio Commercial Real Estate Exchangers (OCREE)
+						br 
+						| Ohio Business Brokers Association (OBBA)
+						br 
+						| International Business Brokers Association (IBBA)
+						br 
+						| Urban Land Institute (ULI)
+						br 
+						| Columbus Metropolitan Club
+					h4 Community Involvement 
+					p 934 Gallery
+						br 
+						| Milo Arts District
+						br 
+						| Mural ReMix
+						br 
+						| National Ladies Homestead Gathering
+						br 
+						| Urban Farm Church
+						br 
+						| Columbus Quantum Computing Meet-Up Group
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
