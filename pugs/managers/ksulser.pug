@@ -1,0 +1,36 @@
+- var titleContent = "NAI Ohio Equities | Firstname Lastname"
+- var metaContent = ""
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Katie Sulser", "Assistant Property Manager", "614-629-5252", "ksulser", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities/", "ksulser", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Alicia is currently the Property Manager for a 20-story high rise with 103 condominiums in downtown Columbus near the bustling Arena District. She is responsible for on-site management and supervision of the facility, which includes staffing, budgeting, day-to-day operations and general oversight.
+								hr
+								h5 Why did you decide to make Columbus your home?
+								p I served 6 years in the US Marine Corps and my last duty station was Columbus so I made it my home.
+								h5 What is a favorite pastime that you enjoy?
+								p My family and I enjoy camping and can be found at the campground most weekends. Camping provides quality family time.
+								h5 Who are your favorite sports teams?
+								p Football, OSU, and Alabama (my home state)
+				.broker-bio-right
+					h4 Education
+					p Early Childhood Education
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
