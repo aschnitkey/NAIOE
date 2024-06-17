@@ -1,0 +1,45 @@
+- var titleContent = "NAI Ohio Equities | Angela Zarate"
+- var metaContent = "Angela Zarate is a Senior Property Manager with NAI Ohio Equities in New Albany, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Angela Zarate", "Senior Property Manager", "614-939-8610", "azarate", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/angela-zarate-0a1a7219/", "azarate", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Angela discovered her true passion for property management in Commercial Real Estate after co-founding a company specializing in REO/HUD homes. Angela excels in working closely with property owners, tenants, and maintenance teams, taking pride in the buildings she manages and ensuring the satisfaction of all stakeholders. She treats each property as if it were her own, maintaining the highest standards of care and attention.
+								p In addition to her professional dedication, Angela is a proud wife and mother of five children and four beloved pets. She cherishes quality time with her family and enjoys staying active.
+								hr
+								h5 If you had to pick a song to walk-out to (similar to baseball), what would it be? 
+								p "Stronger" by Kanye West - I chose this song because the lyrics talk about overcoming challenges and becoming stronger as a result.
+								h5 Why did you decide to make Columbus your home? 
+								p Born and raised in Columbus.
+								h5 Where do you like to vacation? 
+								p I enjoy traveling to Mexico for so many reasons! I love immersing myself in the vibrant culture, soaking in the stunning ocean views, indulging in delicious food, and the warm hospitality. 
+								h5 What’s a favorite pastime you enjoy? 
+								p For the past 24 years, I have enjoyed spending time traveling with my four children for soccer. Sadly, that has recently ended so now my time is spent at the gym and cherishing every moment with my family. Life is a gift, so I never take a single day for granted
+								.navspacer
+				.broker-bio-right
+					h4 Education
+					p Real Estate, Hondros College of Real Estate, 2004
+						br 
+						br 
+						| Associates of Arts, Business
+						br 
+						| Columbus State Community College, 1992
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

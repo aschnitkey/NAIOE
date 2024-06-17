@@ -1,0 +1,108 @@
+- var titleContent = "NAI Ohio Equities | Stephen Pryor"
+- var metaContent = "Stephen Pryor is commercial real estate agent with NAI Ohio Equities in Columbus, Ohio, where he specializes in office sales and leasing."
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Stephen Pryor", "Vice President", "614-629-5258", "614-271-9111", "spryor", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/stephen-pryor-17039438/", "spryor", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/mgallion.html")
+							strong Mariana Gallion
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:mgallion@ohioequities.com") mgallion@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Stephen Pryor is an established agent and licensed attorney. Stephen began his career in brokerage in 2011 before pursuing his law degree. After practicing law for eight years, he returned to the commercial brokerage space bringing with him a wealth of additional and unique experiences, knowledge and expertise. Stephen is well-versed in contract negotiations and legal drafting of business and real estate purchase and sale agreements, leasing and operational entity structuring across all asset classes. He is also a seasoned broker, specializing in retail, ground-up development land, restaurant and bar sales.
+								p He earned his Bachelor of Science in Real Estate Finance in 2010, and his Juris Doctorate from Capital University in 2013. He is a member of the National Association of REALTORS®, the Ohio Association of REALTORS®, the Columbus Board of REALTORS®, and the Columbus Bar Association.
+								hr
+								//- h5 Why did you decide to get into Commercial Real Estate?
+								//- p After working on Capitol Hill in Washington D.C. for two years after college, I found myself wanting to make a career change. One of my best friends suggested I should consider commercial real estate so in 2007 I got licensed and then the big recession hit. Although times were tough, it created a solid foundation for how I run my real estate practice and treat my clients with honesty, integrity and respect.
+								//- h5 Where do you like to vacation?
+								//- p Marco Island, FL and any of the Great Lakes regions. I prefer laid back and relaxing destinations where I can unplug and spend quality time with the family.
+								//- h5 What is your favorite hidden gem in Columbus?
+								//- p Hellas Carryout in Shawnee Hills has been one of my favorite places to eat since I was in elementary school. They have the best omelettes and gyros in town.
+								.navspacer
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "spryor@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/covermymeds.png", alt="CoverMyMeds Logo")
+									li: img.img-responsive(src="../img/logos/cameronmitchellrestaurants.png", alt="Cameron Mitchell Restaurants logo")
+									li: img.img-responsive(src="../img/logos/furniturebank.png", alt="Furniture Bank logo")
+									li: img.img-responsive(src="../img/logos/healthcarerealtytrust.png", alt="Healthcare Realty Trust logo")
+									li: img.img-responsive(src="../img/logos/arthurgoldman.png", alt="Arthur Goldner & Associates logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/pnc.html") PNC Plaza | Office Leasing
+								h4 Transactions
+								ul#transactions-list
+									li Cameron Mitchell Restaurants | 16,846 SF | The Buggyworks (Lease)
+									br
+									p
+										a(href="transactions/adutcher.pdf", target="_blank", rel="noopener noreferrer") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/mgregory/2016-08-20.pdf", target="_blank", rel="noopener noreferrer") Northwoods II office building changes ownership; NAI Ohio Equities retains leasing (August 20, 2016)
+									li: a(href="http://www.bizjournals.com/columbus/news/2016/07/22/top-of-the-list-biggest-office-leases-of-2015.html?ana=fbk", target="_blank", rel="noopener noreferrer") Top of the List: Biggest Office Leases of 2015 (July 22, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_162f67b3a8814daeb561ccb083aaae05.pdf", target="_blank", rel="noopener noreferrer") Furniture Bank Bed Race Raises $14,000+! (July 18, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_dfd676d3835642b7944d3df938b6a34a.pdf", target="_blank", rel="noopener noreferrer") Cameron Mitchell moving corporate HQ to the Arena District (May 2, 2016)
+									li: a(href="http://www.costar.com/News/Article/Office-Lease-Up-Jan-18-Chemonics-BerkleyNet-Take-Down-Big-Leases-in-Northern-Virginia/178960", target="_blank", rel="noopener noreferrer") CoverMyMeds Leases 15,000 SF in Highland Hills (January 18, 2016)
+				.broker-bio-right
+					h4 Education
+					p Juris Doctorate
+						br
+						| Capital University Law School, 2013
+						br
+						br
+						| BA, Real Estate Finance 
+						br 
+						| University of South Carolina, 2010
+					h4 Membership
+					p National Association of REALTORS&reg;
+						br 
+						| Ohio REALTORS&reg;
+						br 
+						| Columbus REALTORS&reg;
+						br 
+						| Columbus Bar Association
+					h4 Community Involvement
+					p Nationwide Children's Hospital - Columbus Duck Race
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 14.5//EN
+N:Pryor;Stephen;;;
+FN:Stephen Pryor
+ORG:NAI Ohio Equities;
+EMAIL;type=INTERNET;type=pref:spryor@ohioequities.com
+EMAIL;type=INTERNET:stephen.pryor4@gmail.com
+TEL;type=WORK;type=FAX;type=pref:614 224 5436
+TEL;type=WORK;type=VOICE:(614) 629-5249
+TEL;type=CELL;type=VOICE:(614) 271-9111
+ADR;type=WORK;type=pref:;;605 S Front Street\nSuite 200;Columbus;Ohio;43215;United States of America
+NOTE:\n\n
+END:VCARD
