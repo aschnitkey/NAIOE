@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 14.5//EN
+N:Kroos;Simon;;;
+FN:Simon Kroos
+ORG:NAI Ohio Equities;
+TITLE:Senior Associate
+EMAIL;type=INTERNET;type=pref:skroos@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:614-629-5265
+TEL;type=CELL;type=VOICE:614-935-9625
+ADR;type=WORK;type=pref:;;605 S Front St\, Ste 200;Columbus;OH;43235;USA
+URL;type=pref:https://www.ohioequities.com
+END:VCARD

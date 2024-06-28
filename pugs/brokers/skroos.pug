@@ -1,0 +1,102 @@
+- var titleContent = "NAI Ohio Equities | Simon Kroos"
+- var metaContent = "Simon Kroos is a Senior Associate with NAI Ohio Equities in Columbus, Ohio where he leverages his expertise and network to provide tailored solutions that meet the unique needs of each client."
+//- Select one of the following includes:
+//- include ../../mixins/brokers-bio.pug
+include ../../extends/social-ext.pug
+//- include ../../extends/website-ext.pug
+//- include ../../extends/social-website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Simon Kroos", "Senior Associate", "614-629-5265", "614-935-9625", "skroos", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/simon-kroos-961a5b204/", "skroos", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/mgallion.html")
+							strong Mariana Gallion
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:mgallion@ohioequities.com") mgallion@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							//- li(role="presentation")
+							//- 	a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Simon Kroos is a dedicated and experienced commercial real estate broker specializing in investment sales and leasing. With three years in the industry, Simon has developed a robust network, overseeing industrial, office, and retail transactions. As a Columbus native, Simon possesses an in-depth understanding of the local commercial landscape, which, combined with his extensive industry knowledge, allows him to deliver exceptional value to his clients. Simon’s close relationships with real estate investment firms, family offices, and high-net-worth individuals enable him to effectively represent sellers and buyers, ensuring optimal outcomes for their investments.
+								p Simon is committed to leveraging his expertise and network to provide tailored solutions that meet the unique needs of each client, fostering successful and long-lasting partnerships in the commercial real estate market.
+								hr
+								h5 What has been the best part of Columbus’ growth over the past few decades?
+								p In my opinion, the best part of Columbus’ growth has been the food scene. Columbus was recently voted as the 3rd best city for food in the country. This makes Columbus even more desirable which helps growth tremendously.
+								h5 What is your favorite neighborhood/area of Columbus/Central Ohio?
+								p My favorite area of Columbus is German Village. Between the restaurants, shopping and parks there is endless entertainment. German Village is a charming and lively neighborhood. Its blend of historic preservation and modern amenities makes it a standout place to visit or live.
+								h5 What is your favorite hidden gem in Columbus?
+								p My favorite hidden gem is 
+									a(href="https://hoyoskitchen.com/", target="_blank", rel="noopener noreferrer") Hoyos Kitchen 
+									| in the North Market. If you haven’t tried it I strongly encourage you do!
+								//- .navspacer
+								.navspacer
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "skroos@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/tooltech.png", alt="Tool Tech Logo")
+									li: img.img-responsive(src="../img/logos/thayer.png", alt="Thayer Power logo")
+									li: img.img-responsive(src="../img/logos/nippon.png", alt="Nippon Paint logo")
+								h4 Transactions
+								ul#transactions-list
+									li $2MM, 34k SF, Single-Tenant NNN Industrial (Sale-Leaseback)
+									li 10,000 SF, Industrial (Tenant-Rep)
+							//- .tab-pane#news(role="tabpanel")
+							//- 	ul.broker-bio-news-list
+							//- 		li: a(href="news/mgregory/2016-08-20.pdf", target="_blank", rel="noopener noreferrer") Northwoods II office building changes ownership; NAI Ohio Equities retains leasing (August 20, 2016)
+							//- 		li: a(href="http://www.bizjournals.com/columbus/news/2016/07/22/top-of-the-list-biggest-office-leases-of-2015.html?ana=fbk", target="_blank", rel="noopener noreferrer") Top of the List: Biggest Office Leases of 2015 (July 22, 2016)
+							//- 		li: a(href="http://media.wix.com/ugd/9c9a38_162f67b3a8814daeb561ccb083aaae05.pdf", target="_blank", rel="noopener noreferrer") Furniture Bank Bed Race Raises $14,000+! (July 18, 2016)
+							//- 		li: a(href="http://media.wix.com/ugd/9c9a38_dfd676d3835642b7944d3df938b6a34a.pdf", target="_blank", rel="noopener noreferrer") Cameron Mitchell moving corporate HQ to the Arena District (May 2, 2016)
+							//- 		li: a(href="http://www.costar.com/News/Article/Office-Lease-Up-Jan-18-Chemonics-BerkleyNet-Take-Down-Big-Leases-in-Northern-Virginia/178960", target="_blank", rel="noopener noreferrer") CoverMyMeds Leases 15,000 SF in Highland Hills (January 18, 2016)
+				.broker-bio-right
+					h4 Education
+					p BS, Education
+						br
+						| The Ohio State University, 2021
+					h4 Membership
+					p National Association of REALTORS&reg;
+						br
+						| Ohio REALTORS&reg;
+						br 
+						| Columbus REALTORS&reg;
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
