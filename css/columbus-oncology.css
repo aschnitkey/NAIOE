@@ -1,0 +1,234 @@
+/***********************************************************
+	Global Declarations
+***********************************************************/
+
+/* font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Domine', serif; */
+
+
+
+
+
+/***********************************************************
+	PAGE: columbus-oncology.html
+***********************************************************/
+
+#columbus-oncology-header {
+	background: url('../results/img/columbus-oncology.jpg') no-repeat left;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+#columbus-oncology-header img {
+	max-height: 100px;
+	position: absolute;
+	right: 7px;
+	bottom: 7px;
+}
+
+.columbus-oncology-header-text {
+	background-color: rgba(208,221,232,.8);
+	position: absolute;
+	width: 100%;
+	padding: 15px;
+	bottom: 0;
+}
+
+.columbus-oncology-header-text h1, h6 {
+	text-shadow: 0 2px 2px rgba(0,0,0,.9);
+	position: relative;
+	left: 50px;
+	max-width: 65%;
+}
+
+.columbus-oncology-header-text h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+.columbus-oncology-header-text h6 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.columbus-oncology-text-left h2, 
+.columbus-oncology-text-left h3, 
+.columbus-oncology-text-left h4, 
+.columbus-oncology-text-left h5, 
+.columbus-oncology-text-left h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.columbus-oncology-base-text {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.dt-section {
+	margin-bottom: 2em;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+.columbus-oncology-team-photos {
+	margin-bottom: 30px;
+}
+
+.columbus-oncology-team-photos>p {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 5px 0 0 10%;
+}
+
+.columbus-oncology-team-photos hr {
+	margin-top: 0;
+	width: 80%;
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+
+.columbus-oncology-team-photos ul {
+	list-style-type: none;
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.columbus-oncology-team-photos li {
+	max-width: 20%;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	background-color: rgba(208,221,232,.2);
+	padding-bottom: 10px;
+}
+.columbus-oncology-team-photos li:hover {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all .3s linear;
+}
+
+.columbus-oncology-team-photos li img {
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.columbus-oncology-team-photos li p {
+	margin: 0 0 -5px 0;
+	padding: 0;
+	color: #000;
+	font-weight: initial;
+}
+.columbus-oncology-team-photos li a:hover {
+	text-decoration: none;
+}
+
+.columbus-oncology-testimonials {
+	margin-bottom: 85px;
+}
+
+.columbus-oncology-testimonials>p {
+	max-width: 80%;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.columbus-oncology-testimonials img {
+	max-width: 20%;
+	display: block;
+	margin: 25px auto;
+}
+
+.columbus-oncology-testimonials_return {
+	text-align: right;
+	margin: 5px 35px 15px 0;
+}
+
+/*******************************************************
+	Media Queries
+*******************************************************/
+
+@media (max-width: 870px) {
+	.columbus-oncology-header-text h1 {
+		font-size: 2em;
+	}
+
+	.columbus-oncology-header-text h6 {
+		font-size: 1.5em;
+	}
+
+	#columbus-oncology-header img {
+		max-height: 70px;
+	}
+
+	.columbus-oncology-text-left h3 {
+		font-size: 1.5em;
+	}
+
+	.columbus-oncology-text-left h4 {
+		font-size: 1.1em;
+	}
+
+	p,
+	dd,
+	dt {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 650px) {
+	.columbus-oncology-team-photos li p {
+		font-size: .8em;
+	}
+}
+
+@media (max-width: 580px) {
+	.columbus-oncology-team-photos li p {
+		font-size: .7em;
+	}
+
+	.columbus-oncology-testimonials p {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.columbus-oncology-header-text h1 {
+		font-size: 1.5em;
+	}
+
+	.columbus-oncology-header-text h6 {
+		font-size: 1.1em;
+	}
+
+	.columbus-oncology-header-text h1,
+	.columbus-oncology-header-text h6 {
+		left: 0px;
+	}
+
+	#columbus-oncology-header img {
+		max-height: 50px;
+	}
+
+	.columbus-oncology-team-photos li p {
+		font-size: .7em;
+	}
+
+	.columbus-oncology-testimonials p {
+		font-size: 1em;
+	}
+
+	.columbus-oncology-team-photos li {
+		max-width: 30%;
+	}
+}

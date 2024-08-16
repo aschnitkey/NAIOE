@@ -1,0 +1,52 @@
+-var titleContent = "NAI Ohio Equities | Columbus Oncology Case Study"
+-var metaContent = "Case study for the NAI Ohio Equities Medical Office Property Management project for Columbus Oncology and Hematology Associates."
+-var fileNameCSS = "columbus-oncology"
+include ../../mixins/results-css.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/results-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			#columbus-oncology-header
+				.columbus-oncology-header-text
+					h1 Medical Office Management
+					h6 Columbus Oncology &amp; Hematology Associates
+				img.img-responsive(src="../img/logos/columbus-oncology.png", alt="Columbus Oncology & Hematology Associates Logo")
+			.container-fluid
+				.row
+					.col-sm-3.columbus-oncology-text-left
+						h3 Case Study
+						h4 Columbus Oncology &amp; Hematology - Columbus, Ohio
+						p: a(href="download/columbus-oncology.pdf", target="_blank", rel="noopener noreferrer") Download Case Study
+					.col-sm-9
+						p(style="max-width: 120ch;") Like many Central Ohio businesses, long-time NAI Ohio Equities’ client Columbus Oncology &amp; Hematology Associates faced rising utility costs due to various external economic factors. As the 2023 budget season approached and as a best practice, Dave Wakeman and his team took a proactive measure in preparation for the budgeting process by reviewing the organization’s utility billing statements. 
+						p(style="max-width: 120ch;") Wakeman identified an energy advisor with whom to partner and was able to leverage the buying power of NAI Ohio Equities’ vendor network to get the lowest possible rate for Columbus Oncology &amp; Hematology Associates. Our advisor went to the market, solicited bids from energy providers, and was able to significantly lower the per kWh rate, producing a savings of roughly 11% for the fourth quarter of 2023 and a savings of 53% for the year ending 2024, equating to more than $84,000.
+				.row
+					.col-sm-12
+						dl.dl-horizontal
+							dt Portfolio Type
+							dd Medical Office
+							dt Portfolio Size
+							dd 69,503 SF
+							dt Profile
+							dd Founded in 1987, Columbus Oncology &amp; Hematology Associates is a physician-owned cancer treatment center with three Central Ohio locations.
+				.row.columbus-oncology-team-photos
+					p Team Members
+					hr
+					ul
+						li
+							img.img-responsive(src="../img/managers/dwakeman-portrait.jpg", alt="David Wakeman")
+							p David Wakeman
+							p: em VP of Property Management
+				.row.columbus-oncology-testimonials
+					p "Dave Wakeman and his team have led a successful cost containment initiative bringing value to our organization. The team at NAI Ohio Equities is dedicated to service excellence and are committed to providing a quality return on all property management areas."
+					p.results_byline
+						span(style="color: #E9B741; font-size: 0.75em") Debbie Westkamp, Executive Director | Columbus Oncology &amp; Hematology Associates
+						img.img-responsive(src="../img/logos/columbus-oncology.png", alt="Columbus Oncology & Hematology Associates logo")
+				.row.columbus-oncology-testimonials_return
+					a(href="../results.html") << View All Case Studies and Testimonials
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
