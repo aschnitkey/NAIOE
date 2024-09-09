@@ -205,6 +205,8 @@
 
 .testimonial-bio-quote {
 	margin-bottom: 8px;
+	background-size: cover;
+	background-position: center;
 }
 
 .broker-bio-content .testimonial-bio-company {
@@ -217,6 +219,10 @@
 	color: #E07E32;
 	margin-bottom: 30px;
 	font-size: 0.9em;
+}
+
+.testimonial-bio-source-multiple {
+	margin-bottom: 15px;
 }
 
 .to-show {
