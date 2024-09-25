@@ -1,0 +1,48 @@
+- var titleContent = "NAI Ohio Equities | Jennifer Grooms"
+- var metaContent = "Jennifer Grooms is a Senior Association Manager with NAI Ohio Equities in Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Jennifer Grooms", "Senior Association Manager", "614-939-8618", "jgrooms", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities/", "jgrooms", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Association Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p As Senior Association Manager, Jen Grooms manages the New Albany Homeowner’s Association, Business Park and Business Campus. 
+								p Jen joins NAI Ohio Equities having spent the entirety of her career in property management, starting as a leasing agent and moving through the ranks to Vice President of the Columbus Division for The Case Bowen Company. During that time, she gained experience in vendor management, contract negotiations and business development, while also managing her team and a full portfolio of properties. Jen thrives in a fast-paced environment and enjoys the diversity of her role. 
+								hr
+								h5 Why did you decide to make Columbus your home? 
+								p Summer vacations growing up were spent in Columbus.
+								h5 What is your favorite neighborhood/area of Columbus/Central Ohio?
+								p Pleasant Township in Marion County because its home.
+								h5 Why did you decide to make Columbus your home?
+								p Summer vacations growing up were spent in Columbus.
+								h5 Where do you like to vacation?
+								p Anywhere quiet and remote.
+				.broker-bio-right
+					h4 Education
+					p Masters in Marketing and Communication 
+						br 
+						| Franklin University, 1999-2002
+						br 
+						br 
+						| BA, Sociology 
+						br 
+						| The Ohio State University, 1998
+					h4 Professional Membership 
+					p Community Associations Institute (CAI)
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
