@@ -1,0 +1,41 @@
+- var titleContent = "NAI Ohio Equities | Jacque Ramsey"
+- var metaContent = "Jacque Ramsey is a Marketing Administrative Assistant with NAI Ohio Equities in Columbus, Ohio."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-marketing("Jacque Ramsey", "Marketing Administrative Assistant", "614-629-5256", "jramsey", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/company/nai-ohio-equities/", "jramsey", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p For more than 15 years, Jacque Ramsey has been providing administrative support and marketing expertise in industries including technology, bioscience and commercial real estate.
+								p Jacque holds a bachelor’s degree in graphic design from The Ohio State University and leverages her design skills to create effective marketing materials. She also possesses experience in event and tradeshow coordination, social media, brand design, photography and office management.
+								hr
+								h5 What has been the best part of Columbus’ growth over the past few decades?
+								p Definitely the sports teams. The addition of the Blue Jackets, Crew and Fury have added great variety. Huntington Park has been a nice addition as well.
+								h5 What is your favorite neighborhood/area of Columbus/Central Ohio?
+								p I’ve always loved Victorian Village area. I love the architecture and uniqueness of all the old houses with the tree lined streets.
+								h5 Where do you like to vacation?
+								p I love the mountains of North Carolina. We have vacationed every summer at Sugar Mountain which is nestled in the Appalachian Mountains and has some great little towns surrounding it along with lots of great food, art and boutique shops and outdoor fun.
+								h5 What’s a favorite pastime you enjoy?
+								p Soccer. I used to play and then got to watch both my kids play at a competitive level. We now enjoy cheering on the Columbus Crew.
+								h5 What is your favorite hidden gem in Columbus?
+								p I live in Hilliard and we love going to Prairie Oaks Metro Park. It has great fishing, walking paths and a dog beach. We love it because it’s close but gets us out of the city – very beautiful and peaceful!
+				.broker-bio-right
+					h4 Education
+					p BA, Graphic Design 
+						br 
+						| The Ohio State University, 1994
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
