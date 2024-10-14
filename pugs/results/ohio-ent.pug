@@ -1,0 +1,52 @@
+-var titleContent = "NAI Ohio Equities | Ohio ENT & Allergy Physicians Case Study"
+-var metaContent = "Case study for the NAI Ohio Equities Medical Office Property Management project for Ohio ENT & Allergy Physicians in central Ohio."
+-var fileNameCSS = "ohio-ent"
+include ../../mixins/results-css.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/results-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			#ohio-ent-header
+				.ohio-ent-header-text
+					h1 Medical Office Management
+					h6 Ohio ENT &amp; Allergy Physicians 
+				img.img-responsive(src="../img/logos/ohio-ent.png", alt="Ohio ENT & Allergy Physicians & Hematology Associates Logo")
+			.container-fluid
+				.row
+					.col-sm-3.ohio-ent-text-left
+						h3 Case Study
+						h4 Ohio ENT &amp; Allergy Physicians - Columbus, Ohio
+						p: a(href="download/ohio-ent.pdf", target="_blank", rel="noopener noreferrer") Download Case Study
+					.col-sm-9
+						p(style="max-width: 120ch;") For years, Ohio ENT &amp; Allergy Physicians had self-managed its portfolio of buildings. In 2024, the practice decided to engage NAI Ohio Equities to assist with these efforts. 
+						p(style="max-width: 120ch;") As the portfolio transitioned to our care, we performed an audit to assess the current state of the buildings, as well as reviewed all service contracts. As we reviewed the contracts, we discovered that the janitorial service contract had not been sent out to bid for nearly 15 years.  anitorial expenses are commonly one of the largest service-related expenses, and so our team  everaged NAI Ohio Equities’ trusted network of vetted and qualified vendors and requested quotes for janitorial services. Through this process, Ohio ENT &amp; Allergy Physicians saved more than $100,000 annually while also improving the level of service it received.
+				.row
+					.col-sm-12
+						dl.dl-horizontal
+							dt Portfolio Type
+							dd Medical Office
+							dt Portfolio Size
+							dd 84,842 SF
+							dt Profile
+							dd Ohio ENT &amp; Allergy Physicians is a growing, physician-owned practice with eight Central Ohio locations.
+				.row.ohio-ent-team-photos
+					p Team Members
+					hr
+					ul
+						li
+							img.img-responsive(src="../img/managers/charbert-portrait.jpg", alt="Chris Harbert")
+							p Chris Harbert
+							p: em Property Manager
+				//- .row.ohio-ent-testimonials
+					p "Dave Wakeman and his team have led a successful cost containment initiative bringing value to our organization. The team at NAI Ohio Equities is dedicated to service excellence and are committed to providing a quality return on all property management areas."
+					p.results_byline
+						span(style="color: #E9B741; font-size: 0.75em") Debbie Westkamp, Executive Director | Ohio ENT & Allergy Physicians 
+						img.img-responsive(src="../img/logos/ohio-ent.png", alt="Ohio ENT & Allergy Physicians & Hematology Associates logo")
+				.row.ohio-ent-testimonials_return
+					a(href="../results.html") << View All Case Studies and Testimonials
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
