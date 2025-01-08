@@ -1,7 +1,7 @@
 // video selector
 
 let videoSource = [
-  'marketing/marketreports/2024/nai_ohio_equities_2024q3_all.mp4',
+  'marketing/marketreports/2024/nai_ohio_equities_2024q4_all.mp4',
   // 'marketing/marketreports/2024/nai_ohio_equities_2024q2_office.mp4',
   // 'marketing/marketreports/2024/nai_ohio_equities_2024q2_industrial.mp4',
   // 'marketing/marketreports/2024/nai_ohio_equities_2024q2_retail.mp4',
