@@ -1,0 +1,234 @@
+/***********************************************************
+	Global Declarations
+***********************************************************/
+
+/* font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Domine', serif; */
+
+
+
+
+
+/***********************************************************
+	PAGE: fst-dallas.html
+***********************************************************/
+
+#fst-dallas-header {
+	background: url('../results/img/fst-dallas.jpg') no-repeat left;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+#fst-dallas-header img {
+	max-height: 100px;
+	position: absolute;
+	right: 7px;
+	bottom: 7px;
+}
+
+.fst-dallas-header-text {
+	background-color: rgba(208,221,232,.8);
+	position: absolute;
+	width: 100%;
+	padding: 15px;
+	bottom: 0;
+}
+
+.fst-dallas-header-text h1, h6 {
+	text-shadow: 0 2px 2px rgba(0,0,0,.9);
+	position: relative;
+	left: 50px;
+	max-width: 65%;
+}
+
+.fst-dallas-header-text h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+.fst-dallas-header-text h6 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.fst-dallas-text-left h2, 
+.fst-dallas-text-left h3, 
+.fst-dallas-text-left h4, 
+.fst-dallas-text-left h5, 
+.fst-dallas-text-left h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.fst-dallas-base-text {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.dt-section {
+	margin-bottom: 2em;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+.fst-dallas-team-photos {
+	margin-bottom: 30px;
+}
+
+.fst-dallas-team-photos>p {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 5px 0 0 10%;
+}
+
+.fst-dallas-team-photos hr {
+	margin-top: 0;
+	width: 80%;
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+
+.fst-dallas-team-photos ul {
+	list-style-type: none;
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.fst-dallas-team-photos li {
+	max-width: 20%;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	background-color: rgba(208,221,232,.2);
+	padding-bottom: 10px;
+}
+.fst-dallas-team-photos li:hover {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all .3s linear;
+}
+
+.fst-dallas-team-photos li img {
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.fst-dallas-team-photos li p {
+	margin: 0 0 -5px 0;
+	padding: 0;
+	color: #000;
+	font-weight: initial;
+}
+.fst-dallas-team-photos li a:hover {
+	text-decoration: none;
+}
+
+.fst-dallas-testimonials {
+	margin-bottom: 85px;
+}
+
+.fst-dallas-testimonials>p {
+	max-width: 80%;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.fst-dallas-testimonials img {
+	max-width: 20%;
+	display: block;
+	margin: 25px auto;
+}
+
+.fst-dallas-testimonials_return {
+	text-align: right;
+	margin: 5px 35px 15px 0;
+}
+
+/*******************************************************
+	Media Queries
+*******************************************************/
+
+@media (max-width: 870px) {
+	.fst-dallas-header-text h1 {
+		font-size: 2em;
+	}
+
+	.fst-dallas-header-text h6 {
+		font-size: 1.5em;
+	}
+
+	#fst-dallas-header img {
+		max-height: 70px;
+	}
+
+	.fst-dallas-text-left h3 {
+		font-size: 1.5em;
+	}
+
+	.fst-dallas-text-left h4 {
+		font-size: 1.1em;
+	}
+
+	p,
+	dd,
+	dt {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 650px) {
+	.fst-dallas-team-photos li p {
+		font-size: .8em;
+	}
+}
+
+@media (max-width: 580px) {
+	.fst-dallas-team-photos li p {
+		font-size: .7em;
+	}
+
+	.fst-dallas-testimonials p {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.fst-dallas-header-text h1 {
+		font-size: 1.5em;
+	}
+
+	.fst-dallas-header-text h6 {
+		font-size: 1.1em;
+	}
+
+	.fst-dallas-header-text h1,
+	.fst-dallas-header-text h6 {
+		left: 0px;
+	}
+
+	#fst-dallas-header img {
+		max-height: 50px;
+	}
+
+	.fst-dallas-team-photos li p {
+		font-size: .7em;
+	}
+
+	.fst-dallas-testimonials p {
+		font-size: 1em;
+	}
+
+	.fst-dallas-team-photos li {
+		max-width: 30%;
+	}
+}
