@@ -1,0 +1,32 @@
+- var titleContent = "NAI Ohio Equities | Alexa Cooper"
+- var metaContent = "Assistant Property Manager Alexa Cooper excels in managing medical offices, budgeting, marketing, and customer service for efficient asset management."
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			+bio-mgmt("Alexa Cooper", "Assistant Property Manager", "614-629-5249", "acooper", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/alexa-cooper-510a57193/", "acooper", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Property Management
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li.active(role="presentation")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p As an Assistant Property Manager, Alexa Cooper leverages her experience managing medical office buildings. Her background and focus on budgeting, forecasting, marketing, vendor relations and customer service have allowed her to work with building owners to manage their assets effectively and efficiently. While in college, Alexa built a profitable business utilizing social media marketing before transitioning to a career in real estate. Alexa holds a Bachelor of Science in Business Administration where she majored in Real Estate and Urban Analysis from The Ohio State University.
+								hr
+				.broker-bio-right
+					h4 Education
+					p BS, Business Administration 
+						br
+						| The Ohio State University, 2023
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug

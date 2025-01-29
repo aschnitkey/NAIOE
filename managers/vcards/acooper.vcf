@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 15.1.1//EN
+N:Cooper;Alexa;;;
+FN:Alexa Cooper
+ORG:NAI Ohio Equities;
+TITLE:Assistant Property Manager
+EMAIL;type=INTERNET;type=pref:acooper@ohioequities.com
+TEL;type=WORK;type=VOICE;type=pref:614-629-5249
+ADR;type=WORK;type=pref:;;605 S Front St\, Ste 200;Columbus;OH;43215;USA
+URL;type=pref:https://www.ohioequities.com
+END:VCARD
