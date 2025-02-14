@@ -1,0 +1,58 @@
+- var titleContent = "NAI Ohio Equities - Bexley Listings For Sale and Lease"
+- var metaContent = "NAI Ohio Equities' has listed several properties forsale or lease in Bexley, Ohio."
+
+doctype html
+html(lang="en")
+	include ../../includes/head-brokers.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap.lima-selector
+			h2.text-center
+				small Bexley, Ohio
+				br
+				| Available Listings
+			.selector-body-lima
+				ul.office-agents.camden-selector-ul
+					a(href="https://ohioequities.com/listings.html?propertyId=2774-e-main-st", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/31575252/50ebca9977b3cbf51cfe02b26a1f3397a22bddad/original.jpg?1736266540", alt="2774 E Main Street")
+							p
+								strong(style="font-size: 1.5rem") 2774 E Main Street
+								br
+								| 2,892 - 5,850 SF Available<br>Retail Space For Lease
+					a(href="https://ohioequities.com/listings.html?propertyId=bexley-business-park", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/31407930/e6df587bc470791ff5ec0a8005f84665b98eeaf8/original.jpg?1732655007", alt="572 S Nelson Rd")
+							p 
+								strong(style="font-size: 1.5rem") 572 S Nelson Rd
+								br
+								| Bexley Business Park<br>Industrial Buildings For Lease
+					a(href="https://ohioequities.com/listings.html?propertyId=2106-E-Main-St", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/9822398/72761534f4da0ad81ecf4575aebe5a82425ed838/original.jpg?1626878326", alt="2106 E. Main Street")
+							p 
+								strong(style="font-size: 1.5rem") 2106 E. Main Street
+								br
+								| Bexley Business Park<br>Industrial Buildings For Lease
+					a(href="https://ohioequities.com/listings.html?propertyId=818-rose-avenue-columbus-lease", target="_blank", rel="noopener noreferrer")
+						li
+							img(src="https://s3.amazonaws.com/buildout-production/datas/31674604/e7809d2347380614cd570373a9fd8cd98f2160ab/original.jpg?1737581934", alt="818 Rose Avenue")
+							p 
+								strong(style="font-size: 1.5rem") 818 Rose Avenue
+								br
+								| 3,580 SF<br>Office Space For Lease
+		script.
+			const items = document.querySelectorAll('.camden-selector-ul li');
+			items.forEach((item) => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			item.addEventListener('mouseover', () => {
+			item.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
+			});
+			item.style.transition = "all .3s ease-out"
+			item.addEventListener('mouseout', () => {
+			item.style.boxShadow = "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)";
+			});
+			});
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
