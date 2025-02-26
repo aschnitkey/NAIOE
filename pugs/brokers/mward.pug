@@ -1,0 +1,121 @@
+- var titleContent = "NAI Ohio Equities | Firstname Lastname"
+- var metaContent = ""
+//- Select one of the following includes:
+include ../../mixins/brokers-bio.pug
+include ../../extends/social-ext.pug
+include ../../extends/website-ext.pug
+include ../../extends/social-website-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("name", "title", "officephone", "mobilephone", "emailprefix", "twitter", "instagram", "linkedinurl", "shortname", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Office
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/jwilliams.html")
+							strong Jenna Williams
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:jwilliams@ohioequities.com") jwilliams@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5227
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+							li(role="presentation")
+								a(href="#clients", aria-controls="clients", role="tab", data-toggle="pill") Clients and Transactions
+							li(role="presentation")
+								a(href="#news", aria-controls="news", role="tab", data-toggle="pill") News
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p Andy joined NAI Ohio Equities in 2008. He specializes in the downtown and suburban office markets where he has successfully represented numerous tenants and landlords. With a strong background in market conditions, site selection and deal negotiations he works closely with his clients to formulate a real estate strategy that meets their goals.
+									br
+									br
+									a(href="http://www.officebrokeragegroup.com", target="_blank", rel="noopener noreferrer") Click here to view Office Brokerage Group website
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p After working on Capitol Hill in Washington D.C. for two years after college, I found myself wanting to make a career change. One of my best friends suggested I should consider commercial real estate so in 2007 I got licensed and then the big recession hit. Although times were tough, it created a solid foundation for how I run my real estate practice and treat my clients with honesty, integrity and respect.
+								h5 Where do you like to vacation?
+								p Marco Island, FL and any of the Great Lakes regions. I prefer laid back and relaxing destinations where I can unplug and spend quality time with the family.
+								h5 What is your favorite hidden gem in Columbus?
+								p Hellas Carryout in Shawnee Hills has been one of my favorite places to eat since I was in elementary school. They have the best omelettes and gyros in town.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "adutcher@ohioequities.com"
+									});
+							.tab-pane#clients(role="tabpanel")
+								ul#clients-list.clearfix
+									li: img.img-responsive(src="../img/logos/covermymeds.png", alt="CoverMyMeds Logo")
+									li: img.img-responsive(src="../img/logos/cameronmitchellrestaurants.png", alt="Cameron Mitchell Restaurants logo")
+									li: img.img-responsive(src="../img/logos/furniturebank.png", alt="Furniture Bank logo")
+									li: img.img-responsive(src="../img/logos/healthcarerealtytrust.png", alt="Healthcare Realty Trust logo")
+									li: img.img-responsive(src="../img/logos/arthurgoldman.png", alt="Arthur Goldner & Associates logo")
+								h4 Case Studies
+								ul#case-studies-list
+									li: a(href="../results/pnc.html") PNC Plaza | Office Leasing
+								h4 Transactions
+								ul#transactions-list
+									li Cameron Mitchell Restaurants | 16,846 SF | The Buggyworks (Lease)
+									br
+									p
+										a(href="transactions/adutcher.pdf", target="_blank", rel="noopener noreferrer") View completed transactions
+							.tab-pane#news(role="tabpanel")
+								ul.broker-bio-news-list
+									li: a(href="news/mgregory/2016-08-20.pdf", target="_blank", rel="noopener noreferrer") Northwoods II office building changes ownership; NAI Ohio Equities retains leasing (August 20, 2016)
+									li: a(href="http://www.bizjournals.com/columbus/news/2016/07/22/top-of-the-list-biggest-office-leases-of-2015.html?ana=fbk", target="_blank", rel="noopener noreferrer") Top of the List: Biggest Office Leases of 2015 (July 22, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_162f67b3a8814daeb561ccb083aaae05.pdf", target="_blank", rel="noopener noreferrer") Furniture Bank Bed Race Raises $14,000+! (July 18, 2016)
+									li: a(href="http://media.wix.com/ugd/9c9a38_dfd676d3835642b7944d3df938b6a34a.pdf", target="_blank", rel="noopener noreferrer") Cameron Mitchell moving corporate HQ to the Arena District (May 2, 2016)
+									li: a(href="http://www.costar.com/News/Article/Office-Lease-Up-Jan-18-Chemonics-BerkleyNet-Take-Down-Big-Leases-in-Northern-Virginia/178960", target="_blank", rel="noopener noreferrer") CoverMyMeds Leases 15,000 SF in Highland Hills (January 18, 2016)
+				.broker-bio-right
+					h4 Education
+					p BA, Political Science
+						br
+						| Ohio University
+					h4 Membership
+					p Columbus Board of Realtors
+						br
+						| National Association of Realtors
+					h4 Community Involvement
+					p Pelotonia
+						br
+						| Head Coach of Classics Eagles travel soccer team
+					h4 Honors and Awards
+					p NAI Ohio Equities Top Producer (2013-present)
+						br
+						| CoStar Power Broker (2015)
+						br
+						| Columbus Realtors Largest Office Sale (2015)
+					h4 Transaction Volume
+					p 450+ Transactions
+						br
+						| 3,500,000 SF
+						br
+						| $225,000,000
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
