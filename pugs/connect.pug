@@ -209,34 +209,3 @@ html(lang="en")
 						a(href="mailto:jloxterman@ohioequities.com") jloxterman@ohioequities.com
 		include ../includes/footer.pug
 		include ../includes/scripts.pug
-	// phone insertion script begins
-	script(type="text/javascript", src="https://reports.hibu.com/analytics/js/ybDynamicPhoneInsertion.js")
-	script.
-		ybFindPhNums = ['16142242400', '16142242400'];
-		ybReplacePhNums = ['13802856684', '13802856595'];
-		
-		
-		ybFindPhNumsNoIndx = ['16142242400'];
-		ybReplacePhNumsNoIndx = ['13802762440'];
-		
-		document.addEventListener("YextPhoneChangeEvent", yextPhoneChangeEventHandler, false);
-		
-		function yextPhoneChangeEventHandler(e) {
-		e.preventDefault();
-		ybFun_ReplaceText();
-		}
-		
-		if (typeof dmAPI != 'undefined') {
-		dmAPI.runOnReady('dpni', function() {
-		setTimeout(ybFun_ReplaceText, 500);
-		});
-		dmAPI.subscribeEvent(dmAPI.EVENTS.SHOW_POPUP, function(data) {
-		setTimeout(ybFun_ReplaceText, 500);
-		console.log('dmAPI.EVENTS.SHOW_POPUP' + data);
-		});
-		} else {
-		window.onload = function() {
-		setTimeout(ybFun_ReplaceText, 500);
-		}
-		}
-	// phone insertion script ends
