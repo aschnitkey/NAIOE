@@ -1,0 +1,80 @@
+- var titleContent = "NAI Ohio Equities | Haileigh Stanton"
+- var metaContent = ""
+//- Select one of the following includes:
+include ../../extends/social-ext.pug
+
+doctype html
+html(lang="en")
+	include ../../extends/brokers-ext.pug
+	body
+		include ../../includes/nav-brokers.pug
+		.navspacer
+		.page-wrap
+			//- If any parameters are not applicable, leave variable as default below
+			+bio("Haileigh Stanton", "Associate", "614-629-5266", "740-963-4007", "hstanton", "NAIOhioEquities", "NAIOhioEquities", "https://www.linkedin.com/in/haileighstanton/", "hstanton", "customurl")
+			.broker-bio-content
+				.broker-bio-left
+					h4 Specialties
+					p Industrial 
+						br
+						| Land
+					h4#header-assistant Assistant
+					p
+						span.glyphicon.glyphicon-user
+						a(href="../marketing/mgallion.html")
+							strong Mariana Gallion
+						br
+						|
+						|
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto:mgallion@ohioequities.com") mgallion@ohioequities.com
+						br
+						|
+						|
+						span.glyphicon.glyphicon-earphone
+						| (614) 629-5219
+				.broker-bio-middle
+					div
+						ul.nav.nav-pills(role="tablist")
+							li(role="presentation", class="active")
+								a(href="#bio", aria-controls="bio", role="tab", data-toggle="pill") Bio
+							li(role="presentation")
+								a(href="#listings", aria-controls="listings", role="tab", data-toggle="pill") Listings
+						.tab-content
+							.tab-pane.active#bio(role="tabpanel")
+								p As a native of Central Ohio, Haileigh Stanton attended The Ohio State University where she studied in Information Systems and Real Estate and earned her B.S.B.A. from the university’s Fisher College of Business. Haileigh’s strong interest in the intersection of technology and the built environment led her to commercial real estate. As an industrial specialist within NAI Ohio Equities, Haileigh leverages her technology understanding to perform data driven analysis and thorough market research which allows her to guide her clients through the sales and leasing process. Outside of work, Haileigh enjoys staying active and spending time with her pets, Cardi, Brutus, Whitney and Loki.
+								hr
+								h5 Why did you decide to get into Commercial Real Estate?
+								p With parents in construction, I was drawn at a young age to the dynamic aspect of the industry and the impact it had on clients. I knew I wanted a similar path, though not directly in construction, and through my time at Fisher, organizations like Fisher Real Estate Society and Women in Real Estate, along with Center for Real Estate events, I was able to find that path in commercial real estate. 
+								h5 What is one of your favorite buildings in Columbus?
+								p It may be cliché, but I love seeing the LeVeque Tower at night, I always call it my favorite building. 
+								h5 What has been the best part of Columbus’ growth over the past few decades?
+								p I enjoy seeing new businesses pop up and the mix of people that are moving to the city from all over. 
+								h5 What is your favorite hidden gem in Columbus?
+								p As a lover of Italian food, a hidden gem I discovered only a few years ago is 
+									a(href="https://tatitalian.net/", target="_blank", rel="noopener noreferrer") TAT Ristorante Di Famiglia 
+									| - a family run restaurant located in Bexley.
+							.tab-pane#listings(role="tabpanel")
+								#buildout
+								script(type="text/javascript", src="//buildout.com/api.js?v8")
+								script(type="text/javascript").
+									BuildOut.embed({
+									token: "20c619670fc47d29ec597179328d57313cad9d2e",
+									plugin: "brokers",
+									target: "buildout",
+									tab: "listings",
+									brokerId: "hstanton@ohioequities.com"
+									});
+				.broker-bio-right
+					h4 Education
+					p BSBA, Information Systems
+						br
+						| The Ohio State University, 2025
+					h4 Membership
+					p Commercial Real Estate Women (CREW)
+						br
+						| CCIM Ohio Chapter (affiliate member)
+					h4 Community Involvement
+					p VP of Operations for Women in Real Estate (WIRE) at Ohio State University (2024-2025)
+	include ../../includes/footer-brokers.pug
+	include ../../includes/scripts.pug
