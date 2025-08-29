@@ -1,0 +1,22 @@
+- var titleContent = "NAI Ohio Equities | Listings"
+- var metaContent = "NAI Ohio Equities have over 450 commercial real estate listings on average. Search our listings to find the property that fits your needs."
+
+doctype html
+html(lang="en")
+	include ../../includes/head.pug
+	body
+		include ../../includes/nav.pug
+		.navspacer
+		.page-wrap
+			#buildout
+			script(type='text/javascript', src='//buildout.com/api.js?v8')
+			script(type='text/javascript').
+				BuildOut.embed({
+					token: "20c619670fc47d29ec597179328d57313cad9d2e",
+					plugin: "inventory",
+					target: "buildout"
+					});
+			script(type='text/javascript', src='//buildout.com/websites/nai-ohio-equities/inventory.js')
+
+	include ../../includes/footer.pug
+	include ../../includes/scripts.pug
